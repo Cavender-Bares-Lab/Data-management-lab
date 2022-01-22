@@ -2,4 +2,10 @@ site_name: Cavender-Bares lab
 theme:
     name: material
 nav:
-  - Welcome: 'Welcome/index.md'
+  - Home: 'index.md'
+  - Protocols:
+    - 'Measuring leaf area': 'Protocols/measuring_leaf_area.md'
+  - 'Data management': 'Data-management/'
+  - About:
+    - 'License': 'About/'
+    - 'Release Notes': 'About/'

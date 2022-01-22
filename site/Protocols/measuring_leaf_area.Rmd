@@ -1,19 +1,21 @@
 ---
 title: "Measuring leaf area"
-date: "' r Sys.Date()'"
+date: "`r Sys.Date()`"
 output: md_document
+author: "Cathleen Lapadat"
 ---
 
-#### Goal
+### Goal
 
 The goal of this protocol is to standardize the measurements of leaf area using
 scanned leaves and Image J
 
-#### Requirements
+### Requirements
 
 * Scanner
 * Image J software
 
+### Steps
 ##### 1. Scanning Leaves
 
 - Place leaf on front of envelope face down on scanner. The goal is to have 
