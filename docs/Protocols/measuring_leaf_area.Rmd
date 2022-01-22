@@ -1,4 +1,8 @@
-# Measuring leaf area
+---
+title: "Measuring leaf area"
+date: "' r Sys.Date()'"
+output: md_document
+---
 
 #### Goal
 

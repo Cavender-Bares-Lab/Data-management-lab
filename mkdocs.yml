@@ -3,5 +3,3 @@ theme:
     name: material
 nav:
   - Welcome: 'Welcome/index.md'
-  - Protocols: 
-        - 'Measuring Leaf Area': 'Protocols/measuring_leaf_area.md'
