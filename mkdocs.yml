@@ -8,3 +8,5 @@ theme:
     name: material
 nav:
   - Welcome: 'Welcome/index.md'
+  - Protocols: 'Protocols/measuring_leaf_area.md'
+  
