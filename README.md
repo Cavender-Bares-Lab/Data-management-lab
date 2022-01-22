@@ -7,6 +7,6 @@ Evolution and Behavior Department of the
 ### Instructions for the webpage
 
 This webpage was created using RStudio, MkDocs, and Rmarkdown. In order to build
-the page you need to have them installed in your computer. Please follow this
+the page you need to have them installed in your computer. Please follow these
 [instructions](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/) 
 for more details.

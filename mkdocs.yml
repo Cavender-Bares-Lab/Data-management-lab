@@ -1,3 +1,10 @@
 site_name: Cavender-Bares lab
+repo_url: https://Cavender-Bares-Lab.github.io/Data-management-lab/
+repo_name: 'GitHub'
+locale: en
+site_author: "J. Antonio Guzmán Q."
+
 theme:
     name: material
+nav:
+  - Welcome: 'Welcome/index.md'
