@@ -39,10 +39,10 @@ www.ankom.com
 ```
 
 ### Updated 2/28/2019
-Neutral Detergent solution - catalog # FND20 - 20 L for $95, 20L for $113
-Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $75, 20L for $93
-72% Sulfuric acid - catalog # FSA72 - 1 L for $34
-Filter bags - catalog # F57 – 200 for $240, 200 for $252
+- Neutral Detergent solution - catalog # FND20 - 20 L for $95, 20L for $113
+- Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $75, 20L for $93
+- 72% Sulfuric acid - catalog # FSA72 - 1 L for $34
+- Filter bags - catalog # F57 – 200 for $240, 200 for $252
 
 ### Steps for sample preparation
 
