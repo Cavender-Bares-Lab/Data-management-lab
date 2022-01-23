@@ -1,7 +1,7 @@
 ### Goal
 
 The goal of this protocol is to standardize the measurements of leaf
-area using scanned leaves and Image J
+area using scanned leaves and Image J.
 
 ### Requirements
 
