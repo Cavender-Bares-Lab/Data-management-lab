@@ -405,11 +405,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sources" class="md-nav__link">
-    Sources
+  <a href="#sources-of-data" class="md-nav__link">
+    Sources of Data
   </a>
   
-    <nav class="md-nav" aria-label="Sources">
+    <nav class="md-nav" aria-label="Sources of Data">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -568,11 +568,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sources" class="md-nav__link">
-    Sources
+  <a href="#sources-of-data" class="md-nav__link">
+    Sources of Data
   </a>
   
-    <nav class="md-nav" aria-label="Sources">
+    <nav class="md-nav" aria-label="Sources of Data">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -635,6 +635,10 @@ using Sentinel-2.</p>
 <p>All the data is currently storage at the tier-1 of <a href="https://www.msi.umn.edu/">Minnesota
 Supercomputing Institute</a> under
 <code>gruops/cavender/guzman/oak-wilt</code>.</p>
+<p>Many steps of workflow that leads to the structure of the project and
+data used comes from
+<a href="https://force-eo.readthedocs.io/en/latest/">FORCE</a>. Thus, try to be
+familiar with it before to reproduce any of the steps.</p>
 <h2 id="folder-structrue">Folder structrue</h2>
 <p>Under <code>gruops/cavender/guzman/oak-wilt</code> the folders follow the
 structure:</p>
@@ -649,6 +653,7 @@ structure:</p>
     -- /log_landsat
   - /param
   - /misc
+    -- /csd
     -- /dem
     -- /GIS
     -- /grid
@@ -670,6 +675,11 @@ structure:</p>
     sensor.</li>
 <li><code>/param</code>: contains all the <code>.prm</code> files to run FORCE for this
     project.</li>
+<li><code>/misc/csd</code>: contains the list of scenes to be accessed through
+    Google Cloud Storage. Keep it updated if not scenes available using
+    something similar like <code>force-level1-csd -u ~/misc/csd</code> following
+    <a href="https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html#tut-l1csd">force-level1-csd</a>
+    module.</li>
 <li><code>/misc/dem</code>: contains the Digital Elevation Model that cover the
     extend of both Landsat-8 and Sentinel-2 imagery.</li>
 <li><code>/misc/GIS</code>: miscellaneous GIS files for the tiles, states, and
@@ -680,7 +690,7 @@ structure:</p>
 <li><code>/temp</code>: auxiliary folder for temporal data. Data that falls there
     can be removed at any time.</li>
 </ul>
-<h2 id="sources">Sources</h2>
+<h2 id="sources-of-data">Sources of Data</h2>
 <h4 id="digital-elevation-model">Digital Elevation Model</h4>
 <p>Copernicus GLO-30 Digital Elevation Model for both states is used, and
 can be downloaded from

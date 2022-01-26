@@ -10,6 +10,10 @@ Sentinel-2.
 
 All the data is currently storage at the tier-1 of [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) under `gruops/cavender/guzman/oak-wilt`.
 
+Many steps of workflow that leads to the structure of the project and data used 
+comes from [FORCE](https://force-eo.readthedocs.io/en/latest/). Thus, try to be 
+familiar with it before to reproduce any of the steps.
+
 ## Folder structrue
 
 Under `gruops/cavender/guzman/oak-wilt` the folders follow the structure:
@@ -26,6 +30,7 @@ Under `gruops/cavender/guzman/oak-wilt` the folders follow the structure:
     -- /log_landsat
   - /param
   - /misc
+    -- /csd
     -- /dem
     -- /GIS
     -- /grid
@@ -42,6 +47,8 @@ Landsat-8 for the co-registration of Sentinel-2.
 * `/level4`: ---
 * `/log`: records of the scene processing to create level2 from each sensor.
 * `/param`: contains all the `.prm` files to run FORCE for this project.
+* `/misc/csd`: contains the list of scenes to be accessed through Google Cloud Storage.
+Keep it updated if not scenes available using something similar like `force-level1-csd -u ~/misc/csd` following [force-level1-csd](https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html#tut-l1csd) module.
 * `/misc/dem`: contains the Digital Elevation Model that cover the extend of 
 both Landsat-8 and Sentinel-2 imagery. 
 * `/misc/GIS`: miscellaneous GIS files for the tiles, states, and areas of interest.
@@ -51,7 +58,7 @@ both Landsat-8 and Sentinel-2 imagery.
 * `/temp`: auxiliary folder for temporal data. Data that falls there can be removed
 at any time.
 
-## Sources
+## Sources of Data
 
 #### Digital Elevation Model
 
@@ -85,7 +92,6 @@ The following tiles were used:
 ```
 14TUUU
 ```
-
 
 ## Working at Minnesota Supercomputing Institute
 
