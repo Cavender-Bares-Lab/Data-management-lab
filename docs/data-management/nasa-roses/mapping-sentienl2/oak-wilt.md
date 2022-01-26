@@ -1,0 +1,92 @@
+This site serves as a documentation for the project of Mapping oak-wilt
+using Sentinel-2.
+
+All the data is currently storage at the tier-1 of [Minnesota
+Supercomputing Institute](https://www.msi.umn.edu/) under
+`gruops/cavender/guzman/oak-wilt`.
+
+## Folder structrue
+
+Under `gruops/cavender/guzman/oak-wilt` the folders follow the
+structure:
+
+    /oak-wilt
+      - /level1
+      - /level2
+      - /level3_monthly-mean
+      - /level3
+      - /level4
+      - /log
+        -- /log_sentinel
+        -- /log_landsat
+      - /param
+      - /misc
+        -- /dem
+        -- /GIS
+        -- /grid
+        -- /mask
+        -- /wvdb
+       - /temp
+
+-   `/level1`: contains all the Landsat-8 and Sentinel-2 imagery
+    downloaded.
+-   `/level2`: contains all the ARD imagery processed through
+    [force-level2](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#tut-ard)
+-   `/level3_monthly-mean`: contains the 5-years average monthly
+    observations of Landsat-8 for the co-registration of Sentinel-2.
+-   `/level3`: contains all the ARD imagery level3 (e.g., cloud,
+    illumination, shadow masked).
+-   `/level4`: —
+-   `/log`: records of the scene processing to create level2 from each
+    sensor.
+-   `/param`: contains all the `.prm` files to run FORCE for this
+    project.
+-   `/misc/dem`: contains the Digital Elevation Model that cover the
+    extend of both Landsat-8 and Sentinel-2 imagery.
+-   `/misc/GIS`: miscellaneous GIS files for the tiles, states, and
+    areas of interest.
+-   `/misc/mask`: contains the mask of area of interest for both states.
+-   `/misc/grid`: GIS files with the datacube tile description.
+-   `/misc/wvdb`: contains the water vapor database.
+-   `/temp`: auxiliary folder for temporal data. Data that falls there
+    can be removed at any time.
+
+## Sources
+
+#### Digital Elevation Model
+
+Copernicus GLO-30 Digital Elevation Model for both states is used, and
+can be downloaded from
+[OpenTography](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
+if required.
+
+#### Water Vapor Database
+
+This databases was accessed from
+[Zenodo](https://zenodo.org/record/4468701#.YfF4IPvF05k). If required,
+it can be updated following FORCE
+[guide](https://force-eo.readthedocs.io/en/latest/howto/wvdb.html).
+
+#### Landsat-8
+
+Landsat-8 scenes were downloaded from Google Cloud Storage using
+[force-level1-csd](https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html).
+The following tiles were used:
+
+    026031 025031 024031 023031 022031 030030 029030 028030 027030 026030 025030 
+    024030 023030 022030 021030 030029 029029 028029 027029 026029 025029 024029 
+    023029 022029 021029 031028 030028 029028 028028 027028 026028 025028 024028 
+    023028 022028 031027 030027 029027 028027 027027 026027 025027 024027 023027 
+    031026 030026 029026 028026 027026 026026 025026 024026 031025 030025 029025 
+    028025 027025
+
+#### Sentinel-2
+
+Sentinel-2 (S2A and S2B) were also downloaded from from Google Cloud
+Storage using
+[force-level1-csd](https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html).
+The following tiles were used:
+
+    14TUUU
+
+## Working at Minnesota Supercomputing Institute
