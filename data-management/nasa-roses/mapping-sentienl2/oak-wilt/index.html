@@ -221,22 +221,37 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Information of interest
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_5">
           Protocols
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Protocols" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Protocols
         </label>
@@ -317,18 +332,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_5">
+        <label class="md-nav__link" for="__nav_6">
           Data management
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Data management" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Data management
         </label>
@@ -345,18 +360,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_1">
+        <label class="md-nav__link" for="__nav_6_1">
           NASA-ROSES
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="NASA-ROSES" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_1">
+        <label class="md-nav__title" for="__nav_6_1">
           <span class="md-nav__icon md-icon"></span>
           NASA-ROSES
         </label>
@@ -481,22 +496,37 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Leaving package
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_8">
           About
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="About" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           About
         </label>
@@ -634,13 +664,13 @@
 using Sentinel-2.</p>
 <p>All the data is currently storage at the tier-1 of <a href="https://www.msi.umn.edu/">Minnesota
 Supercomputing Institute</a> under
-<code>gruops/cavender/guzman/oak-wilt</code>.</p>
+<code>gruops/cavender/shared/oak-wilt</code>.</p>
 <p>Many steps of workflow that leads to the structure of the project and
 data used comes from
 <a href="https://force-eo.readthedocs.io/en/latest/">FORCE</a>. Thus, try to be
 familiar with it before to reproduce any of the steps.</p>
 <h2 id="folder-structrue">Folder structrue</h2>
-<p>Under <code>gruops/cavender/guzman/oak-wilt</code> the folders follow the
+<p>Under <code>gruops/cavender/shared/oak-wilt</code> the folders follow the
 structure:</p>
 <pre><code>/oak-wilt
   - /level1
@@ -652,6 +682,7 @@ structure:</p>
     -- /log_sentinel
     -- /log_landsat
   - /param
+  - /msi_jobs
   - /misc
     -- /csd
     -- /dem
@@ -675,6 +706,8 @@ structure:</p>
     sensor.</li>
 <li><code>/param</code>: contains all the <code>.prm</code> files to run FORCE for this
     project.</li>
+<li><code>/msi_jobs</code>: contains all the scripts submitted to MSI for
+    processing.</li>
 <li><code>/misc/csd</code>: contains the list of scenes to be accessed through
     Google Cloud Storage. Keep it updated if not scenes available using
     something similar like <code>force-level1-csd -u ~/misc/csd</code> following
@@ -717,7 +750,12 @@ The following tiles were used:</p>
 Storage using
 <a href="https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html">force-level1-csd</a>.
 The following tiles were used:</p>
-<pre><code>14TUUU
+<pre><code>T14TPP T14TPQ T14TPR T14TPS T14TPT T14TQP T14TQQ T14TQR T14TQS T14TQT T14UPU 
+T14UPV T14UQU T14UQV T15TUJ T15TUK T15TUL T15TUM T15TUN T15TVJ T15TVK T15TVL 
+T15TVM T15TVN T15TWJ T15TWK T15TWL T15TWM T15TWN T15TXH T15TXJ T15TXK T15TXL 
+T15TXM T15TXN T15TYH T15TYJ T15TYK T15TYL T15TYM T15UUP T15UUQ T15UVP T15UWP 
+T15UXP T15UYP T16TCN T16TCP T16TCQ T16TCR T16TCS T16TDN T16TDP T16TDQ T16TDR 
+T16TER
 </code></pre>
 <h2 id="working-at-minnesota-supercomputing-institute">Working at Minnesota Supercomputing Institute</h2>
 
