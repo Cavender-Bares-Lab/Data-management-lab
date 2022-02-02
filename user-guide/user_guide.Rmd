@@ -81,8 +81,8 @@ the documentation.
   a good practice to keep these files in folders under docs with names relatives 
   to tabs and sub-tabs, just to keep the webpage in order.
 
-Now that we know this elements, let's take a look at three functions of `MkDocs` 
-that we will need to use. In RStudio you can run this command using the 'Terminal'
+Now that we know these elements, let's take a look at three functions of `MkDocs` 
+that we will need. In RStudio you can run these commands using the 'Terminal'
 (the tab next to 'Console' that we always use).
 
 - `mkdocs serve`: this command help us to create local address where we can see the
