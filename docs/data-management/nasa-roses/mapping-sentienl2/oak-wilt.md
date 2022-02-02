@@ -3,11 +3,16 @@ using Sentinel-2.
 
 All the data is currently storage at the tier-1 of [Minnesota
 Supercomputing Institute](https://www.msi.umn.edu/) under
-`gruops/cavender/guzman/oak-wilt`.
+`gruops/cavender/shared/oak-wilt`.
+
+Many steps of workflow that leads to the structure of the project and
+data used comes from
+[FORCE](https://force-eo.readthedocs.io/en/latest/). Thus, try to be
+familiar with it before to reproduce any of the steps.
 
 ## Folder structrue
 
-Under `gruops/cavender/guzman/oak-wilt` the folders follow the
+Under `gruops/cavender/shared/oak-wilt` the folders follow the
 structure:
 
     /oak-wilt
@@ -20,7 +25,9 @@ structure:
         -- /log_sentinel
         -- /log_landsat
       - /param
+      - /msi_jobs
       - /misc
+        -- /csd
         -- /dem
         -- /GIS
         -- /grid
@@ -41,6 +48,13 @@ structure:
     sensor.
 -   `/param`: contains all the `.prm` files to run FORCE for this
     project.
+-   `/msi_jobs`: contains all the scripts submitted to MSI for
+    processing.
+-   `/misc/csd`: contains the list of scenes to be accessed through
+    Google Cloud Storage. Keep it updated if not scenes available using
+    something similar like `force-level1-csd -u ~/misc/csd` following
+    [force-level1-csd](https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html#tut-l1csd)
+    module.
 -   `/misc/dem`: contains the Digital Elevation Model that cover the
     extend of both Landsat-8 and Sentinel-2 imagery.
 -   `/misc/GIS`: miscellaneous GIS files for the tiles, states, and
@@ -51,7 +65,7 @@ structure:
 -   `/temp`: auxiliary folder for temporal data. Data that falls there
     can be removed at any time.
 
-## Sources
+## Sources of Data
 
 #### Digital Elevation Model
 
@@ -87,6 +101,11 @@ Storage using
 [force-level1-csd](https://force-eo.readthedocs.io/en/latest/howto/level1-csd.html).
 The following tiles were used:
 
-    14TUUU
+    T14TPP T14TPQ T14TPR T14TPS T14TPT T14TQP T14TQQ T14TQR T14TQS T14TQT T14UPU 
+    T14UPV T14UQU T14UQV T15TUJ T15TUK T15TUL T15TUM T15TUN T15TVJ T15TVK T15TVL 
+    T15TVM T15TVN T15TWJ T15TWK T15TWL T15TWM T15TWN T15TXH T15TXJ T15TXK T15TXL 
+    T15TXM T15TXN T15TYH T15TYJ T15TYK T15TYL T15TYM T15UUP T15UUQ T15UVP T15UWP 
+    T15UXP T15UYP T16TCN T16TCP T16TCQ T16TCR T16TCS T16TDN T16TDP T16TDQ T16TDR 
+    T16TER
 
 ## Working at Minnesota Supercomputing Institute
