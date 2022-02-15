@@ -2,8 +2,10 @@
 title: "Measuring leaf area"
 date: "`r Sys.Date()`"
 output: md_document
-author: "Cathleen Lapadat"
+author: "Cavender-Bares Lab"
 ---
+
+Author: Cavender-Bares Lab
 
 ### Goal
 

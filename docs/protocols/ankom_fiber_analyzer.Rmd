@@ -2,14 +2,16 @@
 title: "Ankom Fiber Analyzer"
 date: "`r Sys.Date()`"
 output: md_document
-author: "Cathleen Lapadat"
+author: "Hobbie Lab"
+updated: "28 February 2019"
 ---
+Author: Hobbie Lab; Updated: 28 February 2019
 
 ### Goal
 
-This protocol serves as a guide to use the Ankom Fiber Analyzer.
+This protocol serves as a guide to use the Ankom Fiber Analyzer for lignin analysis.
 
-### Ankom Protocol for the Hobbie Lab
+### Ankom Protocol for Lignin
 
 The Ankom Fiber Analyzer utilizes a series of extractions to determine the fiber 
 content of a plant sample. Each of the extractions should be done in the order 
