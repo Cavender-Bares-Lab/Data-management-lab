@@ -7,10 +7,12 @@ nav:
   - Welcome package: ''
   - Information of interest: 'information-of-interest/information-of-interest.md'
   - Protocols:
-    - Surface Sterilization: 'protocols/surface_sterilization.md'
-    - Hazardous Waste Handling: 'protocols/hazardous_waste_handling.md'
-    - Measuring leaf area: 'protocols/measuring_leaf_area.md'
+    - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
     - Ankom Fiber Analyzer: 'protocols/ankom_fiber_analyzer.md'
+    - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
+    - Measuring leaf area: 'protocols/measuring_leaf_area.md'
+    - Surface Sterilization: 'protocols/surface_sterilization.md'
+    
   - Data management:
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
