@@ -9,11 +9,11 @@ author: "J. Antonio Guzmán Q."
 
 ### Why this webpage?
 
-Created, remove, and update documentation is essential for any organization. 
+Create, remove, and update documentation is essential for any organization. 
 This webpage was created for this aim using [Mkdocs](https://www.mkdocs.org/) to 
 satisfy the documentation requirements for the lab. 
 
-This webpage does not not replaceable data storage requirements (e.g., group/cavender, 
+This webpage does not replace data storage requirements (e.g., group/cavender, 
 google drive, or local drives). However, it allows users to respond questions like: 
 
 - Where is the data?
@@ -22,8 +22,8 @@ google drive, or local drives). However, it allows users to respond questions li
 - I am new here, what I need to do?
 - Among many others ...
 
-If you need to create, remove, or update documentation please follow the bellows 
-guide, or ask to the lab-technician for help.
+If you need to create, remove, or update documentation please follow the below 
+guide, or ask the lab-technician for help.
 
 <br>
 
@@ -32,7 +32,7 @@ guide, or ask to the lab-technician for help.
 To build this webpage, users must install on their computer:
 
 - [RStudio](https://www.rstudio.com/products/rstudio/download/) and [R](https://www.r-project.org/).
-- Rmarkdown and Knitr packages (e.g, `install.packages(rmarkdown)`).
+- Rmarkdown and Knitr packages (e.g, `install.packages("rmarkdown")`).
 - [pip](https://pip.pypa.io/en/stable/cli/pip_install/) 
 - [MkDocs](https://www.mkdocs.org/) (e.g., in terminal `pip install mkdocs`)
 - MkDocs material theme (e.i., in terminal `pip install mkdocs-material`)
@@ -42,10 +42,10 @@ To build this webpage, users must install on their computer:
 
 #### Step 1 - Clone or update the webpage repository in your local machine.
 
-If you and someone has been working on this webpage or you recent started it is 
+If you and someone has been working on this webpage or you recently started, it is 
 crucial to have the updated version. 
 
-If you recent started, you can clone the github repository to your local machine
+If you recently started, you can clone the github repository to your local machine
 using RStudio following:
 
 ```
@@ -68,7 +68,7 @@ at this [guide](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-r
 
 #### Step 2 - Let's get familiar with Mkdocs.
 
-In non-technical words, this webpage is composted by two elements: the structure and
+In non-technical words, this webpage is composed of two elements: the structure and
 the documentation.
 
 - The structure refers to the online appearance of the documentation, and it is 
@@ -78,7 +78,7 @@ the documentation.
   
 - The documentation refers to the `.md` files located in the docs folder. These files
   contains all the information required that will be displayed in the webpage. It is 
-  a good practice to keep these files in folders under docs with names relatives 
+  good practice to keep these files in folders under docs with names relatives 
   to tabs and sub-tabs, just to keep the webpage in order.
 
 Now that we know these elements, let's take a look at three functions of `MkDocs` 

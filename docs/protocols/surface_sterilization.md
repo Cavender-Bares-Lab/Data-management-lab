@@ -1,9 +1,13 @@
-Author: May Lab; Associated Project: 2017 QUMAFE
+###### Author: May Lab
+
+###### Associated project: 2017 QUMAFE pilot project
+
+###### Updated: 2017
 
 ### Goal
 
-This protocol is for the sterilization of surfaces using Ethanol and
-Bleach.
+This protocol is for the surface sterilization of leaves for fungal
+endophytes analyses using ethanol and bleach.
 
 ### Materials
 
@@ -24,7 +28,7 @@ Bleach.
 4.  Fourth wash: Place the plant sample in 70% ethanol for 1 minute.
 5.  Fifth wash: Rinse the plant sample off in sterile water.
 6.  Leaves are now surface sterilized and can be placed into sterile
-    50mL tubes,then into -80 storage.
+    50mL tubes, then into -80 storage.
 
 ### Hazardous Waste Handling
 

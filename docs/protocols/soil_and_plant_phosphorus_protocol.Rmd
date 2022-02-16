@@ -1,0 +1,78 @@
+---
+title: "Soil and Plant Phosphorus Protocol"
+date: "`r Sys.Date()`"
+output: md_document
+author: "Christopher Buyarski and Sandra Brovold"
+updated: "19 September 2018"
+---
+
+Authors: Christopher Buyarski and Sandra Brovold; Updated: 19 September 2018
+
+### Goals
+
+Measure phosphorus from dried, soil and plant samples through sulfuric acid digestion.
+
+### Reagents
+```
+1)  10 N H2SO4:  In a clean 500 mL volumetric flask, add ~200 mL Nanopure, place in an ice bath then add 138.9 mL H2SO4 and fill to 500 mL with Nanopure.  ** Always add acid to water that is in an ice bath**
+2)  MOLYBDATE REAGENT:  In a clean 1 L volumetric flask dissolve 0.208 g Antimony Potassium - Tartrate and 9.6 g Ammonium Heptamolybdate 4-hydrate in Nanopure.  Fill to 1 L.
+3)	ASCORBIC ACID:  20 g/L (1g/50mL) Make fresh daily
+4)	APPLE STANDARD = 0.159% P
+```
+### Method
+
+1.Use acid soaked glassware for all steps.  This includes:
+```
+-4 beakers to hold reagents and Nanopure
+-Ppette tips
+-Borosilcate test tubes. Weigh the clean, dry, and empty test tubes. Record the weight.  Including standards and blanks
+-Test tube caps if using Autoclave (see step 6)
+-1cm Glass or Quartz cuvette
+-15 mL Falcon centrifuge tubes
+-APPLE NIST 1515
+-RAL Check soil Standard (for soils) 
+```
+
+2.Pre-weigh samples and standards.  
+```
+-APPLE STANDARD (NIST 1515) can be placed in an aluminum foil boat and dried in 60°C oven overnight.  Let cool to room temperature in desiccator before weighing.
+
+-WEIGHING-- The first step is to weigh/record all of the test tubes.  Then place a small weigh tin on the microbalance and tare scale.  For the standards (APPLE NIST 1515), weigh out 8-10 different weights in the range of 0.2 to 9 mg and place it in the bottom of test tubes.  For samples, weigh out between 3-5 mg depending on how much P are in your samples. After samples are weighed and placed into tubes, reweigh/record tins to see how much residual sample remains.
+```
+
+3.Ash samples, standards, and blanks in muffle furnace at 300°C for 30 minutes then at 550°C for 2 hours.  Remove from furnace and let cool to room temperature before continuing.  (ash in borosilcate tubes only e.g.- no lids.) 
+
+4.Add 0.4 mL 10 N H2SO4.   Vortex.  Make sure tubes get mixed all the way to the bottom.
+
+5.Add 5 mL Nanopure.  Vortex.
+
+6.Heat samples in water bath at 100°C for 30 minutes (no lids).  Remove from heat and allow samples to cool to room temperature. (~ 30 minutes) Or autoclave CAPPED samples on the liquid cycle at 121°C with an exposure time of 30 minutes.
+
+7.Add 1 mL molybdate reagent.  Vortex.
+
+8.Add 0.4 mL ascorbic acid solution.  Vortex.
+
+9.Fill tubes to 10 mL with Nanopure. (e.g.- add 3.2 mL of Nanopure)  Vortex.  Weigh tubes containing sample/standards plus all liquids and record weight. The difference between empty vials and full vials will give you the exact volume.  
+```
+-**FOR SOIL SAMPLES 10. Pour liquid into 15ml Falcon Centrifuge tubes.
+
+-**FOR SOIL SAMPLES 11. Centrifuge Falcon tubes at 2500 rpm’s for 10 mins
+```
+10.  Measure at 880 nm after 1 hour, but within 3 hours. Currently using Cary 50 Bio UV-Visible spectrophotometer with 1 cm cells on fourth floor labs (Finlay and Cotner).
+
+### Waste
+
+Sulfuric acid:  0.443%
+Antimony potassium tartrate:  0.0021%
+Ammonium molybdate:  0.096%
+Ascorbic acid:  0.19%
+Water:  99.27%
+
+### Calculations
+
+% P dried weight calculations:  (concentration of sample (abs) x final volume of sample in L x mass of P (31)) / (dried weight of sample x 1000)) x 100
+```
+i.e. 	0.0359 mg sample gives 1.594 uM conc. when filled to 10 mL.
+	% P = ((1.594*0.01*31) / ((0.0359*1000)*100 = 1.376
+```
+
