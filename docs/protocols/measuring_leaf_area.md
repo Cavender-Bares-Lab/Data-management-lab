@@ -1,3 +1,5 @@
+###### Author: Cavender-Bares Lab; Updated: 3 August 2009
+
 ### Goal
 
 The goal of this protocol is to standardize the measurements of leaf

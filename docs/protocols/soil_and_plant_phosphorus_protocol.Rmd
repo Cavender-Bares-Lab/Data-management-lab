@@ -6,7 +6,7 @@ author: "Christopher Buyarski and Sandra Brovold"
 updated: "19 September 2018"
 ---
 
-Authors: Christopher Buyarski and Sandra Brovold; Updated: 19 September 2018
+###### Authors: Christopher Buyarski and Sandra Brovold; Updated: 19 September 2018
 
 ### Goals
 
@@ -20,47 +20,45 @@ Measure phosphorus from dried, soil and plant samples through sulfuric acid dige
 4)	APPLE STANDARD = 0.159% P
 ```
 ### Method
-
-1.Use acid soaked glassware for all steps.  This includes:
 ```
+1. Use acid soaked glassware for all steps.  This includes:
+
 -4 beakers to hold reagents and Nanopure
--Ppette tips
+-Pipette tips
 -Borosilcate test tubes. Weigh the clean, dry, and empty test tubes. Record the weight.  Including standards and blanks
 -Test tube caps if using Autoclave (see step 6)
 -1cm Glass or Quartz cuvette
 -15 mL Falcon centrifuge tubes
 -APPLE NIST 1515
 -RAL Check soil Standard (for soils) 
-```
 
-2.Pre-weigh samples and standards.  
-```
+2. Pre-weigh samples and standards.  
+
 -APPLE STANDARD (NIST 1515) can be placed in an aluminum foil boat and dried in 60°C oven overnight.  Let cool to room temperature in desiccator before weighing.
 
 -WEIGHING-- The first step is to weigh/record all of the test tubes.  Then place a small weigh tin on the microbalance and tare scale.  For the standards (APPLE NIST 1515), weigh out 8-10 different weights in the range of 0.2 to 9 mg and place it in the bottom of test tubes.  For samples, weigh out between 3-5 mg depending on how much P are in your samples. After samples are weighed and placed into tubes, reweigh/record tins to see how much residual sample remains.
+
+3. Ash samples, standards, and blanks in muffle furnace at 300°C for 30 minutes then at 550°C for 2 hours.  Remove from furnace and let cool to room temperature before continuing.  (ash in borosilcate tubes only e.g.- no lids.) 
+
+4. Add 0.4 mL 10 N H2SO4.   Vortex.  Make sure tubes get mixed all the way to the bottom.
+
+5. Add 5 mL Nanopure.  Vortex.
+
+6. Heat samples in water bath at 100°C for 30 minutes (no lids).  Remove from heat and allow samples to cool to room temperature. (~ 30 minutes) Or autoclave CAPPED samples on the liquid cycle at 121°C with an exposure time of 30 minutes.
+
+7. Add 1 mL molybdate reagent.  Vortex.
+
+8. Add 0.4 mL ascorbic acid solution.  Vortex.
+
+9. Fill tubes to 10 mL with Nanopure. (e.g.- add 3.2 mL of Nanopure)  Vortex.  Weigh tubes containing sample/standards plus all liquids and record weight. The difference between empty vials and full vials will give you the exact volume.  
+
+ **FOR SOIL SAMPLES 10. Pour liquid into 15ml Falcon Centrifuge tubes.
+
+ **FOR SOIL SAMPLES 11. Centrifuge Falcon tubes at 2500 rpm’s for 10 mins
+
+10. Measure at 880 nm after 1 hour, but within 3 hours. Currently using Cary 50 Bio UV-Visible spectrophotometer with 1 cm cells on fourth floor labs (Finlay and Cotner).
 ```
-
-3.Ash samples, standards, and blanks in muffle furnace at 300°C for 30 minutes then at 550°C for 2 hours.  Remove from furnace and let cool to room temperature before continuing.  (ash in borosilcate tubes only e.g.- no lids.) 
-
-4.Add 0.4 mL 10 N H2SO4.   Vortex.  Make sure tubes get mixed all the way to the bottom.
-
-5.Add 5 mL Nanopure.  Vortex.
-
-6.Heat samples in water bath at 100°C for 30 minutes (no lids).  Remove from heat and allow samples to cool to room temperature. (~ 30 minutes) Or autoclave CAPPED samples on the liquid cycle at 121°C with an exposure time of 30 minutes.
-
-7.Add 1 mL molybdate reagent.  Vortex.
-
-8.Add 0.4 mL ascorbic acid solution.  Vortex.
-
-9.Fill tubes to 10 mL with Nanopure. (e.g.- add 3.2 mL of Nanopure)  Vortex.  Weigh tubes containing sample/standards plus all liquids and record weight. The difference between empty vials and full vials will give you the exact volume.  
-```
--**FOR SOIL SAMPLES 10. Pour liquid into 15ml Falcon Centrifuge tubes.
-
--**FOR SOIL SAMPLES 11. Centrifuge Falcon tubes at 2500 rpm’s for 10 mins
-```
-10.  Measure at 880 nm after 1 hour, but within 3 hours. Currently using Cary 50 Bio UV-Visible spectrophotometer with 1 cm cells on fourth floor labs (Finlay and Cotner).
-
-### Waste
+### Hazardous Waste Handling
 
 Sulfuric acid:  0.443%
 Antimony potassium tartrate:  0.0021%

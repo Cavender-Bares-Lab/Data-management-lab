@@ -5,7 +5,7 @@ output: md_document
 author: "Beth Fallon"
 ---
 
-Author: Beth Fallon
+###### Author: Beth Fallon
 
 ### Goals
 

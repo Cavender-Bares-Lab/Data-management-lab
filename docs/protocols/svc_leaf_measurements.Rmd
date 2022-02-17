@@ -6,7 +6,7 @@ author: "Beth Fallon"
 associated project: "Grand Challenges - Oak Wilt"
 ---
 
-Author: Beth Fallon; Associated project: Grand Challenges - Oak Wilt
+###### Author: Beth Fallon; Associated project: Grand Challenges - Oak Wilt
 
 ### Goals
 
@@ -125,7 +125,6 @@ How to prep and use SVC, including data collection using either computer or buil
   c.	Carefully remove and put away fiber optic cable in loose loops in pelican case (unless in safe location)
     i.	then place leaf clip on side (black disc out), check that screw securing fiber optic cable is in place and leaf clip/cable can’t slide off area
 ```
-
  
 ### Appendix A
 Bluetooth connection and troubleshooting connections

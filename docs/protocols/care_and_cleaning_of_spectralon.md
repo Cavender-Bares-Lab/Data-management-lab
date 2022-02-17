@@ -10,6 +10,12 @@ Care should be taken to prevent contaminants such as finger oils from
 contacting the material’s surface. Wear clean gloves when handling
 Spectralon.
 
+### Supplied Needed
+
+-   Air duster
+-   Sand paper
+-   Distilled water
+
 ### Cleaning Instructions
 
 If the material is lightly soiled, it may be air brushed with a jet of

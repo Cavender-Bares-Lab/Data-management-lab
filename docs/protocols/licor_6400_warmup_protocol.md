@@ -1,12 +1,18 @@
-Author: Licor, Inc.
-
-Manual: Chapter 4 -> Please refer to the manual for the fundamental of
-good measurements in Chapter 4: &gt; Making Measurements.
+###### Author: Licor, Inc.; Manual: Chapter 4 -> Please refer to the manual for the fundamental of good measurements in Chapter 4: Making Measurements.
 
 ### Goal
 
 Checklist of things that should be done prior to making measurements
 with Licor 6400/6400xt. Takes about 5 minutes.
+
+### Supplies Needed
+
+-   Licor 6400/6400XT with leaf chamber
+-   Charged batteries
+-   CO<sup>2</sup> canisters
+-   Soda Lime
+-   Drierite
+-   Plants!!!
 
 ### Checklist Summary
 
@@ -39,7 +45,7 @@ with Licor 6400/6400xt. Takes about 5 minutes.
       6. Set Area and Stomatal Ratio
       7. Set constant humidity?
 
-### Detailed Steps Of Warm Up
+### Detailed Steps During Warm Up
 
 Once OPEN is loaded, and while the gas analyzers are warming up, you
 should do these steps.
@@ -102,9 +108,9 @@ following steps:
 
     2. Adjust the latch, and close the chamber
 
-    1) Adjust the latch so that the chamber lips are slightly apart when the chamber is closed. 
-    2) With the chamber closed, close the adjustment knob until it starts to become snug. 
-    3) Open the chamber, and turn the knob one or two more half turns. Now the chamber is adjusted properly for sealing when empty, or with thin leaves. Close the chamber for the next two steps.
+      1) Adjust the latch so that the chamber lips are slightly apart when the chamber is closed. 
+      2) With the chamber closed, close the adjustment knob until it starts to become snug. 
+      3) Open the chamber, and turn the knob one or two more half turns. Now the chamber is adjusted properly for sealing when empty, or with thin leaves. Close the chamber for the next two steps.
 
 
     3. Check the CO2 IRGA zero

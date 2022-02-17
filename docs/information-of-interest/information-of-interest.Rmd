@@ -7,6 +7,6 @@ author: "J. Antonio Guzmán Q."
 
 ### [Lab meeting agenda](https://docs.google.com/spreadsheets/d/1WuqFlCpN2IROdJILOClJfxq4bRdT6joItHC74YO3Ljc/edit?usp=sharing)
 
-### [Lab equipment]() 
+### [Lab equipment]("file:///c:/") 
 
-### [Lab inventory]()
+### [Lab inventory](file:///S:/LAB-cavender/4_Project_Folders/)
