@@ -1,6 +1,7 @@
 site_name: Cavender-Bares lab
 theme:
     name: material
+    palette: teal
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
