@@ -1,0 +1,24 @@
+---
+title: "Acorn Processing Protocol"
+date: "`r Sys.Date()`"
+output: md_document
+author: "Cavender-Bares Lab"
+---
+
+###### Authors: Cavender-Bares Lab; Associated Project: Oaks of America
+
+### Goal
+
+Proper acorn storage and processing protocol.
+
+### Processing
+
+* When acorns are received process as soon as possible. If acorns cannot be processed immediately, store in refrigerator.  
+* Soak acorns in water for several hours or overnight (maybe could use 5% bleach for this initial soak to kit surface fungi,bugs, I have done this with other seeds before).  Be sure to keep acorns from different trees separated during this process.
+* Only keep the acorns that sink. Throw away floating acorns or any with holes or visible damaged. Note: keep floating acorns if acorn production was low and as a result, collection was low.
+* Set acorns out to dry overnight, then place them breathable plastic bags with sterile sand and coating of fungicide and insecticide (a coating of sand works fine, they don’t need to be completely buried in sand).
+* Label each bag with a code.  I labelled with state-tree number and species. Q. rubra WI-1, etc.  Keep track of all of the location information in a spreadsheet.  Also count them at this point.
+* If you are sending some to NY again, you want to divide them in half at this point and put in two separate bags (one for NY and one for MX).  
+* Place bags in a labelled cardboard box and put in the cold room.
+* Before USDA inspection for exporting to MX they will need to be cleaned of all sand and chemicals and inspected again for fungi and insects.
+* Fill out USDA export documents online.  The main holdup with this is the import permit from Mexico.  It is best to have the import permit from Mexico, so you know exactly what they will want. 
