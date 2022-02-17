@@ -1,0 +1,43 @@
+---
+title: "Balance Interface Program Instructions for Hydraulic Conductivity"
+date: "`r Sys.Date()`"
+output: md_document
+author: "John Sperry"
+---
+
+###### Author: John Sperry
+
+### Goals
+
+Using the Excel VBA program "conduct" to measure conductivity with a Sartorius Balance.
+
+### Information
+
+This excel/VBA program was written in Microsoft office Excel 2003, using Richard Grier's "ActiveX control" for serial communications, downloaded from his website (http://home.comcast.net/~hardandsoftware) in October 2007. I modeled the interface using instructions from Rick Collard's article on interfacing excel with electronic balances which I downloaded from (http://www.msc-lims.com/lims/diybalance.html).
+
+### Supplies/Equipment Needed
+
+* Serial port to USB cable
+* Sartorius Balance
+* Computer/Laptop
+
+###Instructions for installing.
+```
+1. You need a serial-port-to-USB cable. For sartorius balances this is part YCC01-USBM2 and it costs about $55. Install the driver software provided with the cable. This assigns one of your USB ports to handle this cable. Test the interface using Window's "hyperterminal" (start|program-files|accessories|communications|hyperterminal) making sure that the port settings match the balance output. Press the balance's "print" button to send weight to hyperterminal. Also make sure the balance is set to output data regardless of stability on receiving the "print" command. Once hyperterminal is working and the balance settings are all correct, go to the next step.
+
+2. Download the XMCommCRC.ocx  file that is the ActiveX control that you will add to excel. I don't think it matters where you put it. There are also three other files (*.dll, *.isr, *.isu) that I don't think are necessary, but they came with the download, so better put them in the same folder too with the .ocx file.
+
+3. Download the conduct.verX.xls file and open it in excel, enabling the macros. 
+
+4. In excel, go to view|toolbars|control toolbox to open the "control toolbox". Click on the "more controls" button, usually at the bottom. Go to the bottom of this list and click on "register custom control." This will open the browser which allows you to find where you stored the XMCommCRC.ocx file. Highlight this file and open it. That adds this control as another button on the toolbox, or in the pull down list for "more controls" when you next open the control toolbox.
+
+5. Now, go to tools|macro|visual-basic-editor, to open the visual basic window. On the upper left, expand the "forms" directory and double-click on "userform1." If it does not open, it will probably prompt you for additional *.ocx files (COMCTL32.ocx, MSComm32.ocx, for example).  That means you have to repeat the "register control" process described in step 4 and add these files. If your computer doesn't have them already, I can send these two for you to load on. It may need other ones too (although not in my experience) that you might have to find somewhere and add on.
+
+6. Once you can open the "userform1", if it shows a "using checksum" box then you are ready to go. If all you see are a grid of dots, then you need to add the MSComm control on the user form. Open the "control toolbox" again, and look for the MSComm button. If it is not there, go to tools|additional-controls, find it on the list and add it. Back on the control toolbox, click on the MSComm button once, move to the userform, and click again, and it adds the control (you will see the "using checksum" box). Return to the excel spreadsheet and save the program. It should be ready to go now. Good luck, every computer and excel version seems different.
+
+6. To run the program, first go to the "settings" sheet and configure the port settings to match the usb-serial port and balance settings. Then change the elevation, latitude, and pipette displacement settings. The first pipette setting is the length of the pipette immersed in cm per gram of weight change as water is added to the balance. Measure this by filling your reservoir by "x" number of grams, and measuring the corresponding rise in water level in cm. The second pipette setting is the displacement weight change in grams per cm of pipette immersed. Measure this by noting the increase in grams as  you dip the pipette "x" cm deeper in the reservoir.
+
+7. Back on the "results" sheet, at the top, enter the time interval, hydraulic head (or kPa if desired), solution temperature,  sample size for the running mean (usually 5), segment length in mm, and segment diameter in mm. Each conductivity measurement is based on three readings: an "initial" value which is the flow into or out of the stem with zero pressure gradient, a "stem" value which is the pressure-induced flow, and a "final" value which repeats the zero pressure measurement. The initial and final are averaged, and subtracted from the pressure-induced flow to give the net flow induced by the pressure. This is divided by the pressure gradient to give the conductivity, which is corrected to 20C from whatever temperature your solution is. To get the initial, stem, and final readings, hit the corresponding buttons. The program gives the individual flow rates, and a running mean. We usually wait until we get three or four running mean values that look consistent before stopping the program. To stop the program, hit "ESCAPE." Choose the line number for the flow rate mean you wish to use, and it will be entered in the "current values" section. When the final reading is done, the conductivity is automatically calculated, and you are prompted for the line number for saving the data to the "stored values" section. Moving the data clears the current values. You can also calculate the conductivity at any time by pressing the "kcalc" button. 
+
+8. If you have a non-sartorius balance, you'll need to change a few lines of code based on what your balance uses for a software-induced "print" command, and how it outputs its weight through the serial cable. Sartorius uses ESC / P / CR / LF as its print command, and it outputs a string of 16 characters.  I've noted most of these lines of code—they are all in "userform1" and can be accessed by the visual basic editor from excel. Any modifications you wish to make in the data handling, etc., can be made in the "module2" section of the code in the "sub Balance ()" procedure.
+```

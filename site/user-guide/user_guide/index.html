@@ -45,12 +45,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -97,6 +101,30 @@
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_2">
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent=""  aria-hidden="true"  type="radio" name="__palette" id="__palette_4">
+          
+        
+      </form>
     
     
     
@@ -230,12 +258,68 @@
     Why this webpage?
   </a>
   
-    <nav class="md-nav" aria-label="Why this webpage?">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-build-this-webpage" class="md-nav__link">
+    How to build this webpage?
+  </a>
+  
+    <nav class="md-nav" aria-label="How to build this webpage?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-to-build-this-webpage" class="md-nav__link">
-    How to build this webpage?
+  <a href="#step-1-clone-or-update-the-webpage-repository-in-your-local-machine" class="md-nav__link">
+    Step 1 - Clone or update the webpage repository in your local machine.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-lets-get-familiar-with-mkdocs" class="md-nav__link">
+    Step 2 - Let’s get familiar with Mkdocs.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-lets-create-a-documentation-file" class="md-nav__link">
+    Step 3 - Let’s create a documentation file.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-lets-include-the-documentation-in-the-yml-structure" class="md-nav__link">
+    Step 4 - Let’s include the documentation in the .yml structure.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-lets-build-the-webpage-we-are-almost-done" class="md-nav__link">
+    Step 5 - Let’s build the webpage, we are almost done!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-lets-publish-the-webpage" class="md-nav__link">
+    Step 6 - Let’s publish the webpage!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-double-check-we-are-done" class="md-nav__link">
+    Step 7 - Double check, we are done!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-questions" class="md-nav__link">
+    More questions?
   </a>
   
 </li>
@@ -275,24 +359,39 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../information-of-interest/information-of-interest/" class="md-nav__link">
+        Information of interest
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_4">
-          Protocols
+        <label class="md-nav__link" for="__nav_5">
+          Project Information
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Protocols" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+      <nav class="md-nav" aria-label="Project Information" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Protocols
+          Project Information
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -302,8 +401,48 @@
   
   
     <li class="md-nav__item">
-      <a href="../../protocols/surface_sterilization/" class="md-nav__link">
-        Surface Sterilization
+      <a href="../.." class="md-nav__link">
+        BII ASCEND
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Dimensions of Biodiversity
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dimensions of Biodiversity" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dimensions of Biodiversity
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Oaks US - China
       </a>
     </li>
   
@@ -316,8 +455,325 @@
   
   
     <li class="md-nav__item">
-      <a href="../../protocols/hazardous_waste_handling/" class="md-nav__link">
-        Hazardous Waste Handling
+      <a href="../.." class="md-nav__link">
+        NASA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Global Oaks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Live Oaks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          LTER
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="LTER" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          LTER
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Forest and Biodiversity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        GLADES
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Willow
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Oak Wilt
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Oak Wilt" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Oak Wilt
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Grand Challenges
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        MITPPC
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Oaks of America
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Protocols
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Protocols" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Protocols
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/acid_baths_preparation_and_neutralization/" class="md-nav__link">
+        Acid Bath Preparation and Neutralization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/ankom_fiber_analyzer/" class="md-nav__link">
+        Ankom Fiber Analyzer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/balance_interface_program_interface_hydraulic_conductivity/" class="md-nav__link">
+        Balance Interface Program Instructions for Hydraulic Conductivity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/care_and_cleaning_of_spectralon/" class="md-nav__link">
+        Care and Cleaning of Spectralon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/hansatech_fluorometer_dark_adapted_leaf_measurements/" class="md-nav__link">
+        Hansatech Fluorometer Dark Adapted Leaf Measurements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/inorganic_nitrogen_assays_in_microplates_for_netmin/" class="md-nav__link">
+        Inorganic Nitrogen Assays for N-min
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/licor_6400_warmup_protocol/" class="md-nav__link">
+        Licor 6400 Warmup Protocol
       </a>
     </li>
   
@@ -344,9 +800,453 @@
   
   
     <li class="md-nav__item">
-      <a href="../../protocols/ankom_fiber_analyzer/" class="md-nav__link">
-        Ankom Fiber Analyzer
+      <a href="../../protocols/soil_and_plant_phosphorus_protocol/" class="md-nav__link">
+        Soil and Plant Phosphorus Protocol
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/soil_ph_hybrid_protocol/" class="md-nav__link">
+        Soil pH Hybrid Protocol
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/surface_sterilization/" class="md-nav__link">
+        Surface Sterilization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/svc_bluetooth_connection/" class="md-nav__link">
+        SVC Bluetooth Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../protocols/svc_leaf_measurements/" class="md-nav__link">
+        SVC Leaf Measurements
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Templates
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Templates" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Templates
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Ankom Fiber
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Inorganic Nitrogen Assays - Nmin
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Data management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data management" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Data management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          NASA-ROSES
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NASA-ROSES" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          NASA-ROSES
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-management/nasa-roses/mapping-sentienl2/oak-wilt/" class="md-nav__link">
+        Mapping oak-wilt using Sentinel 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Lab Products
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lab Products" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Lab Products
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        BII ASCEND
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          Dimensions of Biodiversity
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dimensions of Biodiversity" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dimensions of Biodiversity
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Oaks US - China
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        NASA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          LTER
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="LTER" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          LTER
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Forest and Biodiversity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        GLADES
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Willow
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_4" type="checkbox" id="__nav_9_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_4">
+          Oak Wilt
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Oak Wilt" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_4">
+          <span class="md-nav__icon md-icon"></span>
+          Oak Wilt
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Grand Challenges
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        MITPPC
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -367,7 +1267,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Data management
+        Leaving package
       </a>
     </li>
   
@@ -384,18 +1284,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_11">
           About
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="About" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_11">
           <span class="md-nav__icon md-icon"></span>
           About
         </label>
@@ -466,12 +1366,68 @@
     Why this webpage?
   </a>
   
-    <nav class="md-nav" aria-label="Why this webpage?">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-build-this-webpage" class="md-nav__link">
+    How to build this webpage?
+  </a>
+  
+    <nav class="md-nav" aria-label="How to build this webpage?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-to-build-this-webpage" class="md-nav__link">
-    How to build this webpage?
+  <a href="#step-1-clone-or-update-the-webpage-repository-in-your-local-machine" class="md-nav__link">
+    Step 1 - Clone or update the webpage repository in your local machine.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-lets-get-familiar-with-mkdocs" class="md-nav__link">
+    Step 2 - Let’s get familiar with Mkdocs.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-lets-create-a-documentation-file" class="md-nav__link">
+    Step 3 - Let’s create a documentation file.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-lets-include-the-documentation-in-the-yml-structure" class="md-nav__link">
+    Step 4 - Let’s include the documentation in the .yml structure.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-lets-build-the-webpage-we-are-almost-done" class="md-nav__link">
+    Step 5 - Let’s build the webpage, we are almost done!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-lets-publish-the-webpage" class="md-nav__link">
+    Step 6 - Let’s publish the webpage!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-double-check-we-are-done" class="md-nav__link">
+    Step 7 - Double check, we are done!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-questions" class="md-nav__link">
+    More questions?
   </a>
   
 </li>
@@ -496,28 +1452,29 @@
 
 <h1 id="user-guide">User guide</h1>
 <h3 id="why-this-webpage">Why this webpage?</h3>
-<p>Created, remove, and update documentation is essential for any project
-project. This webpage was created using
+<p>Create, remove, and update documentation is essential for any
+organization. This webpage was created for this aim using
 <a href="https://www.mkdocs.org/">Mkdocs</a> to satisfy the documentation
 requirements for the lab.</p>
-<p>This webpage does not not replaceable data storage requirements (e.g.,
-group/cavender, google drive, or local drives), but it allows users to
-respond questions like:</p>
+<p>This webpage does not replace data storage requirements (e.g.,
+group/cavender, google drive, or local drives). However, it allows users
+to respond questions like:</p>
 <ul>
 <li>Where is the data?</li>
 <li>How the data was collected?</li>
 <li>What protocol I need to be follow?</li>
+<li>I am new here, what I need to do?</li>
 <li>Among many others …</li>
 </ul>
 <p>If you need to create, remove, or update documentation please follow the
-bellows guide, or ask to the lab-technician for help.</p>
+below guide, or ask the lab-technician for help.</p>
 <p><br></p>
-<h4 id="how-to-build-this-webpage">How to build this webpage?</h4>
-<p>To build this web page, users must install on their computer:</p>
+<h3 id="how-to-build-this-webpage">How to build this webpage?</h3>
+<p>To build this webpage, users must install on their computer:</p>
 <ul>
 <li><a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> and
     <a href="https://www.r-project.org/">R</a>.</li>
-<li>Rmarkdown and Knitr package (e.g, <code>install.library(rmarkdown)</code>).</li>
+<li>Rmarkdown and Knitr packages (e.g, <code>install.packages("rmarkdown")</code>).</li>
 <li><a href="https://pip.pypa.io/en/stable/cli/pip_install/">pip</a></li>
 <li><a href="https://www.mkdocs.org/">MkDocs</a> (e.g., in terminal
     <code>pip install mkdocs</code>)</li>
@@ -525,9 +1482,116 @@ bellows guide, or ask to the lab-technician for help.</p>
     <code>pip install mkdocs-material</code>)</li>
 <li><a href="https://git-scm.com/downloads">git</a> and Github account.</li>
 </ul>
-<p>Please follow the instructions described in this
-<a href="https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/">blog</a>
-for more details.</p>
+<p><br></p>
+<h4 id="step-1-clone-or-update-the-webpage-repository-in-your-local-machine">Step 1 - Clone or update the webpage repository in your local machine.</h4>
+<p>If you and someone has been working on this webpage or you recently
+started, it is crucial to have the updated version.</p>
+<p>If you recently started, you can clone the github repository to your
+local machine using RStudio following:</p>
+<pre><code>File &gt; New Project ... &gt; Select Version Control &gt; Select Git
+</code></pre>
+<p>You will see a ‘clone git repository’ window, add there the following
+URL <code>https://github.com/Cavender-Bares-Lab/Data-management-lab.git</code> and
+chose the project path of your preference.</p>
+<p>In case you have been working on this webpage using RStudio interface,
+it is a good practice to check if you have an updated version. For doing
+so, you only need to click on the <code>Git</code> panel and then click on <code>pull</code>.
+Remember that you will need git credentials.</p>
+<p>This first step requires basic git skills, if you are a bit lost take a
+look at this
+<a href="https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/">guide</a>.</p>
+<p><br></p>
+<h4 id="step-2-lets-get-familiar-with-mkdocs">Step 2 - Let’s get familiar with Mkdocs.</h4>
+<p>In non-technical words, this webpage is composed of two elements: the
+structure and the documentation.</p>
+<ul>
+<li>
+<p>The structure refers to the online appearance of the documentation,
+    and it is controlled by <code>mkdocs.yml</code> file. In this file, under
+    <code>nav:</code> you will see the structure of how the documentation and web
+    sections will be displayed; their sections, tabs, and sub-tabs.</p>
+</li>
+<li>
+<p>The documentation refers to the <code>.md</code> files located in the docs
+    folder. These files contains all the information required that will
+    be displayed in the webpage. It is good practice to keep these files
+    in folders under docs with names relatives to tabs and sub-tabs,
+    just to keep the webpage in order.</p>
+</li>
+</ul>
+<p>Now that we know these elements, let’s take a look at three functions of
+<code>MkDocs</code> that we will need. In RStudio you can run these commands using
+the ‘Terminal’ (the tab next to ‘Console’ that we always use).</p>
+<ul>
+<li>
+<p><code>mkdocs serve</code>: this command helps you to create local address where
+    you can see the changes in our documentation in real time. This
+    address tend to be <code>http://127.0.0.1:8000/</code> and it can opened using
+    your browser.</p>
+</li>
+<li>
+<p><code>mkdocs build</code>: this command helps you to build the page. An step
+    that need to be conducted close to the end of a session.</p>
+</li>
+<li>
+<p><code>mkdocs gh-deploy</code>: this command will deploy the update the webpage
+    to github pages.</p>
+</li>
+</ul>
+<p>You can type these commands in the terminal to run them. In some cases
+(Windows most likely), you need to type extra arguments to run them,
+like <code>python -m mkdocs serve</code>.</p>
+<p><br></p>
+<h4 id="step-3-lets-create-a-documentation-file">Step 3 - Let’s create a documentation file.</h4>
+<p>An easy way to create a documentation file is to do create a Rmarkdown
+(<code>.Rmd</code>) file. For this guide, let’s assume that you need to document
+<code>your_new_protocol</code> in the protocols section of the lab. You can create
+the <code>.Rmd</code> file following:</p>
+<pre><code>File &gt; New File &gt; R Markdown &gt; OK
+</code></pre>
+<p>In this new file you can remove all non-essential information and keep
+the header document similar like:</p>
+<pre><code>title: "Your title for the page"
+date: "2022-01-01"
+output: md_document
+author: "Your name"
+</code></pre>
+<p>Please pay attention to the <code>output:</code> section that needs to be
+<code>md_document</code> and NOT <code>html_document</code>. An essentinal step for what is
+comming.</p>
+<p>Once you create the file and their structure, you then can type or
+copy/paste from world the information that you want to convey in
+<code>your_new_protocol</code> file. This file uses the writing syntax of
+<a href="https://rmarkdown.rstudio.com/">rmarkdown</a>; thus it is recommend to
+follow basic guidelines for doing an elegant document. A quick
+introduction to rmarkdown is this <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheat
+sheet</a>.</p>
+<p>Let’s assume that you finished to write your documentation! You can then
+save the file in the folder of interest under <code>docs</code>. For instance, if
+you wrote about a protocol, you can save your file in a path like
+<code>docs/protocols/your_new_protocol.Rmd</code>.</p>
+<p>Once you storage the file in the corresponding folder, you can <code>Knit</code>
+it. But what is this? <code>Knit</code>, for this context, is a process to
+transform the rmarkdown extension (<code>.Rmd</code>) to markdown (<code>.md</code>), the
+extension required for <code>Mkdocs</code>. You can <code>Knit</code> the file pressing the
+knit button close to save, at the top of your rmarkdown document. If
+everything goes write, you will see a new file
+<code>docs/protocols/your_new_protocol.md</code>.</p>
+<p><br></p>
+<h4 id="step-4-lets-include-the-documentation-in-the-yml-structure">Step 4 - Let’s include the documentation in the .yml structure.</h4>
+<p><br></p>
+<h4 id="step-5-lets-build-the-webpage-we-are-almost-done">Step 5 - Let’s build the webpage, we are almost done!</h4>
+<p><br></p>
+<h4 id="step-6-lets-publish-the-webpage">Step 6 - Let’s publish the webpage!</h4>
+<p><br></p>
+<h4 id="step-7-double-check-we-are-done">Step 7 - Double check, we are done!</h4>
+<p><br></p>
+<h4 id="more-questions">More questions?</h4>
+<p>For more instructions regarding how to build this page you could follow
+this
+<a href="https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/">blog</a>.
+Likewise, if you have questions regarding Mkdocs take a look at their
+<a href="https://www.mkdocs.org/">webpage</a>.</p>
 
               
             </article>
@@ -557,13 +1621,13 @@ for more details.</p>
       
       
         
-        <a href="../../protocols/surface_sterilization/" class="md-footer__link md-footer__link--next" aria-label="Next: Surface Sterilization" rel="next">
+        <a href="../../information-of-interest/information-of-interest/" class="md-footer__link md-footer__link--next" aria-label="Next: Information of interest" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Surface Sterilization
+              Information of interest
             </div>
           </div>
           <div class="md-footer__button md-icon">

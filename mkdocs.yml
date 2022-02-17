@@ -6,12 +6,55 @@ nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
   - Welcome package: ''
+  - Information of interest: 'information-of-interest/information-of-interest.md'
+  - Project Information:
+    - BII ASCEND: ''
+    - Dimensions of Biodiversity:
+      - Oaks US - China: ''
+      - NASA: ''
+    - Global Oaks: ''
+    - Live Oaks: ''
+    - LTER:
+      - Forest and Biodiversity: ''
+      - GLADES: ''
+      - Willow: ''
+    - Oak Wilt:
+      - Grand Challenges: ''
+      - MITPPC: ''
+    - Oaks of America: ''
   - Protocols:
-    - 'Surface Sterilization': 'protocols/surface_sterilization.md'
-    - 'Hazardous Waste Handling': 'protocols/hazardous_waste_handling.md'
-    - 'Measuring leaf area': 'protocols/measuring_leaf_area.md'
-    - 'Ankom Fiber Analyzer': 'protocols/ankom_fiber_analyzer.md'
-  - 'Data management': ''
+    - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
+    - Ankom Fiber Analyzer: 'protocols/ankom_fiber_analyzer.md'
+    - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
+    - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
+    - Hansatech Fluorometer Dark Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
+    - Inorganic Nitrogen Assays for N-min: 'protocols/inorganic_nitrogen_assays_in_microplates_for_netmin.md'
+    - Licor 6400 Warmup Protocol: 'protocols/licor_6400_warmup_protocol.md'
+    - Measuring leaf area: 'protocols/measuring_leaf_area.md'
+    - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
+    - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
+    - Surface Sterilization: 'protocols/surface_sterilization.md'
+    - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
+    - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
+  - Templates:
+    - Ankom Fiber: ''
+    - Inorganic Nitrogen Assays - Nmin: ''
+  - Data management:
+    - NASA-ROSES:
+      - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
+  - Lab Products:
+    - BII ASCEND: ''
+    - Dimensions of Biodiversity:
+      - Oaks US - China: ''
+      - NASA: ''
+    - LTER:
+      - Forest and Biodiversity: ''
+      - GLADES: ''
+      - Willow: ''
+    - Oak Wilt:
+      - Grand Challenges: ''
+      - MITPPC: ''
+  - Leaving package: ''
   - About:
     - 'License': ''
     - 'Release Notes': ''

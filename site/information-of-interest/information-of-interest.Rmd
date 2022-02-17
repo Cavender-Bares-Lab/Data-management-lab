@@ -1,0 +1,18 @@
+---
+title: "Information of interest"
+date: "`r Sys.Date()`"
+output: md_document
+author: "J. Antonio Guzmán Q."
+---
+
+Link to the [lab meeting agenda](https://docs.google.com/spreadsheets/d/1WuqFlCpN2IROdJILOClJfxq4bRdT6joItHC74YO3Ljc/edit?usp=sharing)
+
+<<<<<<< HEAD
+### [Lab equipment]("file:///c:/") 
+
+### [Lab inventory](file:///S:/LAB-cavender/4_Project_Folders/)
+=======
+Link to the lab equipment [sing in]() for the field season.
+
+Link to the lab [inventory]().
+>>>>>>> 067dba494a4215c9ccb2fbe24fb0a205dbb28315
