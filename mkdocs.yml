@@ -16,7 +16,7 @@ nav:
     - LTER:
       - Forest and Biodiversity: ''
       - GLADES: ''
-      - Willow:''
+      - Willow: ''
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''
@@ -37,25 +37,22 @@ nav:
     - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
   - Templates:
     - Ankom Fiber: ''
+    - Inorganic Nitrogen Assays - Nmin: ''
   - Data management:
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
-    - BII ASCEND:
-      - BII ASCEND - Lab Products: ''
+    - BII ASCEND: ''
     - Dimensions of Biodiversity:
-      - Oaks US - China:
-        - DOB US-China - Lab Products: ''
-      - NASA:
-        - DOB NASA - Lab Products: ''
+      - Oaks US - China: ''
+      - NASA: ''
     - LTER:
-      - Forest and Biodiversity:
-        - LTER FAB - Lab Products: ''
+      - Forest and Biodiversity: ''
+      - GLADES: ''
+      - Willow: ''
     - Oak Wilt:
-      - Grand Challenges:
-        - GC Oak Wilt - Lab Products: ''
-      - MITPPC:
-        - MITPPC Oak Wilt - Lab Products: ''
+      - Grand Challenges: ''
+      - MITPPC: ''
   - Leaving package: ''
   - About:
     - 'License': ''
