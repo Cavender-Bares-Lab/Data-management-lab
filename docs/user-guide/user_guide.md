@@ -83,18 +83,64 @@ Now that we know these elements, let’s take a look at three functions of
 `MkDocs` that we will need. In RStudio you can run these commands using
 the ‘Terminal’ (the tab next to ‘Console’ that we always use).
 
--   `mkdocs serve`: this command help us to create local address where
-    we can see the changes in our documentation in real time. This
+-   `mkdocs serve`: this command helps you to create local address where
+    you can see the changes in our documentation in real time. This
     address tend to be `http://127.0.0.1:8000/` and it can opened using
     your browser.
 
--   `mkdocs build`:
+-   `mkdocs build`: this command helps you to build the page. An step
+    that need to be conducted close to the end of a session.
 
--   `mkdocs gh-deploy`:
+-   `mkdocs gh-deploy`: this command will deploy the update the webpage
+    to github pages.
+
+You can type these commands in the terminal to run them. In some cases
+(Windows most likely), you need to type extra arguments to run them,
+like `python -m mkdocs serve`.
 
 <br>
 
 #### Step 3 - Let’s create a documentation file.
+
+An easy way to create a documentation file is to do create a Rmarkdown
+(`.Rmd`) file. For this guide, let’s assume that you need to document
+`your_new_protocol` in the protocols section of the lab. You can create
+the `.Rmd` file following:
+
+    File > New File > R Markdown > OK
+
+In this new file you can remove all non-essential information and keep
+the header document similar like:
+
+    title: "Your title for the page"
+    date: "2022-01-01"
+    output: md_document
+    author: "Your name"
+
+Please pay attention to the `output:` section that needs to be
+`md_document` and NOT `html_document`. An essentinal step for what is
+comming.
+
+Once you create the file and their structure, you then can type or
+copy/paste from world the information that you want to convey in
+`your_new_protocol` file. This file uses the writing syntax of
+[rmarkdown](https://rmarkdown.rstudio.com/); thus it is recommend to
+follow basic guidelines for doing an elegant document. A quick
+introduction to rmarkdown is this [cheat
+sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
+
+Let’s assume that you finished to write your documentation! You can then
+save the file in the folder of interest under `docs`. For instance, if
+you wrote about a protocol, you can save your file in a path like
+`docs/protocols/your_new_protocol.Rmd`.
+
+Once you storage the file in the corresponding folder, you can `Knit`
+it. But what is this? `Knit`, for this context, is a process to
+transform the rmarkdown extension (`.Rmd`) to markdown (`.md`), the
+extension required for `Mkdocs`. You can `Knit` the file pressing the
+knit button close to save, at the top of your rmarkdown document. If
+everything goes write, you will see a new file
+`docs/protocols/your_new_protocol.md`.
 
 <br>
 
