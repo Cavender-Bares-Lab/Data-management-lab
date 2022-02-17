@@ -1,7 +1,14 @@
 site_name: Cavender-Bares lab
 theme:
+    features:
+    - search.highlight
+    plugins:
+    - search:
+        lang: en
     name: material
-    palette: teal
+    palette: 
+      primary: teal
+      accent: indigo
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
