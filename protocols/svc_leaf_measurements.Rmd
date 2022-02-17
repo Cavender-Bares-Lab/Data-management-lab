@@ -1,0 +1,153 @@
+---
+title: "Leaf Hyperspectra Measurements with SVC protocol"
+date: "`r Sys.Date()`"
+output: md_document
+author: "Beth Fallon"
+associated project: "Grand Challenges - Oak Wilt"
+---
+
+###### Author: Beth Fallon; Associated project: Grand Challenges - Oak Wilt
+
+### Goals
+
+How to prep and use SVC, including data collection using either computer or built-in screen
+
+### Quick Measure Guide
+```
+1.	Check that white reference disc, black background, and glass lens are clean
+2.	Secure leaf clip to tripod stand, attach battery, turn on light (10 minutes to warm up)
+3.	New battery in spectroradiometer body, attach fiber optic cable, turn fan on Spec body
+4.	Connect to SVC via Bluetooth and set integration time to 2 sec
+5.	Create a new Windows file folder for data collection: YYYYMMDD, leave window open
+6.	At each plant: 
+  a.	Adjust height of leaf clip to measure full sun leaf:
+  b.	Open a new file in SVC software (Alt+F+N)
+  i.	Named plant id = “####”
+  c.	Take a white reference with empty leaf clip, white disc facing in (Alt+R)
+  d.	Take a white target measurement (Alt+T), if line is flat at 100%, then change suffix of data file collected to “####_000WR”
+  e.	Take a target measurement with leaf inside, black background behind
+  i.	Change Suffix to indicate leaf type (no suffix for green, non-symptomatic, SYM for symptomatic, S-T or S-G)
+  f.	Measure 3 healthy leaves/plant; 3 symptomatic leaves when present (up to 3 measures/symptomatic leaf)
+  g.	Note log # (number after plant ID) for each measure on datasheet
+7.	Take a new white reference when adjusting leaf clip height
+8.	Copy data folder to CBS Shared drive
+```
+### Detailed Steps of Measurements
+```
+1.	Start up
+  a.	Insert new battery in SVC console (main body of machine)
+  b.	Extend legs at base of SVC body
+  c.	Remove forelens and insert fiber optic cable and screw hand tight
+  d.	Leaf clip preparation:
+    i.	Check that black disc has ridges running parallel to the left and right sides of the reversible plate
+    ii.	If white disc is dirty/not hydrophobic: lightly sand white disc with v. fine grit sand paper under diH2O until surface of disc is uniformly hydrophobic. Let air dry.
+    iii.	Clean glass of leaf clip (in/out) if necessary
+  e.	Check that prominent screw on side of leaf clip is loose and Insert fiber optic cable into leaf clip (look in window that cable end is at edge of fiber optic cable housing). Use screw to secure into place.
+  f.	Plug in lamp power pack to leaf clip base and screw to secure
+  g.	Turn switch at top of leaf clip to Low
+  h.	Turn on lamp (press green button at back of clip) and let warm up in greenhouse environment for 10-15 minutes
+
+2.	SVC-HR2014i software for data collection (recommended or go through Setup menu on machine to get Optic and Scan timing same as below)
+  a.	Choose ControlSetup Instrument (Alt+C+S on Windows)
+    i.	Find your connection: List all possible ports
+      1.	Bluetooth: find Bluetooth port (~COM5, see Appendix A for notes on troubleshooting connection difficulties)
+      2.	OR can use the USB to D-type connection (connects to base of body of spec) and find the serial port #
+    ii.	Settings:
+      1.	Optic = Fiber1
+      2.	Scan Timing = 2 s (leave Coadds as default)
+      3.	Integration = Auto integration
+    iii.	Check and correct date/time
+    iv.	Integration scales RAW DN data = Check box 
+  b.	Choose ControlOverlap/Matching (Alt+C+O)
+    i.	Preserve Overlapped Detector data (keeps whole, uncorrected file)
+    ii.	Matching type = None
+
+3.	Leaf locations measured: (see figure):
+  a.	The widest part, between midvein and leaf margin, of the adaxial (upper surface) of a fully-sun exposed leaf
+    i.	When there are no symptoms on a Control, Oak Wilt, or Drought plants:
+      1.	Measure three (3) healthy appearing, green leaf
+    ii.	When there are symptoms:
+      1.	In addition to the healthy green measurement: Select up to 3 (if available) typical symptomatic leaves and collect up to 3 additional measurements on each leaf
+  a.	Measure the green appearing portion of that leaf (if any)
+  b.	Measure the most symptomatic portion
+  c.	Measure the transition zone between
+
+4.	Best practices for all measurements:
+    i.	Leave lamp on whole time (or let warm up again)
+    ii.	White reference (Ref, then Target) each time move leaf clip (between plants and between leaves)
+    iii.	Avoid adjusting the angle of the leaf clip between plants (adjust the height)
+    iv.	Always measure adaxial (top) of leaf
+    v.	NIR peak reflectance (~740nm) should be at least 35%, if isn’t make sure enough leaf (covering at least 1/3-1/2) in clip
+    vi.	Label white reference files with suffix WR and any bad scans with BAD
+    vii.	Clean leaf clip with KimWipes and EtOH between leaves to avoid spreading pathogens
+    viii.	If not using computer interface, can check the output in the same way as below, but need to record file log numbers
+5.	Data collection
+  a.	Choose FileNew (Alt+F+N)
+    i.	Navigate to OakWilt_local/OakWilt_data/OakWilt_spec
+    ii.	Create a file folder for day YYYYMMDD
+    iii.	Create basename for each new individual plant:
+      1.	ex: “4000” , Open
+  b.	White reference 
+    i.	Move leaf clip near to leaf being measured
+    ii.	Flip leaf clip to white side and close
+    iii.	Click Reference (Alt+R)
+      1.	Reference radiance is total lamp output. Should be a relatively smooth, normalish curve with peak in the visible spectrum
+      2.	This doesn’t create a scan file (.sig), can wait and re-ref if looks weird
+    iv.	Click Target (Alt+T)
+      1.	Target scan should be a relatively straight line at 100% reflectance. There will be a lot of noise at low edge of PAR (at UV), then a small blip at ~900, ~1800 where the sensors overlap
+        a.	any significant dips along slope after NIR peak are bad (740-900nm)
+      2.	ZOOM IN/OUT: draw a box or double click to zoom in, right click on plot to zoom out
+    v.	If looks normal, rename file (“4000_000”) as “4000_000WR” in an open file window
+  c.	Leaf scan
+    i.	Flip lower part of leaf clip so black side is facing the window
+    ii.	Place leaf in window (top of leaf facing lamp) and gently let clamp close on leaf
+    iii.	Hold handheld leaf clip steady while scanning
+      1.	Check that reflectance meets standards
+        a.	If bad, label file “4000_01BAD” and find a new leaf, WR, and scan again
+      2.	Check that file name is correct
+        a.	if measuring a symptomatic leaf, use SYM code after name “4000_002SYM” (for fully symptomatic)
+          i.	code S-T: “4000_002S-T” (for transition zone between symptomatic and green portions of the leaf
+          ii.	code S-G “4000_002S-G” for green portion of a symptomatic leaf
+          iv.	Find new leaf location, WR, and scan again
+          v.	Open new between individuals or leaves
+6.	Data download—if collecting data using only spec main body and leaf clip:
+  a.	Connect to SVC-HR2014i software following 2.a. above
+  b.	ControlRead memory (ALT+C+R)
+    i.	Choose data file numbers to download
+    ii.	Apply current/overlap matching settings (if settings = preserve and matching = none, otherwise Do NOT apply)
+    iii.	Change output directory as above in 5.a. or wherever permanent data storage location is
+    iv.	Output file format = YYYYMMDD_HHMM_RxxTxx
+    v.	Download now
+  c.	Confirm download of all files before erasing
+7.	Post measure:
+  a.	Turn off lamp, turn off spec
+  b.	Remove and charge spec and leaf clip lamp batteries
+  c.	Carefully remove and put away fiber optic cable in loose loops in pelican case (unless in safe location)
+    i.	then place leaf clip on side (black disc out), check that screw securing fiber optic cable is in place and leaf clip/cable can’t slide off area
+```
+ 
+### Appendix A
+Bluetooth connection and troubleshooting connections
+```
+1.	Establishing a Bluetooth connection
+  a.	In a Windows PC (~Windows 8/10), use Search bar (or right click Windows icon and “Search”)
+  b.	Select “Bluetooth and other devices”
+  c.	Turn Bluetooth On
+  d.	If the HR1024i device is not shown as paired and connected, choose “Add Bluetooth or other device”
+    i.	Select “Bluetooth” device
+    ii.	When prompted enter the Bluetooth pin/passcode: “hr1024i”
+2.	Finding the correct COM port
+  a.	Via Bluetooth settings (most direct):
+    i.	Follow steps 1a-b to get to Bluetooth settings
+    ii.	On the right side menu, choose “More Bluetooth options”
+    iii.	Click on the “COM ports” tab
+    iv.	Use the listed Outgoing HR1024i COM for SVC connections
+  b.	Search for the “Device Manager” in the Control Panel
+    i.	Select “Ports”
+    ii.	All Serial over Bluetooth connection ports are possible connections
+3.	Can’t establish a connection
+  a.	Follow steps 2.a.i – 2.a.iii above
+  b.	Delete any existing HR1024i connections by highlighting each and choosing “Remove”
+  c.	Click “Add”
+  d.	Select “Outgoing” [PC initiates], then choose the HR1024i device from the dropdown
+```

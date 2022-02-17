@@ -2,14 +2,19 @@
 title: "Ankom Fiber Analyzer"
 date: "`r Sys.Date()`"
 output: md_document
-author: "Cathleen Lapadat"
+author: "Hobbie Lab"
 ---
+
+###### Author: Hobbie Lab
 
 ### Goal
 
 This protocol serves as a guide to use the Ankom Fiber Analyzer.
 
-### Ankom Protocol for the Hobbie Lab
+### Important Note
+At least 0.5 grams of sample is required for analysis.
+
+### Ankom Protocol
 
 The Ankom Fiber Analyzer utilizes a series of extractions to determine the fiber 
 content of a plant sample. Each of the extractions should be done in the order 
@@ -23,29 +28,45 @@ sulfuric acid and detergent solution. During ADF, hemicellulose and bound protei
 are washed off. The fraction left behind contains cellulose, lignin, and recalcitrant 
 materials. The ADL solution is ultra nasty 72% sulfuric acid. During ADL, 
 cellulose is washed off leaving only lignin and recalcitrant materials.  All 
-calculations can be found in the Template spreadsheet in the Ankom Data folder 
-on the computer in the Hobbie Lab.
+calculations can be found in the Template spreadsheet in the protocols folder in the Cavender-Bares Lab University shared drive.
 
 ### Supplies
-All Ankom solutions can be ordered from Ankom:
+All AnkomM solutions can be ordered from Ankom:  
 
-```
-Ankom Technology
-140 Turk Hill Park
-Fairport, NY 14450
-phone: 716-425-3940
-fax: 716-425-3941
-www.ankom.com
-```
+Ankom Technology  
+140 Turk Hill Park  
+Fairport, NY 14450  
+phone: 716-425-3940  
+fax: 716-425-3941  
+www.ankom.com  
 
+<<<<<<< HEAD
 ### Updated 2/28/2019
-Neutral Detergent solution - catalog # FND20 - 20 L for $95, 20L for $113
-Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $75, 20L for $93
-72% Sulfuric acid - catalog # FSA72 - 1 L for $34
-Filter bags - catalog # F57 – 200 for $240, 200 for $252
+- Neutral Detergent solution - catalog # FND20 - 20 L for $95, 20L for $113.
+- Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $75, 20L for $93.
+- 72% Sulfuric acid - catalog # FSA72 - 1 L for $34.
+- Filter bags - catalog # F57 – 200 for $240, 200 for $252.
+=======
+Ankom Supplies Costs -> Updated 2/28/2019  
+>>>>>>> e9bb519263dea1bdb6ebb696320302dc86e55eb6
 
-### Steps for sample preparation
+* Neutral Detergent solution - catalog # FND20 - 20L for $113
+* Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $93
+* 72% Sulfuric acid - catalog # FSA72 - 1 L for $34
+* Filter bags - catalog # F57 – 200 for $252  
 
+* Ankom chamber (in lab 540 - Sarah Hobbie's Lab)
+* Drying Oven
+* Scale
+* Tea Kettle
+* Timer
+* Nanopure water
+* 1L beaker
+* 2L beaker
+
+
+## Steps for sample preparation
+```
 1. Grind samples using a 1 mm screen and dry.
 2. Label bags with special Ankom marker or permanent Sharpie.
 3. Tare Ankom bag and record weight.
@@ -60,3 +81,77 @@ used regardless of the number of bags being processed. Place three bags per tray
 and then stack trays on center post with each level rotated 120 degrees. Each 
 tray will sit in the notches of the tray below it. The weight is placed on top 
 of the empty 9 th tray to keep the bag suspender submerged.
+```
+
+## NDF Extraction
+```
+1. When processing 24 sample bags add 1800-1900 ml of ambient Neutral Detergent solution into the chamber. Be sure the valve on the left side of the machine is closed! If you're processing less than 24 samples, load the bag suspender from the bottom up and fill the chamber until the bags are covered. I found that 13 bags are covered by 1500 ml of solution.
+2. Place bag suspender into the chamber. Turn Agitate and Heat ON and confirm that the bag suspender is agitating properly. Set the timer for 75 minutes. Close and seal the lid of the chamber.
+3. Just before the 75 minutes is up, heat 1800 ml nanopure water to boiling in the electric tea kettle
+4. After 75 minutes turn Agitate and Heat OFF, open the drain valve and exhaust the hot solution BEFORE opening the lid. Be aware, the solution will be around 100° C. The neutral detergent can be dumped down the drain. WARNING: The solution in the vessel is under pressure. The valve should be opened first to remove pressure before the lid can be opened. Ensure that the exhaust hose is securely positioned for safe disposal of effluent.
+5. After the solution has been exhausted, close the valve and open the lid. Pour in the 1800 ml of boiling water and just lower the lid but do now seal it. Agitate for 3-5 minutes, but do NOT Heat. Exhaust the rinse water down the sink. During the first rinse, heat 1800 ml of water for a second rinse. Rinse two more times for a total of 3 rinses.
+6. Remove the filter bags and gently press out the excess water. Place them in the drying oven and dry completely.  I dry them overnight at 65° C.
+7. Cool bags to room temperature and weigh all the bags. Record weights.
+8. Move on to ADF extraction.
+```
+#### NDF Calculations  
+
+Note: blank bag correction (C) = blank bag wt. after extraction/blank bag tare wt.  
+                      
+% washed off (soluble cell contents)  
+
+  *= (((Tare wt. sample bag + sample wt.) - bag wt. after NDF) x 100)/sample wt.*  
+                                 
+% left after NDF (hemicellulose, bound proteins, cellulose, lignin, recalcitrants)  
+
+  *= ((bag wt. after NDF - (tare wt. sample bag x C~NDF~)) x 100)/sample wt.*
+
+## ADF Extraction
+```
+1. Dilute the 5x ADF solution to the desired volume for a run. Pour it into the chamber. Make sure the valve on the left side of the machine is closed! 
+  1900 ml 1x ADF = 380 ml 5x ADF solution + 1520 ml nanopure water 
+  1500 ml 1x ADF = 300 ml 5x ADF solution + 1200 ml nanopure water
+2. Place the bags in the bag suspender and place it in the chamber.
+3. Turn Agitate and Heat ON and confirm that the bag suspender is agitating properly.  Set the timer for 60 minutes.  Close and seal the lid of the chamber.
+4. Just before the 60 minutes is up, heat 1800 ml nanopure water to boiling in the electric tea kettle.
+5. After 60 minutes turn Agitate and Heat OFF, open the drain valve and exhaust the hot solution BEFORE opening the lid. Be aware, the solution will be around 100° C. The acid detergent solution should be exhausted into a waste container. (The waste can later be neutralized and dumped down the drain.) WARNING: The solution in the vessel is under pressure. The valve should be opened first to remove pressure before the lid can be opened. Ensure that the exhaust hose is securely positioned for safe disposal of effluent.
+6. After the solution has been exhausted, close the valve and open the lid. Pour in the 1800 ml of boiling water and just lower the lid but do now seal it. Agitate  for 3-5 minutes, but do NOT Heat. Exhaust the rinse water down the sink. During the first rinse, heat 1800 ml of water for a second rinse. Rinse two more times for a total of 3 rinses.
+7. Remove the filter bags and gently press out the excess water. Place them in the drying oven and dry completely.  I dry them overnight at 65° C.
+8. Cool bags to room temperature in a desiccator and weigh all the bags. Record weights.
+9. Move on to ADL extraction.
+```
+#### ADF Calculations
+
+Note: blank bag correction (C) = blank bag wt. after extraction/blank bag tare wt.  
+                                    
+
+% washed off (hemicellulose and bound proteins)
+
+  *= (((bag wt after NDF - (tare wt sample bag x C~NDF~)) - (bag wt after ADF - (tare wt. sample bag x C~ADF~)) x 100)/sample wt.*  
+
+
+% left after ADF (cellulose, lignin, and recalcitrants)  
+
+  *= ((bag wt. after ADF - (tare wt. sample bag x C~ADF~)) x 100)/sample wt.*                           
+
+## ADL Extraction
+```
+1.   Place dry bags in a 2 L beaker and cover with 72% sulfuric acid (~300 ml to cover 48 bags). It is important that the bags are completely dry. If there is any water in the sample, the reaction of the water with the strong sulfuric acid will generate heat. The sample could char and you could lose sample.
+2.   Place a 1 L beaker inside the 2 L beaker to keep bags submerged.
+3.   Agitate bags at start and at 30-minute intervals for 3 hours. Do this by lifting the 1 L beaker up and down ~ 30 times.
+4.   Just before the 3 hours is up, heat 1000 ml nanopure water.
+5.   After 3 hours, pour off the sulfuric acid into a waste container and rinse with the boiling water. Rinse with boiling water until the pH is neutral. This takes about 6-7 rinses. I have been dumping my rinses down the drain.
+6.	Gently press out the excess water. Place them in the drying oven and dry completely. I dry them overnight at 65° C.
+7.   Cool bags to room temperature in a desiccator and weigh all the bags. Record weights. (At this time you can ash your bags if you are concerned about sand, silica, etc. content.)
+```
+#### ADL Calculations
+
+Note: blank bag correction (C) = blank bag wt. after extraction/blank bag tare wt.
+                                     
+% washed off (cellulose)  
+
+  *= (((bag wt after ADF - (tare wt sample bag x C~ADF~)) - (bag wt after ADL - (tare wt. sample bag x C~ADL~)) x 100)/sample wt.*  
+                                         
+% left after ADL (lignin and recalcitrants)  
+
+  *= ((bag wt. after ADL - (tare wt. sample bag x C~ADL~)) x 100)/sample wt.*         
