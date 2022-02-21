@@ -225,7 +225,7 @@ Updated: 15 December 2021
 ###### Data Acquisition
 
 *View the Data Acquisition Window*  
-*Data acquisition icon:* ![alt text here](images/CN_9.png)  
+*Data acquisition icon:* ![alt text here](images/CN_14.png)  
 ```
 25. In Sample Table, click on the Data Acquisition icon  at the top of the screen to open the Data Acquisition Window. This window will allow you to observe N and C peaks in real time. 
 ```
