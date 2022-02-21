@@ -38,6 +38,9 @@ nav:
     - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
     - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
     - Hansatech Fluorometer Dark Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
+    - HPLC:
+      - Extraction: ''
+      - Run Samples: ''
     - Inorganic Nitrogen Assays for N-min: 'protocols/inorganic_nitrogen_assays_in_microplates_for_netmin.md'
     - Licor 6400 Warmup Protocol: 'protocols/licor_6400_warmup_protocol.md'
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
@@ -66,6 +69,8 @@ nav:
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''
+  - Sampling and Analyses costs:
+  - Methods Publications:
   - Leaving package: ''
   - About:
     - 'License': ''
