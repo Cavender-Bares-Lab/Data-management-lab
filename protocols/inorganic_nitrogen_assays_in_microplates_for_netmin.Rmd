@@ -1,7 +1,9 @@
 ---
 title: "Inorganic Nitrogen Assays in Microplates"
 date: "`r Sys.Date()`"
-output: md_document
+output: 
+  md_document:
+    toc: true
 author: "Hobbie Lab"
 updated: "4 July 2013"
 ---
