@@ -54,8 +54,12 @@ nav:
     - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
     - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
     - Surface Sterilization: 'protocols/surface_sterilization.md'
-    - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
-    - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
+    - SVC:  
+      - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
+      - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
+    - VLA:
+      - VLA Methods: 'protocols/vla_methods.md'
+      - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
   - Templates:
     - Ankom Fiber: ''
     - Inorganic Nitrogen Assays - Nmin: ''
