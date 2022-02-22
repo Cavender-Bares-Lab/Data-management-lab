@@ -25,7 +25,7 @@ This protocol details the steps to process images of leaf skeletons and tracing 
 ```
 ###### Create a VLA square
 ```
-1. Open leaf. tif file with ImageJ.
+1. Open leaf tif file with ImageJ.
 
 2. Choose the area you like for cropping.
     a. Squares are 236 pixels squared (236 pixels = 1 cm)
@@ -37,16 +37,16 @@ This protocol details the steps to process images of leaf skeletons and tracing 
 3. Set scale
     a. Click Analyze, "set scale".
     b. Write 
-        i.    Distance in pixels: 236 
+        i.    Distance in pixels: 1 
         ii.   Known distance: 1
         iii.  Pixel aspect ratio: 1.0
-        iv.   Unit of length: cm
+        iv.   Unit of length: pixel
         v.    Click "Global".
         vi.   OK
 
 3. Use the rectangle button and choose a square. 
-    a. Use ctrl+shift to create a square.
-    b. The selection size appears in the status bar. Always keep at exactly 236 pixels/1 cm per side.
+    a. Hold onto ctrl+shift to create a square and move your cursor to the desired selection.
+    b. The selection size appears in the status bar. Always keep at exactly 236 pixels/1 cm per side. You may need to zoom in until you can get it precisely to 236 pixels.
 
 4. Use Image -> Crop (ctrl+shift+x) to crop the square.
 
@@ -81,10 +81,10 @@ This protocol details the steps to process images of leaf skeletons and tracing 
 1. Go to the ROI Manager 
   a. Click ‘Measure -> Edit, 
   b. Select all and copy
-  c. Paste the values in an excel file to calculate the length sum. 
+  c. Paste the values in an excel file to calculate the length sum, which is set in pixels.
   
-2. The formula for VLA in mm/mm^2 is: (sum measure pixel length)/(square side length)^2 * 100; or (B1/C1^2) * 100
-  a. e.g. (6500/236^2) * 100 =  9.326 mm/mm^2 
+2. The formula for VLA in mm/mm^2 is: (sum measure pixel length)/(square side length^2) * 100; or (B1/C1^2) * 100
+  a. e.g. (6500/236^2) * 100 =  9.326 mm/mm^2
 ```
 ### Notes/Tips
 
