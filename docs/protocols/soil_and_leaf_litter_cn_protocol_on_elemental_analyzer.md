@@ -1,5 +1,10 @@
 ###### Author: Cathleen Lapadat; Updated: 15 December 2021
 
+### Goal
+
+Protocol fro preparation and analysis of carbon and nitrogen for soil
+and leaf samples.
+
 ### Supplies/Equipment Needed
 
 **If using any equipment for the first time, please contact the

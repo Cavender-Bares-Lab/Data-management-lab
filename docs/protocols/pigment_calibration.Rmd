@@ -1,0 +1,39 @@
+---
+title: "Pigment Calibration"
+date: "`r Sys.Date()`"
+output: md_document
+Author: Cathleen Lapadat
+Updated: 21 February 2022 
+---
+
+###### Author: Cathleen Lapadat; Needs update: chemicals for pigment extraction
+
+### Goal
+Protocol to extract pigments from spinach and determine range and calculate dilution series for each pigment needed. Measure pigment dilution with UV-VIS Spectrophotometer and run same dilutions on HPLC to match concentrations of each pigment -- Neoxanthin, Violaxanthin, antheraxanthin, zeaxanthin, chlorophyl b, chlorophyl a, and beta-carotene.
+
+### Supplies/Equipment Needed
+
+*Pigment extraction from Spinach (Highly concentrated Lutein was purchased from Sigma - stored in -80 freezer). Extract for chlorophyll a, b and beta-carotene*
+* Spinach
+* Long TLC plates
+* Microcentrifuge tubes
+* Chemical for TLC extraction
+* Pipettor
+* Pipet tips
+* Vortex mixer
+
+*Spectrophotometer supplies*
+* Vials
+* Cooler
+* Ice
+* Pipettor
+* Pipet tips
+* Cuvette
+* UV-VIS Cary Spectrophotometer on 4th floor lab (Finlay and Cotner labs)
+
+*HPLC*
+* Refer to "" for both supplies and method to run HPLC
+
+
+
+

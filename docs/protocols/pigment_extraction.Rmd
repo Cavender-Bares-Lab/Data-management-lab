@@ -1,0 +1,180 @@
+---
+title: "Pigment Extraction"
+date: "`r Sys.Date()`"
+output: md_document
+Author: Cathleen Lapadat
+Updated: 21 February 2022 
+---
+
+###### Author: Anna Schweiger and Cathleen Lapadat; Needs update: name of filter funnel
+
+### Goal
+Protocol to extract pigments (chlorophyll-carotene-xanthophyll) from samples and run on HPLC.
+
+### Supplies/Equipment Needed
+
+**Chemicals (ALL CHEMICALS NEED TO BE HPLC GRADE)**   
+**Keep chemicals for maximum of 5 days (including HPLC water)
+
+*Solvent A*  
+
+* Acetonitrile
+* Methanol
+* Tris
+
+*Solvent B*  
+
+* Methanol
+* Ethyl Acetate
+
+*Wash vial*  
+
+* Isopropanol
+
+*Each run*  
+
+* Acetone
+
+*Supplies for chemical preparation*  
+
+* Glass Vacuum filter holder
+* Silver clip (to clasp filter and funnel together)
+* Whatman Anodisc 47mm membrane filter
+* Vacuum Volumetric flask
+* Vacuum pump
+* Silicone tube
+* Beaker
+* Stir bar
+
+**For extraction (Refer to "" for list of product ids of supplies)**  
+
+* Vials with caps
+* Centrifuge tubes
+* Filters
+* Needles
+* Syringe
+* Tips
+* Glass beads
+
+### Steps
+
+#### Solvent Preparation
+
+**Solvent A**= 80:10:10
+80 - Acetonitrile  
+10 - Methanol (MeOH)  
+10 - Tris   
+```
+1.	Mix tris base (powder) with HPLC grade H2O: can be stored for approx. 2 weeks 
+    a. 3.035 g Tris + 0.25 L H2O (only if very large amount of solvent A needed within 5 days: 12.14 g Tris + 1 L H2O)
+    b. Weigh Tris on precision scale and combine with H2O in beaker
+    c. Use magnetic stirbar and stirplate and for 5 minutes on ‘5’, don’t heat
+    d. Filter Tris through 0.02 µm Anodisc membrane filters
+
+2.	For 1 liter solvent A combine in solvent bottle or beaker
+    a. 800 ml Acetonitrile
+    b. 100 ml MeOH
+    c. 100 ml Tris
+
+3.	Use magnetic stirbar and stirplate and for 5 minutes on ‘5’, don’t heat
+
+4.	Vacuum filter Tris using the 0.02 µm membrane filters
+```
+**Solvent B**= 68:32
+68 - MeOH  
+32 – Ethyl Acetate  
+```    
+1.	For 1 liter solvent B combine in solvent bottle or beaker
+    a. 680 ml MeOH
+    b. 320 ml Ethyl Acetate
+
+2.	Use magnetic sirbar and stirplate to stir entire solvent mixture for 5 minutes on ‘5’
+
+Note: this method use very little of Solvent B it is recommended to only make half a liter.
+```
+
+##### Method parameters: DOB2016
+```
+-	2 ml/min
+-	Stop: 25 min
+
+1.	12 min 0% B 		(100% A)
+
+2.	4 min 100% B		(Gradient from A to B)
+
+3.	2 min 100% B	(100% B)
+
+4.	1 min 0% B		(Gradient from B to A and 100% A until stoptime)
+```
+
+
+##### HPLC grade H2O
+```
+1. Filter nanopore filtered water (is filtered next to the sink in the back of the lab, stored in big plastic containers) through 0.02 µm Anodisc membrane filters (Anodisc 47mm, Whatman) using a vacuum pump. Max. 4 l should be filtered with each disc. 
+
+Note: The filter membrane is fragile, only touch the filter on the outer polypropylene ring, the blue separation disks are NOT the filter (the filter is white). 
+```
+#### Pigment Extraction
+
+**IMPORTANT:**   
+
+*	The samples need to remain cool and dark. Place tubes always on ice and cover. Cool them after centrifuging for additionally 1 min.  
+*	Work under low light, max. 20-25.   
+*	Ensure pigments of samples are completely extracted—if the samples are white, they are completely extracted.  If you still see green pigment in the sample after grinding, regrind an additional 10 seconds at a time (only regrind for the not fully extracted samples).  
+```
+1.	Place six 3mm silica balls inside 1.5 mL Amber Eppendorf Micro-centrifuge tubes.
+
+2.	Weigh sample and record initial mass. Refer to protocol “HPLC – Pigment extraction of conifers” for details to prepare samples.
+
+3.	Place sample in tubes. 
+
+4.	Add 200 µL 80% acetone: 160 µL acetone + 40 µL H2O. 1.
+
+5.	Grind Sample using Beadbeater (May Lab) for 25 seconds at 1750 RPM. (formerly: Mini-Beadbeater for 10 seconds)
+
+6.	Micro-centrifuge for 2 minutes at 14,000 RPM (use centrifuge in the cold room) 
+
+7.	Extract supernatant and place in another 1.5 Micro-centrifuge tube
+
+8.	Re-suspend pellet using 600 µL 100% Acetone. 2
+
+9.	Micro-centrifuge samples for 2 minutes at 14,000 RPM
+
+10.	Extract supernatant and place in same tube as in Step 7
+
+11.	Measure amount of extracted supernatant using a syringe, record
+
+12.	Filter sample using syringe filter and place in HPLC vial: if you have enough sample (> 0.2 ml) discard first few drops passing the filter before placing the rest in the vial)
+
+13.	Keep vials cool and dark until all samples have been prepared and HPLC is ready (stable pressure, stable lamp)
+
+14.	Place vials in HPLC and run
+```
+
+##### **For 1:1 Dilution:**  
+```
+1. Add an additional 200 µL 80% Acetone.
+2. Add an additional 600 µL 100% Acetone. 
+```
+
+##### **Notes:** 
+```
+•	Test samples: Reuse syringes, syringe filters and needles after rinsing with Acetone
+•	Real samples: 
+•	Always use new needles
+•	Syringe can be rinsed with Acetone, use 1 for each sequence (ca. 15 samples)
+•	Use 1-2 syringe filter for each sequence (ca. 15 samples) if not contaminated
+```
+##### **Mass based estimates: dry weight**
+```
+•	determine wet weight of additional hole punches from the same sample as in step 1 (use 1 hole punch for analysis, keep 2 spares in freezer, weigh the rest)
+•	place into coin envelopes and put into drying oven at 65 degrees for 48 h
+•	weigh (dry mass) and calculate calibration (samples should be similar, avoid veins!)
+•	determine dry mass for analyzed samples based on equation 
+```
+##### **Area based estimates: content**
+```
+•	calculate disc area: 2015…28.27 mm2
+•	if no disc: use mm grid as weighing paper and take picture
+•	Image J for area calculations
+```
