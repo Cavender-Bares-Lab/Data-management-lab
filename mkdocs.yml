@@ -13,7 +13,11 @@ nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
   - Welcome package: ''
-  - Information of interest: 'information-of-interest/information-of-interest.md'
+  - Lab Information: 
+    - Important Lab Information: 'information-of-interest/information-of-interest.md'
+    - Sampling and Analysis Costs: ''
+    - Methods Publications: ''
+    - Permits: ''
   - Project Information:
     - BII ASCEND: ''
     - Dimensions of Biodiversity:
@@ -70,8 +74,6 @@ nav:
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''
-  - Sampling and Analyses costs: ''
-  - Methods Publications: ''
   - Leaving package: ''
   - About:
     - 'License': ''

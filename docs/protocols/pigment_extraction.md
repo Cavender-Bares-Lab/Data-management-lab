@@ -1,4 +1,4 @@
-###### Author: Anna Schweiger and Cathleen Lapadat; Needs update: name of filter funnel
+###### Author: Anna Schweiger and Cathleen Lapadat; Needs update: name of filter funnel and check method parameters name
 
 ### Goal
 
@@ -54,7 +54,8 @@ samples and run on HPLC.
 
 #### Solvent Preparation
 
-**Solvent A**= 80:10:10 80 - Acetonitrile  
+**Solvent A**= 80:10:10  
+80 - Acetonitrile  
 10 - Methanol (MeOH)  
 10 - Tris
 
@@ -62,18 +63,16 @@ samples and run on HPLC.
         a. 3.035 g Tris + 0.25 L H2O (only if very large amount of solvent A needed within 5 days: 12.14 g Tris + 1 L H2O)
         b. Weigh Tris on precision scale and combine with H2O in beaker
         c. Use magnetic stirbar and stirplate and for 5 minutes on ‘5’, don’t heat
-        d. Filter Tris through 0.02 µm Anodisc membrane filters
+        d. Vacuum filter Tris through 0.02 µm Anodisc membrane filters
 
     2.  For 1 liter solvent A combine in solvent bottle or beaker
         a. 800 ml Acetonitrile
         b. 100 ml MeOH
         c. 100 ml Tris
+            i. Use magnetic stirbar and stirplate and for 5 minutes on ‘5’, don’t heat
 
-    3.  Use magnetic stirbar and stirplate and for 5 minutes on ‘5’, don’t heat
-
-    4.  Vacuum filter Tris using the 0.02 µm membrane filters
-
-**Solvent B**= 68:32 68 - MeOH  
+**Solvent B**= 68:32  
+68 - MeOH  
 32 – Ethyl Acetate
 
     1.  For 1 liter solvent B combine in solvent bottle or beaker
@@ -82,16 +81,16 @@ samples and run on HPLC.
 
     2.  Use magnetic sirbar and stirplate to stir entire solvent mixture for 5 minutes on ‘5’
 
-    Note: this method use very little of Solvent B it is recommended to only make half a liter.
+    Note: this method uses very little of Solvent B it is recommended to only make half a liter.
 
-##### Method parameters: DOB2016
+##### Method parameters: DOB2016 (Is this still correct?)
 
     -   2 ml/min
     -   Stop: 25 min
 
-    1.  12 min 0% B         (100% A)
+    1.  12 min 0% B   (100% A)
 
-    2.  4 min 100% B        (Gradient from A to B)
+    2.  4 min 100% B    (Gradient from A to B)
 
     3.  2 min 100% B    (100% B)
 
@@ -149,25 +148,26 @@ samples and run on HPLC.
 ##### **For 1:1 Dilution:**
 
     1. Add an additional 200 µL 80% Acetone.
+
     2. Add an additional 600 µL 100% Acetone. 
 
 ##### **Notes:**
 
     •   Test samples: Reuse syringes, syringe filters and needles after rinsing with Acetone
     •   Real samples: 
-    •   Always use new needles
-    •   Syringe can be rinsed with Acetone, use 1 for each sequence (ca. 15 samples)
-    •   Use 1-2 syringe filter for each sequence (ca. 15 samples) if not contaminated
+        •   Always use new needles
+        •   Syringe can be rinsed with Acetone, use 1 for each sequence (ca. 15 samples)
+        •   Use 1-2 syringe filter for each sequence (ca. 15 samples) if not contaminated
 
 ##### **Mass based estimates: dry weight**
 
-    •   determine wet weight of additional hole punches from the same sample as in step 1 (use 1 hole punch for analysis, keep 2 spares in freezer, weigh the rest)
-    •   place into coin envelopes and put into drying oven at 65 degrees for 48 h
-    •   weigh (dry mass) and calculate calibration (samples should be similar, avoid veins!)
-    •   determine dry mass for analyzed samples based on equation 
+    •   Determine wet weight of additional hole punches from the same sample as in step 1 (use 1 hole punch for analysis, keep 2 spares in freezer, weigh the rest)
+    •   Place into coin envelopes and put into drying oven at 65 degrees for 48 h
+    •   Weigh (dry mass) and calculate calibration (samples should be similar, avoid veins!)
+    •   Determine dry mass for analyzed samples based on equation 
 
 ##### **Area based estimates: content**
 
-    •   calculate disc area: 2015…28.27 mm2
-    •   if no disc: use mm grid as weighing paper and take picture
+    •   Calculate disc area: 2015 -> 28.27 mm2
+    •   If no disc: use mm grid as weighing paper and take picture
     •   Image J for area calculations
