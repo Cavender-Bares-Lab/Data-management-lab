@@ -1,0 +1,124 @@
+---
+title: "VLA ImageJ Methods"
+date: "`r Sys.Date()`"
+output: md_document
+author: "Hilary Major"
+---
+
+###### Author: Hilary Major; Updated: 22 February 2022 by Cathleen Lapadat
+
+### Goal
+
+This protocol details the steps to process images of leaf skeletons and tracing for VLA analysis.
+
+### Supplies/Equipment Needed  
+
+* ImageJ software
+
+### ImageJ
+
+###### Crop Images
+```
+1. Crop the individual leaf images from the leaf scans. 
+
+2. Save as .tif file.
+```
+###### Create a VLA square
+```
+1. Open leaf. tif file with ImageJ.
+
+2. Choose the area you like for cropping.
+    a. Squares are 236 pixels squared (236 pixels = 1 cm)
+    b. It should be an average section of the leaf--representative of the vein density away from the first order of veins. 
+    c. Do not include the midrib vein unless the leaf is so small that it's necessary.
+    d. Scroll in at least 600x magnification to ensure the contrast between the vein and leaf tissue has clear resolution that you can visually detect.
+        i.    + and - are also useful for zooming in and out, respectively.
+
+3. Set scale
+    a. Click Analyze, "set scale".
+    b. Write 
+        i.    Distance in pixels: 236 
+        ii.   Known distance: 1
+        iii.  Pixel aspect ratio: 1.0
+        iv.   Unit of length: cm
+        v.    Click "Global".
+        vi.   OK
+
+3. Use the rectangle button and choose a square. 
+    a. Use ctrl+shift to create a square.
+    b. The selection size appears in the status bar. Always keep at exactly 236 pixels/1 cm per side.
+
+4. Use Image -> Crop (ctrl+shift+x) to crop the square.
+
+5. Save cropped image as .tif file. 
+```
+
+### Trace
+```
+1. Open leaf square in ImageJ.
+
+2. Right click on the "*Straight*, segmented or freehand lines, or arrows" tool button.
+    a. Choose "segmented line".
+
+3. Left click on the image to start tracing the veins. Left click to create a new segment and angle of the line. Double click to complete the line.
+
+4. Click "t"  to add line to ROI Manager
+    a. Alternatively, click on: 
+        i.    Analyze 
+        ii.   Tools
+        iii.  ROI Manager
+        iv.   Add [t]
+        
+5. On the ROI manager window, click on "Show All" and "Labels".
+    a. View all numbered lines.
+
+6. Save regularly to not lose work.
+   
+7. Repeat steps 4 and 6 until tracing of image is complete.
+```
+### Calculate VLA 
+```
+1. Go to the ROI Manager 
+  a. Click ‘Measure -> Edit, 
+  b. Select all and copy
+  c. Paste the values in an excel file to calculate the length sum. 
+  
+2. The formula for VLA in mm/mm^2 is: (sum measure pixel length)/(square side length)^2 * 100; or (B1/C1^2) * 100
+  a. e.g. (6500/236^2) * 100 =  9.326 mm/mm^2 
+```
+### Notes/Tips
+
+#####Image J
+```
+1. For any adjustments:
+    a. Choose the line of interest.
+    b. Click "Update". Click "Delete", if removal is preferred.
+    c. Adjust as needed. Points are movable to shorten and lengthen line or adjust angle of lines.
+
+2. When resuming work after shutdown:
+    a. Open file.
+    b. Go to:
+        i.    Image
+        ii.   Overlay
+        iii.  To ROI Manager (this will add your already created lines into the ROI manager.)
+
+3. Adjust the contrasts to better see if you are looking at a 4th order vein or a blobby artifact from scanning. 
+    a. Image
+    b. Adjust
+    c. Brightness/Contrast
+
+4. Shows negative image with the edges of veins in green against black.
+    a. Process
+    b. Find Edges
+    
+5. Enhance images and contrast
+    a. Process
+    b. Sharpen
+        i.    If you make any marks or lines while it is in contrast, cannot save the changes and revert (Ctrl+shift+R) back to the original image.
+```
+
+### Reference
+```
+Leaf Vein Length per Unit Area Is Not Intrinsically Dependent on Image Magnification: Avoiding Measurement Artifacts for Accuracy and Precision1[W][OPEN] Lawren Sack*, Marissa Caringella, Christine Scoffoni, Chase Mason, Michael Rawls, Lars Markesteijn, and Lourens Poorter Department of Ecology and Evolution, University of California, Los Angeles, California 90095 (L.S., M.C., C.S., M.R.); Department of Plant Biology, University of Georgia, Athens, Georgia 30602 (C.M.); Department of Zoology, University of Oxford, Oxford OX1 3PS, United Kingdom (L.M.); and Forest Ecology and Forest Management Group, Wageningen University, 6700 AA Wageningen, The Netherlands (L.P.)
+http://www.plantphysiol.org/content/plantphysiol/166/2/829.full.pdf
+```
