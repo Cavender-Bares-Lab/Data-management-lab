@@ -119,7 +119,14 @@ samples and run on HPLC.
 
     1.  Place six 3mm silica balls inside 1.5 mL Amber Eppendorf Micro-centrifuge tubes.
 
-    2.  Weigh sample and record initial mass. Refer to protocol “HPLC – Pigment extraction of conifers” for details to prepare samples.
+    2.  Weigh sample and record initial mass. 
+        a. Avoid from sampling the midrib vein
+        b. Refer below for details of conifer preparation.
+        c. When extracting sample from an individual for the first time, measure a hole punch for percent moisture. 
+            i.    Measure wet weight. Label and wrap sample in aluminum foil.
+            ii.   Store in oven for at least two nights.
+            iii.  Remove from oven. Let cool (important as heat/warmth disturbs the accuracy of the scale)
+            iv.   Weigh for dry weight.
 
     3.  Place sample in tubes. 
 
@@ -171,3 +178,22 @@ samples and run on HPLC.
     •   Calculate disc area: 2015 -> 28.27 mm2
     •   If no disc: use mm grid as weighing paper and take picture
     •   Image J for area calculations
+
+### Pigment extraction of Conifers
+
+    1.  For conifer needles, cut about an inch of a needle and weigh (ideally keep it consistent to ~0.005g.
+
+    2.  To calculate area of the sample--keep in weigh boat, take a picture of the needle. Follow the below points for the picture:
+      a.    The whole weigh boat is in the picture.
+      b.    The widest part of the needle is showing. 
+      c.    Take the picture straight on (ensure that it’s not at an angle).
+      d.    Nothing else is in the picture including small specks. Avoid shadows as much as possible.
+      e.    Name the picture with the individual ID.
+
+    3.  Needles don’t grind as well in the tubes. To ensure full extraction, cut the needle into small pieces into the tube before the grinding step.
+
+    4.  Continue with the extraction process.
+
+    5.  Refer to “HPLC_imageJ.doc” to analyze the area of the samples.
+
+    Note: this method can be used for broad leaf samples when a hole punch is not possible.

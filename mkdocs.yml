@@ -43,6 +43,7 @@ nav:
     - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
     - Hansatech Fluorometer Dark Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
     - HPLC:
+      - HPLC ImageJ: 'protocols/hplc_imagej.md'
       - Pigment Extraction: 'protocols/pigment_extraction.md'
       - Pigment Calibration: 'pigment_calibration.md'
       - Run Samples: ''
