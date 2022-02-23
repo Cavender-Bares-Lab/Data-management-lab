@@ -14,7 +14,7 @@ Methods documenting radial diffusion assay for tannins.
 -   Bovine serum albumin (BSA)
 -   Cork borer
 -   Light table (optional)
--   Oven/growth chamber (30C)
+-   Oven/growth chamber (30C)
 -   Parafilm
 -   Petri dishes
 -   pH meter or paper  
