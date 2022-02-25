@@ -76,8 +76,12 @@ tracing for VLA analysis.
       b. Select all and copy
       c. Paste the values in an excel file to calculate the length sum, which is set in pixels.
       
-    2. The formula for VLA in mm/mm^2 is: (sum measure pixel length)/(square side length^2) * 100; or (B1/C1^2) * 100
-      a. e.g. (6500/236^2) * 100 =  9.326 mm/mm^2
+    2. The formula for VLA in mm/mm^2 is: (sum vein length)/(square side length^2); or (B1/C1^2)
+      a. Convert pixel vein length to mm.
+      b. Square side length is 10 mm.
+          i. e.g. 6500 = sum pixel vein length
+            -> 6500 pixels/23.6 pixels per mm = 275.423729
+            -> 275.423729 mm/(10mm)^2 = 2.75423729 mm/mm^2
 
 ### Notes/Tips
 
