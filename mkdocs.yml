@@ -12,7 +12,7 @@ theme:
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
-  - Welcome package: ''
+  - Welcome package: 'welcome_package.md'
   - Lab Information: 
     - Important Lab Information: 'information-of-interest/information-of-interest.md'
     - Sampling and Analysis Costs: ''
@@ -79,8 +79,8 @@ nav:
       - GLADES: ''
       - Willow: ''
     - Oak Wilt:
-      - Grand Challenges: ''
-      - MITPPC: ''
+      - Grand Challenges: 'lab_products/gc_oakwilt_products.md'
+      - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
   - Leaving package: ''
   - About:
     - 'License': ''
