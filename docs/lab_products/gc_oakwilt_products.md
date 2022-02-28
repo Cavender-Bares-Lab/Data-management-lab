@@ -13,6 +13,8 @@ August 2018
 
 ### Publications
 
-[Spectral differentiation of oak wilt from foliar fungal disease and
-drought is correlated with physiological
-changes](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
+[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery
+and J. Cavender-Bares (2020). “Spectral differentiation of oak wilt from
+foliar fungal disease and drought is correlated with physiological
+changes.” Tree Physiology 40(3):
+377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
