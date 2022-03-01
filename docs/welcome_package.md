@@ -85,9 +85,9 @@ For unknown chemicals, click
 If you have any questions on disposal, contact DEHS at 612.626.1604 or
 hazwaste \[at\] umn.edu.
 
-#### Purchasing
+### Purchasing
 
-##### UMarket
+#### UMarket
 
 Ideally, if you can, complete your purchases on
 [Umarket](https://www.myu.umn.edu/psp/psprd/EMPLOYEE/EMPL/h/?tab=DEFAULT#/tab_UM_FS_PURCHASING).
@@ -108,7 +108,7 @@ Ideally, if you can, complete your purchases on
         like to ship it to Cargill or Cedar Creek, please specify in the
         justification section.
 
-###### Notes:
+##### Notes:
 
 -   Do not “favorite” items. Save catalog numbers through an excel
     sheet. Favoriting items will lock in the price and will cause
@@ -116,7 +116,7 @@ Ideally, if you can, complete your purchases on
 -   Order well ahead of time. Depending on the item and supply, it may
     take several weeks for shipment.
 
-##### ChromeRiver
+#### ChromeRiver
 
 If your item is not on Umarket, you may purchase with your personal
 credit card and get reimbursed through
@@ -124,7 +124,7 @@ credit card and get reimbursed through
 For instructions on submission, there are instructions and videos on the
 main page under “Job Aids”.
 
-##### Purchase Orders
+#### Purchase Orders
 
 If you’re making a large purchase (purchase order is required when
 item(s) are &gt;$2k) and a purchase order is an option, fill out a form
