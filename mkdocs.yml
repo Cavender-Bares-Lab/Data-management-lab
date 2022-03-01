@@ -15,7 +15,22 @@ nav:
   - Welcome package: 'welcome_package.md'
   - Lab Information: 
     - Important Lab Information: 'information-of-interest/information-of-interest.md'
-    - Sampling and Analysis Costs: ''
+    - Sampling and Analysis Costs: 
+      - Leaves:
+        - Carbon and Nitrogen: ''        
+        - Fiber: ''
+        - Pigment (HPLC): ''
+        - Leaf Veination: ''
+        - Osmometer: ''
+        - Phosphorus: ''
+      - Soil sampling:
+        - Carbon and Nitrogen: ''
+        - LTER FAB Specific:
+          - LTER Soil Sampling and Analysis Costs:
+        - Nitrogen Mineralization: ''
+        - Microbial Biomass: ''
+        - Phosphorus: ''
+        - Soil Respiration: ''
     - Methods Publications: ''
     - Permits: ''
   - Project Information:
