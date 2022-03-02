@@ -127,7 +127,8 @@ main page under “Job Aids”.
 #### Purchase Orders
 
 If you’re making a large purchase (purchase order is required when
-item(s) are &gt;$2k) and a purchase order is an option, fill out a form
+item(s) are &gt;$2k) and/or a purchase order is an option, fill out a
+form
 [here](https://docs.google.com/forms/d/e/1FAIpQLScz4NuifjoXXULS01ub-0urzSKaAVH_3qJcFSr9kxFBUpoUvQ/viewform).
 
 If you have questions or none of these options are applicable, please
@@ -152,11 +153,14 @@ location is key.
 ###### README Text Files
 
 Please include the following information in README text files regarding
-your data: \* What type of data is it? \* Who collected the data? \*
-When was this data collected? \* How was the data collected? Reference
-protocols when necessary. \* Why was the data collected? \* What type of
-analyses will this data be used for? Reference to analyses when
-necessary.
+your data:  
+\* What type of data is it?  
+\* Who collected the data?  
+\* When was this data collected?  
+\* How was the data collected? Reference protocols when necessary.  
+\* Why was the data collected?  
+\* What type of analyses will this data be used for? Reference to
+analyses when necessary.
 
 ###### Shared Drive Access
 
