@@ -86,6 +86,16 @@ To help keep the lab's data and documentation of data organized and up-to-date, 
 
 Data should be stored in the lab's university shared drive. Please document the location of your data in the lab github webpage  under "Data Management". Please include both raw data and data work. Include README text files when necessary.  
     *  If your data is too large to store in the university shared drive, please refer to MSI Tier 2 storage for details. Documentation on location is key.
+    
+###### README Text Files
+
+Please include the following information in README text files regarding your data:
+*  What type of data is it?
+*  Who collected the data?
+*  When was this data collected?
+*  How was the data collected? Reference protocols when necessary.
+*  Why was the data collected?
+*  What type of analyses will this data be used for? Reference to analyses when necessary.
 
 ###### Shared Drive Access
 
