@@ -149,6 +149,15 @@ text files when necessary.
 please refer to MSI Tier 2 storage for details. Documentation on
 location is key.
 
+###### README Text Files
+
+Please include the following information in README text files regarding
+your data: \* What type of data is it? \* Who collected the data? \*
+When was this data collected? \* How was the data collected? Reference
+protocols when necessary. \* Why was the data collected? \* What type of
+analyses will this data be used for? Reference to analyses when
+necessary.
+
 ###### Shared Drive Access
 
 To access shared drive, submit your form
