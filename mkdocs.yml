@@ -82,6 +82,9 @@ nav:
     - Ankom Fiber: ''
     - Inorganic Nitrogen Assays - Nmin: ''
   - Data management:
+    - Live-Oaks:
+      - Spectra of Dried Specimen: 'data-management\Live Oaks\Spectra of Dried Specimen\spectra_dried_specimen.md'
+      - LOARD: ''
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
