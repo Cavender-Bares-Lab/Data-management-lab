@@ -140,7 +140,7 @@ To help keep the lab’s data and documentation of data organized and
 up-to-date, please follow the lab’s structure detailed below on data
 storage and organization. This will greatly help any future lab work!
 
-##### University Shared Drive
+#### University Shared Drive
 
 Data should be stored in the lab’s university shared drive. Please
 document the location of your data in the lab github webpage under “Data
@@ -149,6 +149,8 @@ text files when necessary.
 \* If your data is too large to store in the university shared drive,
 please refer to MSI Tier 2 storage for details. Documentation on
 location is key.
+
+##### Metadata
 
 ###### README Text Files
 
@@ -162,7 +164,12 @@ your data:
 \* What type of analyses will this data be used for? Reference to
 analyses when necessary.
 
-###### Shared Drive Access
+###### Spectra
+
+-   For leaf level measurements, include information in this
+    [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+
+##### Shared Drive Access
 
 To access shared drive, submit your form
 [here](https://tdx.umn.edu/TDClient/31/Portal/Requests/TicketRequests/NewForm?ID=lb9XDMjE6cY_&RequestorType=Service).
@@ -180,7 +187,7 @@ connect to the shared drive. Instructions to download, install and
 connect are
 [here](https://it.umn.edu/services-technologies/virtual-private-network-vpn).
 
-##### Google Shared Drive
+#### Google Shared Drive
 
 The google shared drive will be home to documentation linked from the
 github webpage, e.g. lab products, templates, maps. Please do not store
@@ -188,7 +195,7 @@ your data here. If you were not added onto the google shared drive when
 you started, please contact Cathleen to be added to the lab’s google
 shared drive.
 
-##### Cedar Creek Data
+#### Cedar Creek Data
 
 To access Cedar Creek data, follow this
 [link](https://www.cedarcreek.umn.edu/research/data).
