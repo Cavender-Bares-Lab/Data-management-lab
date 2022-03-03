@@ -1,3 +1,6 @@
+[Lab Contact
+List](https://docs.google.com/spreadsheets/d/18uhJ4StLbze7_2L8lfKAlfx9tsk5-j61s1ZeDZeaJF8/edit?usp=sharing)
+
 Link to the [lab meeting
 agenda](https://docs.google.com/spreadsheets/d/1WuqFlCpN2IROdJILOClJfxq4bRdT6joItHC74YO3Ljc/edit?usp=sharing).
 
