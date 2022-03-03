@@ -1,0 +1,14 @@
+---
+title: "Templates"
+date: "`r Sys.Date()`"
+output: md_document
+author: "Cathleen Lapadat"
+---
+
+[ANKOM Fiber](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsGRz/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)  
+
+[Inorganic Nitrogen Assays - Nitrogen Mineralization]
+
+[Lab equipment and inventory]   
+
+[sign out] 
