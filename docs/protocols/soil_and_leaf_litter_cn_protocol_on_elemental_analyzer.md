@@ -2,7 +2,7 @@
 
 ### Goal
 
-Protocol fro preparation and analysis of carbon and nitrogen for soil
+Protocol for preparation and analysis of carbon and nitrogen for soil
 and leaf samples.
 
 ### Supplies/Equipment Needed
@@ -37,6 +37,11 @@ appropriate person prior to use**
 -   Storage for ground leaf litter (e.g. coin envelopes, paper bags,
     scintillation vials)
 
+### Template
+
+[Carbon and Nitrogen
+Template](https://docs.google.com/spreadsheets/d/1yN1cK68EgfawcR14fY14sgIyDxMRqhdy/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
 ### I. Sample Preparation
 
     1.  Soils
@@ -50,6 +55,8 @@ appropriate person prior to use**
 ### II. Wrapping
 
     1.  Use microbalance in Sarah Hobbie’s lab. Please use the “Microbalance – Hobbie Lab” calendar to schedule your time. Contact Cathleen to be added to calendar. Refer to the SOP from the Seabloom/Borer lab below. Please contact Anita Krause (aporathk@umn.edu) to be trained to use the Elemental Analyzer and schedule dates to run samples. Each sample runs for ~6 minutes.
+
+<br>
 
 # Costech CN Elemental Analyzer
 

@@ -17,6 +17,11 @@ Ribeiro, and P Mazzafera. 2016. Plant pneumatics: stem air flow is
 related to embolism – new perspectives on methods in plant hydraulics.
 New Phytologist. doi: 110.111/nph.13905
 
+### Template
+
+[Pneumatic Method Manual
+Datalog](https://docs.google.com/spreadsheets/d/1KXQ5IoYeEURCN-4k8t9gBN5yb6eKQsCu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
 ### Contents
 
 ##### Apparatus set-up and tests

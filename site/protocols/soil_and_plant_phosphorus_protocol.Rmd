@@ -19,6 +19,9 @@ Measure phosphorus from dried, soil and plant samples through sulfuric acid dige
 3)	ASCORBIC ACID:  20 g/L (1g/50mL) Make fresh daily
 4)	APPLE STANDARD = 0.159% P
 ```
+### Template
+[Phosphorus Template](https://docs.google.com/spreadsheets/d/1EqABNp5VuNGSgiNJeFVj6CQ1TX8TxiWu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)  
+
 ### Method
 ```
 1. Use acid soaked glassware for all steps.  This includes:

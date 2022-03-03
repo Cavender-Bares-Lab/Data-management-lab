@@ -39,7 +39,8 @@ nav:
       - Oaks US - China: ''
       - NASA: ''
     - Global Oaks: ''
-    - Live Oaks: ''
+    - Live Oaks: 
+      - LOARD: 'loard.md'
     - LTER:
       - Forest and Biodiversity: ''
       - GLADES: ''
@@ -81,7 +82,7 @@ nav:
   - Data management:
     - Live-Oaks:
       - Spectra of Dried Specimen: 'data-management\Live Oaks\Spectra of Dried Specimen\spectra_dried_specimen.md'
-      - LOARD: ''
+      - LOARD: 'data-management\Live Oaks\loard.md'
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
