@@ -52,7 +52,6 @@ Ankom Supplies Costs -> Updated 2/28/2019
 * Acid Detergent 5x solution - catalog # FAD20 - 1 L (dilutes to 5 L) for $80, 20L for $93
 * 72% Sulfuric acid - catalog # FSA72 - 1 L for $34
 * Filter bags - catalog # F57 – 200 for $252  
-
 * Ankom chamber (in lab 540 - Sarah Hobbie's Lab)
 * Drying Oven
 * Scale
@@ -62,7 +61,7 @@ Ankom Supplies Costs -> Updated 2/28/2019
 * 1L beaker
 * 2L beaker
 
-### Template
+## Template
 [Link to template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsGRz/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
 
 ## Steps for sample preparation

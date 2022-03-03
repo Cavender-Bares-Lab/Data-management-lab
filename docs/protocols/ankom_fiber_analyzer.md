@@ -59,7 +59,7 @@ www.ankom.com
 
 -   72% Sulfuric acid - catalog # FSA72 - 1 L for $34
 
--   Filter bags - catalog # F57 – 200 for $252
+-   Filter bags - catalog # F57 – 200 for $252  
 
 -   Ankom chamber (in lab 540 - Sarah Hobbie’s Lab)
 
@@ -77,7 +77,7 @@ www.ankom.com
 
 -   2L beaker
 
-### Template
+## Template
 
 [Link to
 template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsGRz/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
