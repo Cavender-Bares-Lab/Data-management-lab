@@ -78,9 +78,6 @@ nav:
     - VLA:
       - VLA Methods: 'protocols/vla_methods.md'
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
-  - Templates:
-    - Ankom Fiber: ''
-    - Inorganic Nitrogen Assays - Nmin: ''
   - Data management:
     - Live-Oaks:
       - Spectra of Dried Specimen: 'data-management\Live Oaks\Spectra of Dried Specimen\spectra_dried_specimen.md'
