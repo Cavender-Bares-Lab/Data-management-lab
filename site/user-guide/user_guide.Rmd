@@ -192,21 +192,29 @@ terminal. This last command  will create several files, so do not be afraid of t
 
 #### Step 6 - Let's commit and publish the webpage!
 
-We are close to finish. Following steps is to commit the all files created, and then 
-publish the page by typing `mkdocs gh-deploy` in your terminal.  
+We are close to finish! The following step is to commit the all files created, 
+and then publish the page by typing `mkdocs gh-deploy` in your terminal.
 
+If there is not errors, you will see a message that says `Your documentation should shortly be available at: https://Cavender-Bares-Lab.github.io/Data-management-lab/`. 
+Wait a couple of seconds and then you will see all the new changes in webpage. 
+Congrats you did it!
 
 <br>
 
 #### Step 7 - Double check and repeat for new documentation, we are done!
 
+What is next? Well it is a good practice double check for potential mistakes. If 
+you need to create new documentation is just to repeat the process. 
 
+Please be aware that in a working session you can create many `md` files (step 3) 
+and adding all of them to `mkdocs.yml` (step 4) without moving to Step 5 or Step 6.
+However, it is a good practice to constantly do `mkdocs serve` (Step 5) for tracking
+errors during the working session.
 
 <br>
 
-
 #### More questions?
 
-For more instructions regarding how to build this page you could follow this 
-[blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/). Likewise,
-if you have questions regarding Mkdocs take a look at their [webpage](https://www.mkdocs.org/).
+If you have questions regarding Mkdocs take a look at their [webpage](https://www.mkdocs.org/). For more instructions regarding how to build 
+this page you could follow this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/) for a 
+general perspective.
