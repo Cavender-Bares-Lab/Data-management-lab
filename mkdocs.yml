@@ -98,5 +98,5 @@ nav:
       - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
   - Leaving package: ''
   - About:
-    - 'License': ''
-    - 'Release Notes': ''
+    - License: ''
+    - Release Notes: ''
