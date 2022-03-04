@@ -1,35 +1,50 @@
 ### Conferences/Presentations
 
-Ecological Society of America, Aug. 3-6, 2020. “Spectral reflectance
-models predict ecophysiological indicators of oak wilt and drought
-induced tree decline in red oaks.” Gerard Sapes (presenter), Lucy
-Schroeder, Jennifer Juzwik, Rebecca A. Montgomery and Jeannine
-Cavender-Bares.
+Armour, I. “Xylem Anatomy and Tyloses Formation Among Infected Oaks.”
+Botanical Society of America, July 2018.
 
-Joint Conference of the Upper Midwest Invasive Species Conference and
-the North American Invasive Species Management Association, Rochester
-MN, November 2, 2020. “Spectral Reflectance Detects Oak Wilt Decline in
-Oaks at the Landscape Scale” Gerard Sapes (presenter), Cathleen Lapadat,
-Jennifer Juzwik, Rebecca Montgomery, Nanfeng Liu, Phillip Townsend,
-Jeannine Cavender-Bares
+Cavender-Bares J. “Understanding the Evolutionary and Environmental
+Sources of Spectral Variation within Species, Communities and Across the
+Plant Tree of Life to enhance biodiversity detection.” American
+Geophysical Union, December 14, 2020.
 
-American Geophysical Union, December 14, 2020. “Understanding the
-Evolutionary and Environmental Sources of Spectral Variation within
-Species, Communities and Across the Plant Tree of Life to enhance
-biodiversity detection.” Jeannine Cavender-Bares (presenter) and
-collaborators
+Cavender-Bares J. “Detection of oak wilt disease from tree to landscape
+scales.”American Geophysical Union, New Orleans, LA, December 13-17,
+2021.  
+Sapes, G., Schroeder L., Juzwik J., Montgomery R.A., and Cavender-Bares
+J. “Spectral reflectance models predict ecophysiological indicators of
+oak wilt and drought induced tree decline in red oaks.” Ecological
+Society of America, Aug. 3-6, 2020.
 
-American Geophysical Union, New Orleans, LA, December 13-17, 2021.
-“Detection of oak wilt disease from tree to landscape scales.” Jeannine
-Cavender-Bares
+Fallon, B. Upper Midwest Invasive Species - North American Invasive
+Species Management Association Joint Conference, 15-18 October 2018.
 
-Ecological Society of America, 2-6 August 2021. “Spectral reflectance
-detects oak wilt in red oaks across the landscape”. Gerard Sapes
+Fallon, B. Ecological Society of America, August 2018.
+
+Fallon, B. University of Minnesota’s Grand Challenges Research Expo
+2018.
+
+Sapes, G. “Spectral reflectance detects oak wilt in red oaks across the
+landscape”.Ecological Society of America, 2-6 August 2021.
+
+Sapes, G., Lapadat C., Juzwik J., Montomery R., Liu N., Townsend P., and
+Cavender-Bares J. “Spectral Reflectance Detects Oak Wilt Decline in Oaks
+at the Landscape Scale.” Joint Conference of the Upper Midwest Invasive
+Species Conference and the North American Invasive Species Management
+Association, Rochester MN, November 2, 2020.
 
 ### Publications
 
-[Canopy spectral reflectance detects oak wilt at the landscape scale
-using phylogenetic discrimination]()
+[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery
+and J. Cavender-Bares (2020). Spectral differentiation of oak wilt from
+foliar fungal disease and drought is correlated with physiological
+changes. Tree Physiology 40(3):
+377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
+
+[Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H.
+Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022).
+Canopy spectral reflectance detects oak wilt at the landscape scale
+using phylogenetic discrimination. Remote Sensing of Environment.]()
 
 ### Media
 
