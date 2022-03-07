@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.cd566b2a.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50e68009.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
@@ -280,15 +280,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-6-lets-commit-and-publish-the-webpage" class="md-nav__link">
-    Step 6 - Let’s commit and publish the webpage!
+  <a href="#step-6-lets-publish-the-webpage" class="md-nav__link">
+    Step 6 - Let’s publish the webpage!
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-7-double-check-and-repeat-for-new-documentation-we-are-done" class="md-nav__link">
-    Step 7 - Double check and repeat for new documentation, we are done!
+  <a href="#step-7-double-check-we-are-done" class="md-nav__link">
+    Step 7 - Double check, we are done!
   </a>
   
 </li>
@@ -690,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../information-of-interest/Permits/Permits.md" class="md-nav__link">
+      <a href="../../information-of-interest/Permits/Permits/" class="md-nav__link">
         Permits
       </a>
     </li>
@@ -1580,10 +1580,43 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1_1" type="checkbox" id="__nav_7_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_1_1">
+          Phylogeography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Phylogeography" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Phylogeography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../data-management/Live Oaks/Spectra of Dried Specimen/spectra_dried_specimen.md" class="md-nav__link">
-        Spectra of Dried Specimen
+        Spectra of Dried Specimen with Matching Data
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1697,7 +1730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lab_products/bii_ascend_products.md" class="md-nav__link">
+      <a href="../../lab_products/bii_ascend_products/" class="md-nav__link">
         BII ASCEND
       </a>
     </li>
@@ -2048,15 +2081,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-6-lets-commit-and-publish-the-webpage" class="md-nav__link">
-    Step 6 - Let’s commit and publish the webpage!
+  <a href="#step-6-lets-publish-the-webpage" class="md-nav__link">
+    Step 6 - Let’s publish the webpage!
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-7-double-check-and-repeat-for-new-documentation-we-are-done" class="md-nav__link">
-    Step 7 - Double check and repeat for new documentation, we are done!
+  <a href="#step-7-double-check-we-are-done" class="md-nav__link">
+    Step 7 - Double check, we are done!
   </a>
   
 </li>
@@ -2179,7 +2212,7 @@ the ‘Terminal’ (the tab next to ‘Console’ that we always use).</p>
 like <code>python -m mkdocs serve</code>.</p>
 <p><br></p>
 <h4 id="step-3-lets-create-a-documentation-file">Step 3 - Let’s create a documentation file.</h4>
-<p>An easy way to build your documentation is to do create a Rmarkdown
+<p>An easy way to create a documentation file is to do create a Rmarkdown
 (<code>.Rmd</code>) file. For this guide, let’s assume that you need to document
 <code>your_new_protocol</code> in the protocols section of the lab. You can create
 the <code>.Rmd</code> file following:</p>
@@ -2193,69 +2226,34 @@ output: md_document
 author: "Your name"
 </code></pre>
 <p>Please pay attention to the <code>output:</code> section that needs to be
-<code>md_document</code> and NOT <code>html_document</code>. An essential step for what is
-coming.</p>
-<p>Once you create the file and their structure, you then can write or
-copy/paste the information that you want to convey in
+<code>md_document</code> and NOT <code>html_document</code>. An essentinal step for what is
+comming.</p>
+<p>Once you create the file and their structure, you then can type or
+copy/paste from world the information that you want to convey in
 <code>your_new_protocol</code> file. This file uses the writing syntax of
 <a href="https://rmarkdown.rstudio.com/">rmarkdown</a>; thus it is recommend to
 follow basic guidelines for doing an elegant document. A quick
 introduction to rmarkdown is this <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheat
 sheet</a>.</p>
-<p>Let’s assume that you finished to write your documentation. You can then
-save the file in a folder of interest under <code>docs</code>. For instance, if you
-are writing about a protocol, so you can save <code>your_new_protocol.Rmd</code>
-file in a path like <code>docs/protocols/your_new_protocol.Rmd</code>.</p>
+<p>Let’s assume that you finished to write your documentation! You can then
+save the file in the folder of interest under <code>docs</code>. For instance, if
+you wrote about a protocol, you can save your file in a path like
+<code>docs/protocols/your_new_protocol.Rmd</code>.</p>
 <p>Once you storage the file in the corresponding folder, you can <code>Knit</code>
 it. But what is this? <code>Knit</code>, for this context, is a process to
-transform the rmarkdown extension (<code>.Rmd</code>) to markdown (<code>.md</code>); the
+transform the rmarkdown extension (<code>.Rmd</code>) to markdown (<code>.md</code>), the
 extension required for <code>Mkdocs</code>. You can <code>Knit</code> the file pressing the
 knit button close to save, at the top of your rmarkdown document. If
-everything goes well, you will see a new file
+everything goes write, you will see a new file
 <code>docs/protocols/your_new_protocol.md</code>.</p>
 <p><br></p>
 <h4 id="step-4-lets-include-the-documentation-in-the-yml-structure">Step 4 - Let’s include the documentation in the .yml structure.</h4>
-<p>Adding the your new documentation to the webpage is a simple step that
-involves the <code>mkdocs.yml</code> file. This file can be located at within the
-<code>Data-management-lab</code> folder outside of <code>docs</code> and <code>site</code>.</p>
-<p>Please take a look at the details and structure of the file first, so
-you can be more familiar with it.</p>
-<p><img alt="alt text here" src="../image/mkdocs_structure.png" /></p>
-<p>The modifications that you need to do is under the <code>nav:</code> section.
-Within the topic of interest under <code>nav:</code>, you will need to add the
-<code>.md</code> file created on Step 3. For instance, for adding this user guide
-as documentation for the page, the <code>user_guide.md</code> was added in the
-<code>User guide:</code> section that was create. Please note that when adding the
-<code>.md</code> file you need to specify the path where it is located, starting
-off from <code>docs</code> as root.</p>
-<p>Following the <code>your_new_protocol</code> example, your documentation should be
-added bellow the <code>- Protocols:</code> tab in a new section called
-<code>- Your New Protocol:</code>. This may need to look like:</p>
-<pre><code>  - Protocols:
-    - Your New Protocol: 'protocols/your_new_protocol.md'
-</code></pre>
-<p>Once you have done that, just save the <code>mkdocs.yml</code> to build the page in
-the next step.</p>
 <p><br></p>
 <h4 id="step-5-lets-build-the-webpage-we-are-almost-done">Step 5 - Let’s build the webpage, we are almost done!</h4>
-<p>Building the webpage is a step that need to be done in the terminal. For
-this you need to type <code>mkdocs serve</code> command mentioned on step 3. By
-typing this, you can see if your documentation is displayed in a local
-<code>http://</code> (usually, <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>). You can type or click on
-this local address and see changes in real time in your browser of
-preference when <code>mkdocs serve</code> is serving.</p>
-<p>If everything goes well locally, we can display it then remotely through
-github pages. However, before doing that, we need to close the
-<code>mkdocs serve</code> in the terminal (Control + C), and build the <code>html</code> files
-by typing <code>mkdocs build</code> in the terminal. This last command will create
-several files, so do not be afraid of that.</p>
 <p><br></p>
-<h4 id="step-6-lets-commit-and-publish-the-webpage">Step 6 - Let’s commit and publish the webpage!</h4>
-<p>We are close to finish. Following steps is to commit the all files
-created, and then publish the page by typing <code>mkdocs gh-deploy</code> in your
-terminal.</p>
+<h4 id="step-6-lets-publish-the-webpage">Step 6 - Let’s publish the webpage!</h4>
 <p><br></p>
-<h4 id="step-7-double-check-and-repeat-for-new-documentation-we-are-done">Step 7 - Double check and repeat for new documentation, we are done!</h4>
+<h4 id="step-7-double-check-we-are-done">Step 7 - Double check, we are done!</h4>
 <p><br></p>
 <h4 id="more-questions">More questions?</h4>
 <p>For more instructions regarding how to build this page you could follow
@@ -2328,10 +2326,10 @@ Likewise, if you have questions regarding Mkdocs take a look at their
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
     
     
-      <script src="../../assets/javascripts/bundle.01de222e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5a9542cf.min.js"></script>
       
     
   </body>

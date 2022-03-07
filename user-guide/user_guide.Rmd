@@ -131,90 +131,45 @@ This file uses the writing syntax of [rmarkdown](https://rmarkdown.rstudio.com/)
 thus it is recommend to follow basic guidelines for doing an elegant document. 
 A quick introduction to rmarkdown is this [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
 
-Let's assume that you finished to write your documentation. You can then save the 
-file in a folder of interest under `docs`. For instance, if you are writing 
-about a protocol, so you can save `your_new_protocol.Rmd` file in a path like `docs/protocols/your_new_protocol.Rmd`.
+Let's assume that you finished to write your documentation. You can then save the file
+in the folder of interest under `docs`. For instance, if you are writing about a protocol,
+so you can save `your_new_protocol` file in a path like `docs/protocols/your_new_protocol.Rmd`.
+
+
 
 Once you storage the file in the corresponding folder, you can `Knit` it. But what 
 is this? `Knit`, for this context, is a process to transform the rmarkdown extension 
-(`.Rmd`) to markdown (`.md`); the extension required for `Mkdocs`. You can `Knit`
+(`.Rmd`) to markdown (`.md`), the extension required for `Mkdocs`. You can `Knit`
 the file pressing the knit button close to save, at the top of your rmarkdown document.
-If everything goes well, you will see a new file `docs/protocols/your_new_protocol.md`.
+If everything goes write, you will see a new file `docs/protocols/your_new_protocol.md`.
+
+
+
 
 <br>
 
 #### Step 4 - Let's include the documentation in the .yml structure.
 
-Adding the your new documentation to the webpage is a simple step that involves 
-the `mkdocs.yml` file. This file can be located at within the `Data-management-lab` 
-folder outside of `docs` and `site`.
 
-Please take a look at the details and structure of the file first, so you can be 
-more familiar with it.
 
-![alt text here](image/mkdocs_structure.png)  
-
-The modifications that you need to do is under the `nav:` section. Within the topic
-of interest under `nav:`, you will need to add the `.md` file created on Step 3. 
-For instance, for adding this user guide as documentation for the page,
-the `user_guide.md` was added in the `User guide:` section that was create. Please 
-note that when adding the `.md` file you need to specify the path where it is located, starting off from `docs` as root.
-
-Following the `your_new_protocol` example, your documentation should be added bellow
-the `- Protocols:` tab in a new section called `- Your New Protocol:`. This may need
-to look like:
-
-```
-  - Protocols:
-    - Your New Protocol: 'protocols/your_new_protocol.md'
-
-```
-
-Once you have done that, just save the `mkdocs.yml` to build the page in the next 
-step.
 
 <br>
 
 #### Step 5 - Let's build the webpage, we are almost done!
 
-Building the webpage is a step that need to be done in the terminal. For this you 
-need to type `mkdocs serve` command mentioned on step 3. By typing this, you can
-see if your documentation is displayed in a local `http://` (usually, [http://127.0.0.1:8000/](http://127.0.0.1:8000/)). You can type or click on this local
-address and see changes in real time in your browser of preference when `mkdocs serve`
-is serving. 
+<br>
 
-If everything goes well locally, we can display it then remotely through github 
-pages. However, before doing that, we need to close the `mkdocs serve` in the 
-terminal (Control + C), and build the `html` files by typing `mkdocs build` in the
-terminal. This last command  will create several files, so do not be afraid of that.
+#### Step 6 - Let's publish the webpage!
 
 <br>
 
-#### Step 6 - Let's commit and publish the webpage!
-
-We are close to finish! The following step is to commit the all files created, 
-and then publish the page by typing `mkdocs gh-deploy` in your terminal.
-
-If there is not errors, you will see a message that says `Your documentation should shortly be available at: https://Cavender-Bares-Lab.github.io/Data-management-lab/`. 
-Wait a couple of seconds and then you will see all the new changes in webpage. 
-Congrats you did it!
+#### Step 7 - Double check, we are done!
 
 <br>
 
-#### Step 7 - Double check and repeat for new documentation, we are done!
-
-What is next? Well it is a good practice double check for potential mistakes. If 
-you need to create new documentation is just to repeat the process. 
-
-Please be aware that in a working session you can create many `md` files (step 3) 
-and adding all of them to `mkdocs.yml` (step 4) without moving to Step 5 or Step 6.
-However, it is a good practice to constantly do `mkdocs serve` (Step 5) for tracking
-errors during the working session.
-
-<br>
 
 #### More questions?
 
-If you have questions regarding Mkdocs take a look at their [webpage](https://www.mkdocs.org/). For more instructions regarding how to build 
-this page you could follow this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/) for a 
-general perspective.
+For more instructions regarding how to build this page you could follow this 
+[blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/). Likewise,
+if you have questions regarding Mkdocs take a look at their [webpage](https://www.mkdocs.org/).
