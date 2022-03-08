@@ -38,17 +38,18 @@ nav:
     - Dimensions of Biodiversity:
       - Oaks US - China: ''
       - NASA: ''
-    - Global Oaks: ''
-    - Live Oaks: 
-      - LOARD: 'project_information\live_oaks\loard.md'
+    - Global Oaks:
+      - American Oak Project: ''
+      - Live Oaks: 
+        - LOARD: 'project_information\live_oaks\loard.md'
     - LTER:
       - Forest and Biodiversity: ''
       - GLADES: ''
       - Willow: ''
+    - NPS Aspen: ''
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''
-    - Oaks of America: ''
   - Protocols:
     - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
     - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
@@ -91,10 +92,14 @@ nav:
     - Dimensions of Biodiversity:
       - Oaks US - China: ''
       - NASA: ''
+    - Live Oaks:
+      - LOARD: 'lab_products\loard.md'
+      - Phylogeography: 'lab_products\live_oaks_phylogeography_products.md'
     - LTER:
-      - Forest and Biodiversity: ''
+      - Forest and Biodiversity: 'lab_products\fab_products.md'
       - GLADES: ''
       - Willow: ''
+    - NPS Aspen: 'lab_products/nps_aspen.md'
     - Oak Wilt:
       - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
   - Leaving package: ''

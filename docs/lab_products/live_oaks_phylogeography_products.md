@@ -2,11 +2,22 @@
 
 ### Publications
 
-[Cavender-Bares J, Gonzalez-Rodriguez A, Pahlich A, Koehler K, and
+[Cavender-Bares J., Gonzalez-Rodriguez A., Eaton D.A.R., Hip A.A.L,
+Buelke A., and Manos P.S. 2015. Phylogeny and biogeography of the
+American live oaks (Quercus subsection Virentes): a genomic and
+population genetics approach. Molecular Ecology 24:
+3668-3687.](https://drive.google.com/file/d/1woKJ0XBQ_CTwRGbVIb2GWm0GFb7I3Dur/view?usp=sharing)
+
+[Cavender-Bares J., Gonzalez-Rodriguez A., Pahlich A., Koehler K., and
 Deacon N. 2011. Phylogeography and climatic niche evolution in live oaks
 (Quercus series Virentes) from the tropics to the temperate zone.
 Journal of Biogeography 38(5):
 962-981.](https://drive.google.com/file/d/1U0s3imC_9xTZoBKXiV8JpuC6q_W8VaZT/view?usp=sharing)
+
+[Deacon N.J. and Cavender-Bares J. 2015. Limited Pollen Dispersal
+Contributes to Population Genetic Structure but Not Local Adaptation in
+Quercus oleoides Forests of Costa Rica. PLoS ONE, 10(9): e0138783.
+doi:10.1371/journal.pone.013878.](https://drive.google.com/file/d/1L6Mk-CFl26t2YB9tBweHROO8FXQGCECH/view?usp=sharing)
 
 [Guggar P.F. and Cavender-Bares J. 2011. Molecular and morphogical
 support for a Florida origin of the Cuban oak. Journal of
