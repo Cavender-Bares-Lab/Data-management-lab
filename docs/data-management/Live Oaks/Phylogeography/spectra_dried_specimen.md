@@ -19,7 +19,8 @@ storage location of the spectra of dried live oaks taken in spring 2021.
 The README.txt has column definitions. The fulcrum\_id in file 1 links
 to the fulcrum\_parent\_id in file 2. The files are linked from the
 shared google drive and are also stored in the University shared drive
-(Lab-cavender\\4\_Project\_FoldersOaksof Dried Specimen)
+
+    Lab-cavender\4_Project_Folders\Live Oaks\Spectra of Dried Specimen\)
 
 File 1:
 [live\_oaks\_leaf\_spectra.csv](https://drive.google.com/file/d/1d6OAtn-64dOzv6w7fhMUof_7VvqFjh-J/view?usp=sharing)  
@@ -32,15 +33,13 @@ File 3:
 
 ##### Microsatellite Sequences
 
-File 1: Lab-cavender\\4\_Project\_FoldersOaksoak
-phylogeography\\2009\_microsats\\11 microsats\_Sept10.xls
+    File 1: Lab-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography\2009_microsats\11 microsats_Sept10.xls  
 
-**Raw sequences:** Lab-cavender\\4\_Project\_FoldersOaksoak
-phylogeneticsLive oaks
+    **Raw sequences:** Lab-cavender\4_Project_Folders\Live Oaks\Live oak phylogenetics\All Live oaks\Data*  
 
 ##### Chloroplast DNA
 
-Path: LAB-cavender\\4\_Project\_FoldersOaksoak phylogeography IIDataDNA 
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Cp DNA\  
 
 Note: Path includes few folders containing full sequences.
 
@@ -48,5 +47,4 @@ Note: Path includes few folders containing full sequences.
 
 Foliar area of leaf scans.
 
-File 1: Lab-cavender\\4\_Project\_FoldersOaksoak phylogeography
-IIdocumentation’s Shape Resultstogether\_Virentes.xlsx
+    File 1: Lab-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Morphology documentation\Anne's Shape Results\All together\All_Virentes.xlsx  
