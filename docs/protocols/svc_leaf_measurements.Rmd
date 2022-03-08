@@ -12,13 +12,21 @@ associated project: "Grand Challenges - Oak Wilt"
 
 How to prep and use SVC, including data collection using either computer or built-in screen
 
+### Important Note
+This protocol was originally written for an oak wilt potted seedling experiment. Some steps are very specific in file naming and measurements. If you need a more specific protocol tailored to your project, create another protocol while using this as a template and store in protocols with your project in "Associated Project". The SVC settings are the same throughout projects.
+
 ### Quick Measure Guide
 ```
 1.	Check that white reference disc, black background, and glass lens are clean
+
 2.	Secure leaf clip to tripod stand, attach battery, turn on light (10 minutes to warm up)
+
 3.	New battery in spectroradiometer body, attach fiber optic cable, turn fan on Spec body
+
 4.	Connect to SVC via Bluetooth and set integration time to 2 sec
+
 5.	Create a new Windows file folder for data collection: YYYYMMDD, leave window open
+
 6.	At each plant: 
   a.	Adjust height of leaf clip to measure full sun leaf:
   b.	Open a new file in SVC software (Alt+F+N)
@@ -29,25 +37,36 @@ How to prep and use SVC, including data collection using either computer or buil
   i.	Change Suffix to indicate leaf type (no suffix for green, non-symptomatic, SYM for symptomatic, S-T or S-G)
   f.	Measure 3 healthy leaves/plant; 3 symptomatic leaves when present (up to 3 measures/symptomatic leaf)
   g.	Note log # (number after plant ID) for each measure on datasheet
+
 7.	Take a new white reference when adjusting leaf clip height
+
 8.	Copy data folder to CBS Shared drive
 ```
 ### Detailed Steps of Measurements
+##### 1. Start Up
 ```
-1.	Start up
   a.	Insert new battery in SVC console (main body of machine)
+  
   b.	Extend legs at base of SVC body
+  
   c.	Remove forelens and insert fiber optic cable and screw hand tight
+  
   d.	Leaf clip preparation:
     i.	Check that black disc has ridges running parallel to the left and right sides of the reversible plate
     ii.	If white disc is dirty/not hydrophobic: lightly sand white disc with v. fine grit sand paper under diH2O until surface of disc is uniformly hydrophobic. Let air dry.
     iii.	Clean glass of leaf clip (in/out) if necessary
+  
   e.	Check that prominent screw on side of leaf clip is loose and Insert fiber optic cable into leaf clip (look in window that cable end is at edge of fiber optic cable housing). Use screw to secure into place.
+  
   f.	Plug in lamp power pack to leaf clip base and screw to secure
+  
   g.	Turn switch at top of leaf clip to Low
+  
   h.	Turn on lamp (press green button at back of clip) and let warm up in greenhouse environment for 10-15 minutes
-
-2.	SVC-HR2014i software for data collection (recommended or go through Setup menu on machine to get Optic and Scan timing same as below)
+```
+##### 2. SVC-HR1024i software for Data Collection
+Recommended or go through Setup menu on machine to get Optic and Scan timing same as below.  
+```  
   a.	Choose ControlSetup Instrument (Alt+C+S on Windows)
     i.	Find your connection: List all possible ports
       1.	Bluetooth: find Bluetooth port (~COM5, see Appendix A for notes on troubleshooting connection difficulties)
@@ -58,35 +77,49 @@ How to prep and use SVC, including data collection using either computer or buil
       3.	Integration = Auto integration
     iii.	Check and correct date/time
     iv.	Integration scales RAW DN data = Check box 
+  
   b.	Choose ControlOverlap/Matching (Alt+C+O)
     i.	Preserve Overlapped Detector data (keeps whole, uncorrected file)
     ii.	Matching type = None
-
-3.	Leaf locations measured: (see figure):
+```
+##### 3.	Leaf locations measured
+Note: protocol was originally written for Oak Wilt potted seedling experiment. If not measuring for oak wilt, follow steps to measure healthy leaves only.  
+```  
   a.	The widest part, between midvein and leaf margin, of the adaxial (upper surface) of a fully-sun exposed leaf
     i.	When there are no symptoms on a Control, Oak Wilt, or Drought plants:
       1.	Measure three (3) healthy appearing, green leaf
     ii.	When there are symptoms:
       1.	In addition to the healthy green measurement: Select up to 3 (if available) typical symptomatic leaves and collect up to 3 additional measurements on each leaf
-  a.	Measure the green appearing portion of that leaf (if any)
-  b.	Measure the most symptomatic portion
-  c.	Measure the transition zone between
-
-4.	Best practices for all measurements:
+        a.	Measure the green appearing portion of that leaf (if any)
+        b.	Measure the most symptomatic portion
+        c.	Measure the transition zone between
+```
+##### 4.	Best practices for all measurements
+```
     i.	Leave lamp on whole time (or let warm up again)
+    
     ii.	White reference (Ref, then Target) each time move leaf clip (between plants and between leaves)
+    
     iii.	Avoid adjusting the angle of the leaf clip between plants (adjust the height)
+    
     iv.	Always measure adaxial (top) of leaf
+    
     v.	NIR peak reflectance (~740nm) should be at least 35%, if isn’t make sure enough leaf (covering at least 1/3-1/2) in clip
+    
     vi.	Label white reference files with suffix WR and any bad scans with BAD
+    
     vii.	Clean leaf clip with KimWipes and EtOH between leaves to avoid spreading pathogens
+    
     viii.	If not using computer interface, can check the output in the same way as below, but need to record file log numbers
-5.	Data collection
+```
+##### 5.	Data collection
+```
   a.	Choose FileNew (Alt+F+N)
     i.	Navigate to OakWilt_local/OakWilt_data/OakWilt_spec
     ii.	Create a file folder for day YYYYMMDD
     iii.	Create basename for each new individual plant:
       1.	ex: “4000” , Open
+ 
   b.	White reference 
     i.	Move leaf clip near to leaf being measured
     ii.	Flip leaf clip to white side and close
@@ -98,6 +131,7 @@ How to prep and use SVC, including data collection using either computer or buil
         a.	any significant dips along slope after NIR peak are bad (740-900nm)
       2.	ZOOM IN/OUT: draw a box or double click to zoom in, right click on plot to zoom out
     v.	If looks normal, rename file (“4000_000”) as “4000_000WR” in an open file window
+  
   c.	Leaf scan
     i.	Flip lower part of leaf clip so black side is facing the window
     ii.	Place leaf in window (top of leaf facing lamp) and gently let clamp close on leaf
@@ -110,18 +144,49 @@ How to prep and use SVC, including data collection using either computer or buil
           ii.	code S-G “4000_002S-G” for green portion of a symptomatic leaf
           iv.	Find new leaf location, WR, and scan again
           v.	Open new between individuals or leaves
-6.	Data download—if collecting data using only spec main body and leaf clip:
-  a.	Connect to SVC-HR2014i software following 2.a. above
-  b.	ControlRead memory (ALT+C+R)
+```
+###### White Reference Graphs  
+
+![alt text here](images/WR Good.png)  
+*Figure 1:* Target and reference of white reference disk in leaf clip. Good quality.    
+<br> 
+![alt text here](images/WR BAD.png) ![alt text here](images/WR BAD 2.png)  
+*Figures 2 & 3:* Target and reference of white reference disk in leaf clip. Both bad quality.  
+
+###### Leaf Scan Graphs  
+
+![alt text here](images/Leaf Spectra Good.png)  
+*Figure 4:* Leaf spectra of fresh leaves. Good quality.  
+<br> 
+![alt text here](images/Dried Leaf Spectra Good.png)  
+*Figure 5:* Leaf spectra of dried leaves. Good quality.  
+<br> 
+![alt text here](images/Leaf Spectra Bad Dip.png)  
+*Figure 6:* Bad quality leaf spectra. The dip at ~740-900nm is likely due to an SVC error due to overheating.  
+<br> 
+![alt text here](images/Leaf Spectra bad low.png)    
+*Figure 7:* Low reflectance of leaf spectra. Explanations for this include, but not excluded to, not enough leaf/needles/grass blades in view of leaf clip or white, hairs or powdery mildew on leaf.
+
+
+##### 6.	Data download
+```
+  a.	Connect to SVC-HR1024i software following 2.a. above
+  
+  b.	Control->ead memory (ALT+C+R)
     i.	Choose data file numbers to download
     ii.	Apply current/overlap matching settings (if settings = preserve and matching = none, otherwise Do NOT apply)
     iii.	Change output directory as above in 5.a. or wherever permanent data storage location is
     iv.	Output file format = YYYYMMDD_HHMM_RxxTxx
     v.	Download now
+  
   c.	Confirm download of all files before erasing
-7.	Post measure:
+```
+##### 7.	Post measure:
+```
   a.	Turn off lamp, turn off spec
+  
   b.	Remove and charge spec and leaf clip lamp batteries
+  
   c.	Carefully remove and put away fiber optic cable in loose loops in pelican case (unless in safe location)
     i.	then place leaf clip on side (black disc out), check that screw securing fiber optic cable is in place and leaf clip/cable can’t slide off area
 ```
@@ -136,6 +201,7 @@ Bluetooth connection and troubleshooting connections
   d.	If the HR1024i device is not shown as paired and connected, choose “Add Bluetooth or other device”
     i.	Select “Bluetooth” device
     ii.	When prompted enter the Bluetooth pin/passcode: “hr1024i”
+
 2.	Finding the correct COM port
   a.	Via Bluetooth settings (most direct):
     i.	Follow steps 1a-b to get to Bluetooth settings
@@ -145,6 +211,7 @@ Bluetooth connection and troubleshooting connections
   b.	Search for the “Device Manager” in the Control Panel
     i.	Select “Ports”
     ii.	All Serial over Bluetooth connection ports are possible connections
+
 3.	Can’t establish a connection
   a.	Follow steps 2.a.i – 2.a.iii above
   b.	Delete any existing HR1024i connections by highlighting each and choosing “Remove”

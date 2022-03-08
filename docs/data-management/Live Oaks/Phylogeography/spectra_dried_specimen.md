@@ -18,9 +18,10 @@ There are 3 files created on Fulcrum App that document metadata and
 storage location of the spectra of dried live oaks taken in spring 2021.
 The README.txt has column definitions. The fulcrum\_id in file 1 links
 to the fulcrum\_parent\_id in file 2. The files are linked from the
-shared google drive and are also stored in the University shared drive
+shared google drive and are also stored in the University shared drive.
 
-    Lab-cavender\4_Project_Folders\Live Oaks\Spectra of Dried Specimen\)
+    Path of University Shared Drive: Lab-cavender\4_Project_Folders\Live Oaks\Spectra of Dried Specimen\
+      -> Spectra in .sig files that can be opened as text files.
 
 File 1:
 [live\_oaks\_leaf\_spectra.csv](https://drive.google.com/file/d/1d6OAtn-64dOzv6w7fhMUof_7VvqFjh-J/view?usp=sharing)  
