@@ -2,3 +2,7 @@
 
 Link to
 [Proposal](https://drive.google.com/file/d/1lvIN1pYCpYhKTxzzCvds9pHqNTbRku0-/view?usp=sharing)
+
+[Jeannine’s notes from March 24, 2014 outlining Phenotypic
+differentiation among populations of quercus
+oleoides.](https://docs.google.com/document/d/1OaR2jG-oMx6BLpeJjTIGk1KnRzHnK68R/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)

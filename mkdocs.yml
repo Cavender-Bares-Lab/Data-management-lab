@@ -84,7 +84,7 @@ nav:
     - Live-Oaks:
       - Phylogeography:
         - Spectra of Dried Specimen with Matching Data: 'data-management\Live Oaks\Phylogeography\spectra_dried_specimen.md'
-      - LOARD: 'data-management\Live Oaks\LOARD\loard.md'
+      - LOARD: 'data-management\Live Oaks\LOARD\LOARD.md'
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
