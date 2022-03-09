@@ -2,6 +2,15 @@
 
 ### Publications
 
+[Cavender-Bares, J., Schweiger, A. K., Pinto-Ledezma, J. N., & Meireles,
+J. E. (2020). Applying Remote Sensing to Biodiversity Science. In J.
+Cavender-Bares, J. A. Gamon, & P. A. Townsend (Eds.), Remote Sensing of
+Plant Biodiversity (pp. 13-42). Cham: Springer International
+Publishing.](https://drive.google.com/file/d/17_tY8laz6E7uiMSFpO8C1HrUahGutx5M/view?usp=sharing)
+
+[Grossman, Jake J. (2019). Valuing Biodiversity. Arnoldia, 77(1),
+2-15.](https://drive.google.com/file/d/1oDfII8_gtureQ0OrGmmoSjQmqe4RpUSv/view?usp=sharing)
+
 [Grossman, J.J., J. Cavender-Bares, and S.E. Hobbie. 2020. Functional
 diversity of leaf litter mixtures slows decomposition of labile but not
 recalcitrant carbon over two years. Ecological Monographs,
@@ -34,5 +43,20 @@ experiments. Environmental and Experimental Botany
 P.B. Reich. 2017. Species richness and traits predict overyielding in
 stem growth in an early-successional tree diversity experiment. Ecology
 98:2601-2614.](https://drive.google.com/file/d/1lc05jZpB-7ucswD_vF3VdPN69QbKz2eR/view?usp=sharing)
+
+[Kothari, S., Montgomery, R., & Cavender-Bares, J. (2021) Physiological
+responses to light explain competition and facilitation in a tree
+diversity experiment. Journal of Ecology, 109(5), 2000-2018.
+doi:https://doi.org/10.1111/1365-2745.13637](https://drive.google.com/file/d/1ET5FO1i0xER7o-SdNIlNe2JJqTALURdU/view?usp=sharing)
+
+### Thesis
+
+[Grossman, J. (2018). Consequences of Biodiversity in Tree Diversity
+Experiments. (Ph.D.), University of
+Minnesota.](https://drive.google.com/file/d/1mBlx__Wd0qaK4mcQRUulj3TBeBv9HIeC/view?usp=sharing)
+
+[Kothari, S. (2020). Blinded by the Light: The Functional Ecology of
+Plant-Light Interactions. (Ph.D.), University of
+Minnesota.](https://drive.google.com/file/d/17Kw2rU8ayPb1hjrOCu25IbH-n_Enr8Ei/view?usp=sharing)
 
 ### Media

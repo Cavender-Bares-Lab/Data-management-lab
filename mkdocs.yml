@@ -88,6 +88,7 @@ nav:
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
+    - JCB Compilation: 'lab_products\jcb.md'
     - BII ASCEND: 'lab_products\bii_ascend_products.md'
     - Dimensions of Biodiversity:
       - Oaks US - China: ''
