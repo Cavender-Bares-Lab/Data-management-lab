@@ -61,7 +61,7 @@ Note: Path includes few folders containing full sequences.
 
 RAD-seq was processed on a few individuals of each live oak species.
 
-    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\RAD
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\RAD\
 
 ### Morphology
 
