@@ -3,10 +3,10 @@
 Documentation of important data files that match with spectra taken in
 spring 2021. Not all individuals in each file were successfully matched.
 The live oaks were collected in several different locations (from a live
-oak phylogeography project) including throughout South United States,
-Central and South America. There are many copies of one excel file in
-the Live Oaks folder. The matched files are not limited to the files
-mentioned below. The most recent files were chosen. Also, there are some
+oak phylogeography project) including throughout South United States and
+Central America. There are many copies of one excel file in the Live
+Oaks folder. The matched files are not limited to the files mentioned
+below. The most recent files were chosen. Also, there are some
 variations of the sample ID between different types of data
 e.g. MX-MB3030 and MXMB3030.
 

@@ -44,7 +44,12 @@ changes. Tree Physiology 40(3):
 [Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H.
 Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022).
 Canopy spectral reflectance detects oak wilt at the landscape scale
-using phylogenetic discrimination. Remote Sensing of Environment.]()
+using phylogenetic discrimination. Remote Sensing of Environment
+273.](https://drive.google.com/file/d/1jvwWEzR_vVr5V_qRQ-o6UPUI2KNBc5Cq/view?usp=sharing)
+
+\[Sapes G., Schroeder L., Juzwik J., Montgomery R., Cavender-Bares J.
+Leaf hyperspectral features predict key physiological processes
+associated with oak wilt and drought stress. In prep.\]
 
 ### Media
 

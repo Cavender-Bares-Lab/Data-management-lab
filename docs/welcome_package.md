@@ -3,8 +3,7 @@
 Welcome to the Cavender-Bares Lab at the University of Minnesota! Below
 are details that hopefully will help you get settled! If you have any
 questions, please contact:  
-Lab manager: Cathleen Lapadat at 612.212.1599 or nguye618 \[at\]
-umn.edu  
+Lab manager: Cathleen Lapadat at nguye618 \[at\] umn.edu  
 or Jeannine at 612.624.6337 or cavender \[at\] umn.edu
 
 For new students and employees, submit the new employee form
@@ -33,6 +32,19 @@ To get access to the Cargill lab office space, you can email Annie
 Yetter (ayetter \[at\] umn.edu) a photo of both the front and back of
 your UCard and say you need access to room 205 (the office space)
 because you’re part of ASCEND/part of Jeannine’s lab.
+
+##### Cedar Creek Code and Keys Access
+
+Both Lindeman and Lawrence labs and the north gate of East Bethel Blvd
+(wide dirt road through CC site) are open at ~8am-4pm during the
+Weekdays, Monday-Friday. If you need access outside of these hours/days
+or access to locked gates, please contact Jim Krueger (krue0043 \[at\]
+umn.edu) for door codes and keys.
+
+###### CC Check-in
+
+When conducting research at Cedar Creek, please check in on this
+[webpage.](https://umn.qualtrics.com/jfe/form/SV_6E8VM5c8a09OphA)
 
 #### Lab Etiquette
 
@@ -205,6 +217,9 @@ Barrott (barro023 \[at\] umn.edu) and/or Dan Bahauddin (danbaha \[at\]
 umn.edu). Please follow this
 [template](https://docs.google.com/spreadsheets/d/15w-XBocvSvYz_T8h-ZJo35VQcaeHJp0z/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
 for submission.
+
+For more information on data management, please refer to this
+[webpage.](https://www.cedarcreek.umn.edu/research/informationmanagement)
 
 ### MSI
 

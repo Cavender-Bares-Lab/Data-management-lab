@@ -34,16 +34,16 @@ nav:
     - Methods Publications: ''
     - Permits: 'information-of-interest\Permits\Permits.md'
   - Project Information:
-    - BII ASCEND: ''
+    - BII ASCEND: 'project_information\bii_ascend\biiascend.md'
     - Dimensions of Biodiversity:
-      - Oaks US - China: ''
-      - NASA: ''
+      - Oaks US - China: 'project_information\dimensions\Oaks US China\Oaks-US-China.md'
+      - NASA: 'project_information\dimensions\NASA\NASA.md'
     - Global Oaks:
-      - American Oak Project: ''
+      - American Oak Project: 'project_information\Global oaks\american_oaks\american_oaks.md'
       - Live Oaks: 
         - LOARD: 'project_information\live_oaks\loard.md'
     - LTER:
-      - Forest and Biodiversity: ''
+      - Forest and Biodiversity: 'project_information\lter\FAB\FAB.md'
       - GLADES: ''
       - Willow: ''
     - NPS Aspen: ''
