@@ -1,0 +1,70 @@
+### Introduction
+
+Documentation of important data files that were collected from live oaks
+for a phylogeography project. Also, documented are spectral measurements
+of dried leaves that were taken in spring 2021 from leaf samples that
+were collected as herbariums for the phylogeography project. Not all
+individuals in each file were successfully matched. There are many
+copies of one excel file in the Live Oaks folder. The matched files are
+not limited to the files mentioned below. The most recent files were
+chosen. Also, there are some variations of the sample ID between
+different types of data e.g. MX-MB3030 and MXMB3030.
+
+### Spectra
+
+##### Files
+
+There are 3 files created on Fulcrum App that document metadata and
+storage location of the spectra of dried live oaks taken in spring 2021.
+The README.txt has column definitions. The fulcrum\_id in file 1 links
+to the fulcrum\_parent\_id in file 2. The files are linked from the
+shared google drive and are also stored in the University shared drive.
+Please refer to the SVC leaf measurements protocol for instrument
+settings.
+
+    Path of University Shared Drive: Lab-cavender\4_Project_Folders\Live Oaks\Spectra of Dried Specimen\
+      -> Spectra in .sig files that can be opened as text files.
+
+File 1:
+[live\_oaks\_leaf\_spectra.csv](https://drive.google.com/file/d/1d6OAtn-64dOzv6w7fhMUof_7VvqFjh-J/view?usp=sharing)  
+File 2:
+[live\_oaks\_leaf\_spectra\_spectral\_measurements.csv](https://drive.google.com/file/d/1XIT7dEnRDVNNQvHG5SgdcUTJHV3Syohb/view?usp=sharing)  
+File 3:
+[README.txt](https://drive.google.com/file/d/1rZLfSgHOGfEWay7lIOdNPRKEz9CqndHa/view?usp=sharing)
+
+##### Notes
+
+-   Files ending in WR, means white reference.
+-   If the filename ends with \_BAD.sig, the spectra are unusable
+    because of either poor quality or low reflectance.
+-   Structure of a .sig file follows:
+-   Several lines of metadata, e.g. instrument name and type, scan time,
+    etc.
+-   4 columns of data: 1) wavelength (nm); 2) reference radiance; 3)
+    target radiance; 4) percent reflectance.
+
+### Molecular Data
+
+##### Microsatellite Sequences
+
+    File 1: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Structure\All live oak microsats_Structure.xls 
+
+    Raw sequences:** LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Structure\All live oak microsats_Structure.xls  
+
+##### Chloroplast DNA
+
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Cp DNA\  
+
+Note: Path includes few folders containing full sequences.
+
+##### RAD seqences
+
+RAD-seq was processed on a few individuals of each live oak species.
+
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\RAD
+
+### Morphology
+
+Foliar area of leaf scans.
+
+    File 1: Lab-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Morphology documentation\Anne's Shape Results\All together\All_Virentes.xlsx  
