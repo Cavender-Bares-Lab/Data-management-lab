@@ -132,6 +132,11 @@ If you collected data at Cedar Creek, please submit your data to Susan Barrott (
 
 For more information on data management, please refer to this [webpage.](https://www.cedarcreek.umn.edu/research/informationmanagement)
 
+#### Fulcrum App
+Fulcrum App is a data collection platform designed to access via mobile phone ideal for field work. Create and design apps through the [webpage](www.fulcrumapp.com).
+
+[Fulcrum user login and password](https://docs.google.com/document/d/1c4KY4CNbM-ld2d4ooa6Ag0UonqZ-yTQU/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
 ### MSI
 
 To be added to the MSI group, contact either Cathleen or Jeannine. We are limited to 20TB for our lab group primary storage. If you are finished processing your data, please remove your files to leave space for other lab members and save your files to either the University shared drive or MSI Tier 2 Storage.
