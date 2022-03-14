@@ -221,6 +221,15 @@ for submission.
 For more information on data management, please refer to this
 [webpage.](https://www.cedarcreek.umn.edu/research/informationmanagement)
 
+#### Fulcrum App
+
+Fulcrum App is a data collection platform designed to access via mobile
+phone ideal for field work. Create and design apps through the
+[webpage](https://www.fulcrumapp.com).
+
+[Fulcrum user login and
+password](https://docs.google.com/document/d/1c4KY4CNbM-ld2d4ooa6Ag0UonqZ-yTQU/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
 ### MSI
 
 To be added to the MSI group, contact either Cathleen or Jeannine. We

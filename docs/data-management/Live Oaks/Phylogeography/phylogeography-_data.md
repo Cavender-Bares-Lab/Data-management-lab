@@ -35,19 +35,19 @@ File 3:
 ##### Notes
 
 -   Files ending in WR, means white reference.
--   If the filename ends with \_BAD.sig, the spectra are unusable
+-   If the file name ends with \_BAD.sig, the spectra are unusable
     because of either poor quality or low reflectance.
 -   Structure of a .sig file follows:
--   Several lines of metadata, e.g. instrument name and type, scan time,
-    etc.
--   4 columns of data: 1) wavelength (nm); 2) reference radiance; 3)
-    target radiance; 4) percent reflectance.
+    -   Several lines of metadata, e.g. instrument name and type, scan
+        time, etc.
+    -   4 columns of data: 1) wavelength (nm); 2) reference radiance; 3)
+        target radiance; 4) percent reflectance.
 
 ### Molecular Data
 
 ##### Microsatellite Sequences
 
-    File 1: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Structure\All live oak microsats_Structure.xls 
+    File 1: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Structure\All live oak microsats_Structure1.8.14.xls 
 
     Raw sequences:** LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Structure\All live oak microsats_Structure.xls  
 
@@ -55,13 +55,21 @@ File 3:
 
     Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\Cp DNA\  
 
-Note: Path includes few folders containing full sequences.
+###### Notes
+
+Path includes few folders containing full sequences.
 
 ##### RAD seqences
 
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\RAD\
+
+###### Notes
+
 RAD-seq was processed on a few individuals of each live oak species.
 
-    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\RAD\
+##### NIA-i3
+
+    Path: LAB-cavender\4_Project_Folders\Live Oaks\Live oak phylogeography II\Molecular Data\NIA\
 
 ### Morphology
 
