@@ -73,6 +73,13 @@ nav:
     - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
     - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
     - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
+    - Soil sampling:
+      - Nitrogen Mineralization:
+        - N-min Summary and Outline: ''
+        - N-min Coring: ''
+        - N-min Preparation: ''
+        - N-min Processing Day 1: ''
+        - N-min Processing Day 2: ''
     - Surface Sterilization: 'protocols/surface_sterilization.md'
     - SVC:  
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'

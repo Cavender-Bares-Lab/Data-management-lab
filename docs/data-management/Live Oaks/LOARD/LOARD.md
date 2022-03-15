@@ -24,6 +24,8 @@ Spectra of leaf samples are in process.
 
 ##### Files
 
+[README.txt](https://drive.google.com/file/d/1ibAQ777vqh2poJ1yHDHzib0us4pbX8Jd/view?usp=sharing)
+
 ### Molecular Data
 
 ### Phenotypic Data
