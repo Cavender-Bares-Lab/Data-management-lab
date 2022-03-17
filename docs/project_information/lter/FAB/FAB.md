@@ -22,7 +22,11 @@ pests, and soil fertility.
 
 #### FAB 2 - Low Density
 
--   [Map](https://drive.google.com/file/d/1_8fEpu-Wv3GCJ49nwaNUKYCmab6APDCU/view?usp=sharing)
+-   Original
+    [Map](https://drive.google.com/file/d/1PFnVOhE-07KCANTF9PNeIFqpEo7836Ae/view?usp=sharing)  
+
+-   [Map](https://drive.google.com/file/d/15kzZxXVo0sBTuqEuCjorWAxEhyUF41Mw/view?usp=sharing)
+    with species names
 
 -   FAB2 extra plots maps
     [1](https://drive.google.com/file/d/1t5n4MzeFt0zVGcrKCc2LEQ6iqAK1grtj/view?usp=sharing)
