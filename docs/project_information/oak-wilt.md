@@ -1,0 +1,76 @@
+### Oak Wilt
+
+The goal of the Oak Wilt project is to accurately detect oak wilt using
+remote sensing at multiple scales. The project is ongoing and is funded
+by multiple grants.
+
+##### Grand Challenges
+
+-   [Proposal](https://drive.google.com/file/d/1c6Nv27WIEki9eaBbhoWkZwIch5fQmCmo/view?usp=sharing)
+
+##### MITPPC
+
+-   [Proposal](https://drive.google.com/file/d/1ICaRB7J1mkWSLtR7Ga6hXiAlgFPiiRaa/view?usp=sharing)
+
+###### Cedar Creek Proposals
+
+-   [Oak Wilt
+    Survey](https://drive.google.com/file/d/1CxZXH8rO_kmqmU5LR7xJyPS5xICWe60M/view?usp=sharing)  
+-   [Sapling
+    experiment](https://drive.google.com/file/d/1wbM3HO-71f692EcY1NuM8qAlgpC9pqFa/view?usp=sharing)
+
+##### USFS
+
+-   [Proposal](https://docs.google.com/document/d/16nlM2gchtRKw3NYZxfGCaE3Qizb3bs9c/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
+##### NASA-ROSES
+
+Mapping changes in forest diversity and disease in North American
+temperate forests.
+
+###### Abstract
+
+The biodiversity and ecosystem functions of North American forests are
+threatened by invading pests and pathogens and changing climate.
+Understanding and monitoring the potential impacts of these threats
+using remote sensing requires both knowledge of biodiversity and the
+signals of stress caused by disease, drought and other factors, which
+may differ in impacts among taxa. We build on growing evidence that
+full-range hyperspectral data can be used to identify forest tree
+lineages and accurately detect lineage-specific diseases, as well as
+physiological stresses associated with drought. Our project tests the
+hypotheses that 1) phylogenetic lineages and species of US northern
+temperate forest trees can be detected and mapped at large spatial
+extents; 2) that community composition can be detected at spatial
+resolutions consistent with forthcoming satellite data, particularly
+when constrained by species distribution models; and 3) that spectral
+features that differentiate threats to trees at the leaf and canopy
+level can be used to detect oak and wilt map physiological responses to
+disease and drought at ecosystem, landscape and regional scales from
+airborne and satellite data. We specifically test our ability to map the
+major oak lineages–i.e., red and white oak groups–which are critical to
+the maintenance of forest diversity, but are threatened by the fungal
+pathogen oak wilt (Bretziella fagacearum). We further test the
+hypothesis that we can better quantify the impacts of oak wilt by first
+identifying forest tree phylogenetic groups and differentiating oak
+lineages. This approach can be scaled to the larger temperate forest
+biome by providing a basis to identify and quantify threats unique to
+major tree lineages. The proposed research directly addresses two
+components of scaling: first, we test the ability to link spectroscopic
+measurements on the ground–demonstrated to detect species and
+phylogenetic identity, disease presence, and physiological status–to
+hyperspectral remote sensing using high-resolution aircraft imagery (1-5
+m pixels, using AVIRIS-NG, NEON and HySpex). Second, we test the ability
+to discriminate these features at the proposed scale of satellite
+hyperspectral data (30 m pixels, using DESIS and high altitude
+AVIRIS-Classic), where a pixel may contain multiple individuals of
+different species. We will compare maps of direct detection of
+phylogenetic lineages and species identities to modeled distributions
+from a range of sources, including fusion of data at different spatial
+and spectral resolutions and upscaling using FIA, Landsat/Sentinel,
+MODIS and GEDI. This work will involve scaling from leaf to stand level,
+with the objective of identifying spectroscopic features that are
+insensitive to scale and suitable for application to the coming suite of
+spaceborne imaging spectrometers. This project leverages extensive
+in-situ and airborne remote sensing data sets collected with support
+from NASA over the last decade.
