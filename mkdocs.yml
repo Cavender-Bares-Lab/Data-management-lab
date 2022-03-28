@@ -47,9 +47,7 @@ nav:
       - GLADES: ''
       - Willow: ''
     - NPS Aspen: ''
-    - Oak Wilt:
-      - Grand Challenges: ''
-      - MITPPC: ''
+    - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
     - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
     - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
