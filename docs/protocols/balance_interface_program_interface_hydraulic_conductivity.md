@@ -20,7 +20,7 @@ from (<http://www.msc-lims.com/lims/diybalance.html>).
 -   Sartorius Balance
 -   Computer/Laptop
 
-\###Instructions for installing.
+### Instructions for installing
 
 1.  You need a serial-port-to-USB cable. For sartorius balances this is
     part YCC01-USBM2 and it costs about $55. Install the driver software
