@@ -44,7 +44,7 @@ nav:
         - LOARD: 'project_information\live_oaks\loard.md'
     - LTER:
       - Forest and Biodiversity: 'project_information\lter\FAB\FAB.md'
-      - GLADES: ''
+      - GLADES: 'project_information\lter\glades.md'
       - Willow: ''
     - NPS Aspen: ''
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'

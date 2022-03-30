@@ -25,14 +25,20 @@ second dashed line.
 
 ### Acid Bath Neutralization
 
-    1. Add 10-20 drops phenolphthalein indicator per 10L 10% HCl.  (to make indicator: 4 g Phenolphthalein into 400 mL 100% ethanol).
+1.  Add 10-20 drops phenolphthalein indicator per 10L 10% HCl. (to make
+    indicator: 4 g Phenolphthalein into 400 mL 100% ethanol).
 
-    2. Place acid bath tub onto stir plate inside fume hood.
+2.  Place acid bath tub onto stir plate inside fume hood.
 
-    3. Add a stir plate magnet and turn stir plate on med/high (DON’T TURN ON THE HEAT)
+3.  Add a stir plate magnet and turn stir plate on med/high (DON’T TURN
+    ON THE HEAT)
 
-    4. Add NaOH or other strong base (can be waste or old base) to acid bath, stirring, until bath turns a light pink color (at pH 8.4).  
+4.  Add NaOH or other strong base (can be waste or old base) to acid
+    bath, stirring, until bath turns a light pink color (at pH 8.4).
 
-    5. Make sure Acid Bath is between pH 7-9 before pouring down drain.  If you overshoot pH 9, you can use HCl to bring the pH back down (can use other old acid bath 10% HCL to bring pH back down).  
+5.  Make sure Acid Bath is between pH 7-9 before pouring down drain. If
+    you overshoot pH 9, you can use HCl to bring the pH back down (can
+    use other old acid bath 10% HCL to bring pH back down).
 
-    6. Once acid bath is faint pink dump it down the drain and scrub clean the tubs.
+6.  Once acid bath is faint pink dump it down the drain and scrub clean
+    the tubs.
