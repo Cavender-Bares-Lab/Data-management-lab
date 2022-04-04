@@ -16,8 +16,8 @@ each region, we need 160 x 20 = 3,200 acorns.
 
 In each region, 20 trees should be selected from four or five different
 sites, such that seeds from an individual tree are unlikely to have the
-same father (>20 m apart). It is important to put acorns from one mother
-tree in an individual bag and label it by site and mother. At the
+same father (&gt;20 m apart). It is important to put acorns from one
+mother tree in an individual bag and label it by site and mother. At the
 location of each tree, please record the geographic coordinates
 (latitude and longitude); google map coordinates are sufficient. Take
 photos of each tree, if possible. If you are in doubt about the identify
@@ -87,14 +87,7 @@ reimburse costs.
     at cavender.bares@gmail.com
     Or cavender@umn.edu
     612-624-6337 (office)
-    651-324-8555 (cell)
 
     or contact:
-    Cathleen Lapadat at 612-212-1599 (cell)
+    Cathleen Lapadat
     nguye618@umn.edu
-
-Once we have received all of the acorns from all four teams, we will
-ship them together to Vallonia Nursery in Indiana; they will grow the
-seedlings in their nursery for us.
-
-Thank you!!

@@ -31,7 +31,7 @@ second dashed line.
 2.  Place acid bath tub onto stir plate inside fume hood.
 
 3.  Add a stir plate magnet and turn stir plate on med/high (DON’T TURN
-    ON THE HEAT)
+    ON THE HEAT).
 
 4.  Add NaOH or other strong base (can be waste or old base) to acid
     bath, stirring, until bath turns a light pink color (at pH 8.4).

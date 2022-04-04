@@ -10,6 +10,56 @@ pests, and soil fertility.
 -   [Link](https://drive.google.com/file/d/10ao9EPqfDH4tNasWDOflgD_vNjhX4qWG/view?usp=sharing)
     to LTER renewal proposal.
 
+##### FAB in Poem Form
+
+###### The Fabulous Trees
+
+-   Written by Maria Park
+
+<!-- -->
+
+    Let us paint a picture:
+    A garden of sorts
+    Full of trees
+
+    The trees live in communities
+    Orderly, as it appears
+    Planted one meter apart from next-door neighbors
+
+    But some trees grow fast
+    Inching into the neighbor’s allotted space
+    The trees cast shadow
+
+    The neighbors still get along?
+
+    Aboveground:
+    Some trees don’t
+    Mind the shade
+    For the sun makes them wither and fade
+
+    Belowground:
+    The trees are cycling!
+    Water and nutrients
+    Differently?
+
+    In-between:
+    Decomposers
+    Associate with
+    Partner trees
+
+    Compete, they will
+    For they must survive
+
+    But living next to a tree
+    Different from oneself creates
+    Opportunity for reciprocity
+
+    Each tree plays a role in the community
+    We, humans, are trying to learn
+
+    How do they
+    Coexist
+
 #### FAB 1 - High Density
 
 -   [Plot
