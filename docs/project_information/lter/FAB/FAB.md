@@ -72,11 +72,9 @@ pests, and soil fertility.
 
 #### FAB 2 - Low Density
 
--   Original
-    [Map](https://drive.google.com/file/d/1PFnVOhE-07KCANTF9PNeIFqpEo7836Ae/view?usp=sharing)  
-
--   [Map](https://drive.google.com/file/d/15kzZxXVo0sBTuqEuCjorWAxEhyUF41Mw/view?usp=sharing)
-    with species names
+-   Latest
+    [map](https://drive.google.com/file/d/1MKDOsKbR8a6H8A308eQgfWipC5QRvVW-/view?usp=sharing)
+    with species richness and species codes.
 
 -   FAB2 extra plots maps
     [1](https://drive.google.com/file/d/1t5n4MzeFt0zVGcrKCc2LEQ6iqAK1grtj/view?usp=sharing)
@@ -88,3 +86,12 @@ pests, and soil fertility.
 
 -   [Link](https://drive.google.com/file/d/1SnALIYrNLDOmWsSK1GH1tPxHo52Exm-A/view?usp=sharing)
     to FAB2 Cedar Creek Research Proposal.
+
+###### Retired Maps
+
+The design has changed since original planting.
+
+-   Original
+    [Map](https://drive.google.com/file/d/1PFnVOhE-07KCANTF9PNeIFqpEo7836Ae/view?usp=sharing)  
+-   [Map](https://drive.google.com/file/d/15kzZxXVo0sBTuqEuCjorWAxEhyUF41Mw/view?usp=sharing)
+    with species names
