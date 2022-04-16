@@ -18,5 +18,3 @@ smithii). American Journal of Botany, 104(12),
 biodiversity shift across phylogenetic scales for aspen and willow
 growth, survival, and herbivory. Journal of Vegetation Science
 30:301-311.](https://drive.google.com/file/d/1T7SEoPmAEJmdkF4THlNNfjewZx8a7K6g/view?usp=sharing)
-
-### Media
