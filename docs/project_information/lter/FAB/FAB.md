@@ -73,7 +73,7 @@ pests, and soil fertility.
 #### FAB 2 - Low Density
 
 -   Latest
-    [map](https://drive.google.com/file/d/1vyaETdDtMolS20AabYc0D_3qR2dS80Kw/view?usp=sharing)
+    [map](https://drive.google.com/file/d/1-w6dYAttFHrHdQkZMrYzN-eRQL7DNOqp/view?usp=sharing)
     with species richness and species codes.
 
 -   FAB2 extra plots maps
