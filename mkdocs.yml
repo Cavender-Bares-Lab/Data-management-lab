@@ -9,6 +9,8 @@ theme:
     palette: 
       primary: teal
       accent: indigo
+markdown_extensions:
+  - meta
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
@@ -56,7 +58,10 @@ nav:
     - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
     - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
     - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
-    - Hansatech Fluorometer Dark Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
+    - Hansatech Fluorometer:
+      - (Pre-dawn) Dark/Light Adapted Leaf Measurements: 'protocols/predawn_hansatech_fluorometer.md'
+      - (Alternative) Dark/Light Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
+      - Interface Settings: 'protocols/interface_settings.md'
     - HPLC:
       - HPLC ImageJ: 'protocols/hplc_imagej.md'
       - Pigment Extraction: 'protocols/pigment_extraction.md'
@@ -67,17 +72,20 @@ nav:
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
     - Pneumatic Protocol: 'protocols/pneumatic_protocol.md'
+    - PSR:
+      - PSR Leaf Measurements: ''
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
-    - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
-    - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
-    - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
-    - Soil sampling:
-      - Nitrogen Mineralization:
-        - N-min Summary and Outline: ''
-        - N-min Coring: ''
-        - N-min Preparation: ''
-        - N-min Processing Day 1: ''
-        - N-min Processing Day 2: ''
+    - Soil:
+      - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
+      - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
+      - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
+      - Soil sampling:
+        - Nitrogen Mineralization:
+          - N-min Summary and Outline: ''
+          - N-min Coring: ''
+          - N-min Preparation: ''
+          - N-min Processing Day 1: ''
+          - N-min Processing Day 2: ''
     - Surface Sterilization: 'protocols/surface_sterilization.md'
     - SVC:  
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
