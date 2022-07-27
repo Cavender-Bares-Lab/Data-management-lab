@@ -1,7 +1,14 @@
 site_name: Cavender-Bares lab
 theme:
+    logo: 'fab1.png'
     features:
     - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.prune
+    - search.share
+    - header.autohide
     plugins:
     - search:
         lang: en
@@ -52,12 +59,12 @@ nav:
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
     - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
-    - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
-    - Acorn Processing: 'protocols/acorn_processing.md'
+    - Acorn Collection and Processing:
+      - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
+      - Acorn Processing: 'protocols/acorn_processing.md'
     - Ankom Fiber Analyzer: 'protocols/ankom_fiber_analyzer.md'
     - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
     - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
-    - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
     - Hansatech Fluorometer:
       - (Pre-dawn) Dark/Light Adapted Leaf Measurements: 'protocols/predawn_hansatech_fluorometer.md'
       - (Alternative) Dark/Light Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
@@ -76,12 +83,13 @@ nav:
       - PSR Leaf Measurements: ''
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
     - Soil:
+      - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
       - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
       - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
       - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
-      - Soil sampling:
-        - Nitrogen Mineralization:
-          - N-min Summary and Outline: ''
+      - Soil sampling and Processing:
+        - FAB:
+          - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'
           - N-min Coring: ''
           - N-min Preparation: ''
           - N-min Processing Day 1: ''

@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - footer
+---
+
 ### Introduction
 
 Welcome to the Cavender-Bares Lab at the University of Minnesota! Below

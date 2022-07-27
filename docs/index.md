@@ -1,3 +1,11 @@
+---
+hide: 
+  - toc
+  - footer
+  - navigation
+---
+  
+
 # Data management
 
 ## Welcome

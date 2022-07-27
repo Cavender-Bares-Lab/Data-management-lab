@@ -1,3 +1,7 @@
+---
+hide: navigation
+---
+
 # User guide
 
 ### Why this webpage?

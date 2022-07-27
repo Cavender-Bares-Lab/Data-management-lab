@@ -3,7 +3,7 @@ hide: footer
 ---
 
 ### Goals
-Documents multiple examples of settings for Hansatech fluorometer. Settings are dependent on your goals.
+Documents multiple examples of settings for Hansatech fluorometer. Settings are dependent on your project and goals.
 
 #### Mid-day (oleiodes project)
 
@@ -37,24 +37,49 @@ In general,there is an initial high yield light exposure, then 10 sec of actinic
     
 #### Dark-adapted (ACE)
 
-    1. Gain: 50 (check glossary)
-    2. Mod: 2 (modulation, check manual if need to adjust)
-    3. Log: 1 (1= log data, 0=no logging)
+    1. Gain: 50
+    2. Mod: 2
+    3. Log: 1
     4. FVFM: ##,##,##
         a. 2.5 duration of element
-        b. 60 intensity of saturating pulse (adjust as needed)
+        b. 60 intensity of saturating pulse
         c. .7 width
     8. Beep: 0.5
-    
+
+#### Dark-adapted (FAB 2)
+Note: Default values for F~v~/F~m~
+    1. Gain: 50
+    2. Mod: 2
+    3. Log: 1
+    4. FVFM: ##,##,##
+        a. 2.5 duration of element
+        b. 100 intensity of saturating pulse
+        c. .7 width
+        
 #### Light-adapted (ACE)
 
-    1. Gain: 50 (check glossary)
-    2. Mod: 2 (modulation, check manual if need to adjust)
-    3. Log: 1 (1= log data, 0=no logging)
-    4. ACT: 43 actinic
-    5. WAIT: 10 (seconds of waiting)
+    1. Gain: 50
+    2. Mod: 2
+    3. Log: 1
+    4. ACT: 30 actinic
+    5. WAIT: 10
     7. ePS2: 
         a. 2.5 duration of element
         b. 50 pulse
         c. .7 width
     8. Beep: 0.5
+    
+#### Light-adapted (FAB 2)
+
+Note: Actinic light set to ~1040 PAR
+
+    1. Gain: 50 (check glossary)
+    2. Mod: 2
+    3. Log: 1
+    4. ACT: 44 actinic
+    5. WAIT: 10
+    7. ePS2: 
+        a. 2.5 duration of element
+        b. 50 pulse
+        c. .7 width
+    
