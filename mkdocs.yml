@@ -21,8 +21,9 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
-  - Welcome package: 'welcome_package.md'
   - Lab Information: 
+    - Welcome package: 'welcome_package.md'
+    - Leaving package: ''
     - Important Lab Information: 'information-of-interest/information-of-interest.md'
     - Sampling and Analysis Costs: 
       - Leaves:
@@ -90,10 +91,10 @@ nav:
       - Soil sampling and Processing:
         - FAB:
           - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'
-          - N-min Coring: ''
-          - N-min Preparation: ''
-          - N-min Processing Day 1: ''
-          - N-min Processing Day 2: ''
+          - N-min Coring: 'protocols/nmin_coring.md'
+          - N-min Preparation: 'protocols/nmin_preparation.md'
+          - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
+          - N-min Processing Day 2: 'protocols/nminI_processing_day2.md'
     - Surface Sterilization: 'protocols/surface_sterilization.md'
     - SVC:  
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
@@ -124,7 +125,6 @@ nav:
     - NPS Aspen: 'lab_products/nps_aspen.md'
     - Oak Wilt:
       - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
-  - Leaving package: ''
   - About:
     - License: ''
     - Release Notes: ''

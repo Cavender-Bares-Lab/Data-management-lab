@@ -2,7 +2,7 @@
 hide: footer
 ---
 ### Background
-We measure nitrogen mineralization to better understand how species diversity and composition will all affect nitrogen cycling in the system. 
+We measure nitrogen mineralization to better understand how species diversity and composition will affect nitrogen cycling in the system. 
 
 ### Materials Needed
 #### Process preparation
