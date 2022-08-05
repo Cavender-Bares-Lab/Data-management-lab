@@ -1,0 +1,128 @@
+---
+hide:
+  - footer
+---
+
+### Background
+This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcrum App.
+
+### Notes
+
+- Flowering and fruiting for **maples** appear in the spring (April-May)
+- Flowering and fruiting for **American basswood** starts in early-mid August and drop late summer to early fall. 
+- Flowering for **Betula papyrifera** starts in the fall and will slowly drop.
+- Surveys for **conifers** can be taken in the late fall since cone droppings are variable on cone age.
+- Order of priority by species code for **fall** survey (as of 2022, will change as other species start reproducing): 
+    - TIAM
+    - BEPA
+    - JUVI, PIBA, PIST, PIRE
+    
+- **ATTENTION TO SUPERVISOR**: In order to SAVE properly and sync to the cloud, all requirements must be answered including the growth requirements. However, if reproduction is being surveyed prior to growth, the supervisor must forgo all growth requirements and reinstate the requirements after reproduction survey is complete. **Save as draft** is not an option since drafts will not sync to the cloud.
+    
+### Preparation
+
+1. Download Fulcrum App on your mobile device
+
+2. Use the log in details provided
+
+3. Familiarize yourself with the reproduction parts in the [species list document]()
+    - Understand the difference between reproduction and an insect gall
+
+### Detailed Steps
+
+1. Open Fulcrum App on your phone  
+    *  Apps: FAB1 Growth and Reproduction and FAB2 Growth and Reproduction
+    *  Go to Settings: 
+        - Sort by: Date/Time Created
+        - Ascending: Turn On
+    *  When viewing **All Records**, the order of the lines are Listing number, Plot, Row, Column, Individual ID  
+        - e.g. 1, 1, 1, 1, QUAL-2016-1  
+
+2. Select **Filter**    
+    * **+ Add Rule**   
+        - Choose **Survey**
+            * Operator: **Equals** or **Contains**; Value: **Yes**
+                - Values are case sensitive
+                - To confirm proper filtering, confirm that you have 31500 (FAB2) or 8960 (FAB1) records showing
+        - Choose **Species Code**
+            * Operator: **Equals** or **Contains**; Value: Chosen species to survey
+                - If surveying multiple species, continue to add a new species code to the rules list  
+
+3. Locate tree
+    * When located, choose the correct line in fulcrum app, and scroll down. Click **Reproduction** 
+    * If tree is dead, move on to the next tree.
+
+4. Survey
+    * At the bottom, choose **+ Record**
+        - **Survey date**: defaults to the current date
+        - **Reproducing**: Respond "Yes" or "No"
+        - **Sub_RC**:  
+            * **Yes**: count was completed  
+            * **No**: count was not completed  
+            * **N/A**: count will be completed later  
+            * Choosing what to subsample for reproduction count:
+                - take reproduction counts for all individuals in plots of species richness 4 and above
+                - when majority of an individual species are reproducing in bicultures and monocultures, subsample reproduction count
+                    * skip counts of individuals along plot edges
+                    * then choose every other individual for reproduction counts
+                - if doing reproduction survey outside of growth survey, always do the reproduction count immediately
+                - if doing reproduction survey during growth survey, choose N/A. 
+                    * After saving, go back to main page for tree and choose "Yes" for Needs Reproduction Count and "No" for Reproduction complete 
+        - **Reproduction Count**:
+            * JUVI: reproduction categories
+                - see table below for categories
+                - an exact count is not needed for categories, if it is clear that it falls within a range, simply choose the corresponding category.
+            * All other species: raw count
+                - choose a quarter section of the tree as shown in the figure below, count the quarter and multiply by 4. Enter in number. 
+        - **Reproduction Type**:
+            * Choose the type of reproduction: Fruit, Flower, Cone
+                - catkins are generalized as flowers
+                - pine cone structures are referred to as its own type
+    * **Save**
+        - fulcrum app was created with several requirement rules, you must fill in the requirements in order to save properly. 
+        - After saving the reproduction data, on the main page for an individual:
+            * Reproduction complete:
+                - Yes: all questions are complete and doesn't need to be revisited with reproduction count
+                - No: reproduction count still needs to be done
+            * Needs Reproduction Count:
+                - Yes: reproduction count still needs to be done
+                - No: reproduction count is complete
+            * Save before moving on to next individual
+            
+5. At the end of the day, **sync** the app
+    * Choose the sync button at the right hand corner
+      - sync button looks like a refresh button
+            
+### Brief Summary of Fulcrum App Steps
+```
+1. Add filters for Survey and Species Code
+
+2. Choose individual
+
+3. Go to Reproduction
+
+4. + Record
+
+5. Survey requirements
+    a. Survey date
+    b. Reproducing
+    c. Sub_RC
+    d. Reproduction Count
+    e. Reproduction Type
+    f. SAVE
+
+6. Main page requirements
+    a. Reproduction complete
+    b. Needs Reproduction Count
+    c. SAVE
+    
+7. Repeat steps 2-6
+
+8. Sync
+```
+
+|Abundance Category|0|1|2|3|4|5|
+|--|--|--|--|--|--|--|
+|Category Ranges (# of berries)|0|1-2|3-10|11-100|101-1000|1001-5000|
+
+![tree](images/tree quarter.png)

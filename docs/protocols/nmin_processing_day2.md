@@ -15,6 +15,26 @@ We measure nitrogen mineralization to better understand how species diversity an
 - Sharpies
 - Computer						
 
+
+### Template
+Template to the weights needed for calculations
+
+### Summary
+The following are the end products:  
+
+- Initial
+    - Scintillation Vials of Initial insitu extractions
+    - Long-term storage bags with soil
+    - Scintillation vials of dried soil for C/N
+    - Cans of dried soil
+    
+- 30 days later
+    - Scintillation vials Final insitu extractions
+    - Scintillation vials Controlled Incubation extractions
+    - Long-term storage bags with dried soil
+    - Scintillation vials of dried soil for C/N
+    - Cans of dried soil
+
 ### Detailed methods
 #### Cans
 1)	Remove any cans that were dried overnight in the drying oven. 

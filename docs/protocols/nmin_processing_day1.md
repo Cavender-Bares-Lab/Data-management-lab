@@ -23,6 +23,7 @@ The following are the end products of day 1:
     - Initial specimen cups with soil  
     - Controlled specimen cups with soil  
     - Cans with soil  
+
 - Status of each item
     - Initial specimen cups with soil and added KCL, shaken and sit overnight in fridge for 24 hours until extraction.
     - Controlled specimen cups with soil placed in cardboard box, stored in shade at room temperature for 30 days until KCl extraction.
@@ -79,7 +80,7 @@ The following are the end products of day 1:
 10)	Long-term storage soil bags
     a.	Open the bags and air out to dry for several days. Make sure the bags are left wide open (without spilling) for drying.
 
-11)	Scintillation vial (can be completed at a later date, not time sensitive):
+11)	C/N Scintillation vial (can be completed at a later date, not time sensitive):
     a.	Label scintillation vial with the appropriate plot number with the C/N label. Fill ¾ with the soil in the long-term storage bags. Do not cap until soil is completely dry.
     b.	When dry, add 3 3/8 inch and 1-1/4 inch slingshot ammos in the scintillation vial. Fully cover label with clear packing tape and add o-ring around bottom neck of vial and cap.
 

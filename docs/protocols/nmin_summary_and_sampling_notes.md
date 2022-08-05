@@ -7,7 +7,7 @@ We measure nitrogen mineralization to better understand how species diversity an
 ### Materials Needed
 #### Process preparation
 - Urine specimen containers
-- Tins
+- Cans
 - Sandwich bags 
 - Printed labels (barcode and non-barcode; contact Dan Bahauddin for barcode labels)
 - Scale
@@ -44,13 +44,13 @@ We measure nitrogen mineralization to better understand how species diversity an
 
 ### Protocol
 
-1 inch PVC tubes 15 cm long with one end filed to a point are used as the nitrogen mineralization tubes. First soil cores are taken and placed in a plastic sandwich bag, this is the initial sample.  Next day, n-min tubes are placed in the ground with red caps on the tops close to where the cores were taken, but not the same exact spot.  The soil in these tubes is collected after 30 days, and this is considered the final insitu sample.  This is the insitu incubation for N-min. We will also do a controlled incubation. Soil is taken from the initial collection and set aside to incubate at controlled room temperature for 30 days.  
+3/4 inch PVC tubes 15 cm long with one end cut at an angle are used as the nitrogen mineralization tubes. First soil cores are taken and placed in a plastic sandwich bag, this is the initial sample.  Next day, n-min tubes are placed in the ground with red caps on the tops close to where the cores were taken, but not the same exact spot.  The soil in these tubes is collected after 30 days, and this is considered the final insitu sample.  This is the insitu incubation for N-min. We will also do a controlled incubation. Soil is taken from the initial collection and set aside to incubate at controlled room temperature for 30 days.  
 
 When the soil samples are taken (whether it is the initial sample or the final sample) it is then taken into the lab and two heaping scoopfuls are placed into a pre-prepared, preweighed, barcoded vial of 1M KCl, one for each plot.  These are then weighed and placed on the shaker for 30 minutes.  After they are finished shaking, they are placed in the fridge overnight.  In the morning the contents are pipetted into smaller plastic vials (scintillation vials).  It is important to not get any of the soil into the pipette and into the small plastic vials.  These samples were then frozen until they were ready to be analyzed.   The soil samples were also measured for soil moisture.  They were put into preweighed tins when they were wet, put in an oven overnight to dry and weighed the next day.
 
 #### Detailed methods
 ##### Processing Preparation
-To prepare for soil processing all tins are labeled with a barcode and then weighed empty. To make up the 1.0 M KCl solution, add 1565.6g of KCl to 21L of deionized water. You will need 50 ml of solution for every sample plus one blank vial for every 25 samples. Add the KCl to the right amount of DI water (accurate to the nearest 10ml) in the appropriate carboy and shake until dissolved. Label specimen cups (vials) and fill them with 50 ml of 1.0 M KCl using the autopipetter. Then weigh the filled vials and place them in the fridge. We use an access database in order to weigh everything. See Dan if there are any questions with the program. Also, label sandwich bags for soil collection with soil labels. 
+To prepare for soil processing all tins are labeled with a barcode and then weighed empty. To make up the 1.0 M KCl solution, add 745.5g of KCl to 10L of deionized water. You will need 50 ml of solution for every sample plus one blank vial for every 25 samples. Add the KCl to the right amount of DI water (accurate to the nearest 10ml) in the appropriate carboy and shake until dissolved. Label specimen cups (vials) and fill them with 50 ml of 1.0 M KCl using the autopipetter. Then weigh the filled vials and place them in the fridge. We use an access database in order to weigh everything. See Dan if there are any questions with the program. Also, label sandwich bags for soil collection with soil labels. 
 
 ##### Soil Coring
 We took 10 0-15cm cores per plot to use for initial samples.  Metal soil corers (approx. 3/4 in. diameter) were used to take the cores.  They were marked with labeling tape at 15cm from the tip of the corer.  Cores were then taken at different areas in the plot (figure 1) and placed into labeled plastic sandwich bags. Two clean incubation tubes (3/4" dia. PVC, 20 cm long), washed with tap water and a test tube brush, filed to a point on one end and plugged with a rubber stopper on the top end were put in each of the plots (figure 1).  These tubes were left in the plots for approximately one month; when the soil was collected from these tubes, it is the final sample.  The same processing steps are used for the final samples.

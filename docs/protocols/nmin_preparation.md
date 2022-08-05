@@ -31,7 +31,7 @@ We measure nitrogen mineralization in order to better understand how species div
 
 3)	Wrap a rubber band around each bundle of bags and place the bags in a paper bag. Label the paper bag FAB 2 soil sampling
 
-###### Tins
+###### Cans
 1)	Make sure all cans are empty and that the caps are on the bottom of the can. Cans are located in the closet in the chemistry room with all of the fridges. 
 
 2)	Label all cans on the cover of the cans with the labels marked for the cans specifically. The labels will have a c in the barcode.
