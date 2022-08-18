@@ -1,37 +1,41 @@
+---
+toc:
+ - footer
+---
+
 ###### Author: Anna Schweiger; Updated: 31 January 2022 by Cathleen Lapadat
 
 ### Goal
 
-This protocol details the steps to process images of leaf samples
-measured for HPLC analysis and applicable for SLA.
+This protocol details the steps to process images of leaf samples measured for HPLC analysis and applicable for SLA.
 
 ### Supplies/Equipment Needed
 
--   ImageJ software
+- ImageJ software
 
 ### ImageJ
 
-    1. Open image: file - open
+1. Open image: file - open
 
-    2. Set scale:
-        a. Click line:
-            i.  Draw line from one side of the image to the other
-        b. Analyze - set scale: 
-            i.  For inner line of boat 0.0028m, set to global, okay
+2. Set scale:
+    1. Click line:
+        1.  Draw line from one side of the image to the other
+    2. Analyze - set scale: 
+        1.  For inner line of boat 0.0028m, set to global, okay
 
-    3. Identify leaf
-        a. Image - adjust - color threshold 
-            i.  Unselect black background
-            ii. play with hue, saturation, brightness: leaf should be red
-        b. close color threshold
+3. Identify leaf
+    1. Image - adjust - color threshold 
+        1.  Unselect black background
+        2. play with hue, saturation, brightness: leaf should be red
+    2. close color threshold
 
-    4. Calculate area of leaf
-        a. Analyze - analyze particles:
-            i.    Set lower size limit - Infinity
-            ii.   Show: outlines
-            iii.  Display results
-            iv.   Exclude on edges
-            v.    Include holes
-            vi.   Summarize
-    5. Add area to excel
-            i.  Make sure outlines are of leaf/needle.
+4. Calculate area of leaf
+    1. Analyze - analyze particles:
+        1.    Set lower size limit - Infinity
+        2.   Show: outlines
+        3.  Display results
+        4.   Exclude on edges
+        5.    Include holes
+        6.   Summarize
+5. Add area to excel
+    1.  Make sure outlines are of leaf/needle.

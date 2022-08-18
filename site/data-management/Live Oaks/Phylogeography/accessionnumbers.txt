@@ -1,0 +1,4 @@
+GenBank accession numbers for DNA sequences for chloroplast and NIA-i3
+- BankIt1824105: KR923000–KR923022 (cp trnD–trnT)
+- BankIt1824526: KR923023–KR923114 (cp rpl32–trnLUAG)
+- BankIt1824762: KR923115–KR923185 (NIA-i3)

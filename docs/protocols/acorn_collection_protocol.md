@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 ###### Authors: Cavender-Bares Lab; Updated: April 2019 by Cathleen Lapadat; Associated Project: FAB-ACE
 
 ### Goals
@@ -84,8 +89,7 @@ reimburse costs.
 ### Questions?
 
     Email: Jeannine Cavender-Bares 
-    at cavender.bares@gmail.com
-    Or cavender@umn.edu
+    at cavender@umn.edu
     612-624-6337 (office)
 
     or contact:

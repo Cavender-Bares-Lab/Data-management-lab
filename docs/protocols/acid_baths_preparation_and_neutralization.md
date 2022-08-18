@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 ###### Author: William C. Eddy; Updated: March 2007
 
 ### Goal

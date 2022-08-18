@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 ###### Authors: Cavender-Bares Lab; Associated Project: Oaks of America
 
 ### Goal

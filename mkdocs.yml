@@ -9,17 +9,22 @@ theme:
     - navigation.prune
     - search.share
     - header.autohide
-    plugins:
-    - search:
-        lang: en
     name: material
     palette: 
       primary: teal
       accent: indigo
+plugins:
+    - search
+    - table-reader
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 markdown_extensions:
   - meta
   - attr_list
   - md_in_html
+extra_css:
+  - css/extra.css
 nav:
   - Home: 'index.md'
   - User guide: 'user-guide/user_guide.md'
@@ -81,7 +86,6 @@ nav:
       - Pigment Extraction: 'protocols/pigment_extraction.md'
       - Pigment Calibration: 'pigment_calibration.md'
       - Run Samples: ''
-    - Inorganic Nitrogen Assays for N-min: 'protocols/inorganic_nitrogen_assays_in_microplates_for_netmin.md'
     - Licor 6400 Warmup Protocol: 'protocols/licor_6400_warmup_protocol.md'
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
@@ -91,6 +95,7 @@ nav:
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
     - Soil:
       - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
+      - Inorganic Nitrogen Assays for N-min: 'protocols/inorganic_nitrogen_assays_in_microplates_for_netmin.md'
       - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
       - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
       - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
@@ -109,10 +114,12 @@ nav:
       - VLA Methods: 'protocols/vla_methods.md'
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
   - Data management:
+    - Introduction: 'data-management\introduction-data.md'
     - Live-Oaks:
-      - Phylogeography:
-        - Phylogeography Data: 'data-management\Live Oaks\Phylogeography\phylogeography-_data.md'
+      - Phylogeography: 'data-management\Live Oaks\Phylogeography\phylogeography-_data.md'
       - LOARD: 'data-management\Live Oaks\LOARD\LOARD.md'
+    - LTER:
+      - FAB 1: 'data-management\FAB\fab1.md'
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:

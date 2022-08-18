@@ -1,47 +1,39 @@
+---
+hide
+ - footer
+---
+
 ###### Author: Cavender-Bares Lab; Updated: 3 August 2009
 
 ### Goal
 
-The goal of this protocol is to standardize the measurements of leaf
-area using scanned leaves and Image J.
+The goal of this protocol is to standardize the measurements of leaf area using scanned leaves and Image J.
 
 ### Requirements
 
--   Scanner
--   Image J software
+- Scanner
+- Image J software
 
 ### Steps
 
-##### 1. Scanning Leaves
+##### Scanning Leaves
 
--   Place leaf on front of envelope face down on scanner. The goal is to
-    have leaf and label visible in photo. Make sure a clear ruler is
-    also on the scanner and seen in the image.
+1. Place leaf on front of envelope face down on scanner. The goal is to have leaf and label visible in photo. Make sure a clear ruler is also on the scanner and seen in the image.
 
--   Enter scanning and camera wizard. Choose color picture and name the
-    file something unique like the date and page number. Save as JPEG
-    image in a folder. Scan photo. Open photo and look to see if it
-    scanned appropriately. Return each leaf to its appropriate envelope.
-    Place leaves in drying oven in back of room 230.
+2. Enter scanning and camera wizard. Choose color picture and name the file something unique like the date and page number. Save as JPEG image in a folder. Scan photo. Open photo and look to see if it scanned appropriately. Return each leaf to its appropriate envelope. Place leaves in drying oven.
 
-##### 2. Image J
+##### Image J
 
--   Open program Image J. Select File open. Open scanned photo.
--   Click on the line box to select draw line tool. Draw a line on the
-    ruler of a certain length. (8 cm). Select Analyze: Set Scale. Enter
-    8 under known distance and unit of length cm, check global. Click
-    ok.
--   Select Process: Binary : Make Binary (or Process: Image: Make
-    Binary). The poto will now appear in black and white.
--   Select Analyze: Set measurements. Make sure area, perimeter, and
-    Feret’s diameter are checked. Choose ok.
--   Click on the wand tool. Click on one of the leaves with wand tool.
-    It should highlight the perimeter of the leaf in yellow. If a leaf
-    is touching another leaf or a line it will trace around everything.
-    You will need to use the eraser or draw tool to separate where it is
-    touching. Also if image is split you will need to use draw tool to
-    fill in leaf.
--   Once the leaf is highlighted around the perimeter select Analyze:
-    Measure. A new window will appear with the measurements.
--   Copy these measurements into an excel spreadsheet with appropriate
-    labels and save.
+1. Open program Image J. Select File open. Open scanned photo.
+
+2. Click on the line box to select draw line tool. Draw a line on the ruler of a certain length. (8 cm). Select Analyze: Set Scale. Enter 8 under known distance and unit of length cm, check global. Click ok.
+
+3. Select Process: Binary : Make Binary (or Process: Image: Make Binary). The photo will now appear in black and white.
+
+4. Select Analyze: Set measurements. Make sure area, perimeter, and Feret’s diameter are checked. Choose ok.
+
+5. Click on the wand tool. Click on one of the leaves with wand tool. It should highlight the perimeter of the leaf in yellow. If a leaf is touching another leaf or a line it will trace around everything. You will need to use the eraser or draw tool to separate where it is touching. Also if image is split you will need to use draw tool to fill in leaf.
+
+6. Once the leaf is highlighted around the perimeter select Analyze: Measure. A new window will appear with the measurements.
+   
+7. Copy these measurements into an excel spreadsheet with appropriate labels and save.
