@@ -115,11 +115,15 @@ nav:
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
   - Data management:
     - Introduction: 'data-management\introduction-data.md'
+    - Dimensions:
+      - Oaks US - China: 'data-management\oaks.md'
+      - NASA: 'data-management\nasa.md'
     - Live-Oaks:
       - Phylogeography: 'data-management\Live Oaks\Phylogeography\phylogeography-_data.md'
       - LOARD: 'data-management\Live Oaks\LOARD\LOARD.md'
     - LTER:
       - FAB 1: 'data-management\FAB\fab1.md'
+      - FAB 2: 'data-management\FAB\fab2.md'
     - NASA-ROSES:
       - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:
