@@ -8,4 +8,4 @@ hide:
 
 ### Products
 
-{{ read_csv('docs\data-management\Dimensions/nasa.csv') }}
+{{ read_csv('docs/data-management/Dimensions/nasa.csv') }}

@@ -72,4 +72,4 @@ Foliar area of leaf scans.
 
 ### Products
 
-{{ read_csv('docs\data-management\Live Oaks\Phylogeography\phylogeography-table.csv') }}
+{{ read_csv('docs/data-management/Live Oaks/Phylogeography/phylogeography-table.csv') }}

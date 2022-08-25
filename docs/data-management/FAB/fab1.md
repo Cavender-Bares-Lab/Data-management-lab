@@ -34,4 +34,4 @@ Stored data:
 ### Products
 Below is a table of published work along with links to public repositories for data and code
 
-{{ read_csv('docs/data-management\FAB\FAB1.csv') }}
+{{ read_csv('docs/data-management/FAB/FAB1.csv') }}
