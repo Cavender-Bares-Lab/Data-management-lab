@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
+
 ### Data
 **Path**: Lab-cavender\4_Project_Folders\Dimensions
 
-Stored data:
+### Products
 
-
+{{ read_csv('docs\data-management\Dimensions/nasa.csv') }}

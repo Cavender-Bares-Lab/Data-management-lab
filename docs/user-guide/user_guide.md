@@ -14,7 +14,7 @@ This webpage does not replace data storage requirements (e.g., group/LAB-cavende
 -   How the data was collected?
 -   What protocol I need to follow?
 -   I am new here, what I need to do?
--   Among many others …
+-   Among many others…
 
 If you need to update documentation please contact the current data manager, Cathleen.
 
@@ -36,9 +36,9 @@ To build this webpage, users must install on their computer:
 
 <br>
 
-#### Step 1 - Clone or update the webpage repository in your local machine.
+#### Step 1 - Clone webpage repository
 
-Always confirm that you have the latest versions of R, Rstudio, python, mkdocs, and pip.
+Confirm that you have the latest versions of R, Rstudio, python, mkdocs, and pip.
 
 To clone the github repository to your local machine using RStudio:
 
@@ -55,34 +55,34 @@ This first step requires basic git skills, if you need help, refer to this [guid
 For webpage theme customization, refer to the following links:
 
 * For step by step guidance, refer to [Material webpage](https://squidfunk.github.io/mkdocs-material/)
-* For help with issues, refer to [this](https://github.com/squidfunk/mkdocs-material)
+* For help with issues, refer to [Material github repository](https://github.com/squidfunk/mkdocs-material)
 
 
 <br>
 
-#### Step 2 - Let’s get familiar with Mkdocs.
+#### Step 2 - Mkdocs
 
 This webpage is composed of two elements: the structure and the documentation.
 
 - The **structure** refers to the online appearance of the documentation, and it is controlled by `mkdocs.yml` file. In this file, under `nav:` you will see the structure of how the documentation and web sections will be displayed; their sections, tabs, and sub-tabs.
 
-- The documentation refers to the `.md` files located in the docs folder. These files contain all the information required that will be displayed in the webpage. It is good practice to keep these files in folders under docs with names relatives to tabs and sub-tabs, just to keep the webpage in order.
+- The **documentation** refers to the `.md` files located in the docs folder. These files contain all the information required that will be displayed in the webpage. It is good practice to keep these files in folders under docs with names relatives to tabs and sub-tabs, just to keep the webpage in order.
 
 Now that we know these elements, let’s take a look at three functions of `MkDocs` that we will need. In RStudio you can run these commands using the ‘Terminal’ (the tab next to ‘Console’ that we always use).
 
-- `mkdocs serve`: this command helps you to create local address where you can see the changes in our documentation in real time. This address tend to be `http://127.0.0.1:8000/` and it can opened using your browser.
+- `mkdocs serve`: this command creates a local address to view the documentation in real time. This local address is `http://127.0.0.1:8000/` and it can be opened on your web browser.
 
 - `mkdocs build`: this command helps you to build the page. A step that need to be conducted close to the end of a session.
 
 - `mkdocs gh-deploy`: this command will deploy the update the webpage to github pages.
 
-You can type these commands in the terminal to run them. In some cases (Windows most likely), you need to type extra arguments to run them, like `python -m mkdocs serve`.
+You can type these commands in the terminal to run them. In some cases (Windows most likely), you need to type extra arguments to run them, e.g. `python -m mkdocs serve`.
 
 <br>
 
-#### Step 3 - Let’s create a documentation file.
+#### Step 3 - Create a documentation file
 
-An easy way to build your documentation is to do create a Rmarkdown (`.Rmd`) file. For this guide, let’s assume that you need to document `your_new_protocol` in the protocols section of the lab. You can create the `.Rmd` file following:
+An easy way to build your documentation is to create a Rmarkdown (`.Rmd`) file. For this guide, let’s assume that you need to document `your_new_protocol` in the protocols section of the lab. You can create the `.Rmd` file following:
 
     File > New File > R Markdown > OK
 
@@ -103,44 +103,45 @@ Once you storage the file in the corresponding folder, you can `Knit` it. But wh
 
 <br>
 
-#### Step 4 - Let’s include the documentation in the .yml structure.
+#### Step 4 - Edit mkdocs.yml
 
-Adding the your new documentation to the webpage is a simple step that involves the `mkdocs.yml` file. This file can be located at within the `Data-management-lab` folder outside of `docs` and `site`.
+The `mkdocs.yml` file is located within the `Data-management-lab` folder outside of `docs` and `site`.
 
-Please take a look at the details and structure of the file first, so you can be more familiar with it.
+Please familiarize yourself with the details and structure of the file first.
 
 ![alt text here](image/mkdocs_structure.png)
 
-The modifications that you need to do is under the `nav:` section. Within the topic of interest under `nav:`, you will need to add the `.md` file created on Step 3. For instance, for adding this user guide as documentation for the page, the `user_guide.md` was added in the `User guide:` section that was create. Please note that when adding the `.md` file you need to specify the path where it is located, starting off from `docs` as root.
+Find `nav:` section. Within the topic of interest under `nav:`, you will need to add the `.md` file created in Step 3. For instance, to add this user guide as documentation for the page, the `user_guide.md` was added in the `User guide:` section. Please note that when adding the `.md` file you need to specify the path where it is located, starting off from `docs` as root.
 
-Following the `your_new_protocol` example, your documentation should be added bellow the `- Protocols:` tab in a new section called
-`- Your New Protocol:`. This may need to look like:
+Following `your_new_protocol` example, your documentation should be added below the `- Protocols:` tab in a new section called `- Your New Protocol:`.
 
       - Protocols:
         - Your New Protocol: 'protocols/your_new_protocol.md'
 
-Once you have done that, just save the `mkdocs.yml` to build the page in the next step.
+Save the `mkdocs.yml` to build the page in the next step.
+
+
+##### Markdown
+It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 
 <br>
 
-#### Step 5 - Let’s build the webpage, we are almost done!
+#### Step 5 - Build webpage
 
-Building the webpage is a step that need to be done in the terminal. For this you need to type `mkdocs serve` command mentioned on step 3. By typing this, you can see if your documentation is displayed in a local `http://` (usually, <http://127.0.0.1:8000/>). You can type or click on this local address and see changes in real time in your browser of preference when `mkdocs serve` is serving.
+Click on the "Terminal" tab in Rstudio. To view the webpage in real time, type `mkdocs serve`. The local address will appear in the terminal `http://http://127.0.0.1:8000/`. Click on the address to view the webpage on your browser.
 
-If everything goes well locally, we can display it then remotely through github pages. However, before doing that, we need to close the `mkdocs serve` in the terminal (Control + C), and build the `html` files by typing `mkdocs build` in the terminal. This last command will create several files, so do not be afraid of that.
-
-<br>
-
-#### Step 6 - Let’s commit and publish the webpage!
-
-We are close to finish. Following steps is to commit the all files created, and then publish the page by typing `mkdocs gh-deploy` in your terminal.
+To close the `mkdocs serve` in the terminal (Control + C), and build the `html` files by typing `mkdocs build` in the terminal. This last command will create several files.
 
 <br>
 
-#### Step 7 - Double check and repeat for new documentation, we are done!
+#### Step 6 - Publish webpage
+
+To **publish** the webpage with updates/edits, type `mkdocs gh-deploy`.
+
+To **save** the edits to the repository, in the terminal, type `git add .`. Click on "Commit" in the Git tab and write a brief description in the "Commit message". Click "Commit" and when complete, "Push" to update the repository. "Push" and "pull" are very important features when multiple people are making edits to the repository.
 
 <br>
 
-#### More questions?
+#### Questions
 
-For more instructions regarding how to build this page you could follow this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/). Likewise, if you have questions regarding Mkdocs take a look at their [webpage](https://www.mkdocs.org/).
+For more information on mkdocs, refer to this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/) and [webpage](https://www.mkdocs.org/).

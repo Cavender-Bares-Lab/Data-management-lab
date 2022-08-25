@@ -1,4 +1,13 @@
+---
+hide:
+  - footer
+---
+
 ### Conferences/Presentations
+
+Grossman, J. J., Cavender-Bares, J., Hobbie, S.E. and Montgomery, R.A. (2016). Species richness and trait means, but not phylogenetic or functional diversity, predict biomass in the establishment phase of a tree diversity experiment. 101st Ecological Society of America Meeting. Fort Lauderdale, FL. Status = OTHER;  Acknowledgement of Federal Support = Yes
+
+Kothari, S., Cavender-Bares, J., Schweiger, A.K., Townsend, P.A., Hobbie, S.E. and Montgomery, R.A. (2017). Nitrogen uptake and crown-level allocation across an experimental tree diversity gradient. 102nd Ecological Society of America Meeting. Portland, OR.
 
 ### Publications
 

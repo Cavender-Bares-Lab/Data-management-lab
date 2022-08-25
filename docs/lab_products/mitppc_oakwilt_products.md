@@ -1,58 +1,36 @@
+---
+hide:
+  - footer
+---
+
 ### Conferences/Presentations
 
-Armour, I. “Xylem Anatomy and Tyloses Formation Among Infected Oaks.”
-Botanical Society of America, July 2018.
+Armour, I. “Xylem Anatomy and Tyloses Formation Among Infected Oaks.” Botanical Society of America, July 2018.
 
-Cavender-Bares J. “Understanding the Evolutionary and Environmental
-Sources of Spectral Variation within Species, Communities and Across the
-Plant Tree of Life to enhance biodiversity detection.” American
-Geophysical Union, December 14, 2020.
+Cavender-Bares J. “Understanding the Evolutionary and Environmental Sources of Spectral Variation within Species, Communities and Across the Plant Tree of Life to enhance biodiversity detection.” American Geophysical Union, December 14, 2020.
 
-Cavender-Bares J. “Detection of oak wilt disease from tree to landscape
-scales.”American Geophysical Union, New Orleans, LA, December 13-17,
-2021.  
-Sapes, G., Schroeder L., Juzwik J., Montgomery R.A., and Cavender-Bares
-J. “Spectral reflectance models predict ecophysiological indicators of
-oak wilt and drought induced tree decline in red oaks.” Ecological
-Society of America, Aug. 3-6, 2020.
+Cavender-Bares J. “Detection of oak wilt disease from tree to landscape scales.”American Geophysical Union, New Orleans, LA, December 13-17, 2021.  
 
-Fallon, B. Upper Midwest Invasive Species - North American Invasive
-Species Management Association Joint Conference, 15-18 October 2018.
+Sapes, G., Schroeder L., Juzwik J., Montgomery R.A., and Cavender-Bares J. “Spectral reflectance models predict ecophysiological indicators of oak wilt and drought induced tree decline in red oaks.” Ecological Society of America, Aug. 3-6, 2020.
+
+Fallon, B. "Accurate Detection of Oak Wilt at Multiple Scales Using Hyperspectral Sensors." Upper Midwest Invasive Species - North American Invasive Species Management Association Joint Conference, 15-18 October 2018.
 
 Fallon, B. Ecological Society of America, August 2018.
 
-Fallon, B. University of Minnesota’s Grand Challenges Research Expo
-2018.
+Fallon, B. University of Minnesota’s Grand Challenges Research Expo, 2018.
 
-Sapes, G. “Spectral reflectance detects oak wilt in red oaks across the
-landscape”.Ecological Society of America, 2-6 August 2021.
+Sapes, G. “Spectral reflectance detects oak wilt in red oaks across the landscape”.Ecological Society of America, 2-6 August 2021.
 
-Sapes, G., Lapadat C., Juzwik J., Montomery R., Liu N., Townsend P., and
-Cavender-Bares J. “Spectral Reflectance Detects Oak Wilt Decline in Oaks
-at the Landscape Scale.” Joint Conference of the Upper Midwest Invasive
-Species Conference and the North American Invasive Species Management
-Association, Rochester MN, November 2, 2020.
+Sapes, G., Lapadat C., Juzwik J., Montomery R., Liu N., Townsend P., and Cavender-Bares J. “Spectral Reflectance Detects Oak Wilt Decline in Oaks at the Landscape Scale.” Joint Conference of the Upper Midwest Invasive Species Conference and the North American Invasive Species Management Association, Rochester MN, November 2, 2020.
 
 ### Publications
 
-[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery
-and J. Cavender-Bares (2020). Spectral differentiation of oak wilt from
-foliar fungal disease and drought is correlated with physiological
-changes. Tree Physiology 40(3):
-377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
+[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery and J. Cavender-Bares (2020). Spectral differentiation of oak wilt from foliar fungal disease and drought is correlated with physiological changes. Tree Physiology 40(3): 377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
 
-[Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H.
-Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022).
-Canopy spectral reflectance detects oak wilt at the landscape scale
-using phylogenetic discrimination. Remote Sensing of Environment
-273.](https://drive.google.com/file/d/1jvwWEzR_vVr5V_qRQ-o6UPUI2KNBc5Cq/view?usp=sharing)
+[Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H. Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022). Canopy spectral reflectance detects oak wilt at the landscape scale using phylogenetic discrimination. Remote Sensing of Environment 273.](https://drive.google.com/file/d/1jvwWEzR_vVr5V_qRQ-o6UPUI2KNBc5Cq/view?usp=sharing)
 
-\[Sapes G., Schroeder L., Juzwik J., Montgomery R., Cavender-Bares J.
-Leaf hyperspectral features predict key physiological processes
-associated with oak wilt and drought stress. In prep.\]
+[Sapes G., Schroeder L., Juzwik J., Montgomery R., Cavender-Bares J. Leaf hyperspectral features predict key physiological processes associated with oak wilt and drought stress. In prep.]
 
 ### Media
 
-[“UMN researchers say invasive fungus that threatens oak trees is
-spreading. New research into oak wilt allows for better detection and
-treatment.”](https://mndaily.com/262507/news/tree-d-lightly-umn-researchers-say-invasive-fungus-threatens-oak-trees-is-spreading/)
+[“UMN researchers say invasive fungus that threatens oak trees is spreading. New research into oak wilt allows for better detection and treatment.”](https://mndaily.com/262507/news/tree-d-lightly-umn-researchers-say-invasive-fungus-threatens-oak-trees-is-spreading/)

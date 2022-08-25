@@ -54,7 +54,7 @@ template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsG
 
 1. Grind samples using a 1 mm screen and dry.
 
-2. Label bags with special Ankom marker or permanent Sharpie.
+2. Label bags with special Ankom marker or **industral** permanent Sharpie.
 
 3. Tare Ankom bag and record weight.
 
