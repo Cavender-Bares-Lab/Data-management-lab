@@ -56,7 +56,11 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
     * At the bottom, choose **+ Record**
         - **Survey date**: defaults to the current date
         - **Reproducing**: Respond "Yes" or "No"
-        - **Sub_RC**:  
+        - **Reproduction Type**:
+            * Choose the type of reproduction: Fruit, Flower, Cone
+                - catkins are generalized as flowers
+                - pine cone structures are referred to as its own type        
+        - **Subsample_Count** (*only respond if reproducing*):  
             * **Yes**: count was completed  
             * **No**: count was not completed  
             * **N/A**: count will be completed later  
@@ -74,10 +78,6 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
                 - an exact count is not needed for categories, if it is clear that it falls within a range, simply choose the corresponding category.
             * All other species: raw count
                 - choose a quarter section of the tree as shown in the figure below, count the quarter and multiply by 4. Enter in number. 
-        - **Reproduction Type**:
-            * Choose the type of reproduction: Fruit, Flower, Cone
-                - catkins are generalized as flowers
-                - pine cone structures are referred to as its own type
     * **Save**
         - fulcrum app was created with several requirement rules, you must fill in the requirements in order to save properly. 
         - After saving the reproduction data, on the main page for an individual:
@@ -106,9 +106,9 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
 5. Survey requirements
     a. Survey date
     b. Reproducing
-    c. Sub_RC
-    d. Reproduction Count
-    e. Reproduction Type
+    c. Reproduction Type
+    d. Subsample_Count
+    e. Reproduction Count
     f. SAVE
 
 6. Main page requirements

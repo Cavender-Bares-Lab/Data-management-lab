@@ -75,17 +75,17 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
         1. Survey date
             1. defaults to current date
         2. Reproducing
-            1. If **Yes**, continue to **Sub_RC**
+            1. If **Yes**, continue to **Subsample_Count**
             2. If **No**, choose No and SAVE
                 1. Fill in the following on the main page:
                     1. Reproduction complete: Yes
                     2. Needs Reproduction Count: No 
-        3. Sub_RC
-            1. Choose N/A
-        4. Reproduction Count
-            1. Skip; reproduction count will be done after growth measurements are completed
-        5. Reproduction Type
+        3. Reproduction Type
             1. Choose flower, fruit, or cone
+        4. Subsample_Count
+            1. Choose N/A
+        5. Reproduction Count
+            1. Skip; reproduction count will be done after growth measurements are completed
         6. SAVE
             1. On main page, fill in the following:
                 1. Reproduction complete: No 
@@ -120,9 +120,9 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
 6. Reproduction   
     a. Survey date
     b. Reproducing
-    c. Sub_RC
-    d. Reproduction Count: SKIP
-    e. Reproduction Type
+    c. Reproduction Type
+    d. Subsample_Count
+    e. Reproduction Count: SKIP
     f. SAVE
 
 7. Main page requirements

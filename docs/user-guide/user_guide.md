@@ -101,6 +101,8 @@ Let’s assume that you finished to write your documentation. You can then save 
 
 Once you storage the file in the corresponding folder, you can `Knit` it. But what is this? `Knit`, for this context, is a process to transform the rmarkdown extension (`.Rmd`) to markdown (`.md`); the extension required for `Mkdocs`. You can `Knit` the file pressing the knit button close to save, at the top of your rmarkdown document. If everything goes well, you will see a new file `docs/protocols/your_new_protocol.md`.
 
+##### Markdown
+It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 <br>
 
 #### Step 4 - Edit mkdocs.yml
@@ -121,8 +123,6 @@ Following `your_new_protocol` example, your documentation should be added below 
 Save the `mkdocs.yml` to build the page in the next step.
 
 
-##### Markdown
-It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 
 <br>
 

@@ -4,7 +4,6 @@ hide:
   - footer
   - navigation
 ---
-  
 
 # Documentation for Cavender-Bares Lab
 
