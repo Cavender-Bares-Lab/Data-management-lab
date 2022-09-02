@@ -419,14 +419,7 @@
     Step 3 - Create a documentation file
   </a>
   
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-4-edit-mkdocsyml" class="md-nav__link">
-    Step 4 - Edit mkdocs.yml
-  </a>
-  
-    <nav class="md-nav" aria-label="Step 4 - Edit mkdocs.yml">
+    <nav class="md-nav" aria-label="Step 3 - Create a documentation file">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -438,6 +431,13 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-edit-mkdocsyml" class="md-nav__link">
+    Step 4 - Edit mkdocs.yml
+  </a>
   
 </li>
         
@@ -560,14 +560,14 @@
       
       
         <label class="md-nav__link" for="__nav_3_4">
-          Sampling and Analysis Costs
+          Sampling and Analytical Costs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Sampling and Analysis Costs" data-md-level="2">
+      <nav class="md-nav" aria-label="Sampling and Analytical Costs" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_4">
           <span class="md-nav__icon md-icon"></span>
-          Sampling and Analysis Costs
+          Sampling and Analytical Costs
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2802,14 +2802,7 @@
     Step 3 - Create a documentation file
   </a>
   
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-4-edit-mkdocsyml" class="md-nav__link">
-    Step 4 - Edit mkdocs.yml
-  </a>
-  
-    <nav class="md-nav" aria-label="Step 4 - Edit mkdocs.yml">
+    <nav class="md-nav" aria-label="Step 3 - Create a documentation file">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2821,6 +2814,13 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-edit-mkdocsyml" class="md-nav__link">
+    Step 4 - Edit mkdocs.yml
+  </a>
   
 </li>
         
@@ -2945,7 +2945,9 @@ author: "Your name"
 <p>Once you create the file and their structure, you then can write or copy/paste the information that you want to convey in <code>your_new_protocol</code> file. This file uses the writing syntax of <a href="https://rmarkdown.rstudio.com/">rmarkdown</a>; thus it is recommend to follow basic guidelines for doing an elegant document. A quick introduction to rmarkdown is this <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheat sheet</a>.</p>
 <p>Let’s assume that you finished to write your documentation. You can then save the file in a folder of interest under <code>docs</code>. For instance, if you are writing about a protocol, so you can save <code>your_new_protocol.Rmd</code> file in a path like <code>docs/protocols/your_new_protocol.Rmd</code>.</p>
 <p>Once you storage the file in the corresponding folder, you can <code>Knit</code> it. But what is this? <code>Knit</code>, for this context, is a process to transform the rmarkdown extension (<code>.Rmd</code>) to markdown (<code>.md</code>); the extension required for <code>Mkdocs</code>. You can <code>Knit</code> the file pressing the knit button close to save, at the top of your rmarkdown document. If everything goes well, you will see a new file <code>docs/protocols/your_new_protocol.md</code>.</p>
-<p><br></p>
+<h5 id="markdown">Markdown</h5>
+<p>It is also possible to directly create and edit in a Markdown file. `File &gt; New File &gt; Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
+<br></p>
 <h4 id="step-4-edit-mkdocsyml">Step 4 - Edit mkdocs.yml</h4>
 <p>The <code>mkdocs.yml</code> file is located within the <code>Data-management-lab</code> folder outside of <code>docs</code> and <code>site</code>.</p>
 <p>Please familiarize yourself with the details and structure of the file first.</p>
@@ -2956,8 +2958,6 @@ author: "Your name"
     - Your New Protocol: 'protocols/your_new_protocol.md'
 </code></pre>
 <p>Save the <code>mkdocs.yml</code> to build the page in the next step.</p>
-<h5 id="markdown">Markdown</h5>
-<p>It is also possible to directly create and edit in a Markdown file. `File &gt; New File &gt; Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.</p>
 <p><br></p>
 <h4 id="step-5-build-webpage">Step 5 - Build webpage</h4>
 <p>Click on the "Terminal" tab in Rstudio. To view the webpage in real time, type <code>mkdocs serve</code>. The local address will appear in the terminal <code>http://http://127.0.0.1:8000/</code>. Click on the address to view the webpage on your browser.</p>
