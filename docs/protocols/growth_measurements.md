@@ -75,7 +75,7 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
         1. Survey date
             1. defaults to current date
         2. Reproducing
-            1. If **Yes**, continue to **Subsample_Count**
+            1. If **Yes**, continue to **Reproduction Type**
             2. If **No**, choose No and SAVE
                 1. Fill in the following on the main page:
                     1. Reproduction complete: Yes

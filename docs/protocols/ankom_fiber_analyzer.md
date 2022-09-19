@@ -54,7 +54,7 @@ template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsG
 
 1. Grind samples using a 1 mm screen and dry.
 
-2. Label bags with special Ankom marker or **industral** permanent Sharpie.
+2. Label bags with special Ankom marker or **industral** permanent Sharpie. Label with a unique ID e.g. 1-24.
 
 3. Tare Ankom bag and record weight.
 
@@ -76,9 +76,9 @@ template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsG
 
 4. After 75 minutes turn Agitate and Heat OFF, open the drain valve and exhaust the hot solution BEFORE opening the lid. Be aware, the solution will be around 100° C. The neutral detergent can be dumped down the drain. WARNING: The solution in the vessel is under pressure. The valve should be opened first to remove pressure before the lid can be opened. Ensure that the exhaust hose is securely positioned for safe disposal of effluent.
 
-5. After the solution has been exhausted, close the valve and open the lid. Pour in the 1800 ml of boiling water and just lower the lid but do now seal it. Agitate for 3-5 minutes, but do NOT Heat. Exhaust the rinse water down the sink. During the first rinse, heat 1800 ml of water for a second rinse. Rinse two more times for a total of 3 rinses.
+5. After the solution has been exhausted, close the valve and open the lid. Pour in the 1800 ml of boiling water and just lower the lid but do not seal it. Agitate for 3-5 minutes, but do NOT Heat. Exhaust the rinse water down the sink. During the first rinse, heat 1800 ml of water for a second rinse. Rinse two more times for a total of 3 rinses.
 
-6. Remove the filter bags and gently press out the excess water. Place them in the drying oven and dry completely. Dry them overnight at 65° C.
+6. Remove the filter bags and gently press out the excess water. If detergent is still in the filter bags, please rinse again until the detergent is completely removed. Place them in the drying oven and dry completely. Dry them overnight at 65° C.
 
 7. Cool bags to room temperature and weigh all the bags. Record weights.
 
@@ -86,25 +86,25 @@ template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsG
 
 #### NDF Calculations
 
-Note: blank bag correction (C) = blank bag wt. after extraction/blank bag tare wt.
+$$blank\;bag\;correction\;(C_{NDF}) = {blank\;bag\;wt.\;after\;extraction \over blank\;bag\;tare\;wt.}$$
 
-**% washed off (soluble cell contents)**
+\begin{align}
+Percent\;washed\;off\; & = soluble\;cell\;contents \\
+& = {((\;sample\;bag\;wt. + sample\;wt.) - bag\;wt.\;after\;NDF) * 100 \over sample\;wt.} \\
+\end{align}
 
-*= (((Tare wt. sample bag + sample wt.) - bag wt. after NDF) x
-100)/sample wt.*
-
-**% left after NDF (hemicellulose, bound proteins, cellulose, lignin,
-recalcitrants)**
-
-*= ((bag wt. after NDF - (tare wt. sample bag x C<sub>NDF</sub>)) x
-100)/sample wt.*
+\begin{align}
+Percent\;left\;after\;NDF\; & = hemicellulose,\;bound\;proteins,\;cellulose,\;lignin,\;recalcitrants \\
+& = {((bag\;wt.\;after\;NDF - (sample\;bag\;wt. * C_{NDF})) *
+100) \over sample\;wt.} \\
+\end{align}
 
 ## ADF Extraction
 
 1. Dilute the 5x ADF solution to the desired volume for a run. Pour it into the chamber. Make sure the valve on the left side of the machine is closed!  
 
-* 1900 ml 1x ADF = 380 ml 5x ADF solution + 1520 ml nanopure water  
-* 1500 ml 1x ADF = 300 ml 5x ADF solution + 1200 ml nanopure water
+    **1900 ml 1x ADF = 380 ml 5x ADF solution + 1520 ml nanopure water**  
+    **1500 ml 1x ADF = 300 ml 5x ADF solution + 1200 ml nanopure water**  
 
 2. Place the bags in the bag suspender and place it in the chamber.
 
@@ -112,7 +112,7 @@ recalcitrants)**
 
 4. Just before the 60 minutes is up, heat 1800 ml nanopure water to boiling in the electric tea kettle.
 
-5. After 60 minutes turn Agitate and Heat OFF, open the drain valve and exhaust the hot solution BEFORE opening the lid. Be aware, the solution will be around 100° C. The acid detergent solution should be exhausted into a waste container. (The waste can later be neutralized and dumped down the drain.) WARNING: The solution in the vessel is under pressure. The valve should be opened first to remove pressure before the lid can be opened. Ensure that the exhaust hose is securely positioned for safe disposal of effluent.
+5. After 60 minutes turn Agitate and Heat OFF, open the drain valve and exhaust the hot solution BEFORE opening the lid. Be aware, the solution will be around 100° C. The acid detergent solution should be exhausted into a waste container. (The waste can later be picked up by DEHS). WARNING: The solution in the vessel is under pressure. The valve should be opened first to remove pressure before the lid can be opened. Ensure that the exhaust hose is securely positioned for safe disposal of effluent.
 
 6. After the solution has been exhausted, close the valve and open the lid. Pour in the 1800 ml of boiling water and just lower the lid but do now seal it. Agitate for 3-5 minutes, but do NOT Heat. Exhaust the rinse water down the sink. During the first rinse, heat 1800 ml of water for a second rinse. Rinse two more times for a total of 3 rinses.
 
@@ -123,19 +123,18 @@ recalcitrants)**
 9. Move on to ADL extraction.
 
 #### ADF Calculations
+$$blank\;bag\;correction\;(C_{ADF}) = {blank\;bag\;wt.\;after\;extraction \over  blank\;bag\;tare\;wt.}$$
 
-Note: blank bag correction (C) = blank bag wt. after extraction/blank bag tare wt.
+\begin{align}
+Percent\;washed\;off\; & = hemicellulose\;and\;bound\;proteins \\
+& = {(((bag\;wt\;after\;NDF - (tare\;wt\;sample\;bag * C_{NDF})) - (bag\;wt\;after\;ADF - (tare\;wt.\;sample\;bag * C_{ADF})) * 100) \over sample\;wt.} \\
+\end{align}
 
-**% washed off (hemicellulose and bound proteins)**
-
-*= (((bag wt after NDF - (tare wt sample bag x C<sub>NDF</sub>)) - (bag
-wt after ADF - (tare wt. sample bag x C<sub>ADF</sub>)) x 100)/sample
-wt.*
-
-**% left after ADF (cellulose, lignin, and recalcitrants)**
-
-*= ((bag wt. after ADF - (tare wt. sample bag x C<sub>ADF</sub>)) x
-100)/sample wt.*
+\begin{align}
+Percent\;left\;after\;ADF\; & = cellulose, lignin, and recalcitrants \\
+& = {((bag\;wt.\;after\;ADF - (tare\;wt.\;sample\;bag * C_{ADF})) *
+100) \over sample wt.}
+\end{align}
 
 ## ADL Extraction
 
@@ -147,24 +146,32 @@ wt.*
 
 4. Just before the 3 hours is up, heat 1000 ml nanopure water.
 
-5. After 3 hours, pour off the sulfuric acid into a waste container and rinse with the boiling water. Rinse with boiling water until the pH is neutral. This takes about 6-7 rinses. I have been dumping my rinses down the drain.
+5. After 3 hours, pour off the sulfuric acid into a waste container (the waste can later be picked up by DEHS) and rinse with the boiling water. Rinse with boiling water until the pH is neutral. This takes about 6-7 rinses. Dump the rinses down the drain.
 
 6. Gently press out the excess water. Place them in the drying oven and dry completely. Dry them overnight at 65° C.
 
-7. Cool bags to room temperature in a desiccator and weigh all the bags. Record weights. (At this time you can ash your bags if you are concerned about sand, silica, etc. content.)
+7. Cool bags to room temperature in a desiccator and weigh all the bags. Record weights. At this time, you can ash your bags if you are concerned about sand, silica, etc. content.
 
 #### ADL Calculations
+$$blank\;bag\;correction\;(C_{ADL}) = {blank\;bag\;wt.\;after\;extraction \over blank\;bag\;tare\;wt.}$$
 
-Note: blank bag correction (C) = blank bag wt. after extraction/blank
-bag tare wt.
+\begin{align}
+Percent\;washed\;off\; & = cellulose \\
+& = {(((bag\;wt.\;after\;ADF - (tare\;wt.\;sample\;bag * C_{ADF})) - (bag\;wt.\;after\;ADL - (tare\;wt.\;sample\;bag * C_{ADL})) * 100) \over sample\;wt.} \\
+\end{align}
 
-**% washed off (cellulose)**
+\begin{align}
+Percent\;left\;after\;ADL\; & = lignin\;and\; recalcitrants \\
+& = {((bag\;wt.\;after\;ADL - (tare\;wt.\;sample\;bag * C_{ADL})) *
+100) \over sample\;wt.} \\
+\end{align}
 
-*= (((bag wt after ADF - (tare wt sample bag x C<sub>ADF</sub>)) - (bag
-wt after ADL - (tare wt. sample bag x C<sub>ADL</sub>)) x 100)/sample
-wt.*
+## Ashing
 
-**% left after ADL (lignin and recalcitrants)**
+1. Tare crucible. 
+2. Carefully remove sample from filter bag into crucible. Weigh sample and record weight.
+3. The crucibles cannot be labeled with tape as it will melt and sharpie will be burned off in the muffle furnace. So you must have good documentation of the placement of the crucibles with sample in the furnace.
+4. Set muffle furnace to 550° C and let samples ash for 3 hours.
+5. The remaining sample will be inorganic matter.
 
-*= ((bag wt. after ADL - (tare wt. sample bag x C<sub>ADL</sub>)) x
-100)/sample wt.*
+**Note**: The ANKOM filter bags are able to be ashed in the muffle furnace; however, we have been separating the sample from the filter bags because it is less messy and smoky without the filter bags. 

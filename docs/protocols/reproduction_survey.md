@@ -17,7 +17,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
     - BEPA
     - JUVI, PIBA, PIST, PIRE
     
-- **ATTENTION TO SUPERVISOR**: In order to SAVE properly and sync to the cloud, all requirements must be answered including the growth requirements. However, if reproduction is being surveyed prior to growth, the supervisor must forgo all growth requirements and reinstate the requirements after reproduction survey is complete. **Save as draft** is not an option since drafts will not sync to the cloud.
+- **Save as draft** is not an option since drafts will not sync to the cloud.
     
 ### Preparation
 
@@ -47,6 +47,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
         - Choose **Species Code**
             * Operator: **Equals** or **Contains**; Value: Chosen species to survey
                 - If surveying multiple species, continue to add a new species code to the rules list  
+        - If completing reproduction after growth measurements, add filter rule to include **Yes** for "Needs Reproduction Count"
 
 3. Locate tree
     * When located, choose the correct line in fulcrum app, and scroll down. Click **Reproduction** 
@@ -55,6 +56,8 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
 4. Survey
     * At the bottom, choose **+ Record**
         - **Survey date**: defaults to the current date
+        - **Live Branches Are Not Clearly Visible**: Respond "Yes" or "No"
+            - Note: This is currently an issue in FAB 1 with dead lower branches. With only live branches at the canopy.
         - **Reproducing**: Respond "Yes" or "No"
         - **Reproduction Type**:
             * Choose the type of reproduction: Fruit, Flower, Cone
@@ -62,7 +65,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
                 - pine cone structures are referred to as its own type        
         - **Subsample_Count** (*only respond if reproducing*):  
             * **Yes**: count was completed  
-            * **No**: count was not completed  
+            * **No**: count was not completed or reproduction cannot be completed e.g. live branches are at canopy and to count reproduction is not possible
             * **N/A**: count will be completed later  
             * Choosing what to subsample for reproduction count:
                 - take reproduction counts for all individuals in plots of species richness 4 and above

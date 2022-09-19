@@ -2761,7 +2761,7 @@
 </ul>
 </li>
 <li>
-<p><strong>ATTENTION TO SUPERVISOR</strong>: In order to SAVE properly and sync to the cloud, all requirements must be answered including the growth requirements. However, if reproduction is being surveyed prior to growth, the supervisor must forgo all growth requirements and reinstate the requirements after reproduction survey is complete. <strong>Save as draft</strong> is not an option since drafts will not sync to the cloud.</p>
+<p><strong>Save as draft</strong> is not an option since drafts will not sync to the cloud.</p>
 </li>
 </ul>
 <h3 id="preparation">Preparation</h3>
@@ -2815,6 +2815,7 @@
 </li>
 </ul>
 </li>
+<li>If completing reproduction after growth measurements, add filter rule to include <strong>Yes</strong> for "Needs Reproduction Count"</li>
 </ul>
 </li>
 </ul>
@@ -2831,6 +2832,10 @@
 <ul>
 <li>At the bottom, choose <strong>+ Record</strong><ul>
 <li><strong>Survey date</strong>: defaults to the current date</li>
+<li><strong>Live Branches Are Not Clearly Visible</strong>: Respond "Yes" or "No"<ul>
+<li>Note: This is currently an issue in FAB 1 with dead lower branches. With only live branches at the canopy.</li>
+</ul>
+</li>
 <li><strong>Reproducing</strong>: Respond "Yes" or "No"</li>
 <li><strong>Reproduction Type</strong>:<ul>
 <li>Choose the type of reproduction: Fruit, Flower, Cone<ul>
@@ -2842,7 +2847,7 @@
 </li>
 <li><strong>Subsample_Count</strong> (<em>only respond if reproducing</em>):  <ul>
 <li><strong>Yes</strong>: count was completed  </li>
-<li><strong>No</strong>: count was not completed  </li>
+<li><strong>No</strong>: count was not completed or reproduction cannot be completed e.g. live branches are at canopy and to count reproduction is not possible</li>
 <li><strong>N/A</strong>: count will be completed later  </li>
 <li>Choosing what to subsample for reproduction count:<ul>
 <li>take reproduction counts for all individuals in plots of species richness 4 and above</li>
@@ -3035,6 +3040,12 @@
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
         <script src="../../javascripts/tablesort.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
