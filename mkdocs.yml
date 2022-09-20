@@ -35,7 +35,7 @@ nav:
   - User guide: 'user-guide/user_guide.md'
   - Lab Information: 
     - Welcome package: 'welcome_package.md'
-    - Leaving package: ''
+    - Leaving package: 'leaving_package.md'
     - Important Lab Information: 'information-of-interest/information-of-interest.md'
     - Sampling and Analytical Costs: 
       - Leaves:
@@ -56,6 +56,7 @@ nav:
     - Methods Publications: ''
     - Permits: 'information-of-interest\Permits\Permits.md'
   - Project Information:
+    - Introduction: ''
     - BII ASCEND: 'project_information\bii_ascend\biiascend.md'
     - Dimensions of Biodiversity:
       - Oaks US - China: 'project_information\dimensions\Oaks US China\Oaks-US-China.md'
@@ -71,6 +72,7 @@ nav:
     - NPS Aspen: ''
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
+    - Introduction: 'protocols/introduction_protocols.md'
     - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
     - Acorn Collection and Processing:
       - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'

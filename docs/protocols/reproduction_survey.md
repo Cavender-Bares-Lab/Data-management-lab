@@ -80,7 +80,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
                 - see table below for categories
                 - an exact count is not needed for categories, if it is clear that it falls within a range, simply choose the corresponding category.
             * All other species: raw count
-                - choose a quarter section of the tree as shown in the figure below, count the quarter and multiply by 4. Enter in number. 
+                - choose a quarter section of the tree as shown in Figure 1 below, count the quarter and multiply by 4. Enter in number. 
     * **Save**
         - fulcrum app was created with several requirement rules, you must fill in the requirements in order to save properly. 
         - After saving the reproduction data, on the main page for an individual:
@@ -123,9 +123,10 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
 
 8. Sync
 ```
-
+**Juniperus virginiana Categories**
 |Abundance Category|0|1|2|3|4|5|
 |--|--|--|--|--|--|--|
 |Category Ranges (# of berries)|0|1-2|3-10|11-100|101-1000|1001-5000|
 
+**Figure 1**
 ![tree](images/tree quarter.png)

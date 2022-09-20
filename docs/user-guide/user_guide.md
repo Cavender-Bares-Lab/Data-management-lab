@@ -103,6 +103,9 @@ Once you storage the file in the corresponding folder, you can `Knit` it. But wh
 
 ##### Markdown
 It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
+
+###### Mathjax
+For math syntax, refer to [Mathjax basic tutorial and reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/25054#25054)
 <br>
 
 #### Step 4 - Edit mkdocs.yml
