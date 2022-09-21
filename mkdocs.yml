@@ -36,7 +36,7 @@ nav:
   - Lab Information: 
     - Welcome package: 'welcome_package.md'
     - Leaving package: 'leaving_package.md'
-    - Important Lab Information: 'information-of-interest/information-of-interest.md'
+    - Important Lab Information: 'lab_information/information-of-interest.md'
     - Sampling and Analytical Costs: 
       - Leaves:
         - Carbon and Nitrogen: ''        
@@ -54,9 +54,9 @@ nav:
         - Phosphorus: ''
         - Soil Respiration: ''
     - Methods Publications: ''
-    - Permits: 'information-of-interest\Permits\Permits.md'
+    - Permits: 'lab_information\Permits\Permits.md'
   - Project Information:
-    - Introduction: ''
+    - Introduction: 'project_information\introduction.md'
     - BII ASCEND: 'project_information\bii_ascend\biiascend.md'
     - Dimensions of Biodiversity:
       - Oaks US - China: 'project_information\dimensions\Oaks US China\Oaks-US-China.md'
@@ -79,7 +79,6 @@ nav:
       - Acorn Processing: 'protocols/acorn_processing.md'
     - Ankom Fiber Analyzer: 'protocols/ankom_fiber_analyzer.md'
     - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
-    - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
     - FAB surveys:
       - Growth Measurements: 'protocols/growth_measurements.md'
       - Herbivory Survey: ''
@@ -98,7 +97,7 @@ nav:
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
     - Pneumatic Protocol: 'protocols/pneumatic_protocol.md'
     - PSR:
-      - PSR Leaf Measurements: ''
+      - PSR Leaf Measurements: 'protocols/spectral_evolution_psr+.md'
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
     - Soil:
       - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
@@ -115,6 +114,7 @@ nav:
           - N-min Processing Day 2: 'protocols/nminI_processing_day2.md'
     - Surface Sterilization: 'protocols/surface_sterilization.md'
     - SVC:  
+      - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
       - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
     - VLA:
