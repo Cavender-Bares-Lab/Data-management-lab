@@ -3,7 +3,11 @@ toc:
  - footer
 ---
 
-###### Author: Cathleen Lapadat; Updated: 2020
+###### Author
+Cathleen Lapadat
+
+###### Updated
+2020
 
 ### Goal
 

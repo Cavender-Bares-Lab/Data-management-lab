@@ -1,9 +1,12 @@
 ---
-hide
- - footer
+hide: footer
 ---
 
-###### Author: Cavender-Bares Lab; Updated: 3 August 2009
+###### Author
+Cavender-Bares Lab
+
+###### Updated
+3 August 2009
 
 ### Goal
 

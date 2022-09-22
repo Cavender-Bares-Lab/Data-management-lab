@@ -7,8 +7,10 @@ hide:
 
 Stored data:
 
-* Growth and Reproduction (2016-present)
-* Soil
+* Growth and Reproduction (2016-present)  
+    * [x] README
+* Soil  
+    * [x] README
     * Nitrogen mineralization (2021-2022)
     * Soil moisture (2021-2022)
     * pH (2021-2022)

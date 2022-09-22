@@ -35,6 +35,12 @@ your data:
 + Why was the data collected?  
 + What type of analyses will this data be used for? Reference to
 analyses when/if completed.
++ Field/column definitions
+
+README text files will be stored in the shared drive along with the accompanying data. On this webpage, you will see the checklist below for a completed or missing README text file, respectively.
+
+* [x] README
+* [ ] README
 
 ###### Spectra
 In addition to the README text file, all spectra should specifically have the following documentation:

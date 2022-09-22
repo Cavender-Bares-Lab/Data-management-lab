@@ -29,6 +29,11 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tilde
+  - pymdownx.caret
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 extra_css:
   - css/extra.css
 nav:
@@ -38,22 +43,7 @@ nav:
     - Welcome package: 'welcome_package.md'
     - Leaving package: 'leaving_package.md'
     - Important Lab Information: 'lab_information/information-of-interest.md'
-    - Sampling and Analytical Costs: 
-      - Leaves:
-        - Carbon and Nitrogen: ''        
-        - Fiber: ''
-        - Pigment (HPLC): ''
-        - Leaf Veination: ''
-        - Osmometer: ''
-        - Phosphorus: ''
-      - Soil sampling:
-        - Carbon and Nitrogen: ''
-        - LTER FAB Specific:
-          - LTER Soil Sampling and Analysis Costs: ''
-        - Nitrogen Mineralization: ''
-        - Microbial Biomass: ''
-        - Phosphorus: ''
-        - Soil Respiration: ''
+    - Sampling and Analytical Costs: 'lab_information/costs.md'
     - Methods Publications: ''
     - Permits: 'lab_information\Permits\Permits.md'
   - Project Information:
@@ -89,10 +79,10 @@ nav:
       - (Alternative) Dark/Light Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
       - Interface Settings: 'protocols/interface_settings.md'
     - HPLC:
-      - HPLC ImageJ: 'protocols/hplc_imagej.md'
-      - Pigment Extraction: 'protocols/pigment_extraction.md'
-      - Pigment Calibration: 'pigment_calibration.md'
-      - Run Samples: ''
+      - HPLC - ImageJ: 'protocols/hplc_imagej.md'
+      - HPLC - Pigment Extraction: 'protocols/pigment_extraction.md'
+      - HPLC - Pigment Calibration: 'protocols/pigment_calibration.md'
+      - HPLC - Run Samples: 'protocols/hplc_run_samples.md'
     - Leaf Surface Sterilization: 'protocols/surface_sterilization.md'
     - Licor 6400 Warmup Protocol: 'protocols/licor_6400_warmup_protocol.md'
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'

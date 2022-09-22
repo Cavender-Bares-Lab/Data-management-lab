@@ -53,7 +53,7 @@ In general,there is an initial high yield light exposure, then 10 sec of actinic
     
 3. Log: 1
     
-4. FVFM: ##,##,##
+4. F~V~F~M~: ##,##,##
     1. 2.5 duration of element
     2. 60 intensity of saturating pulse
     3. .7 width
@@ -69,7 +69,7 @@ Note: Default values for F~v~/F~m~
     
 3. Log: 1
     
-4. FVFM: ##,##,##
+4. F~V~F~M~: ##,##,##
     1. 2.5 duration of element
     2. 100 intensity of saturating pulse
     3. .7 width

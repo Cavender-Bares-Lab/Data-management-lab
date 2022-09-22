@@ -3,7 +3,11 @@ hide:
  - footer
 ---
 
-###### Author: Licor, Inc.; Manual: Chapter 4 -> Please refer to the manual for the fundamental of good measurements in Chapter 4: Making Measurements.
+###### Author
+Licor, Inc.
+
+###### Manual
+Chapter 4 -> Please refer to the manual for the fundamental of good measurements in Chapter 4: Making Measurements.
 
 ### Goal
 

@@ -3,7 +3,8 @@ hide:
   - footer
 ---
 
-###### Author: Hobbie Lab
+###### Author
+Hobbie Lab
 
 ### Goal
 
@@ -169,9 +170,17 @@ Percent\;left\;after\;ADL\; & = lignin\;and\; recalcitrants \\
 ## Ashing
 
 1. Tare crucible. 
+
 2. Carefully remove sample from filter bag into crucible. Weigh sample and record weight.
+
 3. The crucibles cannot be labeled with tape as it will melt and sharpie will be burned off in the muffle furnace. So you must have good documentation of the placement of the crucibles with sample in the furnace.
+
 4. Set muffle furnace to 550° C and let samples ash for 3 hours.
-5. The remaining sample will be inorganic matter.
+    1. The remaining sample will be inorganic matter.
+
+5. Open door half-way and let cool for at least 30 minutes before removing.
+
+6. Use large tongs to remove glassware from furnace and continue to cool to room temperature.
+
 
 **Note**: The ANKOM filter bags are able to be ashed in the muffle furnace; however, we have been separating the sample from the filter bags because it is less messy and smoky without the filter bags. 

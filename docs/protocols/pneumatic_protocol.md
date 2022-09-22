@@ -1,188 +1,193 @@
-###### Author: Beth Fallon; Updated: 15 February 2018
+---
+hide: footer
+---
+###### Author
+Beth Fallon
 
-### Goal
+###### Updated
+15 February 2018
 
 ##### Pneumatic protocol for measuring stem embolism and developing xylem vulnerability curves
 
-This method uses vacuum pressure to extract air, presumed to be in the
-xylem and the result of embolism, from leafy stem section. This outlines
-the 1) protocol for setting up an apparatus to measure differences in
-air volume present in stems and build a proxy hydraulic vulnerability
-curve and 2) the general measurement procedure.
+This method uses vacuum pressure to extract air, presumed to be in the xylem and the result of embolism, from leafy stem section. This outlines 
+
+1. the protocol for setting up an apparatus to measure differences in air volume present in stems and build a proxy hydraulic vulnerability curve 
+
+2. the general measurement procedure.
 
 ### Full citation to methods
 
-Pereira, L, PRL Bittencourt, RS Oliveira, MBM Junior, FV Barros, RV
-Ribeiro, and P Mazzafera. 2016. Plant pneumatics: stem air flow is
-related to embolism – new perspectives on methods in plant hydraulics.
-New Phytologist. doi: 110.111/nph.13905
+[Pereira, L, PRL Bittencourt, RS Oliveira, MBM Junior, FV Barros, RV Ribeiro, and P Mazzafera. 2016. Plant pneumatics: stem air flow is related to embolism – new perspectives on methods in plant hydraulics. New Phytologist. doi: 110.111/nph.13905](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.13905)
 
 ### Template
 
-[Pneumatic Method Manual
-Datalog](https://docs.google.com/spreadsheets/d/1KXQ5IoYeEURCN-4k8t9gBN5yb6eKQsCu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+[Pneumatic Method Manual Datalog](https://docs.google.com/spreadsheets/d/1KXQ5IoYeEURCN-4k8t9gBN5yb6eKQsCu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
 
 ### Contents
 
 ##### Apparatus set-up and tests
 
-1.  Datalogger and transducer  
-2.  System volume  
-3.  Sealing connections  
-4.  Leak tests
+1. Datalogger and transducer  
 
-##### Measurements
+2. System volume  
+
+3. Sealing connections  
+
+4. Leak tests
 
 ##### Appendices
 
-1.  Pressure transducer voltage to pressure conversion  
-2.  Equations for calculating pressure, moles discharged, air
-    discharged, percent air discharged  
-3.  Apparatus photos  
-4.  Campbell datalogger programming  
-5.  Concerns about the method
+1. Pressure transducer voltage to pressure conversion  
+
+2. Equations for calculating pressure, moles discharged, air discharged, percent air discharged  
+
+3. Apparatus photos  
+
+4. Campbell datalogger programming  
+
+5. Concerns about the method
 
 ### Apparatus set-up and tests
 
-##### 1. Datalogger and transducer
+##### Datalogger and transducer
 
-      a.    Pressure transducer: the Omega PX141-015V5V
-          i.    This reads only negative, or vacuum pressures, and should not be positively pressurized (beyond atmospheric) because the internal pressure plates can become deformed
-          ii.   Wiring
-              1.    Voltage input should be 8V, deviation from this input can affect voltage out and this accuracy of conversion to a pressure unit
-                a.  Use a step down voltage regulator (like this one sold on Amazon) to convert higher DC voltage from a 12V input into 8V to the transducer
-              2.     Use a 3 prong connector (Omega CX136-3, push-on wire connector) to connect a positive wire into the connector and positive out. A single split grounding wire can be both the grounding in and out (see p 4/5 of product documentation for wiring diagram)
-                a.  These connectors are possibly crimpable for a connection with input/output wires, but I found that they needed to be soldered in place (to wire, not transducer) for a consistent connection
+1. Pressure transducer: the [Omega PX141-015V5V](https://drive.google.com/file/d/1_ybB1SnXFQ1c9aApZV3L332BRG0Jr9eg/view?usp=sharing)
+    1. This reads only negative, or vacuum pressures, and should not be positively pressurized (beyond atmospheric) because the internal pressure plates can become deformed
+    2. Wiring
+        1. Voltage input should be 8V, deviation from this input can affect voltage out and this accuracy of conversion to a pressure unit
+            1. Use a step down voltage regulator ([like this one sold on Amazon](https://drive.google.com/file/d/1X0DIMTM8Fni0Y4MAsWRFd85s_paWi7Mc/view?usp=sharing)) to convert higher DC voltage from a 12V input into 8V to the transducer
+        2. Use a 3 prong connector (Omega CX136-3, push-on wire connector) to connect a positive wire into the connector and positive out. A single split grounding wire can be both the grounding in and out ([see p 4/5 of product documentation for wiring diagram](https://drive.google.com/file/d/1_ybB1SnXFQ1c9aApZV3L332BRG0Jr9eg/view?usp=sharing))
+            1. These connectors are possibly crimpable for a connection with input/output wires, but I found that they needed to be soldered in place (to wire, not transducer) for a consistent connection
       
-      b.    Campbell datalogger or other equivalent (currently using 850x)
-          i.    Datalogger is necessary for more accurate readings and timing of tests: 
-              1.    If you want three minutes, or x seconds, of pressure change for each individual measurement, the most exact method will be using a datalogger (paired with manual logs of approximate start and stop time) to find initial and final voltage (=pressure)
-              2.    The datalogger can log voltage out every second for a high resolution of change
-          ii.   Software interface
-              1.    PC200W datalogger software from Campbell Scientific (https://www.campbellsci.com/pc200w)
-                a.  Allows connection with any Campbell datalogger, writing and retrieving programs, monitoring and collecting data
-          iii.  Collect air temperature and voltage out from the pressure transducer
-              1.    Use a simple copper-constantin thermocouple to monitor air T
-              2.    Use simple voltage connection (see the program, Pneumatic_SEVolt_1seclog, for example)
-              3.    Monitor and sample every second, be sure to collect data daily from logger because the logs are extensive and time consuming to download
+2. Campbell datalogger or other equivalent (currently using 850x)
+    1. Datalogger is necessary for more accurate readings and timing of tests: 
+        1. If you want three minutes, or x seconds, of pressure change for each individual measurement, the most exact method will be using a datalogger (paired with manual logs of approximate start and stop time) to find initial and final voltage (=pressure)
+        2. The datalogger can log voltage out every second for a high resolution of change
+    2. Software interface
+        1. [PC200W datalogger software](https://www.campbellsci.com/pc200w) from Campbell Scientific
+            1. Allows connection with any Campbell datalogger, writing and retrieving programs, monitoring and collecting data
+    3. Collect air temperature and voltage out from the pressure transducer
+        1. Use a simple copper-constantin thermocouple to monitor air T
+        2. Use simple voltage connection ([see the program, Pneumatic_SEVolt_1seclog, for example](https://drive.google.com/drive/folders/1pjFq8a9TgTJv2Q2EqzRnib6gr15jHM8g?usp=sharing))
+        3. Monitor and sample every second, be sure to collect data daily from logger because the logs are extensive and time consuming to download
       
-      c.    Initial set up
-          i.    Install all wiring to the pressure transducer and connect to the datalogger
-          ii.   Connect a computer to the datalogger using the PC200W software
-              1.    Use a Serial to USB connection and specify the connection port when connecting
-          iii.  Make sure to Set the Clocks (right side of first PC200W tab “Clock/Program”) so that the computer and datalogger are synced
-          iv.   Under the Collect data tab, select the first table of the program (should have set for 1 sec sample output of air temperature and voltage) and choose an output location. Unless otherwise desired, ensure the radio button to append new data (rather than overwrite) is selected
-              1.    I made a new output file each day to reduce file size
-          v.    Under the Monitor Data tab, select Add and Table 1 to see the time, temperature and voltage output
-          vi.   In an unpressurized system, the voltage output should be the atmospheric pressure: the gage should read kPaatm/100=Vout.  
+3. Initial set up
+    1. Install all wiring to the pressure transducer and connect to the datalogger
+    2. Connect a computer to the datalogger using the PC200W software
+        1. Use a Serial to USB connection and specify the connection port when connecting
+    3. Make sure to Set the Clocks (right side of first PC200W tab “Clock/Program”) so that the computer and datalogger are synced
+    4. Under the Collect data tab, select the first table of the program (should have set for 1 sec sample output of air temperature and voltage) and choose an output location. Unless otherwise desired, ensure the radio button to append new data (rather than overwrite) is selected
+        1. I made a new output file each day to reduce file size
+    5. Under the Monitor Data tab, select Add and Table 1 to see the time, temperature and voltage output
+    6. In an unpressurized system, the voltage output should be the atmospheric pressure: the gage should read kPaatm/100=Vout.  
 
-##### 2. System volume
+##### System volume
 
-      a.    Measuring
-          i.    The effective reservoir for measurement is from the stem base to the pressure transducer, excluding the arm of the stopcock that is an outlet to the larger vacuum system. This is primarily the volume of the single piece of tubing (EW-30600-62 Cole Parmer, ID = 0.065” = 1.651mm, L = 24” = 609.6mm), but should include the volumes of all other components. 
-          ii.   See the spreadsheet, “Pneumatic_method_manual_datalog” sheet “V_calc” for an example. Volume should be given in L (air discharged, AD, is calculated in uL).
+1. Measuring
+    1. The effective reservoir for measurement is from the stem base to the pressure transducer, excluding the arm of the stopcock that is an outlet to the larger vacuum system. This is primarily the volume of the single piece of tubing (EW-30600-62 Cole Parmer, ID = 0.065” = 1.651mm, L = 24” = 609.6mm), but should include the volumes of all other components. 
+    2. See the spreadsheet, “[Pneumatic_method_manual_datalog](https://docs.google.com/spreadsheets/d/1KXQ5IoYeEURCN-4k8t9gBN5yb6eKQsCu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)” sheet “V_calc” for an example. Volume should be given in L (air discharged, AD, is calculated in uL).
 
-      b.    Error in measures
-          i.    As the test reservoir increases in size, the ability to detect small changes in air discharge decreases (error rate of pressure gage is ±0.5% of span = .005 * 5V = 0.025V), see sheet in “Pneumatic_method_manual_datalog” “Reservoir error calc” to see impact of initial test reservoir size (
-          ii.   Recommend keeping the size to 1 reservoir. Can detect a loss of 800uL of air from a stem and a minimum loss of 7uL
-          iii.  If stem quickly loses more than the maximum capacity, can refill the vacuum and continue to extract—however large losses (in small stems) are as likely to be leaks as real air within the stem
+1. Error in measures
+    1. As the test reservoir increases in size, the ability to detect small changes in air discharge decreases (error rate of pressure gage is ±0.5% of span = .005 * 5V = 0.025V), see sheet in “[Pneumatic_method_manual_datalog](https://docs.google.com/spreadsheets/d/1KXQ5IoYeEURCN-4k8t9gBN5yb6eKQsCu/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)” “Reservoir error calc” to see impact of initial test reservoir size (
+    2. Recommend keeping the size to 1 reservoir. Can detect a loss of 800uL of air from a stem and a minimum loss of 7uL
+    3. If stem quickly loses more than the maximum capacity, can refill the vacuum and continue to extract—however large losses (in small stems) are as likely to be leaks as real air within the stem
 
-##### 3. Sealing connections
+##### Sealing connections
 
-      a.    Multiple iterations of leak tests (see section 4, below) and sealing connections should be done in system preparation
+1. Multiple iterations of leak tests (see section 4, below) and sealing connections should be done in system preparation
 
-      b.    Water can build up in the tubing (should be checked for water droplets in between measurements) and should be checked during measurements, so having permanent seals between reservoir tubing and transducer is not recommended. 
+2. Water can build up in the tubing (should be checked for water droplets in between measurements) and should be checked during measurements, so having permanent seals between reservoir tubing and transducer is not recommended. 
 
-      c.    Teflon tape within and around all connections reduces most leakage
+3. Teflon tape within and around all connections reduces most leakage
 
-      d.    Closing the stopcock to the vacuum pump after initial depressurization reduces air entry within the larger system
+4. Closing the stopcock to the vacuum pump after initial depressurization reduces air entry within the larger system
 
-##### 4. Leak tests
+##### Leak tests
 
-      a.    Leak tests are best performed, and closest to general measurement set up, when using a sealed stem (gel superglue over cuts) clamped into silicone tubing and connect to the vacuum reservoir
+1. Leak tests are best performed, and closest to general measurement set up, when using a sealed stem (gel superglue over cuts) clamped into silicone tubing and connect to the vacuum reservoir
 
-      b.    Perform a leak test at the start of and end of testing (or multiple times throughout testing for more accuracy) for the same amount of time as stems are tested
+2. Perform a leak test at the start of and end of testing (or multiple times throughout testing for more accuracy) for the same amount of time as stems are tested
 
-      c.    It seems that small amounts of leakage are unavoidable, but can be limited to < 5uL air/3min. Care should be taken when taping connections and setting up the system to ensure that leakage is low
+3. It seems that small amounts of leakage are unavoidable, but can be limited to < 5uL air/3min. Care should be taken when taping connections and setting up the system to ensure that leakage is low
       
-      d.    Using a simple cap and FtoF luer for initial system tests can show how much leakage there is without a stem in the system
+4. Using a simple cap and FtoF luer for initial system tests can show how much leakage there is without a stem in the system
 
 ### Measurements
 
-    1.  Measure plants (height.bsd) before harvest
+1. Measure plants (height.bsd) before harvest
 
-    2.  Stem harvest:20- 40cm of stem with at least 6 healthy leaves
-      a.    Mark stem with tape to ID
-      b.    Cut under water and place in floral tube with dH2O
-      c.    cover 1-2 leaves with saran wrap (to reduce transpiration) and then foil
-      d.    Cover with thick black plastic bag and let equilibrate for 1 hour.
+2. Stem harvest:20- 40cm of stem with at least 6 healthy leaves
+    1. Mark stem with tape to ID
+    2. Cut under water and place in floral tube with dH2O
+    3. cover 1-2 leaves with saran wrap (to reduce transpiration) and then foil
+    4. Cover with thick black plastic bag and let equilibrate for 1 hour.
 
-    3.  Record for each sample
-      a.    include length and bsd of each test stem
+3. Record for each sample
+    1. include length and bsd of each test stem
 
-    4.  Measure air pressure in lab
-      a.    with Barometer app (phone reads 97.5 when LiCor 6400 reads 97.25kPa)
-          i.    record at start and stop
+4. Measure air pressure in lab
+    1. with Barometer app (phone reads 97.5 when LiCor 6400 reads 97.25kPa)
+        1. record at start and stop
 
-    5.  Start transducer 
-      a.    Switch Campbell sci logger to on. 
-      b.    plug in transducer and make sure voltage out is at 8V (on display)
-          i.    Any swing away from an input voltage of 8V will affect voltage output 
+5. Start transducer 
+    1. Switch Campbell sci logger to on. 
+    2. plug in transducer and make sure voltage out is at 8V (on display)
+        1. Any swing away from an input voltage of 8V will affect voltage output 
 
-    6.  Datalogger set 
-      a.    Append all existing data to datafile
-      b.    Resync datalogger to system clock (correct sec error) 
-      c.    Resend program (this must be done or mismatch in time will cause problems)
+6. Datalogger set 
+    1. Append all existing data to datafile
+    2. Resync datalogger to system clock (correct sec error) 
+    3. Resend program (this must be done or mismatch in time will cause problems)
 
-    7.  Transducer check
-      a.    With stem inlet stopcock open to all three flows (whole system at atmosphere), make sure that the voltage out is similar to current atmospheric pressure, ex.97V=97kPa
+7. Transducer check
+    1. With stem inlet stopcock open to all three flows (whole system at atmosphere), make sure that the voltage out is similar to current atmospheric pressure, ex.97V=97kPa
 
-    8.  System vacuum and Measure system error:
-      a.    check all connections; add parafilm/Teflon tape to any adjusted connections
-      b.    With stem inlet stopcock all the way open (whole system at atmospheric pressure)
-      c.    Close stopcock to stem inlet and open 3-way stopcock at vacuum pump
-      d.    Depressurize to -4.2 -  -4kPa and close stopcock to vacuum pump, let stabilize
-      e.    System leakage
-      i.    measure 1-2 times/day as noted in Equipment section
+8. System vacuum and Measure system error:
+    1. check all connections; add parafilm/Teflon tape to any adjusted connections
+    2. With stem inlet stopcock all the way open (whole system at atmospheric pressure)
+    3. Close stopcock to stem inlet and open 3-way stopcock at vacuum pump
+    4. Depressurize to -4.2 -  -4kPa and close stopcock to vacuum pump, let stabilize
+    5. System leakage
+    6. measure 1-2 times/day as noted in Equipment section
 
-    9.  Stem connections
-      a.    Keep stem in large black bag with damp paper towels in between all measure/dehydration steps
-      b.    Before removing from water, immediately remove a foil covered leaf and bag for water potential tests
-          i.    Glue cut
-      c.    Prep
-          i.    measure stem length and bsd
-          ii.   Dry stem gently to remove excess water and make new clean cut with razor
-          iii.  Insert into tight fit silicone tubing (using an ID 2-3mm smaller than stem diameter) and insert M to F luer  on opposite end of tube to almost stem end (to keep reservoir size uniform)
-          iv.   Clamp tubing around stem (with a hose clamp or hand tightened zip tie)
-          v.    Glue stem, with latex glue, at silicone tubing 
-          vi.     Teflon tape over female end of luer and hose clamp over connection
-          vii.  Hook quickly to system
+9. Stem connections
+    1. Keep stem in large black bag with damp paper towels in between all measure/dehydration steps
+    2. Before removing from water, immediately remove a foil covered leaf and bag for water potential tests
+        1. Glue cut
+    3. Prep
+        1. measure stem length and bsd
+        2. Dry stem gently to remove excess water and make new clean cut with razor
+        3. Insert into tight fit silicone tubing (using an ID 2-3mm smaller than stem diameter) and insert M to F luer  on opposite end of tube to almost stem end (to keep reservoir size uniform)
+        4. Clamp tubing around stem (with a hose clamp or hand tightened zip tie)
+        5. Glue stem, with latex glue, at silicone tubing 
+        6. Teflon tape over female end of luer and hose clamp over connection
+        7. Hook quickly to system
 
-    10. Measure
-      a.    Close stopcock to larger vacuum reservoir, so that it is open only between transducer and stem
-      b.    Record initial voltage as pressure after immediate drop (initial drop is due to air in the stem connection tube, since that isn’t under vacuum
-      c.    If using a datalogger
-          i.    Also record start time for analyses, with seconds
-      d.    Measure for 3-5 minutes
-          i.    I want three minutes, which on tests of Q. virginiana captured large losses, and after which losses were small, until they increased again likely due to dehydration during measurement
-      e.    Record final voltage and time
-      f.    Record room temperature near reservoir (or record this measurement once or twice a day if room temp is stable)
-      g.    Close stopcock to stem outlet and remove stem, let bench dry
+10. Measure
+    1. Close stopcock to larger vacuum reservoir, so that it is open only between transducer and stem
+    2. Record initial voltage as pressure after immediate drop (initial drop is due to air in the stem connection tube, since that isn’t under vacuum
+    3. If using a datalogger
+        1. Also record start time for analyses, with seconds
+    4. Measure for 3-5 minutes
+        1. I want three minutes, which on tests of Q. virginiana captured large losses, and after which losses were small, until they increased again likely due to dehydration during measurement
+    5. Record final voltage and time
+    6. Record room temperature near reservoir (or record this measurement once or twice a day if room temp is stable)
+    7. Close stopcock to stem outlet and remove stem, let bench dry
 
-    11. Leaf water potential
-      a.    Leaves should be removed right before each stem measure (should have been foil covered) 
-      b.    Cut should be covered with latex glue
-      c.    leaves should be sealed in humid whirlpak bags
-      d.    measured water potential within a few minutes (before next stem measure)
+11. Leaf water potential
+    1. Leaves should be removed right before each stem measure (should have been foil covered) 
+    2. Cut should be covered with latex glue
+    3. leaves should be sealed in humid whirlpak bags
+    4. measured water potential within a few minutes (before next stem measure)
 
-    12. Drying plants
-      a.    Record time dried on spreadsheet
-          i.    Some plants need only a few minutes to an hour to drop 1MPa in stem water potential
-          ii.   Plants may need to dry overnight to reduce water potential
-          iii.  Ideally, the ADmax is measured on a stem that has only a small amount of water escaping from the xylem (is almost fully dehydrated) but is measured before reaching the limits of the pressure chamber (-8MPa in my case)
-      b.    At start of drying, when stem exposed, wrap and foil cover another new leaf 
-          i.    Oaks seemed to perform better and more consistently in terms of increasing embolism with declining stem water potential when drying stem ends were loosely wrapped (not completely sealed) with parafilm. I have some concerns about formation of tyloses and perhaps a slightly more humid environment prevents that.
-      c.    After set drying time, place stem in humidified dark bag and let equilibrate for at least 30 minutes
+12. Drying plants
+    1. Record time dried on spreadsheet
+        1. Some plants need only a few minutes to an hour to drop 1MPa in stem water potential
+        2. Plants may need to dry overnight to reduce water potential
+        3. Ideally, the AD~max~ is measured on a stem that has only a small amount of water escaping from the xylem (is almost fully dehydrated) but is measured before reaching the limits of the pressure chamber (-8MPa in my case)
+    2. At start of drying, when stem exposed, wrap and foil cover another new leaf 
+        1. Oaks seemed to perform better and more consistently in terms of increasing embolism with declining stem water potential when drying stem ends were loosely wrapped (not completely sealed) with parafilm. I have some concerns about formation of tyloses and perhaps a slightly more humid environment prevents that.
+    b. After set drying time, place stem in humidified dark bag and let equilibrate for at least 30 minutes
 
 ### Appendix A: Pressure transducer voltage conversion
 
@@ -203,9 +208,9 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 
 ##### Equations
 
-    1) Stem segment conductance, following (Tyree and Ewers 1991), where K equals the sum of individual conductance of each non-embolized vessel (Ki)
+1. Stem segment conductance, following (Tyree and Ewers 1991), where K equals the sum of individual conductance of each non-embolized vessel (Ki)
 
-    K=∑Ki〖Ki=(n-e)Ki=(n-e)αD^4 L^(-1) 〗
+$$K = \sum K_i = (n-e)K_i=(n-e)\alpha D^4L^{-1}$$
 
 <table>
 <thead>
@@ -249,9 +254,9 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 </tbody>
 </table>
 
-    2) If non-vessel air is negligible, then the volume of air in the same segment will be the volume of the sum of all the embolized vessels. 
+2. If non-vessel air is negligible, then the volume of air in the same segment will be the volume of the sum of all the embolized vessels. 
 
-    V=∑Vi〖Vi=〖eVi〗=eπ(0.5D)^2 L〗
+$$V= \sum V_i = eV_i = e\pi (0.5D)^2L$$
 
 <table>
 <thead>
@@ -285,9 +290,9 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 </tbody>
 </table>
 
-    3) Increase in moles of air, under vacuum, in the vacuum reservoir, as expected under ideal gas law (which should apply to O2, N2, CO2 and any atmospheric air under low pressure and room temperature)
+3. Increase in moles of air, under vacuum, in the vacuum reservoir, as expected under ideal gas law (which should apply to O2, N2, CO2 and any atmospheric air under low pressure and room temperature)
 
-    ∆n=n_f-n_i=(P_i V_r)⁄RT-(P_f V_r)⁄RT
+$$\Delta n = n_f-n_i = {P_i V_r \over RT}-{P_f V_r \over RT}$$
 
 <table>
 <thead>
@@ -326,9 +331,9 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 </tbody>
 </table>
 
-    4) Total volume of air discharged in to the vacuum reservoir
+4. Total volume of air discharged in to the vacuum reservoir
 
-    AD=(∆nRT⁄P_atm )×10^6
+$$AD = {\Delta nRT \over P_{atm}}*10^6$$
 
 <table>
 <thead>
@@ -367,9 +372,9 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 </tbody>
 </table>
 
-    5) Normalizing the AD values, as a percentage of the total change between hydrated and dehydrated stems
+5. Normalizing the AD values, as a percentage of the total change between hydrated and dehydrated stems
 
-    PAD=100×((AD-〖AD〗_min ))⁄((〖AD〗_max-〖AD〗_min ) )
+$$PAD = 100 * {AD-AD_{min} \over AD_{max}-AD_{min}}$$
 
 <table>
 <thead>
@@ -386,7 +391,7 @@ combined with measures of stem-equilibrated leaves, produces a Ψ by PAD
 <td>μL</td>
 </tr>
 <tr class="even">
-<td><em>P<sub>atm</sub></em></td>
+<td><em>PAD</em></td>
 <td>atmospheric pressure (98kPa at 700m)</td>
 <td>kPa</td>
 </tr>
@@ -436,10 +441,10 @@ second.
     reservoir near 4.2, which drops to 4V at measure which is 62kPa at
     measure (when using 8V supply)
     -     Additionally, the argument that there is an exponential drop in air loss in  Pereira et al. (2016) would seem confounded with the fact that vacuum strength drops as air is added  
--   The ADmax measure may be subjective. It is essentially the highest
+-   The AD~max~ measure may be subjective. It is essentially the highest
     measure that can be made for that plant, but that is just defined by
     equipment. I can measure -8MPa, so the AD of a measure near that
-    will be ADmax. It wouldn’t seem that the method would be very robust
+    will be AD~max~. It wouldn’t seem that the method would be very robust
     without most plants reaching that measure.
     -   I have settled on trying to reach max capacity of chamber or stopping when very little sap emerges from xylem—this is apparent when only small bubbles emerge from tiny sections of the petiole xylem indicating that very little water remains in the stem.   
 -   Re: my branches, they found that vessel length wasn’t significantly

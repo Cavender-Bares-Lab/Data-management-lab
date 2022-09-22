@@ -8,18 +8,26 @@ hide:
 Stored data:
 
 * Growth and Reproduction (2013-present)
+    * [x] README
 * Herbivory
     * Leaf herbivory (2014-2016)
+        * [x] Metadata within same file
 * Phenology
     * Tilia american leaf senescence (2018)
+        * [x] Metadata within same file
 * Physiology
     * Chlorophyll fluorescence (2018)
+        * [x] Metadata within same file
     * Photosynthetic light curves (2018)
+        * [x] Metadata within same file
     * Tree light availability (2018)
+        * [x] Metadata within same file
 * Soil and Decomposition
     * Litterbag mass and chemistry (2015-2017)
+        * [x] Metadata within same file
     * Soil lipids (2016)
-
+        * [x] Metadata within same file
+        
 **Note**: Since this is a collaborative project, data is also made available on the FAB1 google shared drive.
 
 <br>
