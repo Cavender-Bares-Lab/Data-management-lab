@@ -25,7 +25,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
 
 2. Use the log in details provided
 
-3. Familiarize yourself with the reproduction parts in the [species list document]()
+3. Familiarize yourself with the reproduction parts in the [species list document](https://docs.google.com/document/d/1uIXhO_N1Ch-vA2jwz8sIvGzy2fEJZsgj/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
     - Understand the difference between reproduction and an insect gall
 
 ### Detailed Steps

@@ -1,4 +1,12 @@
-###### Author: Hobbie Lab; Updated: 15 May 2008
+---
+hide: footer
+---
+
+###### Author
+Hobbie Lab
+
+###### Updated
+15 May 2008
 
 ### Goals
 
@@ -12,67 +20,57 @@ This protocol guides through pH measurement of mineral soils.
 
 ### Soil pH
 
-Soil pH is a measurement of hydrogen ion activity in a soil solution. pH
-is generally measured electrometrically (with a pH probe).
+Soil pH is a measurement of hydrogen ion activity in a soil solution. pH is generally measured electrometrically (with a pH probe).
 
 ### Materials
 
--   Extraction cups or beakers (50-100mL)
+- Extraction cups or beakers (50-100mL)
 
--   Repipetter
+- Repipetter
 
--   Glass bottle (approx. 2.5L—fitting repipetter)
+- Glass bottle (approx. 2.5L—fitting repipetter)
 
--   Nanopure water
+- Nanopure water
 
--   pH meter with standard combination electrode
+- pH meter with standard combination electrode
 
--   Standard pH buffers (pH 4.0, 7.0, and 10.0)
+- Standard pH buffers (pH 4.0, 7.0, and 10.0)
 
--   Squirt bottle and beaker for rinsing the electrode between samples
+- Squirt bottle and beaker for rinsing the electrode between samples
 
 ### Procedure
 
-    1.  Calibrate the electrode per manufacturer’s instructions.  Use buffers that span the pH range of the sampled soils.
+1. Calibrate the electrode per manufacturer’s instructions.  Use buffers that span the pH range of the sampled soils.
 
-    2.  If necessary, sieve soil using a 2 mm sieve (if dry) or a 4 mm (if not dry).
+2. If necessary, sieve soil using a 2 mm sieve (if dry) or a 4 mm (if not dry).
 
-    3.  Weigh duplicate (i.e.- 2) subsamples of soil into 50-100 mL beakers:
-
-      a. For Fresh mineral soil:15g soil/beaker (+/- .005g)
-      b. For Dried mineral soil:10g soil/beaker (+/- .005g)
+3. Weigh duplicate (i.e.- 2) subsamples of soil into 50-100 mL beakers:
+    1. For Fresh mineral soil:15g soil/beaker (+/- .005g)
+    2. For Dried mineral soil:10g soil/beaker (+/- .005g)
 
     Note:  For organic samples, use 2g of soil in 20mL H20.
 
-    4.  Add nanopure water using a balance-calibrated repipetter:
+4. Add nanopure water using a balance-calibrated repipetter:
+    1. For Fresh mineral soil:30mL nanopure/beaker
+    2. For Dried mineral soil:20mL nanopure/beaker
 
-      a. For Fresh mineral soil:30mL nanopure/beaker
-      b. For Dried mineral soil:20mL nanopure/beaker
+5. Stir the suspension intermittently for 30 minutes.  Use a stir bar, if necessary, and rotate samples on stirplate.  Or place on shaker table for 30 minutes at 75 rpms.
 
-    5.  Stir the suspension intermittently for 30 minutes.  Use a stir bar, if necessary, and rotate samples on stirplate.  Or place on shaker table for 30 minutes at 75 rpms.
+6. Let the mixture sit to equilibrate with atmospheric C02:
+    1. For Fresh mineral soil:sit 30 minutes
+    2. For Dried mineral soil:sit 60 minutes
 
-    6.  Let the mixture sit to equilibrate with atmospheric C02:
+7. Calibrate the pH meter according to the pH range expected for the soils analyzed (pH 4.0 and 7.0 OR pH 7.0 and 10.0).  The electrode needs to be open to air during measurement (there is a small rubber vent cap near the top of the electrode tube) and closed during storage.
 
-      a. For Fresh mineral soil:sit 30 minutes
-      b. For Dried mineral soil:sit 60 minutes
+8. While gently stirring, immerse the electrode into the clear supernatant.  Both the glass membrane and the porous salt bridge must be immersed.  When the reading is constant, measure pH to nearest 0.1 pH unit.  Note:  the spatial placement of the electrode can affect the measured pH.  Try to standardize this for all samples.
 
-    7.  Calibrate the pH meter according to the pH range expected for the soils analyzed (pH 4.0 and 7.0 OR pH 7.0 and 10.0).  The electrode needs to be open to air during measurement (there is a small rubber vent cap near the top of the electrode tube) and closed during storage.
-
-    8.  While gently stirring, immerse the electrode into the clear supernatant.  Both the glass membrane and the porous salt bridge must be immersed.  When the reading is constant, measure pH to nearest 0.1 pH unit.  Note:  the spatial placement of the electrode can affect the measured pH.  Try to standardize this for all samples.
-
-    9.  Check electrode stability every 10-12 samples with a standard buffer solution and recalibrate the electrode as needed.  Rinse the electrode well between samples (especially following immersion in the buffer solution).
+9. Check electrode stability every 10-12 samples with a standard buffer solution and recalibrate the electrode as needed.  Rinse the electrode well between samples (especially following immersion in the buffer solution).
 
 ### Calculations
 
-    1.  No further calculations are necessary if pH is the only metric being reported.  To convert pH to H+, use the equation:
-
-      a.    [H+]=10^-pH
+1. No further calculations are necessary if pH is the only metric being reported.  To convert pH to H+, use the equation:
+    1. [H+]=10^-pH
 
 ### Notes
 
-Combination electrodes should be kept filled with electrolyte solution
-as per the manufacturer’s instructions. If the pH reading of soil does
-not stabilize to 0.1 units within a few minutes, consider reconditioning
-or replacing the electrode. Consider using as a check sample (QC) a
-dried soil analyzed previously. If this QC reading is not within
-acceptable error, consider re-running entire batch.
+Combination electrodes should be kept filled with electrolyte solution as per the manufacturer’s instructions. If the pH reading of soil does not stabilize to 0.1 units within a few minutes, consider reconditioning or replacing the electrode. Consider using as a check sample (QC) a dried soil analyzed previously. If this QC reading is not within acceptable error, consider re-running entire batch.

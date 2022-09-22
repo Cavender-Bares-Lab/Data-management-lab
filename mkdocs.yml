@@ -15,6 +15,7 @@ theme:
       accent: indigo
 plugins:
     - search
+    - git-revision-date-localized:
     - table-reader
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -92,6 +93,7 @@ nav:
       - Pigment Extraction: 'protocols/pigment_extraction.md'
       - Pigment Calibration: 'pigment_calibration.md'
       - Run Samples: ''
+    - Leaf Surface Sterilization: 'protocols/surface_sterilization.md'
     - Licor 6400 Warmup Protocol: 'protocols/licor_6400_warmup_protocol.md'
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
@@ -112,7 +114,6 @@ nav:
           - N-min Preparation: 'protocols/nmin_preparation.md'
           - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
           - N-min Processing Day 2: 'protocols/nminI_processing_day2.md'
-    - Surface Sterilization: 'protocols/surface_sterilization.md'
     - SVC:  
       - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
