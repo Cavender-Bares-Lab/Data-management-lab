@@ -124,6 +124,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
 8. Sync
 ```
 **Juniperus virginiana Categories**
+
 |Abundance Category|0|1|2|3|4|5|
 |--|--|--|--|--|--|--|
 |Category Ranges (# of berries)|0|1-2|3-10|11-100|101-1000|1001-5000|
