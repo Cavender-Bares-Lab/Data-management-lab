@@ -42,7 +42,7 @@ This protocol was originally written for an oak wilt potted seedling experiment.
 7.  Take a new white reference when adjusting leaf clip height
 
 8.  Copy data folder to CBS Shared drive
-
+<br>
 ### Detailed Steps of Measurements
 
 ##### Start Up
@@ -65,7 +65,7 @@ This protocol was originally written for an oak wilt potted seedling experiment.
 7. Turn switch at top of leaf clip to Low
       
 8. Turn on lamp (press green button at back of clip) and let warm up in greenhouse environment for 10-15 minutes
-
+<br>
 ##### SVC-HR1024i software for Data Collection
 
 Recommended or go through Setup menu on machine to get Optic and Scan
@@ -82,10 +82,10 @@ timing same as below.
     3.    Check and correct date/time
     4. Integration scales RAW DN data = Check box 
       
-2.    Choose ControlOverlap/Matching (Alt+C+O)
+2.    Choose Control->Overlap/Matching (Alt+C+O)
     1.  Preserve Overlapped Detector data (keeps whole, uncorrected file)
     2. Matching type = None
-
+<br>
 ##### Leaf locations measured
 
 Note: protocol was originally written for Oak Wilt potted seedling
@@ -100,7 +100,7 @@ healthy leaves only.
             1. Measure the green appearing portion of that leaf (if any)
             2. Measure the most symptomatic portion
             3. Measure the transition zone between
-
+<br>
 ##### Best practices for all measurements
 
 1. Leave lamp on whole time (or let warm up again)
@@ -118,10 +118,10 @@ healthy leaves only.
 7. Clean leaf clip with KimWipes and EtOH between leaves to avoid spreading pathogens
         
 8. If not using computer interface, can check the output in the same way as below, but need to record file log numbers
-
+<br>
 ##### Data collection
 
-1. Choose FileNew (Alt+F+N)
+1. Choose File->New (Alt+F+N)
     1. Navigate to OakWilt_local/OakWilt_data/OakWilt_spec
     2. Create a file folder for day YYYYMMDD
     3. Create basename for each new individual plant:
@@ -151,7 +151,7 @@ healthy leaves only.
                 2. code S-G “4000_002S-G” for green portion of a symptomatic leaf
                 3. Find new leaf location, WR, and scan again
                 4. Open new between individuals or leaves
-
+<br>
 ###### White Reference Graphs
 
 ![alt text here](images/WR%20Good.png)  
@@ -161,7 +161,7 @@ Good quality.
 here](images/WR%20BAD%202.png)  
 *Figures 2 & 3:* Target and reference of white reference disk in leaf
 clip. Both bad quality.
-
+<br>
 ###### Leaf Scan Graphs
 
 ![alt text here](images/Leaf%20Spectra%20Good.png)  
@@ -175,20 +175,20 @@ due to an SVC error due to overheating.
 *Figure 7:* Low reflectance of leaf spectra. Explanations for this
 include, but not excluded to, not enough leaf/needles/grass blades in
 view of leaf clip or white, hairs or powdery mildew on leaf.
-
+<br>
 ##### Data download
 
-1. Connect to SVC-HR1024i software following [SVC-HR1024I SOFTWARE FOR DATA COLLECTION](http://cavender-bares-lab.github.io/Data-management-lab/protocols/svc_leaf_measurements/svc-hr1024i-software-for-data-collection)
+1. Connect to SVC-HR1024i software.
       
 2. Control-> Read memory (ALT+C+R)
-        1. Choose data file numbers to download
-        2. Apply current/overlap matching settings (if settings = preserve and matching = none, otherwise Do NOT apply)
-        3. Change output directory to wherever permanent data storage location is
-        4. Output file format = YYYYMMDD_HHMM_RxxTxx
-        5. Download now
+    1. Choose data file numbers to download
+    2. Apply current/overlap matching settings (if settings = preserve and matching = none, otherwise Do NOT apply)
+    3. Change output directory to wherever permanent data storage location is
+    4. Output file format = YYYYMMDD_HHMM_RxxTxx
+    5. Download now
       
 3. Confirm download of all files before erasing
-
+<br>
 ##### Post measure
 
 1. Turn off lamp, turn off spec
@@ -197,7 +197,7 @@ view of leaf clip or white, hairs or powdery mildew on leaf.
       
 3. Carefully remove and put away fiber optic cable in loose loops in pelican case (unless in safe location)
     1. Then place leaf clip on side (black disc out), check that screw securing fiber optic cable is in place and leaf clip/cable can’t slide off area
-
+<br>
 ### Appendix A
 
 Bluetooth connection and troubleshooting connections

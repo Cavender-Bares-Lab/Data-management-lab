@@ -33,7 +33,7 @@ This protocol details the steps to process images of leaf skeletons and tracing 
     2. It should be an average section of the leaf--representative of the vein density away from the first order of veins. 
     3. Do not include the midrib vein unless the leaf is so small that it's necessary.
     4. Scroll in at least 600x magnification to ensure the contrast between the vein and leaf tissue has clear resolution that you can visually detect.
-        1. + and - are also useful for zooming in and out, respectively.
+        1. '+' and '-' are also useful for zooming in and out, respectively.
 
 3. Set scale
     1. Click Analyze, "set scale".

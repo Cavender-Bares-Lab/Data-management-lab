@@ -4,7 +4,6 @@ hide: footer
 
 ###### Author
 Cathleen Lapadat and Anna Schweiger
-Needs update: chemicals for pigment extraction
 
 ### Goal
 
@@ -13,7 +12,7 @@ Protocol to extract pigments from spinach and determine range and calculate dilu
 ### Supplies/Equipment Needed
 
 ##### Notes
-*Pigment extraction from Spinach (Highly concentrated Lutein was purchased from Sigma - stored in -80 freezer). Extract for chlorophyll a, b and beta-carotene*  
+*Pigment extraction from Spinach. Extract for chlorophyll a, b and beta-carotene. Highly concentrated Lutein was purchased from Sigma and is stored in -80 freezer*  
 
 * Spinach
 * Long TLC plates
@@ -75,7 +74,7 @@ Notes:
 -	standards should ideally only used for the specified pigment, not for multiple pigments 
 
 ### References
-[Javier de las Rivas, Anunciación Abadía, Javier Abadía, A New Reversed Phase-HPLC Method Resolving All Major Higher Plant Photosynthetic Pigments , Plant Physiology, Volume 91, Issue 1, September 1989, Pages 190–192,] https://doi.org/10.1104/pp.91.1.190](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing)
+[Javier de las Rivas, Anunciación Abadía, Javier Abadía, A New Reversed Phase-HPLC Method Resolving All Major Higher Plant Photosynthetic Pigments , Plant Physiology, Volume 91, Issue 1, September 1989, Pages 190–192, https://doi.org/10.1104/pp.91.1.190](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing)
 
 
-*HPLC* Refer to “[HPLC - Run Samples](https://cavender-bares-lab.github.io/Data-management-lab/hplc_run_samples.md)” for both supplies and method to run HPLC
+*HPLC* Refer to “[HPLC - Run Samples](https://cavender-bares-lab.github.io/Data-management-lab/protocols/hplc_run_samples.md)” for method to run HPLC

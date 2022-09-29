@@ -11,6 +11,9 @@ Needs update: name of filter funnel and check method parameters name
 
 Protocol to extract pigments (chlorophyll-carotene-xanthophyll) from samples and run on HPLC.
 
+### Extraction Template
+[Extraction Template](https://docs.google.com/spreadsheets/d/1QPHQzdJdP6NZR6k2inDp37g0YwTTxf9h/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+
 ### Supplies/Equipment Needed
 
 **Chemicals (ALL CHEMICALS NEED TO BE HPLC GRADE)**  
