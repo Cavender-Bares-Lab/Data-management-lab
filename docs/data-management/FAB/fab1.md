@@ -11,17 +11,17 @@ Stored data:
     * [x] README
 * Herbivory
     * Leaf herbivory (2014-2016)
-        * [x] Metadata within same file
+        * [x] README
 * Phenology
     * Tilia american leaf senescence (2018)
-        * [x] Metadata within same file
+        * [x] README
 * Physiology
     * Chlorophyll fluorescence (2018)
-        * [x] Metadata within same file
+        * [x] fluorREADME
     * Photosynthetic light curves (2018)
-        * [x] Metadata within same file
+        * [x] LightCurvesREADME
     * Tree light availability (2018)
-        * [x] Metadata within same file
+        * [x] LightAvailabilityREADME
 * Soil and Decomposition
     * Litterbag mass and chemistry (2015-2017)
         * [x] Metadata within same file

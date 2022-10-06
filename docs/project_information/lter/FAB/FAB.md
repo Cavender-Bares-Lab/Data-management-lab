@@ -78,9 +78,11 @@ This long term experiment tests the consequences of tree biodiversity for forest
 - 10x10 plots were planted in spring 2016.
 - 20x20 plots were planted in spring 2017.
 - Replanting from spring 2017-2020.
-- # 20x20 plots were replanted as 10x10 Quercus plots in spring 2022.
+- 20x20 plots were replanted as 10x10 Quercus plots in spring 2022.
 - Full site irrigation in 2016-2022 with Kifco T200L water reels.
     - Irrigation was adjusted in fall 2022 to only water newly planted Quercus plots.
+- **September 2022** -> many trees in Plot 6 were identified to be Quercus macrocarpa and not Quercus alba. It is unknown how this planted error occurred. If this is a nursery issue, other plots may have Quercus macrocarpa planted instead of Quercus alba.
+
 
 ##### Maps
 -   Latest [map](https://drive.google.com/file/d/1-w6dYAttFHrHdQkZMrYzN-eRQL7DNOqp/view?usp=sharing) with species richness and species codes.

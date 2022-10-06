@@ -47,8 +47,16 @@ Protocol for preparation and analysis of carbon and nitrogen for soil and leaf s
 ### Sample Preparation
 
 1. Soils
-    1. Preparation for grinding soil: Add 3 - ¼ inch steel shot ammos and 1 – 3/8 steel shot ammos to soil samples (if already labeled in scintillation vials and completely dried). Add o-ring to neck of scintillation vial (this will help keep the lid in place). Cover label with clear packing tape (to avoid wear-off during shaking). Also wrap clear packing tape around the lid (to avoid loosening during shaking).
-    2. Paint shaker:  Add samples to paint cans in orderly and organized manner (important to keep samples in place during shaking). Add any fillers to empty space (e.g. foam, paper). You want the paint can as filled as possible to avoid any movement from the scintillation vials. If only filling one paint can, fill the other paint can to balance out the weight. Close paint cans with lid. Tighten the paint cans to the paint shaker and shake the samples for 120 minutes.  Soil samples should be super fine with no granules. Pebbles and rocks will not grind.
+    1. Preparation for grinding soil: 
+        1. Add 3 - ¼ inch steel shot ammos and 1 – 3/8 steel shot ammos to soil samples (if already labeled in scintillation vials and completely dried). 
+        2. Add o-ring to neck of scintillation vial (this will help keep the lid in place). 
+        3. Cover label with clear packing tape (to avoid wear-off during shaking). Also wrap clear packing tape around the lid (to avoid loosening during shaking).
+    2. Paint shaker:  
+        1. Add samples to paint cans in orderly and organized manner (important to keep samples in place during shaking). 
+        2. Add any fillers to empty space (e.g. foam, paper). You want the paint can as filled as possible to avoid any movement from the scintillation vials. 
+            1. If only filling one paint can, fill the other paint can to balance out the weight. 
+        3. Close paint cans with lid. 
+        4. Tighten the paint cans to the paint shaker and shake the samples for 120 minutes.  Soil samples should be super fine with no granules. Pebbles and rocks will not grind.
 
 2. Leaf litter
     1. Wiley Mill is located in Sarah Hobbie’s lab. Make sure you wear a mask to protect yourself from debris and ear muffs as it is loud.

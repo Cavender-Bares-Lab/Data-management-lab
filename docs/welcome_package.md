@@ -14,6 +14,9 @@ or Jeannine at 612.624.6337 or cavender \[at\] umn.edu
 For new students and employees, submit the new employee form
 [here](http://www.google.com/url?q=http%3A%2F%2Fz.umn.edu%2Fcbsnewhire&sa=D&sntz=1&usg=AFQjCNGFJYiNFyM-68swT_Hzcg-CVL-D6g).
 
+#### Departmental Resources
+Please see this [link](https://sites.google.com/umn.edu/eeb-intranet/) for more information.
+
 ##### Ucard
 
 If you’re a student or staff and have been entered into the University

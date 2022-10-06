@@ -6,7 +6,7 @@ hide:
 ### Background 
 We measure nitrogen mineralization to better understand how species diversity and composition will affect nitrogen cycling in the system.
 
-Note: Must wait 2 days after rain to collect soil. Nitrogen tends to pool from the rain so data taken after rain wouldn't be qualitative. Coring and tube installment can be done in one day; however, this would require help from at least 15 people to be completed in an 8-hour day.
+**Please note**: Must wait 2 days after rain to collect soil. Nitrogen tends to pool from the rain so data taken after rain will not be qualitative. Coring and tube installment can be done in one day; however, this would require help from at least 15 people to be completed in an 8-hour day.
 
 ### Materials Needed
 #### Initial coring:

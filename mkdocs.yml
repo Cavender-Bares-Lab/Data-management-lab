@@ -60,6 +60,7 @@ nav:
       - Forest and Biodiversity: 'project_information\lter\FAB\FAB.md'
       - GLADES: 'project_information\lter\glades.md'
       - Willow: ''
+    - Macrosystems: ''
     - NPS Aspen: ''
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
@@ -102,10 +103,10 @@ nav:
       - Soil sampling and Processing:
         - FAB:
           - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'
-          - N-min Coring: 'protocols/nmin_coring.md'
           - N-min Preparation: 'protocols/nmin_preparation.md'
+          - N-min Coring: 'protocols/nmin_coring.md'
           - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
-          - N-min Processing Day 2: 'protocols/nminI_processing_day2.md'
+          - N-min Processing Day 2: 'protocols/nmin_processing_day2.md'
     - SVC:  
       - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
       - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
@@ -124,8 +125,13 @@ nav:
     - LTER:
       - FAB 1: 'data-management\FAB\fab1.md'
       - FAB 2: 'data-management\FAB\fab2.md'
-    - NASA-ROSES:
-      - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
+    - Macrosystems: ''
+    - Oak Wilt:
+      - Grand Challenges: ''
+      - MITPPC: ''  
+      - NASA-ROSES:
+        - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
+      - US Forest Service: ''
   - Lab Products:
     - JCB Compilation: 'lab_products\jcb.md'
     - BII ASCEND: 'lab_products\bii_ascend_products.md'
