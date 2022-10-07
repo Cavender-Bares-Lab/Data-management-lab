@@ -17,7 +17,7 @@ This protocol details fall reproduction survey for FAB 1 and FAB 2 through Fulcr
     - BEPA
     - JUVI, PIBA, PIST, PIRE
     
-- **Save as draft** is not an option since drafts will not sync to the cloud.
+- **Save as draft** is NEVER an option since drafts will not sync to the cloud.
     
 ### Preparation
 

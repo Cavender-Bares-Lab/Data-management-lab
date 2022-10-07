@@ -95,7 +95,6 @@ November 2019
 3. For each round or set of samples, include a series of standards, blanks, and bypass samples. For best results, follow sample preparation order bolded below. For example, samples 1-4 will be bypasses, 5-6 will be blanks, 7-10 will be standards, 11-N will be samples. Please pay attention to the number of runs tallied on the display of the analyzer. Anita will replace the insert and check the water trap every 150-180 runs.  Also, note that you will want to limit your samples to less than ~140 so that the proper maintenance can be performed, and results are robust. 
 
 *Each set of samples should contain the following:*
-
 1. Three to four bypass samples 
     1. Two bypass chemicals available: 
         1. Atropine – recommended use with soil.
@@ -104,24 +103,24 @@ November 2019
     3. Z-fold, flatten, and ball.
 
 2.  Prepare two blank tins
-    a. Z-fold, flatten, and ball like the bypass.
-    b. When run, expect a peak at the maximum of 2-3mv (not visible at normal values).
-    c. Should not see peak – if do, assess problem.
+    1. Z-fold, flatten, and ball like the bypass.
+    2. When run, expect a peak at the maximum of 2-3mv (not visible at normal values).
+    3. Should not see peak – if do, assess problem.
 
 3.  Measure four standard samples
-    a. Use same chemical as bypass chemical.
-    b. Weigh in a gradient.
+    1. Use same chemical as bypass chemical.
+    2. Weigh in a gradient.
         1. Example:  1 - 0.5mg, 2 – 1.0mg, 3 – 1.5mg, 4 – 2.0mg.
-    c. Z-fold, flatten, and ball like the bypass and blanks.
+    3. Z-fold, flatten, and ball like the bypass and blanks.
 
 4.  Measure unknown samples
-    a. Again, limit to ~140 samples.
-    b. Weight of the unknown will vary greatly on the type of tissue.
+    1. Again, limit to ~140 samples.
+    2. Weight of the unknown will vary greatly on the type of tissue.
         1. Soil samples – recommend between 15 and 25mg
         2. Plant samples – recommend between 7 and 10mg
         3. Folding tins containing plant and soil tissue can be difficult and cause breaking of tins.  DO NOT USE SAMPLE IF TIN IS BROKEN.  Clean up after yourself and reweigh/prepare the sample.  
-    c. Gentle, open z-fold with “Hershey kiss”-like twist.  Conform gently.  Do NOT ball tightly as tearing will occur.
-    d. Measure an unknown quantity (between 0.4 and 0.9mg) of standard.
+    3. Gentle, open z-fold with “Hershey kiss”-like twist.  Conform gently.  Do NOT ball tightly as tearing will occur.
+    4. Measure an unknown quantity (between 0.4 and 0.9mg) of standard.
         1. Z-fold, flatten, and ball like the bypass and blanks.
 
 ### Run Elemental Analyzer

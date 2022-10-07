@@ -22,8 +22,8 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
     2.  Go to Settings: 
         1. Sort by: Date/Time Created
         2. Ascending: Turn On
-    3.  When viewing **All Records**, the order of the lines are Listing number, Plot, Row, Column, Individual ID  
-        1. e.g. 1, 1, 1, 1, QUAL-2016-1  
+    3.  When viewing **All Records**, the order of the lines are Plot, Row, Column, Individual ID  
+        1. e.g. 1, 1, 1, QUAL-2016-1  
 
 2. Select **Filter**    
     1. **+ Add Rule**   
@@ -65,7 +65,7 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
         9. **Photos**
             1. Not required
     2. **Save**
-        1. fulcrum app was created with several requirement rules, you must fill in the requirements in order to save properly. 
+        1. fulcrum app was created with several requirement rules, you must fill in the requirements in order to save properly. NEVER "save as draft"!"
 
 5. Reproduction
     1. On main page of the individual, if responses for the two below are empty, continue to **Reproduction** field
@@ -101,7 +101,7 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
 
 2. Choose individual
 
-3. Go to Reproduction
+3. Go to Growth
 
 4. + Record
 
@@ -117,7 +117,9 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
     i. Photos
     j. SAVE
 
-6. Reproduction   
+6. Go to Reproduction
+
+7. Reproduction   
     a. Survey date
     b. Reproducing
     c. Reproduction Type
@@ -125,12 +127,12 @@ This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcr
     e. Reproduction Count: SKIP
     f. SAVE
 
-7. Main page requirements
+8. Main page requirements
     a. Reproduction complete
     b. Needs Reproduction Count
     c. SAVE
     
-8. Repeat steps 2-7
+9. Repeat steps 2-8
 
-9. Sync
+10. Sync
 ```
