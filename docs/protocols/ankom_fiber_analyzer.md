@@ -49,7 +49,7 @@ Ankom Supplies Costs -&gt; Updated 2/28/2019
 ## Template
 
 [Link to
-template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsGRz/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+template](https://docs.google.com/spreadsheets/d/1OoZ535Q2jLb81YhdLdLfWeeYFTOmsGRz/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
 ## Steps for sample preparation
 

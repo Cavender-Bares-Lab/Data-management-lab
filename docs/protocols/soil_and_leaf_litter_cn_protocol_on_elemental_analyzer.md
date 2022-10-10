@@ -42,7 +42,7 @@ Protocol for preparation and analysis of carbon and nitrogen for soil and leaf s
 
 ### Template
 
-[Carbon and Nitrogen Template](https://docs.google.com/spreadsheets/d/1yN1cK68EgfawcR14fY14sgIyDxMRqhdy/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+[Carbon and Nitrogen Template](https://docs.google.com/spreadsheets/d/1yN1cK68EgfawcR14fY14sgIyDxMRqhdy/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
 ### Sample Preparation
 

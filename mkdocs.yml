@@ -91,8 +91,7 @@ nav:
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
     - Pneumatic Protocol: 'protocols/pneumatic_protocol.md'
-    - PSR:
-      - PSR Leaf Measurements: 'protocols/spectral_evolution_psr+.md'
+    
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
     - Soil:
       - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
@@ -107,10 +106,14 @@ nav:
           - N-min Coring: 'protocols/nmin_coring.md'
           - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
           - N-min Processing Day 2: 'protocols/nmin_processing_day2.md'
-    - SVC:  
+    - Spectrometers:
+      - PSR:
+        - PSR Leaf Measurements: 'protocols/spectral_evolution_psr+.md'
+      - SVC:  
+        - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
+        - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
       - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
-      - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
-      - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
+
     - VLA:
       - VLA Methods: 'protocols/vla_methods.md'
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'

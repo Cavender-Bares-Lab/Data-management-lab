@@ -13,9 +13,9 @@ This method is designed to measure ammonium and nitrate simultaneously, although
 
 ### Templates
 
-* [Standard Dilution Calculations](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
-* [Plate & Data Map](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
-* [Net Mineralization Calculations](https://docs.google.com/spreadsheets/d/1Bkc0xHEn6rYHDcQlWRBLX0OuHyorQIEc/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+* [Standard Dilution Calculations](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
+* [Plate & Data Map](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
+* [Net Mineralization Calculations](https://docs.google.com/spreadsheets/d/1Bkc0xHEn6rYHDcQlWRBLX0OuHyorQIEc/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
 ### Ammonium Analysis
 
@@ -100,13 +100,13 @@ Vanadium (III) in dilute acid solution reduces nitrate
         - 2.3585 g (NH<sub>4</sub>)2SO<sub>4</sub> (in desiccator in analytical room)  
     - *Add nanopure water to bring to 500 ml.*
 
-    - Primary stock is approx. 1000 ppm NO3-N, NH4-N. Calculate exact ppm using the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+    - Primary stock is approx. 1000 ppm NO3-N, NH4-N. Calculate exact ppm using the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 .
-    - Make working stock and standards 1-7 based on weight. Tare a flask, pipet the appropriate volume of stock, record the weight. Bring standards up to volume with appropriate matrix (same as samples), record final volume. Calculate exact ppm of each standard using the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true) and record on the flask. Note P= primary stock, W= working stock. 
+    - Make working stock and standards 1-7 based on weight. Tare a flask, pipet the appropriate volume of stock, record the weight. Bring standards up to volume with appropriate matrix (same as samples), record final volume. Calculate exact ppm of each standard using the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"} and record on the flask. Note P= primary stock, W= working stock. 
 
 *NO<sub>2</sub> CHECK STANDARD*
 
-- If you want to make an NO<sub>2</sub> check standard, prepare 1000ppm NO<sub>2</sub> primary stock (3.038 g KNO<sub>2</sub> – stored in desiccator in analytical room – per 500ml) and dilute to high standard concentration. Use the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+- If you want to make an NO<sub>2</sub> check standard, prepare 1000ppm NO<sub>2</sub> primary stock (3.038 g KNO<sub>2</sub> – stored in desiccator in analytical room – per 500ml) and dilute to high standard concentration. Use the [“dilution-calcs\_NH4-NO3.xlsx” worksheet](https://docs.google.com/spreadsheets/d/1iAhTc6yfGP4NOyHZBwg6olfzSxbEJ3V0/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 
 NOTE
 
@@ -142,7 +142,7 @@ Using the deep well (1-ml) plates, pipet 1 ml of standards into each well (as be
 
 ### 2. Prepare Sample Plate
 
-This also can be done a day in advance, as long as plate is covered and refrigerated. Preparation is done by hand pipetting. Be sure to note where samples are located in [spreadsheet](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+This also can be done a day in advance, as long as plate is covered and refrigerated. Preparation is done by hand pipetting. Be sure to note where samples are located in [spreadsheet](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 Using the deep well (1-ml) plates, pipet 1 ml of standards into each well (as below). You will need two sample plates to assay 192 samples. Appropriate quality control checks should be included in the 192 samples. It is suggested to do one QC check every 11 samples (i.e. one every two columns on the plate reader).
 
 NOTE: Hand pipetting 1 standard plate and 2 sample plates (for 192 samples) takes approx. 3 hrs.
@@ -291,7 +291,7 @@ Selecting the appropriate incubation time for each analyte may require some tria
 
 *DATA ANALYSIS*
 
-- Data analysis is automatically done by pasting absorbance values into the [Microplate-N-Data-Analysis-Template](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+- Data analysis is automatically done by pasting absorbance values into the [Microplate-N-Data-Analysis-Template](https://docs.google.com/spreadsheets/d/15bw0N057uAWzRiqyxEypsEp4PrXslM98/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 - Data analysis files using regression (2nd order polynomial) to determine concentration.  
 - A regression from all data points is used to determine an initial concentration
 - The regression is broken into a low and a high curve. Low curve is blank to standard 3. High curve is standards 3 to 7.  

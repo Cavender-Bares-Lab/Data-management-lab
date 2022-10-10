@@ -65,7 +65,7 @@ Protocol to extract pigments from spinach and determine range and calculate dilu
 
 8. Calculate concentration using extinction coefficients from literature
 
-9. Calculate calibration equations for NEO, VIO, ANT, ZEA (no standards purchased) based on normalized coefficients and LUT area units [see Del la Rivas et al. 1989.](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing)
+9. Calculate calibration equations for NEO, VIO, ANT, ZEA (no standards purchased) based on normalized coefficients and LUT area units [see Del la Rivas et al. 1989.](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing){:target="\_blank"}
 
 Notes: 
 -	5-8 points in calibrated range, plus 2 x 4 points at tails of sigmoidal distribution
@@ -74,7 +74,7 @@ Notes:
 -	standards should ideally only used for the specified pigment, not for multiple pigments 
 
 ### References
-[Javier de las Rivas, Anunciación Abadía, Javier Abadía, A New Reversed Phase-HPLC Method Resolving All Major Higher Plant Photosynthetic Pigments , Plant Physiology, Volume 91, Issue 1, September 1989, Pages 190–192, https://doi.org/10.1104/pp.91.1.190](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing)
+[Javier de las Rivas, Anunciación Abadía, Javier Abadía, A New Reversed Phase-HPLC Method Resolving All Major Higher Plant Photosynthetic Pigments , Plant Physiology, Volume 91, Issue 1, September 1989, Pages 190–192, https://doi.org/10.1104/pp.91.1.190](https://drive.google.com/file/d/11AKLWLm1nxMlAB2wPSld5pX7mwD9jI6A/view?usp=sharing){:target="\_blank"}
 
 
-*HPLC* Refer to “[HPLC - Run Samples](https://cavender-bares-lab.github.io/Data-management-lab/protocols/hplc_run_samples.md)” for method to run HPLC
+*HPLC* Refer to “[HPLC - Run Samples](https://cavender-bares-lab.github.io/Data-management-lab/protocols/hplc_run_samples.md){:target="\_blank"}” for method to run HPLC
