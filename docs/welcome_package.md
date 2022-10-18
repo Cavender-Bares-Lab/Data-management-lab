@@ -12,19 +12,19 @@ Lab manager: Cathleen Lapadat at nguye618 \[at\] umn.edu
 or Jeannine at 612.624.6337 or cavender \[at\] umn.edu
 
 For new students and employees, submit the new employee form
-[here](http://www.google.com/url?q=http%3A%2F%2Fz.umn.edu%2Fcbsnewhire&sa=D&sntz=1&usg=AFQjCNGFJYiNFyM-68swT_Hzcg-CVL-D6g).
+[here](http://www.google.com/url?q=http%3A%2F%2Fz.umn.edu%2Fcbsnewhire&sa=D&sntz=1&usg=AFQjCNGFJYiNFyM-68swT_Hzcg-CVL-D6g){:target="\_blank"}.
 
 #### Departmental Resources
-Please see this [link](https://sites.google.com/umn.edu/eeb-intranet/) for more information.
+Please see this [link](https://sites.google.com/umn.edu/eeb-intranet/){:target="\_blank"} for more information.
 
 ##### Ucard
 
 If you’re a student or staff and have been entered into the University
 system, you can receive your Ucard with proper government-issued photo
 ID at [Coffman
-Union](https://sua.umn.edu/visit/locations/coffman-memorial-union) (East
+Union](https://sua.umn.edu/visit/locations/coffman-memorial-union){:target="\_blank"} (East
 Bank - Minneapolis). [St. Paul Student
-Center](https://sua.umn.edu/visit/locations/st-paul-student-center) only
+Center](https://sua.umn.edu/visit/locations/st-paul-student-center){:target="\_blank"} only
 handles replacement cards.
 
 ##### Lab Access
@@ -32,7 +32,7 @@ handles replacement cards.
 Lab is located in Ecology building (1987 Upper Buford Circle, St. Paul,
 MN 55108), room 240. For lab access after receiving your Ucard, submit a
 request
-[here](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Fumn.edu%2Fbti-administrative-resources%2Ffacilities%2Fkey-u-card-access-requests&sa=D&sntz=1&usg=AFQjCNEyBZ8PWTdQsgvy7-05pGYYko9pTQ).
+[here](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Fumn.edu%2Fbti-administrative-resources%2Ffacilities%2Fkey-u-card-access-requests&sa=D&sntz=1&usg=AFQjCNEyBZ8PWTdQsgvy7-05pGYYko9pTQ){:target="\_blank"}.
 
 ##### Office Access
 
@@ -52,7 +52,7 @@ umn.edu) for door codes and keys.
 ###### CC Check-in
 
 When conducting research at Cedar Creek, please check in on this
-[webpage.](https://umn.qualtrics.com/jfe/form/SV_6E8VM5c8a09OphA)
+[webpage.](https://umn.qualtrics.com/jfe/form/SV_6E8VM5c8a09OphA){:target="\_blank"}
 
 #### Lab Etiquette
 
@@ -64,7 +64,7 @@ Please well document storage of your data and work through “data
 management”. More details below.
 
 Please use the equipment
-[calendar](https://calendar.google.com/calendar/u/0?cid=dW1uLmVkdV9jZWczcms2cmNjN3FzY3FqZDg3ZDk5cDVjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+[calendar](https://calendar.google.com/calendar/u/0?cid=dW1uLmVkdV9jZWczcms2cmNjN3FzY3FqZDg3ZDk5cDVjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="\_blank"}
 to reserve equipment use. This is especially important during field
 season.
 
@@ -80,9 +80,9 @@ season.
 To enter the lab, you are required to take several training courses
 prior to access. You must enroll and take the following courses:
 [Introduction to Research
-Safety](https://training.umn.edu/courses/10466), [Chemical
-Safety](https://training.umn.edu/courses/10463), and [Chemical Waste
-Management](https://training.umn.edu/courses/10462).
+Safety](https://training.umn.edu/courses/10466){:target="\_blank"}, [Chemical
+Safety](https://training.umn.edu/courses/10463){:target="\_blank"}, and [Chemical Waste
+Management](https://training.umn.edu/courses/10462){:target="\_blank"}.
 
 ##### Hazardous Waste Management
 
@@ -97,10 +97,10 @@ Management](https://training.umn.edu/courses/10462).
     out.**
 
 To request hazardous waste pickup, click
-[here](https://www.dehs-tools.umn.edu/Chematix/).
+[here](https://www.dehs-tools.umn.edu/Chematix/){:target="\_blank"}.
 
 For unknown chemicals, click
-[here](https://umn.qualtrics.com/jfe/form/SV_bNmLGIP7q4nBgep).
+[here](https://umn.qualtrics.com/jfe/form/SV_bNmLGIP7q4nBgep){:target="\_blank"}.
 
 If you have any questions on disposal, contact DEHS at 612.626.1604 or
 hazwaste \[at\] umn.edu.
@@ -110,7 +110,7 @@ hazwaste \[at\] umn.edu.
 #### UMarket
 
 Ideally, if you can, complete your purchases on
-[Umarket](https://www.myu.umn.edu/psp/psprd/EMPLOYEE/EMPL/h/?tab=DEFAULT#/tab_UM_FS_PURCHASING).
+[Umarket](https://www.myu.umn.edu/psp/psprd/EMPLOYEE/EMPL/h/?tab=DEFAULT#/tab_UM_FS_PURCHASING){:target="\_blank"}.
 
 -   Contact umarket \[at\] umn.edu to get access to Umarket as a
     **purchaser**.
@@ -140,7 +140,7 @@ Ideally, if you can, complete your purchases on
 
 If your item is not on Umarket, you may purchase with your personal
 credit card and get reimbursed through
-[ChromeRiver](https://www.myu.umn.edu/psp/psprd/EMPLOYEE/EMPL/s/WEBLIB_IS_AW.ISCRIPT1.FieldFormula.IScript_AssemblePage?AWGroupID=UM_TRAVELING_ON_U_BUSINESS_DEV&AWPageID=UM_TRAVELING_ON_U_BUSINESS_DEV&AWObjName=UM_TRAVELING_ON_U_BUS_LPG).
+[ChromeRiver](https://www.myu.umn.edu/psp/psprd/EMPLOYEE/EMPL/s/WEBLIB_IS_AW.ISCRIPT1.FieldFormula.IScript_AssemblePage?AWGroupID=UM_TRAVELING_ON_U_BUSINESS_DEV&AWPageID=UM_TRAVELING_ON_U_BUSINESS_DEV&AWObjName=UM_TRAVELING_ON_U_BUS_LPG){:target="\_blank"}.
 For instructions on submission, there are instructions and videos on the
 main page under “Job Aids”.
 
@@ -149,7 +149,7 @@ main page under “Job Aids”.
 If you’re making a large purchase (purchase order is required when
 item(s) are &gt;$2k) and/or a purchase order is an option, fill out a
 form
-[here](https://docs.google.com/forms/d/e/1FAIpQLScz4NuifjoXXULS01ub-0urzSKaAVH_3qJcFSr9kxFBUpoUvQ/viewform).
+[here](https://docs.google.com/forms/d/e/1FAIpQLScz4NuifjoXXULS01ub-0urzSKaAVH_3qJcFSr9kxFBUpoUvQ/viewform){:target="\_blank"}.
 
 If you have questions or none of these options are applicable, please
 contact Cathleen for purchasing help.
@@ -187,25 +187,25 @@ analyses when necessary.
 ###### Spectra
 
 -   For leaf level measurements, include information in this
-    [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+    [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 
 ##### Shared Drive Access
 
 To access shared drive, submit your form
-[here](https://tdx.umn.edu/TDClient/31/Portal/Requests/TicketRequests/NewForm?ID=lb9XDMjE6cY_&RequestorType=Service).
+[here](https://tdx.umn.edu/TDClient/31/Portal/Requests/TicketRequests/NewForm?ID=lb9XDMjE6cY_&RequestorType=Service){:target="\_blank"}.
 The name of the shared drive is **LAB-cavender**.
 
 ###### Mapping Shared Drive
 
 To connect/map the shared drive, follow the instructions
-[here](https://it.umn.edu/services-technologies/how-tos/connect-shared-drive-or-network-folder).
+[here](https://it.umn.edu/services-technologies/how-tos/connect-shared-drive-or-network-folder){:target="\_blank"}.
 
 ###### University VPN
 
 If you are off-campus, you must be connected to the University VPN, to
 connect to the shared drive. Instructions to download, install and
 connect are
-[here](https://it.umn.edu/services-technologies/virtual-private-network-vpn).
+[here](https://it.umn.edu/services-technologies/virtual-private-network-vpn){:target="\_blank"}.
 
 #### Google Shared Drive
 
@@ -218,25 +218,25 @@ shared drive.
 #### Cedar Creek Data
 
 To access Cedar Creek data, follow this
-[link](https://www.cedarcreek.umn.edu/research/data).
+[link](https://www.cedarcreek.umn.edu/research/data){:target="\_blank"}.
 
 If you collected data at Cedar Creek, please submit your data to Susan
 Barrott (barro023 \[at\] umn.edu) and/or Dan Bahauddin (danbaha \[at\]
 umn.edu). Please follow this
-[template](https://docs.google.com/spreadsheets/d/15w-XBocvSvYz_T8h-ZJo35VQcaeHJp0z/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+[template](https://docs.google.com/spreadsheets/d/15w-XBocvSvYz_T8h-ZJo35VQcaeHJp0z/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 for submission.
 
 For more information on data management, please refer to this
-[webpage.](https://www.cedarcreek.umn.edu/research/informationmanagement)
+[webpage.](https://www.cedarcreek.umn.edu/research/informationmanagement){:target="\_blank"}
 
 #### Fulcrum App
 
 Fulcrum App is a data collection platform designed to access via mobile
 phone ideal for field work. Create and design apps through the
-[webpage](https://www.fulcrumapp.com).
+[webpage](https://www.fulcrumapp.com){:target="\_blank"}.
 
 [Fulcrum user login and
-password](https://docs.google.com/document/d/1c4KY4CNbM-ld2d4ooa6Ag0UonqZ-yTQU/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true)
+password](https://docs.google.com/document/d/1c4KY4CNbM-ld2d4ooa6Ag0UonqZ-yTQU/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
 ### MSI
 
@@ -248,14 +248,14 @@ shared drive or MSI Tier 2 Storage.
 
 ##### Documentation and Tutorials
 
-Please refer to this [link](https://www.msi.umn.edu/help-documentation)
+Please refer to this [link](https://www.msi.umn.edu/help-documentation){:target="\_blank"}
 for MSI help.
 
 #### MSI Tier 2 Storage
 
 If you need to transfer your data to the Tier 2 Storage, use the
-[instructions](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-second-tier-storage-msi)
+[instructions](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-second-tier-storage-msi){:target="\_blank"}
 to transfer via Globus (Recommended by MSI).
 
 To access files stored in tier 2, refer to this
-[link](https://www.msi.umn.edu/support/faq/how-do-i-use-second-tier-storage-command-line).
+[link](https://www.msi.umn.edu/support/faq/how-do-i-use-second-tier-storage-command-line){:target="\_blank"}.

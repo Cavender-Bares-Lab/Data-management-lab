@@ -99,6 +99,7 @@ nav:
       - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
       - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
       - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
+      - Soil KCl Extracts pH Protocol: 'protocols/pH_soil_extracts.md'
       - Soil sampling and Processing:
         - FAB:
           - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'

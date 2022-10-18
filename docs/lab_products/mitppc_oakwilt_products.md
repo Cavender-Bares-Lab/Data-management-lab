@@ -25,12 +25,12 @@ Sapes, G., Lapadat C., Juzwik J., Montomery R., Liu N., Townsend P., and Cavende
 
 ### Publications
 
-[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery and J. Cavender-Bares (2020). Spectral differentiation of oak wilt from foliar fungal disease and drought is correlated with physiological changes. Tree Physiology 40(3): 377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing)
+[Fallon, B., A. Yang, C. Lapadat, I. Armour, J. Juzwik, R. A. Montgomery and J. Cavender-Bares (2020). Spectral differentiation of oak wilt from foliar fungal disease and drought is correlated with physiological changes. Tree Physiology 40(3): 377-390.](https://drive.google.com/file/d/1v7v0ofzl4-izmm82D1lbhPw-330ubWc9/view?usp=sharing){:target="\_blank"}
 
-[Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H. Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022). Canopy spectral reflectance detects oak wilt at the landscape scale using phylogenetic discrimination. Remote Sensing of Environment 273.](https://drive.google.com/file/d/1jvwWEzR_vVr5V_qRQ-o6UPUI2KNBc5Cq/view?usp=sharing)
+[Sapes, G., C. Lapadat, A.K. Schweiger, J. Juzwik, R. Montgomery, H. Gholizadeh, P.A. Townsend, J.A. Gamon, and J. Cavender-Bares (2022). Canopy spectral reflectance detects oak wilt at the landscape scale using phylogenetic discrimination. Remote Sensing of Environment 273.](https://drive.google.com/file/d/1jvwWEzR_vVr5V_qRQ-o6UPUI2KNBc5Cq/view?usp=sharing){:target="\_blank"}
 
 [Sapes G., Schroeder L., Juzwik J., Montgomery R., Cavender-Bares J. Leaf hyperspectral features predict key physiological processes associated with oak wilt and drought stress. In prep.]
 
 ### Media
 
-[“UMN researchers say invasive fungus that threatens oak trees is spreading. New research into oak wilt allows for better detection and treatment.”](https://mndaily.com/262507/news/tree-d-lightly-umn-researchers-say-invasive-fungus-threatens-oak-trees-is-spreading/)
+[“UMN researchers say invasive fungus that threatens oak trees is spreading. New research into oak wilt allows for better detection and treatment.”](https://mndaily.com/262507/news/tree-d-lightly-umn-researchers-say-invasive-fungus-threatens-oak-trees-is-spreading/){:target="\_blank"}

@@ -6,7 +6,7 @@ hide: navigation
 
 ### Objective of Webpage
 
-Create, remove, and update documentation is essential for any organization. This webpage was created for this aim using [Mkdocs](https://www.mkdocs.org/) to satisfy the documentation requirements for the lab.
+Create, remove, and update documentation is essential for any organization. This webpage was created for this aim using [Mkdocs](https://www.mkdocs.org/){:target="\_blank"} to satisfy the documentation requirements for the lab.
 
 This webpage does not replace data storage requirements (e.g., group/LAB-cavender, google drive, or local drives). However, it allows users to respond to the following questions:
 
@@ -24,13 +24,13 @@ If you need to update documentation please contact the current data manager, Cat
 
 To build this webpage, users must install on their computer:
 
-- [RStudio](https://www.rstudio.com/products/rstudio/download/) and [R](https://www.r-project.org/).
+- [RStudio](https://www.rstudio.com/products/rstudio/download/){:target="\_blank"} and [R](https://www.r-project.org/){:target="\_blank"}.
 - Rmarkdown and Knitr packages (e.g, `install.packages("rmarkdown")`).
-- [pip](https://pip.pypa.io/en/stable/cli/pip_install/)
-- [MkDocs](https://www.mkdocs.org/) (e.g., in terminal `pip install mkdocs`)
+- [pip](https://pip.pypa.io/en/stable/cli/pip_install/){:target="\_blank"}
+- [MkDocs](https://www.mkdocs.org/){:target="\_blank"} (e.g., in terminal `pip install mkdocs`)
     - MkDocs material theme (e.i., in terminal `pip install mkdocs-material`)
-    - [List](https://drive.google.com/file/d/1zOyfkDkcnhdrHRELZrvfHtC79s2UfAJK/view?usp=sharing) of additional installation packages required
-- [git](https://git-scm.com/downloads) and Github account.
+    - [List](https://drive.google.com/file/d/1zOyfkDkcnhdrHRELZrvfHtC79s2UfAJK/view?usp=sharing){:target="\_blank"} of additional installation packages required
+- [git](https://git-scm.com/downloads){:target="\_blank"} and Github account.
 
 **Note**: You need the latest update of python 3. If your pip installs are resulting in error, try `pip3`.
 
@@ -50,12 +50,12 @@ If multiple people are working on the repository or you are working from multipl
 
 ##### Help
 
-This first step requires basic git skills, if you need help, refer to this [guide](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/).
+This first step requires basic git skills, if you need help, refer to this [guide](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/){:target="\_blank"}.
 
 For webpage theme customization, refer to the following links:
 
-* For step by step guidance, refer to [Material webpage](https://squidfunk.github.io/mkdocs-material/)
-* For help with issues, refer to [Material github repository](https://github.com/squidfunk/mkdocs-material)
+* For step by step guidance, refer to [Material webpage](https://squidfunk.github.io/mkdocs-material/){:target="\_blank"}
+* For help with issues, refer to [Material github repository](https://github.com/squidfunk/mkdocs-material){:target="\_blank"}
 
 
 <br>
@@ -95,7 +95,7 @@ In this new file you can remove all non-essential information and keep the heade
 
 Please pay attention to the `output:` section that needs to be `md_document` and NOT `html_document`. An essential step for what is coming.
 
-Once you create the file and their structure, you then can write or copy/paste the information that you want to convey in `your_new_protocol` file. This file uses the writing syntax of [rmarkdown](https://rmarkdown.rstudio.com/); thus it is recommend to follow basic guidelines for doing an elegant document. A quick introduction to rmarkdown is this [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
+Once you create the file and their structure, you then can write or copy/paste the information that you want to convey in `your_new_protocol` file. This file uses the writing syntax of [rmarkdown](https://rmarkdown.rstudio.com/){:target="\_blank"}; thus it is recommend to follow basic guidelines for doing an elegant document. A quick introduction to rmarkdown is this [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf){:target="\_blank"}.
 
 Let’s assume that you finished to write your documentation. You can then save the file in a folder of interest under `docs`. For instance, if you are writing about a protocol, so you can save `your_new_protocol.Rmd` file in a path like `docs/protocols/your_new_protocol.Rmd`.
 
@@ -105,7 +105,7 @@ Once you storage the file in the corresponding folder, you can `Knit` it. But wh
 It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 
 ###### Mathjax
-For math syntax, refer to [Mathjax basic tutorial and reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/25054#25054)
+For math syntax, refer to [Mathjax basic tutorial and reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/25054#25054){:target="\_blank"}
 <br>
 
 #### Step 4 - Edit mkdocs.yml
@@ -147,4 +147,4 @@ To **save** the edits to the repository, in the terminal, type `git add .`. Clic
 
 #### Questions
 
-For more information on mkdocs, refer to this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/) and [webpage](https://www.mkdocs.org/).
+For more information on mkdocs, refer to this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/){:target="\_blank"} and [webpage](https://www.mkdocs.org/){:target="\_blank"}.
