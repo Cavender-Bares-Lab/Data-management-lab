@@ -1258,8 +1258,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#save-and-export" class="md-nav__link">
-    Save and Export
+  <a href="#export" class="md-nav__link">
+    Export
   </a>
   
 </li>
@@ -1274,6 +1274,13 @@
           <li class="md-nav__item">
   <a href="#run-r-script" class="md-nav__link">
     Run R Script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-information" class="md-nav__link">
+    Data information
   </a>
   
 </li>
@@ -2663,8 +2670,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#save-and-export" class="md-nav__link">
-    Save and Export
+  <a href="#export" class="md-nav__link">
+    Export
   </a>
   
 </li>
@@ -2679,6 +2686,13 @@
           <li class="md-nav__item">
   <a href="#run-r-script" class="md-nav__link">
     Run R Script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-information" class="md-nav__link">
+    Data information
   </a>
   
 </li>
@@ -2709,9 +2723,121 @@
 <h3 id="quick-guide">Quick Guide</h3>
 <h3 id="details-steps">Details Steps</h3>
 <h5 id="integration">Integration</h5>
-<h5 id="save-and-export">Save and Export</h5>
+<ol>
+<li>
+<p>Open ChemStation (offline) software.</p>
+</li>
+<li>
+<p>On the left hand side, click on "Data Analysis".</p>
+</li>
+<li>
+<p>Click on "Integrate".</p>
+</li>
+<li>
+<p>Navigate to your folder on the left hand side. Click on your first sample in the sequence list.</p>
+</li>
+<li>
+<p>Click on the "" icon to remove automated integrations. Lines under the pigment peaks will be removed.</p>
+</li>
+<li>
+<p>Zoom in to your first 3 peaks (Neoxanthin, Violaxanthin, and Antheraxanthin, if present) by clicking and dragging to view your desired peaks.</p>
+<ol>
+<li>Look at your first peak and decide where the peak begins to increase (start point) and when it decreases and plateaus (end point). This is where you draw your line. Choose the "integrate" icon and carefully click on the start point and click again at the end point. Repeat with the remaining to peaks.</li>
+</ol>
+</li>
+<li>
+<p>Zoom out and then zoom in to the remaining peaks (Lutein, Zeaxanthin, if present, Chl b, Chl a, and Beta-carotene).</p>
+<ol>
+<li>Draw your lines from the start and end point for each peak.</li>
+<li>For overlapping pigments, which is normal for Lutein and zeaxanthin, draw the line from the start and end point of both pigments. Click on the "splitting icon". Split at the center of the plateau between peaks.</li>
+</ol>
+</li>
+<li>
+<p>Click save icon.</p>
+</li>
+<li>
+<p>Click on "Calibration".</p>
+<ol>
+<li>Ensure the <a href="">current equations</a> match the equations listed in each pigment graph.</li>
+<li>You will need to change the retention times of each pigment to identify the peaks.<ol>
+<li>Look at your first peak, Neoxanthin. Click on the Neoxanthin retention time and enter the time of the peak. You should see Neoxanthin labeled above your peak. Continue entering the retention times for each peak and confirm that each peak is labeled with the correct pigment.<ol>
+<li>It is important to label the peaks. If skipped, the pigment values will not be exported.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h5 id="export">Export</h5>
+<ol>
+<li>
+<p>Click on Report. Then click on Specify Report.</p>
+</li>
+<li>
+<p>Choose the following: </p>
+<ol>
+<li>Destination: File</li>
+<li>File Settings:<ol>
+<li>Add check to "Unique pdf file name"</li>
+<li>Enter file name as sample's Unique ID</li>
+<li>Add checks to pdf, csv, and txt. Press Okay.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Click on Report. Then click Export Report.</p>
+</li>
+<li>
+<p>Repeat Integration and Export steps for each sample until complete.</p>
+</li>
+</ol>
 <h5 id="compile-csv-files">Compile CSV Files</h5>
+<ol>
+<li>
+<p>Create and name folder for the CSV files.</p>
+</li>
+<li>
+<p>For each sample folder, move the CSV file to the newly created folder.</p>
+<ol>
+<li>Example of the exported CSV files.</li>
+</ol>
+</li>
+</ol>
 <h5 id="run-r-script">Run R Script</h5>
+<ol>
+<li>
+<p>Script is stored in the shared drive</p>
+<ol>
+<li>Path: LAB-cavender\1-Important Lab Information\R Scripts\HPLCimport.R</li>
+<li>The script compiles the csv files, adds the metadata, and calculates concentration values of each pigment.</li>
+</ol>
+</li>
+<li>
+<p>Edit the path of your files in the script.</p>
+</li>
+<li>
+<p>You will need a csv file with your metadata. This file is named "Sampdata.csv" in the script.</p>
+<ol>
+<li><a href="https://drive.google.com/file/d/1rqFtI-C_uq54s5Or6KkV3JUGJjqRK10f/view?usp=sharing" target="_blank">csv file template</a><ol>
+<li><a href="https://drive.google.com/file/d/1t0TWe5EMjUYtfu1-10WNYmPmvX951Z8G/view?usp=sharing" target="_blank">README</a> file for column names and calculations.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h5 id="data-information">Data information</h5>
+<ol>
+<li>There are multiple ways to report the pigment values. The script outputs several different values:<ol>
+<li>ng.mg.Wet = ng of pigment/mg of wet sample weight</li>
+<li>ng.mg.Dry = ng of pigment/mg of dry sample weight</li>
+<li>ug = pigment amount in ug in leaf hole punch</li>
+<li>umol = pigment amount in umol in leaf hole punch</li>
+<li>umol.m2 = pigment amount (umol)/leaf area</li>
+</ol>
+</li>
+</ol>
 
   <hr>
 <div class="md-source-file">
