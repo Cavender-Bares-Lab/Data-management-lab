@@ -1,7 +1,12 @@
 ---
 hide: footer
 ---
-###### Author: Beth Fallon, updated by: Cathleen Lapadat and Lucy Schroedert
+
+# (Alternative) Dark/Light Adapted Leaf Measurements Protocol
+##### Author 
+Beth Fallon
+###### Updated
+Cathleen Lapadat and Lucy Schroeder
 
 ### Goals
 

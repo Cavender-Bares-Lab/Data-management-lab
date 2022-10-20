@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Balance Interface Program Instructions for Hydraulic Conductivity
 ###### Author: John Sperry
 
 ### Goals

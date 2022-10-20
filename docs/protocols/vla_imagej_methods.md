@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# VLA ImageJ Protocol
 ###### Author
 Hilary Major
 

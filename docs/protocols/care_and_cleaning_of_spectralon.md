@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Care and Cleaning of Spectralon
 ###### Author: Spectra Vista Corporation
 
 ### Goals

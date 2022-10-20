@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# HPLC - Pigment Extraction Protocol
 ###### Author
 Anna Schweiger and Cathleen Lapadat
 
@@ -121,8 +122,6 @@ Note: The filter membrane is fragile, only touch the filter on the outer polypro
 - Work under low light, max. 20-25.  
 - Ensure pigments of samples are completely extracted—if the samples are white, they are completely extracted. If you still see green pigment in the sample after grinding, regrind an additional 10 seconds at a time (only regrind for the not fully extracted samples).  
 
-<!-- -->
-
 1. Place six 3mm silica balls inside 1.5 mL Amber Eppendorf Micro-centrifuge tubes.
 
 2. Weigh sample and record initial mass. 
@@ -202,6 +201,6 @@ Note: The filter membrane is fragile, only touch the filter on the outer polypro
 
 4. Continue with the extraction process.
 
-5. Refer to “[HPLC imageJ](https://cavender-bares-lab.github.io/Data-management-lab/protocols/hplc_imagej/)” to analyze the area of the samples.
+5. Refer to “[HPLC imageJ](https://cavender-bares-lab.github.io/Data-management-lab/protocols/hplc_imagej/){:target="\_blank"}” to analyze the area of the samples.
 
 Note: this method can be used for broad leaf samples when a hole punch is not possible.

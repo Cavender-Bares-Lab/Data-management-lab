@@ -3,6 +3,7 @@ toc:
  - footer
 ---
 
+# Muffle Furnace Use
 ###### Author
 Cathleen Lapadat
 

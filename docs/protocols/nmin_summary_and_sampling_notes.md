@@ -1,6 +1,8 @@
 ---
 hide: footer
 ---
+
+# FAB N-min Summary and Sampling Notes
 ### Background
 We measure nitrogen mineralization to better understand how species diversity and composition will affect nitrogen cycling in the system. 
 

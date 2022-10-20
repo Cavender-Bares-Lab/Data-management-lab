@@ -2,7 +2,7 @@
 hide: footer
 ---
 
-### FAB - Forest and Biodiversity
+# FAB Project Information
 
 This long term experiment tests the consequences of tree biodiversity for forest growth, benefits to animals, protection from disease and pests, and soil fertility. Treatments are by species richness, functional and phylogenetic diversity.
 
@@ -15,8 +15,7 @@ This long term experiment tests the consequences of tree biodiversity for forest
 ##### FAB in Poem Form
 
 ###### The Fabulous Trees
-
-- Written by Maria Park
+Written by Maria Park
 
     Let us paint a picture:
     A garden of sorts

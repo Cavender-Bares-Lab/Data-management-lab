@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Welcome Package
 ### Introduction
 
 Welcome to the Cavender-Bares Lab at the University of Minnesota! Below
@@ -170,30 +171,11 @@ text files when necessary.
 please refer to MSI Tier 2 storage for details. Documentation on
 location is key.
 
-##### Metadata
-
-###### README Text Files
-
-Please include the following information in README text files regarding
-your data:  
-\* What type of data is it?  
-\* Who collected the data?  
-\* When was this data collected?  
-\* How was the data collected? Reference protocols when necessary.  
-\* Why was the data collected?  
-\* What type of analyses will this data be used for? Reference to
-analyses when necessary.
-
-###### Spectra
-
--   For leaf level measurements, include information in this
-    [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
-
 ##### Shared Drive Access
 
 To access shared drive, submit your form
 [here](https://tdx.umn.edu/TDClient/31/Portal/Requests/TicketRequests/NewForm?ID=lb9XDMjE6cY_&RequestorType=Service){:target="\_blank"}.
-The name of the shared drive is **LAB-cavender**.
+The path of the shared drive is **\\files.umn.edu\CBS\LAB-cavender**.
 
 ###### Mapping Shared Drive
 
@@ -214,6 +196,25 @@ github webpage, e.g. lab products, templates, maps. Please do not store
 your data here. If you were not added onto the google shared drive when
 you started, please contact Cathleen to be added to the lab’s google
 shared drive.
+
+##### Metadata
+
+###### README Text Files
+
+Please include the following information in README text files regarding
+your data:  
+\* What type of data is it?  
+\* Who collected the data?  
+\* When was this data collected?  
+\* How was the data collected? Reference protocols when necessary.  
+\* Why was the data collected?  
+\* What type of analyses will this data be used for? Reference to
+analyses when necessary.
+
+###### Spectra
+
+-   For leaf level measurements, include information in this
+    [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}.
 
 #### Cedar Creek Data
 

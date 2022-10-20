@@ -1,3 +1,9 @@
+---
+hide:
+  - footer
+---
+
+# LOARD Products
 ### Conferences/Presentations
 
 ### Publications

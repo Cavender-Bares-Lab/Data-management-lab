@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-## Data Storage and Management
+# Data Storage and Management Introduction
 
 To help keep the lab’s data and documentation of data organized and up-to-date, please follow the lab’s structure detailed below on data storage and organization. This will greatly help any future lab work!
 
@@ -42,11 +42,11 @@ README text files will be stored in the shared drive along with the accompanying
 * [x] README
 * [ ] README
 
-###### Spectra
-In addition to the README text file, all spectra should specifically have the following documentation:
+##### Spectra/Imaging
+In addition to the README text file, all spectra/imaging should specifically have the following documentation:
 
 * For **leaf level** and/or **canopy level** measurements using either the PSR+ or the SVC, **ALWAYS** include information following this [template](https://docs.google.com/spreadsheets/d/1rMFBWMnhqw8VJURLzc7I6j651w4iFfbX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
-* For **aerial** spectra, please provide the following information:
+* For **aerial** spectra and imaging, please provide the following information:
     * Date and time of flight
     * Location
     * Sensor type

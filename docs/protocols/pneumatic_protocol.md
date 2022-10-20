@@ -1,19 +1,22 @@
 ---
 hide: footer
 ---
+
+# Pneumatic Protocol
 ###### Author
 Beth Fallon
 
 ###### Updated
 15 February 2018
 
-##### Pneumatic protocol for measuring stem embolism and developing xylem vulnerability curves
+##### Background Information
+Pneumatic protocol for measuring stem embolism and developing xylem vulnerability curves
 
 This method uses vacuum pressure to extract air, presumed to be in the xylem and the result of embolism, from leafy stem section. This outlines 
 
-1. the protocol for setting up an apparatus to measure differences in air volume present in stems and build a proxy hydraulic vulnerability curve 
+1. The protocol for setting up an apparatus to measure differences in air volume present in stems and build a proxy hydraulic vulnerability curve 
 
-2. the general measurement procedure.
+2. The general measurement procedure.
 
 ### Full citation to methods
 

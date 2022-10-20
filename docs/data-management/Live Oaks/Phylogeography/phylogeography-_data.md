@@ -1,3 +1,10 @@
+---
+hide:
+  - footer
+---
+
+# Live Oaks Phylogeography Data Management
+
 ### Introduction
 
 Documentation of important data files that were collected from live oaks for a phylogeography project. Also, documented are spectral measurements of dried leaves that were taken in spring 2021 from leaf samples that were collected as herbariums for the phylogeography project. Not all individuals in each file were successfully matched. There are many copies of one excel file in the Live Oaks folder. The matched files are not limited to the files mentioned below. The most recent files were chosen. Also, there are some variations of the sample ID between different types of data e.g. MX-MB3030 and MXMB3030.

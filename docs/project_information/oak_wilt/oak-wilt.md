@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-### Oak Wilt
+# Oak Wilt Project Information
 
 The goal of the Oak Wilt project is to accurately detect oak wilt using remote sensing at multiple scales. The project is ongoing and is funded by multiple grants.
 

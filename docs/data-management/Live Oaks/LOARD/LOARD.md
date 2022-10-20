@@ -1,3 +1,10 @@
+---
+hide:
+  - footer
+---
+
+# LOARD Data Management
+
 ### Introduction
 
 Documentation of LOARD - Live Oaks Adaptation and Resistance to Drought

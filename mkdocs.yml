@@ -11,8 +11,20 @@ theme:
     - header.autohide
     name: material
     palette: 
+    - scheme: default
       primary: teal
-      accent: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    icon:
+      repo: fontawesome/brands/gitlab
 plugins:
     - search
     - git-revision-date-localized:
@@ -34,6 +46,8 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+repo_url: https://https://github.com/Cavender-Bares-Lab/Data-management-lab
+repo_name: Cavender-Bares-Lab/Data-management-lab
 extra_css:
   - css/extra.css
 nav:
@@ -44,6 +58,7 @@ nav:
     - Leaving package: 'leaving_package.md'
     - Important Lab Information: 'lab_information/information-of-interest.md'
     - Sampling and Analytical Costs: 'lab_information/costs.md'
+    - Software: 'lab_information/software.md'
     - Methods Publications: ''
     - Permits: 'lab_information\Permits\Permits.md'
   - Project Information:
@@ -91,7 +106,6 @@ nav:
     - Measuring leaf area: 'protocols/measuring_leaf_area.md'
     - Muffle Furnace Use: 'protocols/muffle_furnace_use.md'
     - Pneumatic Protocol: 'protocols/pneumatic_protocol.md'
-    
     - Radial Diffusion Assay for Tannins: 'protocols/tannins.md'
     - Soil:
       - Dissolved Organic Carbon and Total Nitrogen: 'protocols/dissolved_organic_carbon_and_total_nitrogen.md'
@@ -114,7 +128,9 @@ nav:
         - SVC Bluetooth Connection: 'protocols/svc_bluetooth_connection.md'
         - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
       - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
-
+    - Thermal Camera:
+      - Thermal Camera - Set Up and Connection: 'thermal_camera_set_up.md'
+      - ResearchIR - License Transfer: 'researchir_license.md'
     - VLA:
       - VLA Methods: 'protocols/vla_methods.md'
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'

@@ -4,6 +4,7 @@ hide:
   - toc
 ---
 
+# Sampling and Analytical Costs
 ### Introduction
 The following links lists supplies along with costs and labor estimates
 

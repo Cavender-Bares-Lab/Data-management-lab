@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Growth Measurements Protocol
 ### Background
 This protocol details fall growth measurements for FAB 1 and FAB 2 through Fulcrum App.
 

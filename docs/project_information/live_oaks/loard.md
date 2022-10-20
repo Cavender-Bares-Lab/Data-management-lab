@@ -4,7 +4,8 @@ hide:
   - toc
 ---
 
-### Live Oaks Adaptation and Response to Drought
+# LOARD Project Information
+Live Oaks Adaptation and Response to Drought
 
 Link to [Proposal](https://drive.google.com/file/d/1lvIN1pYCpYhKTxzzCvds9pHqNTbRku0-/view?usp=sharing){:target="\_blank"}
 

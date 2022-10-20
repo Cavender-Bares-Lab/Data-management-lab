@@ -3,9 +3,13 @@ toc:
  - footer
 ---
 
-###### Author
+# Inorganic Nitrogen Assays for N-min Protocol
+##### Author
 
-Hobbie Lab; Updated: 4 July 2013 by Charlotte Riggs
+Hobbie Lab
+
+###### Updated
+4 July 2013 by Charlotte Riggs
 
 ### Goal
 

@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# Measure pH Protocol
+# Soil KCl Extracts pH Protocol
 
 ### Goal
 Detail steps to measure pH from KCl extracted soil samples that were sampled for nitrogen mineralization.

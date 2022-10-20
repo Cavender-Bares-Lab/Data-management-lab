@@ -1,3 +1,10 @@
+---
+hide:
+  - footer
+---
+
+# Important Lab Information
+
 ### Live Lab Documents
 
 -   Lab Contact

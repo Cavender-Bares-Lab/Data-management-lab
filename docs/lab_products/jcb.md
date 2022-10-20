@@ -1,3 +1,9 @@
+---
+hide:
+  - footer
+---
+
+# JCB Compilation Products
 ### Introduction
 
 Compilation of Jeannine’s life’s work prior to establishing her lab at

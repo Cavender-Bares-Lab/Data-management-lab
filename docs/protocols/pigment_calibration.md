@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# HPLC - Pigment Calibration Protocol
 ###### Author
 Cathleen Lapadat and Anna Schweiger
 

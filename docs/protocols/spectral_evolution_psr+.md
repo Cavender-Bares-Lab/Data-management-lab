@@ -2,6 +2,11 @@
 hide: footer
 ---
 
+# PSR Leaf Measurements Protocol
+
+#### Author
+Isaiah Clark
+
 ### Goal
 
 Step-by-step assembly and operation of Spectral Evolution PSR+ spectrometer for both fiber optic cable/leaf clip and FOV lens.

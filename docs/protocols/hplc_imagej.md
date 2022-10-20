@@ -3,7 +3,11 @@ toc:
  - footer
 ---
 
-###### Author: Anna Schweiger; Updated: 31 January 2022 by Cathleen Lapadat
+# HPLC - ImageJ Protocol
+##### Author
+Anna Schweiger
+###### Updated
+31 January 2022 by Cathleen Lapadat
 
 ### Goal
 

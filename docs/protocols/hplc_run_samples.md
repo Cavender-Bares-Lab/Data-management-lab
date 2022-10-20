@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# HPLC - Run Samples Protocol
 ### Author
 Anna Schweiger and Cathleen Lapadat
 
@@ -51,7 +52,7 @@ September 2022
 
 6. Ensure you have enough solvent in the bottles you are using and the correct volumes are entered in solvent bottle icons: click on bottles below pump control and change solvent bottle filling if not correct. 
 
-7. Make sure “turn pump off if running out of solvent” is checked. If your analysis method does not use all solvent bottles, use extra bottle and solvent to sub-merge all filters.
+7. Make sure “turn pump off if running out of solvent” is checked.
 
 8. Check that solvents are correctly labelled: load method, click pump control icon - set up pump, the names of the solvents have to correspond to the bottles on the tray.
 

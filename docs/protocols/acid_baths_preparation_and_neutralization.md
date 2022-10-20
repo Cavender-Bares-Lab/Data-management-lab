@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Acid Bath Preparation and Neutralization Protocol
 ###### Author: William C. Eddy; Updated: March 2007
 
 ### Goal

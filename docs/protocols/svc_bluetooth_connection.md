@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# SVC Bluetooth Connection
 ###### Author
 Beth Fallon
 

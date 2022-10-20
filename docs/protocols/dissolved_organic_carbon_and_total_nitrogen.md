@@ -3,6 +3,7 @@ hide:
   - footer
 ---
 
+# Dissolved Organic Carbon and Total Nitrogen Protocol
 ###### Author: William C. Eddy; Updated: 6 November 2019 by Allison Gill
 
 Dissolved Organic Carbon (DOC) measured as non-purgeable organic carbon (NPOC) and Total Nitrogen. Often used in our lab to measure microbial biomass on non-fumigated and fumigated soil samples.

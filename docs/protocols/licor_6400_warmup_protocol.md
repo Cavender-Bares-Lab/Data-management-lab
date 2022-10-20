@@ -3,6 +3,8 @@ hide:
  - footer
 ---
 
+# Licor 6400 Warmup Protocol
+
 ###### Author
 Licor, Inc.
 

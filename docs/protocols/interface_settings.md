@@ -3,6 +3,7 @@ hide:
  - footer
 ---
 
+# Hansatech Fluorometer Interface Settings
 ### Goals
 Documents multiple examples of settings for Hansatech fluorometer. Settings are dependent on your project and goals.
 

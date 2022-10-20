@@ -2,6 +2,7 @@
 hide: footer
 ---
 
+# Measuring Leaf Area Protocol
 ###### Author
 Cavender-Bares Lab
 

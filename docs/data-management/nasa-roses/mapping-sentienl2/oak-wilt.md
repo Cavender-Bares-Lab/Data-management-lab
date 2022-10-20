@@ -1,3 +1,10 @@
+---
+hide:
+  - footer
+---
+
+# NASA-ROSES Data Management
+
 This site serves as a documentation for the project of Mapping oak-wilt
 using Sentinel-2.
 

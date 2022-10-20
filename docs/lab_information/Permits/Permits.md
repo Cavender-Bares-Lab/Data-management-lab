@@ -1,3 +1,10 @@
+---
+hide:
+  - footer
+  - toc
+---
+
+# Permits
 ### APHIS
 
 -   [Chile - Whole plants, leaves, and
