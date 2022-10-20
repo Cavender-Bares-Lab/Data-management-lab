@@ -176,6 +176,7 @@ location is key.
 To access shared drive, submit your form
 [here](https://tdx.umn.edu/TDClient/31/Portal/Requests/TicketRequests/NewForm?ID=lb9XDMjE6cY_&RequestorType=Service){:target="\_blank"}.
 The path of the shared drive:
+
 + Mac users: cifs://files.umn.edu/CBS/Groups/LAB-cavender
 
 + Windows users: //files.umn.edu/CBS/Groups/LAB-cavender**.
