@@ -129,8 +129,8 @@ nav:
         - SVC Leaf Measurements: 'protocols/svc_leaf_measurements.md'
       - Care and Cleaning of Spectralon: 'protocols/care_and_cleaning_of_spectralon.md'
     - Thermal Camera:
-      - Thermal Camera - Set Up and Connection: 'thermal_camera_set_up.md'
-      - ResearchIR - License Transfer: 'researchir_license.md'
+      - Thermal Camera - Set Up and Connection: 'protocols/thermal_camera_set_up.md'
+      - ResearchIR - License Transfer: 'protocols/researchir_license.md'
     - VLA:
       - VLA Methods: 'protocols/vla_methods.md'
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
