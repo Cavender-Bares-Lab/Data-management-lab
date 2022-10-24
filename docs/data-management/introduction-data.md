@@ -14,6 +14,12 @@ Data should be stored in the lab’s university shared drive. Documentation of y
 - If your data is too large to store in the university shared drive, please refer to [MSI Tier 2 storage](https://cavender-bares-lab.github.io/Data-management-lab/welcome_package/#msi) for details. Documentation on location is key.  
 - For shared drive and google drive information, refer to the [Welcome Package](https://cavender-bares-lab.github.io/Data-management-lab/welcome_package/#shared-drive-access) for details.
 
+##### Shared Drive Path
+
++ Mac users: cifs://files.umn.edu/CBS/Groups/LAB-cavender
+
++ Windows users: \\files.umn.edu\CBS\Groups\LAB-cavender
+
 #### Data
 Submit your data information to the webpage manager.  
 Include the following information:
@@ -35,7 +41,7 @@ your data:
 + Why was the data collected?  
 + What type of analyses will this data be used for? Reference to
 analyses when/if completed.
-+ Field/column definitions
++ Field/column definitions (include units when applicable)
 
 README text files will be stored in the shared drive along with the accompanying data. On this webpage, you will see the checklist below for a completed or missing README text file, respectively.
 

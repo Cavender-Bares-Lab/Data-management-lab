@@ -7,7 +7,7 @@ hide: footer
 Cavender-Bares Lab
 
 ###### Updated
-3 August 2009
+21 October 2022
 
 ### Goal
 
@@ -22,22 +22,36 @@ The goal of this protocol is to standardize the measurements of leaf area using 
 
 ##### Scanning Leaves
 
-1. Place leaf on front of envelope face down on scanner. The goal is to have leaf and label visible in photo. Make sure a clear ruler is also on the scanner and seen in the image.
+1. Place leaf and label face down on scanner. The goal is to have leaf and label visible in photo. If scanning multiple leaves in a single photo, ensure no overlaps. Include a clear ruler on the scanner that can be seen in each image.
 
-2. Enter scanning and camera wizard. Choose color picture and name the file something unique like the date and page number. Save as JPEG image in a folder. Scan photo. Open photo and look to see if it scanned appropriately. Return each leaf to its appropriate envelope. Place leaves in drying oven.
+2. Enter EPSON Scan application. 
+    1. Set file name prefix and destination by clicking the folder on the bottom of the right window. 
+
+3. Click Scan. Once scanned the photo should appear in its folder; open the photo and look to see if it was scanned appropriately. Return each leaf to its appropriate envelope. Once all leaves are scanned, place them in the drying oven for a minimum of three days before dry-weighing.
 
 ##### Image J
 
-1. Open program Image J. Select File open. Open scanned photo.
+1. Open program Image J application. 
+    1. Select File open > Import > Image Sequence
+    2. Open the folder with your leaf scans. ImageJ can stack up to 60 images at a time.
 
-2. Click on the line box to select draw line tool. Draw a line on the ruler of a certain length. (8 cm). Select Analyze: Set Scale. Enter 8 under known distance and unit of length cm, check global. Click ok.
+2. Select the Line tool. 
+    1. Draw a segment on the ruler of a certain length (ex. 8 cm). 
+    2. Select Analyze > Set Scale. 
+    3. Enter the certain length under Known distance, cm for Unit of length, and check Global. Click Ok.
 
-3. Select Process: Binary : Make Binary (or Process: Image: Make Binary). The photo will now appear in black and white.
+3. Select Analyze > Set measurements. 
+    1. Make sure Area, Perimeter, and Feret’s diameter are checked. Choose Ok.
 
-4. Select Analyze: Set measurements. Make sure area, perimeter, and Feret’s diameter are checked. Choose ok.
+4. Select Image > Adjust > Color Threshold. 
+    1. Tweak the color and brightness thresholds so that only the leaves are cleanly selected, using a red background on the scanner makes this easier. 
+    2. Once your threshold is established click Stack. This will apply your threshold to every image in the sequence.
 
-5. Click on the wand tool. Click on one of the leaves with wand tool. It should highlight the perimeter of the leaf in yellow. If a leaf is touching another leaf or a line it will trace around everything. You will need to use the eraser or draw tool to separate where it is touching. Also if image is split you will need to use draw tool to fill in leaf.
+5. Click on the Wand tool and select one of the leaves. It should highlight the perimeter of the leaf in yellow. If a leaf is touching another it will trace around everything. You will need to use the draw tool to manually trace each leaf.
 
-6. Once the leaf is highlighted around the perimeter select Analyze: Measure. A new window will appear with the measurements.
-   
-7. Copy these measurements into an excel spreadsheet with appropriate labels and save.
+6. Once the leaf is highlighted select Analyze > Measure (Ctrl-M). A new window will appear with the measurements. If a leaf is damaged or heterogeneous it may require multiple selections that will need to be added together. 
+
+7. Copy your measurements into an excel spreadsheet with appropriate labels and save.
+
+###### Notes/Tips
+It is ideal to stack with similar types of leaves. Different types of leaves/needles will require different thresholds so should not be stacked together.

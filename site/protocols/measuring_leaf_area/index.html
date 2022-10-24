@@ -1387,6 +1387,19 @@
     Image J
   </a>
   
+    <nav class="md-nav" aria-label="Image J">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notestips" class="md-nav__link">
+    Notes/Tips
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2806,6 +2819,19 @@
     Image J
   </a>
   
+    <nav class="md-nav" aria-label="Image J">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notestips" class="md-nav__link">
+    Notes/Tips
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2831,7 +2857,7 @@
 <h6 id="author">Author</h6>
 <p>Cavender-Bares Lab</p>
 <h6 id="updated">Updated</h6>
-<p>3 August 2009</p>
+<p>21 October 2022</p>
 <h3 id="goal">Goal</h3>
 <p>The goal of this protocol is to standardize the measurements of leaf area using scanned leaves and Image J.</p>
 <h3 id="requirements">Requirements</h3>
@@ -2843,36 +2869,60 @@
 <h5 id="scanning-leaves">Scanning Leaves</h5>
 <ol>
 <li>
-<p>Place leaf on front of envelope face down on scanner. The goal is to have leaf and label visible in photo. Make sure a clear ruler is also on the scanner and seen in the image.</p>
+<p>Place leaf and label face down on scanner. The goal is to have leaf and label visible in photo. If scanning multiple leaves in a single photo, ensure no overlaps. Include a clear ruler on the scanner that can be seen in each image.</p>
 </li>
 <li>
-<p>Enter scanning and camera wizard. Choose color picture and name the file something unique like the date and page number. Save as JPEG image in a folder. Scan photo. Open photo and look to see if it scanned appropriately. Return each leaf to its appropriate envelope. Place leaves in drying oven.</p>
+<p>Enter EPSON Scan application. </p>
+<ol>
+<li>Set file name prefix and destination by clicking the folder on the bottom of the right window. </li>
+</ol>
+</li>
+<li>
+<p>Click Scan. Once scanned the photo should appear in its folder; open the photo and look to see if it was scanned appropriately. Return each leaf to its appropriate envelope. Once all leaves are scanned, place them in the drying oven for a minimum of three days before dry-weighing.</p>
 </li>
 </ol>
 <h5 id="image-j">Image J</h5>
 <ol>
 <li>
-<p>Open program Image J. Select File open. Open scanned photo.</p>
+<p>Open program Image J application. </p>
+<ol>
+<li>Select File open &gt; Import &gt; Image Sequence</li>
+<li>Open the folder with your leaf scans. ImageJ can stack up to 60 images at a time.</li>
+</ol>
 </li>
 <li>
-<p>Click on the line box to select draw line tool. Draw a line on the ruler of a certain length. (8 cm). Select Analyze: Set Scale. Enter 8 under known distance and unit of length cm, check global. Click ok.</p>
+<p>Select the Line tool. </p>
+<ol>
+<li>Draw a segment on the ruler of a certain length (ex. 8 cm). </li>
+<li>Select Analyze &gt; Set Scale. </li>
+<li>Enter the certain length under Known distance, cm for Unit of length, and check Global. Click Ok.</li>
+</ol>
 </li>
 <li>
-<p>Select Process: Binary : Make Binary (or Process: Image: Make Binary). The photo will now appear in black and white.</p>
+<p>Select Analyze &gt; Set measurements. </p>
+<ol>
+<li>Make sure Area, Perimeter, and Feret’s diameter are checked. Choose Ok.</li>
+</ol>
 </li>
 <li>
-<p>Select Analyze: Set measurements. Make sure area, perimeter, and Feret’s diameter are checked. Choose ok.</p>
+<p>Select Image &gt; Adjust &gt; Color Threshold. </p>
+<ol>
+<li>Tweak the color and brightness thresholds so that only the leaves are cleanly selected, using a red background on the scanner makes this easier. </li>
+<li>Once your threshold is established click Stack. This will apply your threshold to every image in the sequence.</li>
+</ol>
 </li>
 <li>
-<p>Click on the wand tool. Click on one of the leaves with wand tool. It should highlight the perimeter of the leaf in yellow. If a leaf is touching another leaf or a line it will trace around everything. You will need to use the eraser or draw tool to separate where it is touching. Also if image is split you will need to use draw tool to fill in leaf.</p>
+<p>Click on the Wand tool and select one of the leaves. It should highlight the perimeter of the leaf in yellow. If a leaf is touching another it will trace around everything. You will need to use the draw tool to manually trace each leaf.</p>
 </li>
 <li>
-<p>Once the leaf is highlighted around the perimeter select Analyze: Measure. A new window will appear with the measurements.</p>
+<p>Once the leaf is highlighted select Analyze &gt; Measure (Ctrl-M). A new window will appear with the measurements. If a leaf is damaged or heterogeneous it may require multiple selections that will need to be added together. </p>
 </li>
 <li>
-<p>Copy these measurements into an excel spreadsheet with appropriate labels and save.</p>
+<p>Copy your measurements into an excel spreadsheet with appropriate labels and save.</p>
 </li>
 </ol>
+<h6 id="notestips">Notes/Tips</h6>
+<p>It is ideal to stack with similar types of leaves. Different types of leaves/needles will require different thresholds so should not be stacked together.</p>
 
   <hr>
 <div class="md-source-file">

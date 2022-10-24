@@ -6,9 +6,9 @@ hide:
 # Thermal Camera - Set Up and Connection
 
 #### Downloads
-+ [Flir IP config](https://flir.custhelp.com/app/answers/detail/a_id/1137/~/download-flir-ip-config-and-flir-ir-monitor)
++ [Flir IP config](https://flir.custhelp.com/app/answers/detail/a_id/1137/~/download-flir-ip-config-and-flir-ir-monitor){:target="\_blank"}
 
-+ [ResearchIR](https://support.flir.com/SwDownload/app/RssSWDownload.aspx?ID=12401)
++ [ResearchIR](https://support.flir.com/SwDownload/app/RssSWDownload.aspx?ID=12401){:target="\_blank"}
 
 ### Detailed Steps
 

@@ -11,8 +11,9 @@ Stored data:
 
 * Growth and Reproduction (2016-present)  
     * [x] README
-* Soil  
+* Soil   (Separated by sampling year)
     * [x] README
+        * A README file for each year with sampling details
     * Nitrogen mineralization (2021-2022)
     * Soil moisture (2021-2022)
     * pH (2021-2022)

@@ -29,7 +29,10 @@ Stored data:
         * [x] Metadata within same file
     * Soil lipids (2016)
         * [x] Metadata within same file
-        
+* Trait Modeling (2018)
+    * Total Carbon and Nitrogen
+        * [x] README
+
 **Note**: Since this is a collaborative project, data is also made available on the FAB1 google shared drive.
 
 <br>
