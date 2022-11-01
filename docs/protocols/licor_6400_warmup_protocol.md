@@ -24,6 +24,10 @@ Checklist of things that should be done prior to making measurements with Licor 
 - Drierite
 - Plants!!!
 
+
+### Video tutorial
+- Video of use can be viewed [here](https://drive.google.com/file/d/1lYHTCOT8Z6GRNSeFibT5bC2dSJesSuIc/view?usp=sharing). Video is stored in the Biology Integration Institute - ASCEND. If you're not in the group, you will need to request access.
+
 ### Checklist Summary
 
 1. During Warm up

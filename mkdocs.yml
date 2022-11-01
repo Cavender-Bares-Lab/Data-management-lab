@@ -46,7 +46,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-repo_url: https://https://github.com/Cavender-Bares-Lab/Data-management-lab
+repo_url: https://github.com/Cavender-Bares-Lab/Data-management-lab
 repo_name: Cavender-Bares-Lab/Data-management-lab
 extra_css:
   - css/extra.css
@@ -85,7 +85,9 @@ nav:
       - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
       - Acorn Processing: 'protocols/acorn_processing.md'
     - Ankom Fiber Analyzer: 'protocols/ankom_fiber_analyzer.md'
-    - Balance Interface Program Instructions for Hydraulic Conductivity: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
+    - Hydraulic Conductivity:
+      - Sartorius Balance COM Port Settings For Hydraulic Conductivity: 'protocols/sartorius_balance.md'
+      - Measuring Hydraulic Conductivity Protocol: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
     - FAB surveys:
       - Growth Measurements: 'protocols/growth_measurements.md'
       - Herbivory Survey: ''

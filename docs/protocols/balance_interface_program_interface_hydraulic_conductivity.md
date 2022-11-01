@@ -3,40 +3,114 @@ hide:
   - footer
 ---
 
-# Balance Interface Program Instructions for Hydraulic Conductivity
-###### Author: John Sperry
+# Hydraulic Conductivity Protocol
 
-### Goals
+### Video of Method
+A video of the method is available [here](https://drive.google.com/file/d/1rZ-i3XNrNKIRl-zMUvzXD_JPDPeWlYdb/view?usp=sharing) created for FES 561 at Oregon State University.
+##### Additional Information
+Video also shows Method to measure water potential with a pressure bomb
 
-Using the Excel VBA program “conduct” to measure conductivity with a
-Sartorius Balance.
+### Materials
+- Rubber stopper for scale
+- Scale that measures to the 4th decimal
+- Carboy
+- Small plastic bin to store submerged stems
+- Graduated cylinder
+- Meter stick
+- Glass pipette
+- Tygon 3601 tubing (1/4 in ID, 1/16 in wall) 
+    - this composes the majority of the tubing in the system
+- Tygon 3603 tubing (1/2 in ID, 1/8 in wall) 
+    - this composes the wider tubing that samples are loaded into with the aid of latex tubing grommets
+- Nalgene Three-way stopcock 
+    - PP/TFE 6470-0004 4mm size
+- Nalgene Two-way stopcock 
+    - PP/TFE 6460-0004 4mm size
+- Hose clamps:
+    - For narrow diameter tubing: Cole-Parmer Snp-4 hose clamp (06832-04)
+    - For wider diameter tubing (areas of the system where samples are loaded):       
+        - Cole-Parmer Snp-12 hose clamp (06832-12)
+- Plastic tubing connectors 5-1 Connectors (58018) 
+    – these are used in the system to connect the places in the conductivity and flushing manifolds where samples are usually loaded. When the system is being bleached, these connectors close the openings and allow for all of the tubing and
+connections to be bleached.
+- In-line filter Calyx Capsule Nylon, 0.1 micron, 3/8 in barb, DCN010006
 
-### Information
+##### Notes
+- Some miscellaneous sizes of latex tubing may be needed to make grommets that will fit a wide range of sample diameters.
+- Extra hose clamp sizes are probably needed in some parts of the system (i.e. connected to the captive air tank and the filter)
+    — there are sets
+available that contain a few pieces of each of many different sizes.
 
-This excel/VBA program was written in Microsoft office Excel 2003, using Richard Grier’s “ActiveX control” for serial communications, downloaded from his website (<http://home.comcast.net/~hardandsoftware>) in October 2007. I modeled the interface using instructions from Rick Collard’s article on interfacing excel with electronic balances which I downloaded from (<http://www.msc-lims.com/lims/diybalance.html>).
+### Apparatus
+![alt text here](images/hydraulics_set_up.png)
+![alt text here](images/hydraulics_set_up2.png)
+Figures 1 & 2: Set up for hydraulics conductivity by Jacobsen 2011. Our lab uses a carboy instead of an IV bag.
 
-### Supplies/Equipment Needed
+### Stem preparation
+##### Collection
+1. Cut branch from tree.
+    1. Cut more than what you need as you will need to recut multiple times under DI water
+    
+2. Recut branch immediately under DI water. 
+    1. Keep cut end of branch in DI water until ready to bring back to lab.
 
-- Serial port to USB cable
-- Sartorius Balance
-- Computer/Laptop
+3. When back to lab for measurements, recut branch in DI water.
+    1. Cut both ends in DI water with a razor blade. Cut all of your individual stems to 10 cms in length. Ensure these are clean cuts. The stem should always be completely submerged in water to ensure no air penetration in stem.
 
-### Instructions for installing
+4. Cut each leaf off stem under DI water then remove.
 
-1. You need a serial-port-to-USB cable. For sartorius balances this is part YCC01-USBM2 and it costs about $55. Install the driver software provided with the cable. This assigns one of your USB ports to handle this cable. Test the interface using Window’s “hyperterminal” (start|program-files|accessories|communications|hyperterminal) making sure that the port settings match the balance output. Press the balance’s “print” button to send weight to hyperterminal. Also make sure the balance is set to output data regardless of stability on receiving the “print” command. Once hyperterminal is working and the balance settings are all correct, go to the next step.
+5. Dab glue mixture at each leaf cut
 
-2. Download the XMCommCRC.ocx file that is the ActiveX control that you will add to excel. I don’t think it matters where you put it. There are also three other files (*.dll, *.isr, \*.isu) that I don’t think are necessary, but they came with the download, so better put them in the same folder too with the .ocx file.
+6. Once both ends are cut keep stem leveled and don’t move it around too much while keeping it submerged in water.
 
-3. Download the conduct.verX.xls file and open it in excel, enabling the macros.
 
-4. In excel, go to view|toolbars|control toolbox to open the “control toolbox”. Click on the “more controls” button, usually at the bottom. Go to the bottom of this list and click on “register custom control.” This will open the browser which allows you to find where you stored the XMCommCRC.ocx file. Highlight this file and open it. That adds this control as another button on the toolbox, or in the pull down list for “more controls” when you next open the control toolbox.
+##### Assembly
+1. While the stem is submerged in DI water, attach the latex tubing grommets at the ends of the stem.
 
-5. Now, go to tools|macro|visual-basic-editor, to open the visual basic window. On the upper left, expand the “forms” directory and double-click on “userform1.” If it does not open, it will probably prompt you for additional \*.ocx files (COMCTL32.ocx, MSComm32.ocx, for example). That means you have to repeat the “register control” process described in step 4 and add these files. If your computer doesn’t have them already, I can send these two for you to load on. It may need other ones too (although not in my experience) that you might have to find somewhere and add on.
+2. Please refer to figures 3 and 4 for complete assembly set up.
+    1. Carboy is used instead of IV bag. Carboy is placed on shelf containing DI water at a vertical distance of 1 meter from graduated cylinder water.
 
-6. Once you can open the “userform1”, if it shows a “using checksum” box then you are ready to go. If all you see are a grid of dots, then you need to add the MSComm control on the user form. Open the “control toolbox” again, and look for the MSComm button. If it is not there, go to tools|additional-controls, find it on the list and add it. Back on the control toolbox, click on the MSComm button once, move to the userform, and click again, and it adds the control (you will see the “using checksum” box). Return to the excel spreadsheet and save the program. It should be ready to go now. Good luck, every computer and excel version seems different.
+3. Allow stems to soak overnight in DI water to allow saturation of stem.
 
-7. To run the program, first go to the “settings” sheet and configure the port settings to match the usb-serial port and balance settings. Then change the elevation, latitude, and pipette displacement settings. The first pipette setting is the length of the pipette immersed in cm per gram of weight change as water is added to the balance. Measure this by filling your reservoir by “x” number of grams, and measuring the corresponding rise in water level in cm. The second pipette setting is the displacement weight change in grams per cm of pipette immersed. Measure this by noting the increase in grams as you dip the pipette “x” cm deeper in the reservoir.
+![alt text here](images/hydraulic_assembly.png)
+![alt text here](images/hydraulic_assembly2.png)
+Figures 3 & 4: Assembly images taken from Jacobsen 2011. Figure 3 shows stopcock and tubing assembly with the stem. Figure 4 shows full assembly for the whole system including direction of flow.
 
-8. Back on the “results” sheet, at the top, enter the time interval, hydraulic head (or kPa if desired), solution temperature, sample size for the running mean (usually 5), segment length in mm, and segment diameter in mm. Each conductivity measurement is based on three readings: an “initial” value which is the flow into or out of the stem with zero pressure gradient, a “stem” value which is the pressure-induced flow, and a “final” value which repeats the zero pressure measurement. The initial and final are averaged, and subtracted from the pressure-induced flow to give the net flow induced by the pressure. This is divided by the pressure gradient to give the conductivity, which is corrected to 20C from whatever temperature your solution is. To get the initial, stem, and final readings, hit the corresponding buttons. The program gives the individual flow rates, and a running mean. We usually wait until we get three or four running mean values that look consistent before stopping the program. To stop the program, hit “ESCAPE.” Choose the line number for the flow rate mean you wish to use, and it will be entered in the “current values” section. When the final reading is done, the conductivity is automatically calculated, and you are prompted for the line number for saving the data to the “stored values” section. Moving the data clears the current values. You can also calculate the conductivity at any time by pressing the “kcalc” button.
+###### Important Notes
+- To ensure there is no leaking, inject DI water into the tubing attached to the stem. The DI water should form a miniscus and remain at the same level. Test for leaking at both connections of stem.
+- It is important to ensure no air enters into the stem. When connecting stem tubing apparatus to main tubing apparatus, inject DI water into the system to avoid any air bubbles.
 
-9. If you have a non-sartorius balance, you’ll need to change a few lines of code based on what your balance uses for a software-induced “print” command, and how it outputs its weight through the serial cable. Sartorius uses ESC / P / CR / LF as its print command, and it outputs a string of 16 characters. I’ve noted most of these lines of code—they are all in “userform1” and can be accessed by the visual basic editor from excel. Any modifications you wish to make in the data handling, etc., can be made in the “module2” section of the code in the “sub Balance ()” procedure.
+##### Measurements
+1. Download and open excel spreadsheet [conduct.ver1](https://docs.google.com/spreadsheets/d/19Gr1bHsw4f4eCfuZ9XkLv3EeIw5RaviX/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true).
+    1. Pressure difference in the stem is determined by the vertical distance of the water levels in the carboy and the balance.
+        1. Record the height different of the water in the carboy to the height of the water in the reservoir prior to starting measurements. This is important in calculating pressure difference (see figure 5).
+            1. $$Pressure\;difference = Height\;difference * Water\;Density * Gravitational\;Acceleration\;constant = \Delta hD_{water}g$$
+    2. Excel program should be measuring weight every 5 seconds. Choose "target interval" for 5 seconds.
+
+![alt text here](images/hydraulic_height.png)
+
+2. Refer to [Sartorius Balance COM Port Settings For Hydraulic Conductivity Protocol](https://cavender-bares-lab.github.io/Data-management-lab/protocols/sartorius_balance/) to connect computer and balance.
+
+3. When ready for measurements, open stopcock to allow gravimetric water flow through the stem.
+    1. Measurements should continue after steady-state flow for total of 10-15 minutes. It takes approximately 5-10 minutes to steady-state flow.
+        1. Take initial series of measurements of stem at its current state i.e. with existing embolism at stem cutting.
+        2. For the initial series of measurements, keep pressure below 2 KPa to keep emboli from getting flushed out.
+        3. After these measurements, attach stem tubing apparatus to a vacuum chamber for 45 minutes at 50-60 KPa. This will get rid of embolism in the stems and these measurements give maximum hydraulic conductivity.
+
+###### Important Notes
+- Periodically flush the system with 1:3 bleach solution to prevent algal and bacterial growth.
+
+### Calculations
+$K_h=q(dp/dx)^{-1}=m^4\;MPa^{-1}s^{-1}$  
+$K_s=K_h/Xylem\;area=kg\;m\;MPa{-1}s^{-1}$  
+$Xylem\;area=[(D1/2)*(D2/2)*\pi]-[(d1/2)*(d2/2)*\pi]=m^2$  
+
+##### Cross Sectional Xylem Area
+![alt text here](images/hydraulics_xylem.png)
+
+### References
+1. [Sperry J.S., Donnelly J.R. & Tyree M.T. (1988). A method for measuring hydraulic conductivity and embolism in xylem. Plant, Cell and Environment 11, 35–40.](https://drive.google.com/file/d/1tcAk82yoyZl9k7dgrSaOwtJAlEKsZrDk/view?usp=sharing)
+
+2. [Cavender-Bares, Jeannine and Holbrook, N. M. (2001). "Hydraulic properties and freezing-induced cavitation in sympatric evergreen and deciduous oaks with contrasting habitats." Plant, Cell and Environment. 24:1243–1256.](https://drive.google.com/file/d/1bs9aqN0OU3xaAKGFa_EsYGql4ehvyVWg/view?usp=sharing)
+
+3. [Jacobsen. (2011). (Measuring the hydraulic conductivity of plant samples](https://www.csub.edu/~ajacobsen/Conductivity%20Methods_2014.pdf)
