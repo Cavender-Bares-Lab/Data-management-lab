@@ -1,6 +1,5 @@
 ---
 hide:
-  - toc
   - footer
 ---
 
@@ -90,36 +89,20 @@ Cavender-Bares, J. (2019). Evolutionary legacies on ecosystems with examples on 
 
 ### Publications
 
-Cavender-Bares, J., J.G. Gamon, P.A. Townsend (eds.) (2020). Remote Sensing of Plant Biodiversity. Springer Verlag.  
+[Cavender-Bares, J., J.G. Gamon, P.A. Townsend (eds.) (2020). Remote Sensing of Plant Biodiversity. Springer Verlag.](https://drive.google.com/file/d/1XB3225iULPx0NTzgSYGV1Enr9BtPR-W-/view?usp=share_link){:target="\_blank"}
 
-Cavender-Bares, J (2019). Diversification, adaptation, and community assembly of the American oaks (Quercus), a model clade for integrating ecology and evolution.  New Phytologist. 221  669.
+[Cavender-Bares, J., Meireles, J. E., Couture, J. J., Kaproth, M. A., Kingdon, C. C.,  Singh, A., Serbin, S. P., Center, A., Zuniga, E., Pilz, G. and Townsend, P. A. (2016). Associations of leaf spectra with genetic and phylogenetic variation in oaks: prospects for remote detection of biodiversity.  Remote Sensing. 8 (3).](https://drive.google.com/file/d/1VtZiKD5uw4fzzUvj3wya9fz5JKGGZTW4/view?usp=share_link){:target="\_blank"}
 
-Cavender-Bares, J. and Meireles, J. E. and Couture, J. J. and Kaproth, M. A. and Kingdon, C. C. and Singh, A. and Serbin, S. P. and Center, A. and Zuniga, E. and Pilz, G. and Townsend, P. A. (2016). Associations of leaf spectra with genetic and phylogenetic variation in oaks: prospects for remote detection of biodiversity.  Remote Sensing. 8 (3)
+[Cavender-Bares, J., Gamon, J.A., Hobbie, S.E., Madritch, M.D., Meireles, J.E., Schweiger, A.K. and Townsend, P.A. (2017). Harnessing plant spectra to integrate the biodiversity sciences across biological and spatial scales.  American Journal of Botany, 104.](https://drive.google.com/file/d/1Uxe3E0AdeHpDM0FvrsfAH4ArtdjSLKt3/view?usp=share_link){:target="\_blank"}
 
-Cavender-Bares, Jeannine and Gamon, John A. and Hobbie, Sarah E. and Madritch, Michael D. and Meireles, José Eduardo and Schweiger, Anna K. and Townsend, Philip A. (2017). Harnessing plant spectra to integrate the biodiversity sciences across biological and spatial scales.  American Journal of Botany, 104.
+[Cline, L. C. and Hobbie, S. E. and Madritch, M. D. and Buyarski, C. R. and Tilman, D. and Cavender-Bares, J. M. (2018). Resource availability underlies the plant-fungal diversity relationship in a grassland ecosystem.  Ecology. 99.](https://drive.google.com/file/d/1RUCkw1r3QWn9U7BIRKHfPaBarOHtMV9_/view?usp=share_link){:target="\_blank"}
 
-Cline, L. C. and Hobbie, S. E. and Madritch, M. D. and Buyarski, C. R. and Tilman, D. and Cavender-Bares, J. M. (2018). Resource availability underlies the plant-fungal diversity relationship in a grassland ecosystem.  Ecology. 99.
+[Cotrozzi, L., Couture, J.J., Cavender-Bares, J., Kingdon, C.C.,Fallon, B., Pilz, G.,  Pellegrini, E., Nali, C., and Townsend, P.A. (2017). Using foliar spectral properties to assess the effects of drought on plant water potential.  Tree Physiology.](https://drive.google.com/file/d/1unhvQA5NCZG0xRaczsiUQwkuX10EuQek/view?usp=share_link){:target="\_blank"}
 
-Cotrozzi, Lorenzo and Couture, John J. and Cavender-Bares, Jeannine and Kingdon, Clayton C. and Fallon, Beth and Pilz, George and Pellegrini, Elisa and Nali, Cristina and Townsend, Philip A. (2017). Using foliar spectral properties to assess the effects of drought on plant water potential.  Tree Physiology.
+[Gholizadeh, H., Gamon, J.A., Townsend, P.A., Zygielbaum, A.I., Helzer, C.J., Hmimina, G.Y., Yu, R., Moore, R.M., Schweiger, A.K., and J. Cavender-Bares (2019). Detecting prairie biodiversity with airborne remote sensing.  Remote Sensing of Environment. 221  38.](https://drive.google.com/file/d/1C9SBr2f4j0F9GQYsXPCAEx4Po8XJ-fnA/view?usp=share_link){:target="\_blank"}
 
-Gholizadeh, H., J. A. Gamon, P. A. Townsend, A. I. Zygielbaum, C. J. Helzer, G. Y. Hmimina, R. Yu, R. M. Moore, A. K. Schweiger, and J. Cavender-Bares (2019). Detecting prairie biodiversity with airborne remote sensing.  Remote Sensing of Environment. 221  38.
+[Jetz, W., Cavender-Bares, J., Pavlick, R., Schimel, D., Davis, F.W., Asner, G.P., Guralnick, R., Kattge, J., Latimer, A., Moorcroft, P., Schaepman, M.E., and Ustin, S.L. (2016). Monitoring plant functional diversity from space.  Nature Plants.](https://drive.google.com/file/d/1RM0HApdyVxKbbb6AabO7Q6880hS6Rh0B/view?usp=share_link){:target="\_blank"}
 
-Gholizadeh, Hamed and Gamon, John A. and Townsend, Philip A. and Zygielbaum, Arthur I. and Helzer, Christopher J. and Hmimina, Gabriel Y. and Yu, Rong and Moore, Ryan M. and Schweiger, Anna K. and Cavender-Bares, Jeannine (2019). Detecting prairie biodiversity with airborne remote sensing.  Remote Sensing of Environment.
+[Kothari, S., Cavender-Bares, J., Bitan, K., Verhoeven, A. S., Wang, R., Montgomery, R. A. and Gamon, J. A. (2018). Community-wide consequences of variation in photoprotective physiology among prairie plants.  Photosynthetica.](https://drive.google.com/file/d/1GCU3ooOKhAWx-KWmM9Z7yhR1rXPWTTUY/view?usp=share_link){:target="\_blank"}
 
-Jetz, W. and Cavender-Bares, J. and Pavlick, R. and Schimel, D. and Davis, F. W. and Asner, G. P. and Guralnick, Robert and Kattge, J and Latimer, Andrew and Moorcroft, Paul and Schaepman, M. E. and Ustin, S.L. (2016). Monitoring plant functional diversity from space.  Nature Plants. 2.
-
-Kothari, S. and Cavender-Bares, J. and Bitan, K. and Verhoeven, A. S. and Wang, R. and Montgomery, R. A. and Gamon, J. A. (2018). Community-wide consequences of variation in photoprotective physiology among prairie plants.  Photosynthetica.
-
-Krug, Cornelia B. and Schaepman, Michael E. and Shannon, Lynne J. and Cavender-Bares, Jeannine and Cheung, William and McIntyre, Peter B. and Metzger, Jean Paul and Niinemets, Ülo and Obura, David O. and Schmid, Bernhard and Strassburg, Bernardo B. N. and Van Teeffelen, Astrid J. A. and Weyl, Olaf L. F. and Yasuhara, Moriaki and Leadley, Paul W. (2017). Observations, indicators and scenarios of biodiversity and ecosystem services change — a framework to support policy and decision-making.  Current Opinion in Environmental Sustainability.
-
-Schweiger A.K., Cavender-Bares, J., Townsend, P.A., Hobbie, S.E., Madritch, M.D., Wang, R., Tilman, D. and Gamon, J.A. (2018). Plant spectral diversity integrates functional and phylogenetic components of biodiversity and predicts ecosystem function.  Nature Ecology and Evolution.
-
-Wang, R., Gamon, J.A., Schweiger, A.K., Cavender-Bares, J., Townsend, P.A., Kothari, S. and Zygielbaum, A.I. (2018). Influence of species richness, evenness, and composition on spectral diversity: A simulation study.  Remote Sensing of Environment.
-
-Wang, R., J. A. Gamon, J. Cavender-Bares, P. A. Townsend, and A. I. Zygielbaum (2018). The spatial sensitivity of the spectral diversity-biodiversity relationship: an experimental test in a prairie grassland.  Ecological Applications. 28  541.
-
-Wang, Ran and Gamon, John A and Montgomery, Rebecca A and Townsend, Philip A and Zygielbaum, Arthur I and Bitan, Keren and Tilman, David and Cavender-Bares, Jeannine (2016). Seasonal variation in the NDVI–species richness relationship in a prairie grassland experiment (Cedar Creek).  Remote Sensing. 8  128.
-
-Wang, Z., P. A. Townsend, A. K. Schweiger, J. J. Couture, A. Singh, S. E. Hobbie, and J. Cavender-Bares (2019). Mapping foliar functional traits and their uncertainties across three years in a grassland experiment.  Remote Sensing of Environment. 221  405.
-
-Yamasaki, Eri and Altermatt, Florian and Cavender-Bares, Jeannine and Schuman, Meredith C. and Zuppinger-Dingley, Debra and Garonna, Irene and Schneider, Fabian D. and Guillén-Escribà, Carla and van Moorsel, Sofia J. and Hahl, Terhi and Schmid, Bernhard and Schaepman-Strub, Gabriela and Schaepman, Michael E. and Shimizu, Kentaro K. (2017). Genomics meets remote sensing in global change studies: monitoring and predicting phenology, evolution and biodiversity.  Current Opinion in Environmental Sustainability.
+[Schweiger A.K., Cavender-Bares, J., Townsend, P.A., Hobbie, S.E., Madritch, M.D., Wang, R., Tilman, D. and Gamon, J.A. (2018). Plant spectral diversity integrates functional and phylogenetic components of biodiversity and predicts ecosystem function.  Nature Ecology and Evolution.](https://drive.google.com/file/d/1Uuir9b3hXXScRaOYHyoRHnpYiSl08Q3V/view?usp=share_link){:target="\_blank"}

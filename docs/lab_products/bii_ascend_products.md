@@ -50,5 +50,3 @@ Pinto-Ledezma JN. Macroecology and macroevolution in the Neotropics. Department 
 [Williams L.J., Cavender-Bares J., Townsend P.A., Couture J.J., Wang Z., Stefanski A., Messier C., and Reich P.B.. 2021. Remote spectral detection of biodiversity effects on forest biomass. Nature Ecology & Evolution 5: 46-54.](https://drive.google.com/file/d/1oTQ6Y-YDAXHprPeod5kzh1hHYpkBeEYz/view?usp=sharing){:target="\_blank"}
 
 [Williams L.J., Butler E.E., Cavender‐Bares J., Stefanski A., Rice K.E., Messier C., Paquette A., and Reich P.B. 2021. Enhanced light interception and light use efficiency explain overyielding in young tree communities. Ecology letters 24: 996-1006.](https://drive.google.com/file/d/1DW-qOfKmyb0_joAXMiOsB2_mSCniYQzD/view?usp=sharing){:target="\_blank"}
-
-### Media

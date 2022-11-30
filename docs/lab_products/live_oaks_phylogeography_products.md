@@ -4,7 +4,6 @@ hide:
 ---
 
 # Live Oaks Phylogeography Products
-### Conferences/Presentations
 
 ### Publications
 

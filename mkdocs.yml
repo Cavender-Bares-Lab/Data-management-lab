@@ -156,10 +156,11 @@ nav:
       - US Forest Service: ''
   - Lab Products:
     - JCB Compilation: 'lab_products\jcb.md'
+    - American Oaks: 'lab_products\american_oaks.md'
     - BII ASCEND: 'lab_products\bii_ascend_products.md'
     - Dimensions of Biodiversity:
       - Oaks US - China: ''
-      - NASA: 'lab_products\dob_nasa.md'
+      - NASA: 'lab_products\dimensions_nasa.md'
     - Live Oaks:
       - LOARD: 'lab_products\loard.md'
       - Phylogeography: 'lab_products\live_oaks_phylogeography_products.md'
@@ -167,9 +168,11 @@ nav:
       - Forest and Biodiversity: 'lab_products\fab_products.md'
       - GLADES: ''
       - Willow: ''
+    - Macrosystems: 'lab_products/macrosystems_products.md'
     - NPS Aspen: 'lab_products/nps_aspen.md'
     - Oak Wilt:
       - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
+    - Willow: 'lab_products/willow_products.md'
   - About:
     - License: ''
     - Release Notes: ''
