@@ -29,7 +29,7 @@ To build this webpage, users must install on their computer:
 - [pip](https://pip.pypa.io/en/stable/cli/pip_install/){:target="\_blank"}
 - [MkDocs](https://www.mkdocs.org/){:target="\_blank"} (e.g., in terminal `pip install mkdocs`)
     - MkDocs material theme (e.i., in terminal `pip install mkdocs-material`)
-    - [List](https://drive.google.com/file/d/1zOyfkDkcnhdrHRELZrvfHtC79s2UfAJK/view?usp=sharing){:target="\_blank"} of additional installation packages required
+    - [List](https://docs.google.com/document/d/1VhgMGTmMjAhdxE6Dev_q97PhnedacdC9dYWNkbd4CMA/edit?usp=share_link){:target="\_blank"} of additional installation packages required
 - [git](https://git-scm.com/downloads){:target="\_blank"} and Github account.
 
 **Note**: You need the latest update of python 3. If your pip installs are resulting in error, try `pip3`.
