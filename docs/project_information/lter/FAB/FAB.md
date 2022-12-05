@@ -70,7 +70,9 @@ Written by Maria Park
 ##### Maps
 -   [Plot Layout](https://docs.google.com/spreadsheets/d/1VIs6ZAfZzzmTPHz2xQ8-L-tdguxjdt7M/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
--   [Map](https://drive.google.com/file/d/1lwET9O_mKjS2TuVV4UbKdc_4qoujiSEs/view?usp=sharing){:target="\_blank"}
+-   [Original Map with Community IDs](https://drive.google.com/file/d/1lwET9O_mKjS2TuVV4UbKdc_4qoujiSEs/view?usp=sharing){:target="\_blank"}
+
+- [Latest Map with species richness](https://drive.google.com/file/d/1SSeGKp-EtqKTlVD0YnuQUbblGOVxkjFq/view?usp=share_link){:target="\_blank"}
 
 -   [Extra plot maps](https://drive.google.com/file/d/1qbQ9mznZh2vCK3a2ni6HP2kSh_R-EorU/view?usp=sharing){:target="\_blank"}
 
