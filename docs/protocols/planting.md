@@ -1,0 +1,5 @@
+---
+- hide: footer
+---
+
+# FAB Planting

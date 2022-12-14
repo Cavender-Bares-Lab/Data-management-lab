@@ -88,9 +88,9 @@ nav:
     - Hydraulic Conductivity:
       - Sartorius Balance COM Port Settings For Hydraulic Conductivity: 'protocols/sartorius_balance.md'
       - Measuring Hydraulic Conductivity Protocol: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
-    - FAB surveys:
+    - FAB protocols:
       - Growth Measurements: 'protocols/growth_measurements.md'
-      - Herbivory Survey: ''
+      - Planting: 'protocols/planting.md'
       - Reproduction Survey: 'protocols/reproduction_survey.md'
     - Hansatech Fluorometer:
       - (Pre-dawn) Dark/Light Adapted Leaf Measurements: 'protocols/predawn_hansatech_fluorometer.md'
