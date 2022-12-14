@@ -5,7 +5,11 @@ hide:
 
 # Acorn Processing
 
-###### Authors: Cavender-Bares Lab; Associated Project: Oaks of America
+###### Author 
+Cavender-Bares Lab
+
+###### Associated Project
+Oaks of America
 
 ### Goal
 

@@ -92,6 +92,13 @@ nav:
       - Growth Measurements: 'protocols/growth_measurements.md'
       - Planting: 'protocols/planting.md'
       - Reproduction Survey: 'protocols/reproduction_survey.md'
+      - Soil sampling and Processing:
+          - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'
+          - N-min Preparation: 'protocols/nmin_preparation.md'
+          - N-min Coring: 'protocols/nmin_coring.md'
+          - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
+          - N-min Processing Day 2: 'protocols/nmin_processing_day2.md'
+      - Soil KCl Extracts pH Protocol: 'protocols/pH_soil_extracts.md'
     - Hansatech Fluorometer:
       - (Pre-dawn) Dark/Light Adapted Leaf Measurements: 'protocols/predawn_hansatech_fluorometer.md'
       - (Alternative) Dark/Light Adapted Leaf Measurements: 'protocols/hansatech_fluorometer_dark_adapted_leaf_measurements.md'
@@ -115,14 +122,6 @@ nav:
       - Soil and Leaf Litter CN Protocol: 'protocols/soil_and_leaf_litter_cn_protocol_on_elemental_analyzer.md'
       - Soil and Plant Phosphorus Protocol: 'protocols/soil_and_plant_phosphorus_protocol.md'
       - Soil pH Hybrid Protocol: 'protocols/soil_ph_hybrid_protocol.md'
-      - Soil KCl Extracts pH Protocol: 'protocols/pH_soil_extracts.md'
-      - Soil sampling and Processing:
-        - FAB:
-          - N-min Summary and Sampling Notes: 'protocols/nmin_summary_and_sampling_notes.md'
-          - N-min Preparation: 'protocols/nmin_preparation.md'
-          - N-min Coring: 'protocols/nmin_coring.md'
-          - N-min Processing Day 1: 'protocols/nmin_processing_day1.md'
-          - N-min Processing Day 2: 'protocols/nmin_processing_day2.md'
     - Spectrometers:
       - PSR:
         - PSR Leaf Measurements: 'protocols/spectral_evolution_psr+.md'
@@ -147,13 +146,11 @@ nav:
     - LTER:
       - FAB 1: 'data-management\FAB\fab1.md'
       - FAB 2: 'data-management\FAB\fab2.md'
-    - Macrosystems: ''
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''  
       - NASA-ROSES:
         - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
-      - US Forest Service: ''
   - Lab Products:
     - JCB Compilation: 'lab_products\jcb.md'
     - American Oaks: 'lab_products\american_oaks.md'
