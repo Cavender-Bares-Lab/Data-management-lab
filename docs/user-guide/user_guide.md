@@ -1,5 +1,7 @@
 ---
-hide: navigation
+hide: 
+  - navigation
+  - footer
 ---
 
 # User guide
