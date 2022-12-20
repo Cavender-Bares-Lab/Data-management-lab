@@ -10,7 +10,7 @@ Stored data:
 
 * Spectra of collected leaves were taken with both spectrometers PSR+ and SVC (2022)
 
-* The following are included with the data below:
+* The following are included with the data in folder Surveys\:
     * [x] Metadata 
     * [x] Abstract and Methods description
         1. Plots description (2022)
