@@ -20,7 +20,7 @@ The following links lists supplies along with costs and labor estimates
         
 - [Phosphorus](){:target="\_blank"}
 
-- [Nitrogen Mineralization](){:target="\_blank"}
+- [Nitrogen Mineralization](https://docs.google.com/spreadsheets/d/1Bim4rsPR72nG_OdndgmTy_DHrSuh8sFIbFAk84yjerQ/edit?usp=share_link){:target="\_blank"}
         
 - [Microbial Biomass](https://docs.google.com/spreadsheets/d/1hG3t__mYIz7k8YguYV0RU-6FTP2dHS5B/edit?usp=sharing&ouid=117278050553426340443&rtpof=true&sd=true){:target="\_blank"}
 
