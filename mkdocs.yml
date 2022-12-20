@@ -146,6 +146,7 @@ nav:
     - LTER:
       - FAB 1: 'data-management\FAB\fab1.md'
       - FAB 2: 'data-management\FAB\fab2.md'
+      - MSP-LTER: 'data-management\MSP_LTER.md'
     - Oak Wilt:
       - Grand Challenges: ''
       - MITPPC: ''  
@@ -163,8 +164,6 @@ nav:
       - Phylogeography: 'lab_products\live_oaks_phylogeography_products.md'
     - LTER:
       - Forest and Biodiversity: 'lab_products\fab_products.md'
-      - GLADES: ''
-      - Willow: ''
     - Macrosystems: 'lab_products/macrosystems_products.md'
     - NPS Aspen: 'lab_products/nps_aspen.md'
     - Oak Wilt:
@@ -172,4 +171,3 @@ nav:
     - Willow: 'lab_products/willow_products.md'
   - About:
     - License: ''
-    - Release Notes: ''
