@@ -1,5 +1,5 @@
 ---
-- hide: footer
+hide: footer
 ---
 
 # FAB Planting
@@ -33,13 +33,13 @@ Supplies can be found in the FAB cage in the brown barn or the FAB office. If ad
 1. Remove enough seedlings for half a day of planting from cold storage. Ideally only do one species at a time. If you must plant multiple species, ensure you label water buckets correctly.
 2. Set up table in FAB field.
 3. If water buckets are not already full with water, fill them prior to pulling seedlings out of box. 
-    1. It is important to always keep the seedlings from drying out. When not in use, ensure it is fully covered and under shade. If necessary, add water to roots of seedlings to keep wet; however, do not water log them as they can rot.
+    1. It is important to always keep the seedlings from drying out. When not in use, ensure box is fully covered and under shade. If necessary, add water to roots of seedlings to keep wet; however, do not water log them as they can rot.
     
 ##### Root Trimming
 1. Measure the blade length (~11-12 inches) of the dibble bar. This should be the length of your roots.
 2. Using either a hatchet or a gardening sheer trim the roots to the correct length. Ensure the roots do no dry during this step. If it looks dry, dip the root in water.
     1. With a **hatchet**, you will need a wood board to protect the table. Depending on the thickness of the seedling, you can cut multiple seedlings simultaneously.
-    2. With a **gardening sheer**, cut the roots of each seedling individually to he correct length.
+    2. With a **gardening sheer**, cut the roots of each seedling individually to the correct length.
 3. Immediately submerge roots of seedlings in water bucket. Ensure roots are fully covered with water.
 
 ##### Planting
@@ -56,9 +56,7 @@ Supplies can be found in the FAB cage in the brown barn or the FAB office. If ad
     3. It is important to properly plant the tree at the root collar. If planted below, the exposed root will dry out and if planted above, the stem planted into the ground will rot. Both will result in the seedlings death.
 6. Hold tree with the root collar at the soil level. About 2 inches away from the whole, dig the dibble bar into the ground. This should tighten the tree in its place.
     1. First, pull the dibble bar away from the seedling. This will close the hole at the bottom.
-    2. Second, push the dibble bar towards the seedling. This will close the whole at the top.
+    2. Second, push the dibble bar towards the seedling. This will close the hole at the top.
     3. Press the soil in the ground if there are still any gaping cracks around the tree.
-    4. Slight tug the tree up. The tree was planted successfully if there is no movement.
+    4. Slightly tug the tree up. The tree was planted successfully if there is no movement.
 7. Water the tree with 2 cups.
-    
-    

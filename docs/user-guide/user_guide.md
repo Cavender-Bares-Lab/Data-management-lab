@@ -141,7 +141,7 @@ To close the `mkdocs serve` in the terminal (Control + C), and build the `html` 
 
 #### Step 6 - Publish webpage
 
-To **publish** the webpage with updates/edits, type `mkdocs gh-deploy`.
+To **publish** the webpage with updates/edits, type `mkdocs gh-deploy --force`.
 
 To **save** the edits to the repository, in the terminal, type `git add .`. Click on "Commit" in the Git tab and write a brief description in the "Commit message". Click "Commit" and when complete, "Push" to update the repository. "Push" and "pull" are very important features when multiple people are making edits to the repository.
 

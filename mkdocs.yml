@@ -80,6 +80,7 @@ nav:
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
     - Introduction: 'protocols/introduction_protocols.md'
+    - Ace Sprinkler Irrigation: 'protocols/ace_irrigation.md'
     - Acid Bath Preparation and Neutralization: 'protocols/acid_baths_preparation_and_neutralization.md'
     - Acorn Collection and Processing:
       - Acorn Collection Protocol: 'protocols/acorn_collection_protocol.md'
@@ -90,6 +91,7 @@ nav:
       - Measuring Hydraulic Conductivity Protocol: 'protocols/balance_interface_program_interface_hydraulic_conductivity.md'
     - FAB protocols:
       - Growth Measurements: 'protocols/growth_measurements.md'
+      - Kifco Irrigation: 'protocols/fab2_irrigation_waterreels.md'
       - Planting: 'protocols/planting.md'
       - Reproduction Survey: 'protocols/reproduction_survey.md'
       - Soil sampling and Processing:
