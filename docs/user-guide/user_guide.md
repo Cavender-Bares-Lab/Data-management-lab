@@ -153,10 +153,13 @@ To close the `mkdocs serve` in the terminal (Control + C), and build the `html` 
 
 To **publish** the webpage with updates/edits, type `mkdocs gh-deploy --force`.
 
-To **save** the edits to the repository, in the terminal, type `git add .`. Click on "Commit" in the Git tab and write a brief description in the "Commit message". Click "Commit" and when complete, "Push" to update the repository. "Push" and "pull" are very important features when multiple people are making edits to the repository.
+To **save** the edits to the repository, in the terminal, type `git add .`. Click on `Commit` in the Git tab and write a brief description in the `Commit message`. Click `Commit` and when complete, `Push` to update the repository. `Push` and `pull` are very important features when multiple people are making edits to the repository.
 
 <br>
 
+## Important Reminder
+When you start a session, always `Pull`.
+When you end a session, always `git add .`, `commit`, and `Push`.
 #### Questions
 
 For more information on mkdocs, refer to this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/){:target="\_blank"} and [webpage](https://www.mkdocs.org/){:target="\_blank"}.

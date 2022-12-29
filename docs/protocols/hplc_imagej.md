@@ -1,6 +1,5 @@
 ---
-toc:
- - footer
+hide: footer
 ---
 
 # HPLC - ImageJ Protocol
