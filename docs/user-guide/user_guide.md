@@ -72,18 +72,31 @@ This webpage is composed of two elements: the structure and the documentation.
 
 Now that we know these elements, let’s take a look at three functions of `MkDocs` that we will need. In RStudio you can run these commands using the ‘Terminal’ (the tab next to ‘Console’ that we always use).
 
+##### Terminal Commands
+- `git add .`: this command adds all the files in the folder you are presently viewing to the staging area
+
 - `mkdocs serve`: this command creates a local address to view the documentation in real time. This local address is `http://127.0.0.1:8000/` and it can be opened on your web browser.
 
 - `mkdocs build`: this command helps you to build the page. A step that need to be conducted close to the end of a session.
 
-- `mkdocs gh-deploy`: this command will deploy the update the webpage to github pages.
+- `mkdocs gh-deploy --force`: this command will deploy the update the webpage to github pages.
 
 You can type these commands in the terminal to run them. In some cases (Windows most likely), you need to type extra arguments to run them, e.g. `python -m mkdocs serve`.
 
 <br>
 
 #### Step 3 - Create a documentation file
+##### Markdown
+To create new markdown file:
+* `File > New File > Markdown. 
+This method is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 
+###### Metadata
+Metadata is stored with '---' notations above and below text
+* Some will not impact the webpage but there are commands that will impact the format of the webpage
+* e.g. `hide: footer`
+
+##### Rmarkdown
 An easy way to build your documentation is to create a Rmarkdown (`.Rmd`) file. For this guide, let’s assume that you need to document `your_new_protocol` in the protocols section of the lab. You can create the `.Rmd` file following:
 
     File > New File > R Markdown > OK
@@ -102,9 +115,6 @@ Once you create the file and their structure, you then can write or copy/paste t
 Let’s assume that you finished to write your documentation. You can then save the file in a folder of interest under `docs`. For instance, if you are writing about a protocol, so you can save `your_new_protocol.Rmd` file in a path like `docs/protocols/your_new_protocol.Rmd`.
 
 Once you storage the file in the corresponding folder, you can `Knit` it. But what is this? `Knit`, for this context, is a process to transform the rmarkdown extension (`.Rmd`) to markdown (`.md`); the extension required for `Mkdocs`. You can `Knit` the file pressing the knit button close to save, at the top of your rmarkdown document. If everything goes well, you will see a new file `docs/protocols/your_new_protocol.md`.
-
-##### Markdown
-It is also possible to directly create and edit in a Markdown file. `File > New File > Markdown. This is ideal since many customization features available through Material theme is not transferred properly from .Rmd to .md.
 
 ###### Mathjax
 For math syntax, refer to [Mathjax basic tutorial and reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/25054#25054){:target="\_blank"}

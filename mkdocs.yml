@@ -139,6 +139,7 @@ nav:
       - VLA ImageJ Methods: 'protocols/vla_imagej_methods.md'
   - Data management:
     - Introduction: 'data-management\introduction-data.md'
+    - BII-ASCEND: 'data-management\ASCEND_data.md'
     - Dimensions:
       - Oaks US - China: 'data-management\oaks.md'
       - NASA: 'data-management\nasa.md'
@@ -170,5 +171,3 @@ nav:
     - Oak Wilt:
       - MITPPC: 'lab_products/mitppc_oakwilt_products.md'
     - Willow: 'lab_products/willow_products.md'
-  - About:
-    - License: ''

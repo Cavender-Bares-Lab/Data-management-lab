@@ -4,7 +4,7 @@ hide: footer
 #ACE Sprinkler Irrigation
 
 ### Objective
-Detail steps to use, maintain, and repair Kifco T200L Water Reels.
+Detail steps to use sprinkler irrigation in ACE experiment.
 
 ### Setup and Irrigation
 ##### Sprinkler Set up
