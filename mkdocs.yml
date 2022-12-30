@@ -73,9 +73,6 @@ nav:
     - LTER:
       - Forest and Biodiversity: 'project_information\lter\FAB\FAB.md'
       - GLADES: 'project_information\lter\glades.md'
-      - Willow: ''
-    - Macrosystems: ''
-    - NPS Aspen: ''
     - Oak Wilt: 'project_information\oak_wilt\oak-wilt.md'
   - Protocols:
     - Introduction: 'protocols/introduction_protocols.md'
@@ -150,7 +147,6 @@ nav:
       - FAB 2: 'data-management\FAB\fab2.md'
       - MSP-LTER: 'data-management\MSP_LTER.md'
     - Oak Wilt:
-      - GC & MITPPC: 'data-management\gc_mitppc.md'  
       - NASA-ROSES:
         - Mapping oak-wilt using Sentinel 2: 'data-management/nasa-roses/mapping-sentienl2/oak-wilt.md'      
   - Lab Products:

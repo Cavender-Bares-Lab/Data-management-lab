@@ -159,7 +159,7 @@ To **save** the edits to the repository, in the terminal, type `git add .`. Clic
 
 ## Important Reminder
 When you start a session, always `Pull`.
-When you end a session, always `git add .`, `commit`, and `Push`.
+When you end a session, always complete the following steps: `git add .`, `commit`, and `Push`.
 #### Questions
 
 For more information on mkdocs, refer to this [blog](https://ronnyhdez.github.io/blog/posts/2021-12-11-usingmkdocsrmd/){:target="\_blank"} and [webpage](https://www.mkdocs.org/){:target="\_blank"}.
