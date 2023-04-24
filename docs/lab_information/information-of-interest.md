@@ -16,10 +16,6 @@ hide:
 -   [Lab equipment and
     inventory](https://drive.google.com/drive/folders/1uR6WmAtFdABHXeOOWOhU-PJ_3o2F6Oav?usp=sharing){:target="\_blank"}
 
--   Lab equipment
-    [calendar](https://calendar.google.com/calendar/u/0?cid=dW1uLmVkdV9jZWczcms2cmNjN3FzY3FqZDg3ZDk5cDVjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="\_blank"}
-    for the field season
-
 ### Service Agreements
 
 -   [DJI Care Enterprise Basic Service
